@@ -236,11 +236,11 @@ Visual representation of where primary keyword appears:
 
 ## File Management
 After optimization analysis, save report to:
-- **File Location**: `drafts/optimization-report-[topic-slug]-[YYYY-MM-DD].md`
+- **File Location**: `drafts/_reports/optimization-report-[topic-slug]-[YYYY-MM-DD].md`
 - **File Format**: Markdown with scores, checklists, and recommendations
 - **Naming Convention**: Use article slug + "optimization-report" + date
 
-Example: `drafts/optimization-report-podcast-analytics-2025-10-15.md`
+Example: `drafts/_reports/optimization-report-podcast-analytics-2025-10-15.md`
 
 ## Integration with Agents
 The `/optimize` command triggers final review from all agents:

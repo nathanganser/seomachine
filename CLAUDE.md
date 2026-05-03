@@ -32,6 +32,7 @@ All commands are defined in `.claude/commands/` and invoked as slash commands:
 - `/research-ai-citations [topic]` - AI citation audit: generates prompts, clusters them, audits which sources AI cites
 - `/repurpose [file]` - Adapts article for LinkedIn, Medium, Reddit, Quora distribution
 - `/landing-write`, `/landing-audit`, `/landing-research`, `/landing-publish`, `/landing-competitor` - Landing page commands
+- `/convert-to-components [file]` - Convert markdown landing page to Nuxt Content MDC component format, saves to `components-ready/`
 
 ## Architecture
 
@@ -54,7 +55,7 @@ Located in `data_sources/modules/`. The Content Analyzer chains:
 
 - `google_analytics.py` - GA4 traffic/engagement data
 - `google_search_console.py` - Rankings and impressions
-- `dataforseo.py` - SERP positions, keyword metrics
+- `dataforseo.py` - SERP positions, keyword metrics (defaults to Switzerland/German via env vars)
 - `data_aggregator.py` - Combines all sources into unified analytics
 - `wordpress_publisher.py` - Publishes to WordPress with Yoast SEO metadata
 
@@ -85,7 +86,7 @@ python3 test_dataforseo.py
 
 `topics/` (ideas) → `research/` (briefs) → `drafts/` (articles) → `review-required/` (pending review) → `published/` (final)
 
-Rewrites go to `rewrites/`. Landing pages go to `landing-pages/`. Audits go to `audits/`. Repurposed content goes to `repurposed/`.
+Rewrites go to `rewrites/`. Landing pages go to `landing-pages/`. Component-ready landing pages go to `components-ready/`. Audits go to `audits/`. Repurposed content goes to `repurposed/`.
 
 ## Context Files
 
@@ -99,6 +100,20 @@ Rewrites go to `rewrites/`. Landing pages go to `landing-pages/`. Audits go to `
 - `cro-best-practices.md` - Conversion optimization guidelines
 - `ai-citation-targets.md` - Directories/platforms where your brand should be cited by AI tools
 - `reddit-strategy.md` - Reddit engagement strategy for AI SEO and community visibility
+
+## Target Market & Locale
+
+Magic Heidi targets **Switzerland** with a multilingual content strategy:
+- **German (de)**: 70% — primary market, default for DataForSEO
+- **French (fr)**: 20% — second market
+- **Italian (it)**: 5%
+- **English (en)**: 5%
+
+DataForSEO is configured via env vars (`DATAFORSEO_LOCATION_CODE=2756`, `DATAFORSEO_LANGUAGE_CODE=de`). When researching keywords or analyzing SERPs:
+- Default calls use Swiss/German locale automatically
+- For French content, pass `language_code="fr"` explicitly to DataForSEO methods
+- Determine the language from the keyword/topic: if the user passes a French keyword, use `language_code="fr"`; if German, use the default
+- Swiss location code `2756` applies to all languages (it's the country, not the language)
 
 ## WordPress Integration
 

@@ -26,6 +26,12 @@ class DataForSEO:
         self.password = password or os.getenv("DATAFORSEO_PASSWORD")
         self.base_url = os.getenv("DATAFORSEO_BASE_URL", "https://api.dataforseo.com")
 
+        # Configurable location/language defaults (Switzerland/German by default)
+        self.default_location_code = int(
+            os.getenv("DATAFORSEO_LOCATION_CODE", "2756")
+        )
+        self.default_language_code = os.getenv("DATAFORSEO_LANGUAGE_CODE", "de")
+
         if not self.login or not self.password:
             raise ValueError("DATAFORSEO_LOGIN and DATAFORSEO_PASSWORD must be set")
 
@@ -67,21 +73,24 @@ class DataForSEO:
         self,
         domain: str,
         keywords: List[str],
-        location_code: int = 2840,  # USA
-        language_code: str = "en",
+        location_code: Optional[int] = None,
+        language_code: Optional[str] = None,
     ) -> List[Dict[str, Any]]:
         """
         Get ranking positions for specific keywords
 
         Args:
-            domain: Your domain (e.g., "castos.com")
+            domain: Your domain (e.g., "magicheidi.ch")
             keywords: List of keywords to check
-            location_code: DataForSEO location code (2840 = USA)
-            language_code: Language code
+            location_code: DataForSEO location code (defaults to env config)
+            language_code: Language code (defaults to env config)
 
         Returns:
             List of ranking data for each keyword
         """
+        location_code = location_code or self.default_location_code
+        language_code = language_code or self.default_language_code
+
         tasks = []
         for keyword in keywords:
             tasks.append(
@@ -134,24 +143,32 @@ class DataForSEO:
         return results
 
     def get_serp_data(
-        self, keyword: str, location_code: int = 2840, limit: int = 100
+        self,
+        keyword: str,
+        location_code: Optional[int] = None,
+        language_code: Optional[str] = None,
+        limit: int = 100,
     ) -> Dict[str, Any]:
         """
         Get complete SERP data for a keyword
 
         Args:
             keyword: Search keyword
-            location_code: DataForSEO location code
+            location_code: DataForSEO location code (defaults to env config)
+            language_code: Language code (defaults to env config)
             limit: Number of results to return
 
         Returns:
             Dict with SERP data including all ranking pages
         """
+        location_code = location_code or self.default_location_code
+        language_code = language_code or self.default_language_code
+
         data = [
             {
                 "keyword": keyword,
                 "location_code": location_code,
-                "language_code": "en",
+                "language_code": language_code,
                 "device": "desktop",
                 "os": "windows",
                 "depth": limit,
@@ -209,6 +226,8 @@ class DataForSEO:
         competitor_domain: str,
         keywords: List[str],
         your_domain: Optional[str] = None,
+        location_code: Optional[int] = None,
+        language_code: Optional[str] = None,
     ) -> Dict[str, Any]:
         """
         Analyze competitor rankings vs yours
@@ -217,17 +236,22 @@ class DataForSEO:
             competitor_domain: Competitor's domain
             keywords: Keywords to compare
             your_domain: Your domain (optional)
+            location_code: DataForSEO location code (defaults to env config)
+            language_code: Language code (defaults to env config)
 
         Returns:
             Comparative ranking analysis
         """
+        location_code = location_code or self.default_location_code
+        language_code = language_code or self.default_language_code
+
         tasks = []
         for keyword in keywords:
             tasks.append(
                 {
                     "keyword": keyword,
-                    "location_code": 2840,
-                    "language_code": "en",
+                    "location_code": location_code,
+                    "language_code": language_code,
                     "device": "desktop",
                 }
             )
@@ -280,24 +304,32 @@ class DataForSEO:
         }
 
     def get_keyword_ideas(
-        self, seed_keyword: str, location_code: int = 2840, limit: int = 100
+        self,
+        seed_keyword: str,
+        location_code: Optional[int] = None,
+        language_code: Optional[str] = None,
+        limit: int = 100,
     ) -> List[Dict[str, Any]]:
         """
         Get related keyword ideas
 
         Args:
             seed_keyword: Starting keyword
-            location_code: Location code
+            location_code: Location code (defaults to env config)
+            language_code: Language code (defaults to env config)
             limit: Number of ideas to return
 
         Returns:
             List of related keywords with search volume, difficulty
         """
+        location_code = location_code or self.default_location_code
+        language_code = language_code or self.default_language_code
+
         data = [
             {
                 "keyword": seed_keyword,
                 "location_code": location_code,
-                "language_code": "en",
+                "language_code": language_code,
                 "include_serp_info": True,
                 "limit": limit,
             }
@@ -340,24 +372,32 @@ class DataForSEO:
         return keywords
 
     def get_questions(
-        self, keyword: str, location_code: int = 2840, limit: int = 50
+        self,
+        keyword: str,
+        location_code: Optional[int] = None,
+        language_code: Optional[str] = None,
+        limit: int = 50,
     ) -> List[Dict[str, Any]]:
         """
         Get question-based queries related to keyword
 
         Args:
             keyword: Seed keyword
-            location_code: Location code
+            location_code: Location code (defaults to env config)
+            language_code: Language code (defaults to env config)
             limit: Number of questions to return
 
         Returns:
             List of question queries
         """
+        location_code = location_code or self.default_location_code
+        language_code = language_code or self.default_language_code
+
         data = [
             {
                 "keyword": keyword,
                 "location_code": location_code,
-                "language_code": "en",
+                "language_code": language_code,
                 "limit": limit,
             }
         ]
@@ -379,10 +419,11 @@ class DataForSEO:
         for item in result.get("items", []):
             kw = item.get("keyword_data", {}).get("keyword", "")
 
-            # Filter for questions
+            # Filter for questions (English, German, French)
             if any(
                 kw.lower().startswith(q)
                 for q in [
+                    # English
                     "how",
                     "what",
                     "why",
@@ -394,6 +435,26 @@ class DataForSEO:
                     "is",
                     "are",
                     "does",
+                    # German
+                    "wie",
+                    "was",
+                    "warum",
+                    "wann",
+                    "wo",
+                    "wer",
+                    "kann",
+                    "soll",
+                    "ist",
+                    "welch",
+                    # French
+                    "comment",
+                    "quoi",
+                    "pourquoi",
+                    "quand",
+                    "où",
+                    "qui",
+                    "est-ce",
+                    "quel",
                 ]
             ):
                 questions.append(
@@ -413,17 +474,27 @@ class DataForSEO:
 
         return questions
 
-    def get_domain_metrics(self, domain: str) -> Dict[str, Any]:
+    def get_domain_metrics(
+        self,
+        domain: str,
+        location_code: Optional[int] = None,
+        language_code: Optional[str] = None,
+    ) -> Dict[str, Any]:
         """
         Get domain overview metrics
 
         Args:
             domain: Domain to analyze
+            location_code: Location code (defaults to env config)
+            language_code: Language code (defaults to env config)
 
         Returns:
             Dict with domain metrics
         """
-        data = [{"target": domain, "location_code": 2840, "language_code": "en"}]
+        location_code = location_code or self.default_location_code
+        language_code = language_code or self.default_language_code
+
+        data = [{"target": domain, "location_code": location_code, "language_code": language_code}]
 
         response = self._post("/v3/dataforseo_labs/google/domain_metrics/live", data)
 
@@ -451,7 +522,12 @@ class DataForSEO:
         }
 
     def check_ranking_history(
-        self, domain: str, keyword: str, months_back: int = 3
+        self,
+        domain: str,
+        keyword: str,
+        months_back: int = 3,
+        location_code: Optional[int] = None,
+        language_code: Optional[str] = None,
     ) -> List[Dict[str, Any]]:
         """
         Get ranking history for a keyword (requires historical data)
@@ -460,19 +536,23 @@ class DataForSEO:
             domain: Your domain
             keyword: Keyword to track
             months_back: Months of history
+            location_code: Location code (defaults to env config)
+            language_code: Language code (defaults to env config)
 
         Returns:
             List of historical rankings
         """
         # Note: This requires DataForSEO's ranking tracking to be set up
         # This is a simplified version - actual implementation may vary
+        location_code = location_code or self.default_location_code
+        language_code = language_code or self.default_language_code
 
         data = [
             {
                 "target": domain,
                 "keyword": keyword,
-                "location_code": 2840,
-                "language_code": "en",
+                "location_code": location_code,
+                "language_code": language_code,
             }
         ]
 
@@ -498,11 +578,12 @@ if __name__ == "__main__":
     load_dotenv("data_sources/config/.env")
 
     dfs = DataForSEO()
+    print(f"Using location: {dfs.default_location_code}, language: {dfs.default_language_code}")
 
-    print("Checking rankings for Castos...")
+    print("\nChecking rankings for Magic Heidi...")
     rankings = dfs.get_rankings(
-        domain="castos.com",
-        keywords=["podcast hosting", "podcast analytics", "private podcast"],
+        domain="magicheidi.ch",
+        keywords=["buchhaltungssoftware", "rechnungsprogramm schweiz", "buchhaltung online"],
     )
 
     for rank in rankings:
@@ -514,18 +595,19 @@ if __name__ == "__main__":
             else "Search Volume: N/A"
         )
 
-    print("\n\nGetting SERP data for 'podcast monetization'...")
-    serp = dfs.get_serp_data("podcast monetization")
+    print("\n\nGetting SERP data for 'buchhaltungssoftware schweiz'...")
+    serp = dfs.get_serp_data("buchhaltungssoftware schweiz")
 
-    print(f"Search Volume: {serp['search_volume']:,}")
-    print(f"SERP Features: {', '.join(serp['features'])}")
-    print(f"\nTop 10 Results:")
-    for result in serp["organic_results"][:10]:
-        print(f"{result['position']}. {result['domain']}")
-        print(f"   {result['url']}")
+    if "error" not in serp:
+        print(f"Search Volume: {serp.get('search_volume') or 'N/A'}")
+        print(f"SERP Features: {', '.join(serp.get('features', []))}")
+        print(f"\nTop 10 Results:")
+        for result in serp["organic_results"][:10]:
+            print(f"{result['position']}. {result['domain']}")
+            print(f"   {result['url']}")
 
-    print("\n\nRelated questions for 'podcast monetization':")
-    questions = dfs.get_questions("podcast monetization")
+    print("\n\nRelated questions for 'buchhaltungssoftware':")
+    questions = dfs.get_questions("buchhaltungssoftware")
     for q in questions[:10]:
         print(f"- {q['question']}")
         print(

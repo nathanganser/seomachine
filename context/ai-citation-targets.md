@@ -29,18 +29,17 @@ Customize this section for your niche. Examples:
 
 | Platform | Listed? | Priority Action |
 |----------|---------|-----------------|
-| [Niche directory 1] | Verify | [Specific action] |
-| [Niche directory 2] | Verify | [Specific action] |
-| [Industry publication] | Verify | [Specific action] |
+| Local.ch | Verify | [Specific action] |
+| Google Maps | Verify | [Specific action] |
+| OMR.com | Verify | [Specific action] |
 
 ### Tier 3: Listicle Articles (Outreach Targets)
 
 AI tools heavily cite "best X" listicle articles. These are the types of articles where your brand should appear:
 
-- "Best [your category] Tools [Year]" articles on major tech/media sites
-- "Best [your category] for Beginners" roundups
-- "[Your category] Comparison" articles
-- "[Your category] for [specific use case]" roundups
+- "Best Invoicing Tools 26" articles on major tech/media sites
+- "Best Expense Scanning App for Beginners" roundups
+- "Accounting Software Comparison" articles
 
 **Outreach strategy**: Identify the author, provide value (updated pricing, new features, unique angle), and request inclusion or update.
 
@@ -71,10 +70,10 @@ AI models read and synthesize review sentiment when making recommendations:
 Customize these for your business. These are high-commercial-intent prompt categories where your brand should appear in AI responses:
 
 ### General
-- "best [your product category]"
-- "best [your category] for beginners"
-- "cheapest [your category]"
-- "[your category] comparison"
+- "best softwar for swiss freelancers"
+- "best buchhaltungssoftware for beginners"
+- "cheapest invoice tool"
+- "invoice tool comparison"
 
 ### Feature-Specific
 - "best [your category] with [key feature]"

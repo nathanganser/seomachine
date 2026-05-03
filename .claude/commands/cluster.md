@@ -40,8 +40,9 @@ Build the complete keyword landscape for this topic.
    ```bash
    python3 -c "
    import sys; sys.path.insert(0, 'data_sources/modules')
-   from dataforseo import DataForSEOClient
-   client = DataForSEOClient()
+   from dotenv import load_dotenv; load_dotenv('data_sources/config/.env')
+   from dataforseo import DataForSEO
+   client = DataForSEO()
    results = client.get_keyword_ideas('$ARGUMENTS')
    for kw in sorted(results, key=lambda x: x.get('search_volume', 0), reverse=True)[:30]:
        print(f\"{kw.get('keyword', 'N/A')} | Vol: {kw.get('search_volume', 'N/A')} | Diff: {kw.get('keyword_difficulty', 'N/A')} | CPC: {kw.get('cpc', 'N/A')}\")
@@ -52,13 +53,16 @@ Build the complete keyword landscape for this topic.
    ```bash
    python3 -c "
    import sys; sys.path.insert(0, 'data_sources/modules')
-   from dataforseo import DataForSEOClient
-   client = DataForSEOClient()
+   from dotenv import load_dotenv; load_dotenv('data_sources/config/.env')
+   from dataforseo import DataForSEO
+   client = DataForSEO()
    results = client.get_questions('$ARGUMENTS')
    for q in results[:15]:
        print(f\"{q.get('keyword', 'N/A')} | Vol: {q.get('search_volume', 'N/A')}\")
    "
    ```
+
+   **Note:** DataForSEO defaults to Switzerland/German (from env). For French keywords, pass `language_code="fr"` to methods.
 
 3. **WebSearch for Additional Keywords**
    ```
