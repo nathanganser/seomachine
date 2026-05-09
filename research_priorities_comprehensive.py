@@ -14,6 +14,7 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
+load_dotenv(os.path.join(os.path.dirname(__file__), 'data_sources', 'config', '.env'))
 
 # Add data_sources to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'data_sources'))
@@ -47,6 +48,9 @@ def main():
     except KeyboardInterrupt:
         print("\n\nCancelled by user")
         return
+    except EOFError:
+        # Non-interactive invocation (e.g. slash-command agent): proceed automatically
+        print("(non-interactive mode: continuing automatically)")
 
     results = {}
 
@@ -73,7 +77,12 @@ def main():
     print("Skip competitor gap analysis? (y/N): ", end='')
 
     try:
-        skip = input().strip().lower()
+        try:
+            skip = input().strip().lower()
+        except EOFError:
+            # Non-interactive: default to skipping the paid step
+            skip = 'y'
+            print("(non-interactive mode: defaulting to skip)")
         if skip == 'y':
             print("Skipping competitor gap analysis")
             results['competitor_gaps'] = 'skipped'
