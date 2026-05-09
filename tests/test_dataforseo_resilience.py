@@ -63,6 +63,53 @@ class DataForSEOResilienceTests(unittest.TestCase):
 
         self.assertEqual(result["comparison"], [])
 
+    def _null_items_response(self):
+        return {
+            "status_code": 20000,
+            "tasks": [
+                {
+                    "status_code": 20000,
+                    "data": {"keyword": "keyword one"},
+                    "result": [{"items": None}],
+                }
+            ],
+        }
+
+    def test_get_serp_data_handles_null_items(self):
+        self.client._post = lambda endpoint, data: self._null_items_response()
+        result = self.client.get_serp_data("test")
+        self.assertEqual(result["organic_results"], [])
+        self.assertEqual(result["features"], [])
+
+    def test_get_keyword_ideas_handles_null_items(self):
+        self.client._post = lambda endpoint, data: self._null_items_response()
+        self.assertEqual(self.client.get_keyword_ideas("seed"), [])
+
+    def test_get_questions_handles_null_items(self):
+        self.client._post = lambda endpoint, data: self._null_items_response()
+        self.assertEqual(self.client.get_questions("seed"), [])
+
+    def test_get_domain_metrics_handles_null_items(self):
+        self.client._post = lambda endpoint, data: self._null_items_response()
+        result = self.client.get_domain_metrics("example.com")
+        self.assertIsNone(result["organic_keywords"])
+        self.assertEqual(result["backlinks"], {})
+
+    def test_get_rankings_handles_null_items(self):
+        self.client._post = lambda endpoint, data: self._null_items_response()
+        result = self.client.get_rankings("example.com", ["keyword one"])
+        self.assertEqual(len(result), 1)
+        self.assertIsNone(result[0]["position"])
+        self.assertFalse(result[0]["ranking"])
+
+    def test_analyze_competitor_handles_null_items(self):
+        self.client._post = lambda endpoint, data: self._null_items_response()
+        result = self.client.analyze_competitor(
+            "competitor.com", ["keyword one"], your_domain="example.com"
+        )
+        self.assertEqual(len(result["comparison"]), 1)
+        self.assertIsNone(result["comparison"][0]["competitor_position"])
+
     def test_get_domain_keywords_returns_empty_list_when_status_not_ok(self):
         self.client._post = lambda endpoint, data: {"status_code": 40000, "tasks": []}
 

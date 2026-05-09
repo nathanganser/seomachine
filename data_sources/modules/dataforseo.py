@@ -106,14 +106,14 @@ class DataForSEO:
         response = self._post("/v3/serp/google/organic/live/advanced", tasks)
 
         results = []
-        if response["status_code"] == 20000:
-            for task in response.get("tasks", []):
+        if response.get("status_code") == 20000:
+            for task in response.get("tasks") or []:
                 if task.get("status_code") == 20000:
-                    keyword = task.get("data", {}).get("keyword")
+                    keyword = (task.get("data") or {}).get("keyword")
                     result = self._first_result(task)
                     if not keyword or result is None:
                         continue
-                    items = result.get("items", [])
+                    items = result.get("items") or []
 
                     # Find domain position
                     position = None
@@ -124,6 +124,9 @@ class DataForSEO:
                             url = item.get("url")
                             break
 
+                    keyword_info = (result.get("keyword_data") or {}).get(
+                        "keyword_info"
+                    ) or {}
                     results.append(
                         {
                             "keyword": keyword,
@@ -131,12 +134,8 @@ class DataForSEO:
                             "position": position,
                             "url": url,
                             "ranking": position is not None,
-                            "search_volume": result.get("keyword_data", {})
-                            .get("keyword_info", {})
-                            .get("search_volume"),
-                            "cpc": result.get("keyword_data", {})
-                            .get("keyword_info", {})
-                            .get("cpc"),
+                            "search_volume": keyword_info.get("search_volume"),
+                            "cpc": keyword_info.get("cpc"),
                         }
                     )
 
@@ -188,10 +187,12 @@ class DataForSEO:
         if result is None:
             return {"error": "Task returned no results"}
 
+        items = result.get("items") or []
+
         # Extract organic results
         organic_results = []
-        for item in result.get("items", []):
-            if item["type"] == "organic":
+        for item in items:
+            if item.get("type") == "organic":
                 organic_results.append(
                     {
                         "position": item.get("rank_absolute"),
@@ -205,11 +206,12 @@ class DataForSEO:
 
         # Extract SERP features
         features = []
-        for item in result.get("items", []):
-            if item["type"] != "organic":
-                features.append(item["type"])
+        for item in items:
+            item_type = item.get("type")
+            if item_type and item_type != "organic":
+                features.append(item_type)
 
-        keyword_data = result.get("keyword_data", {}).get("keyword_info", {})
+        keyword_data = (result.get("keyword_data") or {}).get("keyword_info") or {}
 
         return {
             "keyword": keyword,
@@ -259,13 +261,13 @@ class DataForSEO:
         response = self._post("/v3/serp/google/organic/live/advanced", tasks)
 
         comparison = []
-        for i, task in enumerate(response.get("tasks", [])):
+        for i, task in enumerate(response.get("tasks") or []):
             if task.get("status_code") == 20000:
                 keyword = keywords[i]
                 result = self._first_result(task)
                 if result is None:
                     continue
-                items = result.get("items", [])
+                items = result.get("items") or []
 
                 competitor_pos = None
                 your_pos = None
@@ -349,20 +351,17 @@ class DataForSEO:
             return []
 
         keywords = []
-        for item in result.get("items", []):
+        for item in result.get("items") or []:
+            kw_data = item.get("keyword_data") or {}
+            keyword_info = kw_data.get("keyword_info") or {}
+            serp_info = item.get("serp_info") or {}
             keywords.append(
                 {
-                    "keyword": item.get("keyword_data", {}).get("keyword"),
-                    "search_volume": item.get("keyword_data", {})
-                    .get("keyword_info", {})
-                    .get("search_volume"),
-                    "cpc": item.get("keyword_data", {})
-                    .get("keyword_info", {})
-                    .get("cpc"),
-                    "competition": item.get("keyword_data", {})
-                    .get("keyword_info", {})
-                    .get("competition"),
-                    "avg_position": item.get("serp_info", {}).get("se_results_count"),
+                    "keyword": kw_data.get("keyword"),
+                    "search_volume": keyword_info.get("search_volume"),
+                    "cpc": keyword_info.get("cpc"),
+                    "competition": keyword_info.get("competition"),
+                    "avg_position": serp_info.get("se_results_count"),
                 }
             )
 
@@ -416,8 +415,10 @@ class DataForSEO:
             return []
 
         questions = []
-        for item in result.get("items", []):
-            kw = item.get("keyword_data", {}).get("keyword", "")
+        for item in result.get("items") or []:
+            kw_data = item.get("keyword_data") or {}
+            kw = kw_data.get("keyword", "") or ""
+            keyword_info = kw_data.get("keyword_info") or {}
 
             # Filter for questions (English, German, French)
             if any(
@@ -460,12 +461,8 @@ class DataForSEO:
                 questions.append(
                     {
                         "question": kw,
-                        "search_volume": item.get("keyword_data", {})
-                        .get("keyword_info", {})
-                        .get("search_volume"),
-                        "cpc": item.get("keyword_data", {})
-                        .get("keyword_info", {})
-                        .get("cpc"),
+                        "search_volume": keyword_info.get("search_volume"),
+                        "cpc": keyword_info.get("cpc"),
                     }
                 )
 
@@ -509,16 +506,17 @@ class DataForSEO:
         if result is None:
             return {}
 
-        items = result.get("items", [])
+        items = result.get("items") or []
         first_item = items[0] if items else {}
-        metrics = first_item.get("metrics", {}) if isinstance(first_item, dict) else {}
+        metrics = first_item.get("metrics") or {} if isinstance(first_item, dict) else {}
+        organic = metrics.get("organic") or {}
 
         return {
             "domain": domain,
-            "organic_keywords": metrics.get("organic", {}).get("count"),
-            "organic_traffic": metrics.get("organic", {}).get("etv"),
-            "domain_rank": metrics.get("organic", {}).get("rank"),
-            "backlinks": metrics.get("backlinks", {}),
+            "organic_keywords": organic.get("count"),
+            "organic_traffic": organic.get("etv"),
+            "domain_rank": organic.get("rank"),
+            "backlinks": metrics.get("backlinks") or {},
         }
 
     def get_domain_keywords(
