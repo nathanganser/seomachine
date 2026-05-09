@@ -18,6 +18,7 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
+load_dotenv(os.path.join(os.path.dirname(__file__), 'data_sources', 'config', '.env'))
 
 # Add data_sources to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'data_sources'))
@@ -62,11 +63,15 @@ def main():
     try:
         serp_data = dfs.get_serp_data(keyword, limit=20)
 
-        if not serp_data or 'organic_results' not in serp_data:
-            print("   ✗ No SERP data available")
+        if not serp_data or 'error' in serp_data or 'organic_results' not in serp_data:
+            err = serp_data.get('error') if isinstance(serp_data, dict) else None
+            print(f"   ✗ No SERP data available{(': ' + err) if err else ''}")
             return
 
         organic_results = serp_data['organic_results'][:10]  # Focus on top 10
+        if not organic_results:
+            print("   ✗ SERP returned zero organic results")
+            return
         print(f"   ✓ Retrieved top {len(organic_results)} organic results")
 
     except Exception as e:
