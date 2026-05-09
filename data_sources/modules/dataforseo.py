@@ -521,6 +521,78 @@ class DataForSEO:
             "backlinks": metrics.get("backlinks", {}),
         }
 
+    def get_domain_keywords(
+        self,
+        domain: str,
+        position_max: int = 20,
+        limit: int = 300,
+        location_code: Optional[int] = None,
+        language_code: Optional[str] = None,
+    ) -> List[Dict[str, Any]]:
+        """
+        Get keywords a domain ranks for using DataForSEO Labs.
+
+        Args:
+            domain: Domain to analyze
+            position_max: Maximum ranking position to include
+            limit: Max number of keywords to return
+            location_code: Location code (defaults to env config)
+            language_code: Language code (defaults to env config)
+
+        Returns:
+            List of keyword dicts with keyword, position, search_volume, cpc, difficulty
+        """
+        location_code = location_code or self.default_location_code
+        language_code = language_code or self.default_language_code
+
+        data = [
+            {
+                "target": domain,
+                "location_code": location_code,
+                "language_code": language_code,
+                "limit": limit,
+                "filters": [
+                    ["ranked_serp_element.serp_item.rank_group", "<=", position_max]
+                ],
+                "order_by": ["ranked_serp_element.serp_item.rank_group,asc"],
+            }
+        ]
+
+        response = self._post(
+            "/v3/dataforseo_labs/google/ranked_keywords/live", data
+        )
+
+        if response.get("status_code") != 20000:
+            return []
+
+        task = self._first_task(response)
+        if not task or task.get("status_code") != 20000:
+            return []
+
+        result = self._first_result(task)
+        if result is None:
+            return []
+
+        keywords = []
+        for item in result.get("items") or []:
+            kw_data = item.get("keyword_data") or {}
+            ranked = item.get("ranked_serp_element") or {}
+            serp_item = ranked.get("serp_item") or {}
+            keyword_info = kw_data.get("keyword_info") or {}
+            keyword_props = kw_data.get("keyword_properties") or {}
+
+            keywords.append(
+                {
+                    "keyword": kw_data.get("keyword", ""),
+                    "position": serp_item.get("rank_group", 99),
+                    "search_volume": keyword_info.get("search_volume", 0),
+                    "cpc": keyword_info.get("cpc", 0),
+                    "difficulty": keyword_props.get("keyword_difficulty", 50),
+                }
+            )
+
+        return keywords
+
     def check_ranking_history(
         self,
         domain: str,
