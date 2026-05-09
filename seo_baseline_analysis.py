@@ -13,9 +13,8 @@ import json
 from datetime import datetime
 from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
-load_dotenv('data_sources/config/.env')
+# Load environment variables from data_sources/config/.env (absolute path)
+load_dotenv(os.path.join(os.path.dirname(__file__), 'data_sources', 'config', '.env'))
 
 # Add data_sources to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'data_sources', 'modules'))
