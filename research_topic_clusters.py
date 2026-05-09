@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 import re
 
 # Load environment variables
-load_dotenv()
+load_dotenv(os.path.join(os.path.dirname(__file__), 'data_sources', 'config', '.env'))
 
 # Add data_sources to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'data_sources'))
@@ -61,7 +61,7 @@ def main():
     # Get all ranking keywords
     print("\n2. Fetching all ranking keywords from GSC...")
     try:
-        all_keywords = gsc.get_keyword_positions(days=90, min_impressions=5)
+        all_keywords = gsc.get_keyword_positions(days=90)
         print(f"   ✓ Found {len(all_keywords)} ranking keywords")
     except Exception as e:
         print(f"   ✗ Error fetching keywords: {e}")
