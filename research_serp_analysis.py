@@ -85,10 +85,11 @@ def main():
         'keyword': keyword,
         'analyzed_date': datetime.now().strftime('%Y-%m-%d'),
         'top_results': organic_results,
-        'serp_features': serp_data.get('features', []),
+        'serp_features': serp_data.get('features', []) or [],
         'content_types': [],
         'title_patterns': [],
-        'word_counts': [],
+        'word_counts': [],            # only successful counts, used for stats
+        'per_result_word_counts': [], # one entry per organic result (may be None)
         'domains': [],
         'domain_authority': [],
         'freshness_signals': [],
@@ -113,14 +114,19 @@ def main():
         if has_freshness_signal(title):
             analysis['freshness_signals'].append(i)
 
-        # Get word count
+        # Get word count (ContentLengthComparator exposes this as a private helper)
+        result_word_count = None
         try:
-            word_count = content_comparator.fetch_word_count(url)
+            word_count = content_comparator._fetch_word_count(url)
             if word_count and word_count > 100:  # Sanity check
                 analysis['word_counts'].append(word_count)
+                result_word_count = word_count
                 print(f"   [{i}] {domain} - {word_count:,} words - {content_type}")
-        except Exception as e:
+            else:
+                print(f"   [{i}] {domain} - Word count unavailable - {content_type}")
+        except Exception:
             print(f"   [{i}] {domain} - Word count unavailable - {content_type}")
+        analysis['per_result_word_counts'].append(result_word_count)
 
     # Calculate statistics
     print(f"\n4. Calculating content requirements...")
@@ -483,12 +489,12 @@ def write_markdown_report(keyword: str, analysis: Dict[str, Any]):
         f.write(f"| Position | Domain | Content Type | Word Count |\n")
         f.write(f"|----------|--------|--------------|------------|\n")
 
+        per_result_counts = analysis.get('per_result_word_counts', [])
         for i, result in enumerate(analysis['top_results'], 1):
             domain = extract_domain(result.get('url', ''))
             content_type = analysis['content_types'][i-1] if i <= len(analysis['content_types']) else 'Unknown'
-            word_count = analysis['word_counts'][i-1] if i <= len(analysis['word_counts']) else 'N/A'
-            if isinstance(word_count, int):
-                word_count = f"{word_count:,}"
+            raw_wc = per_result_counts[i-1] if i <= len(per_result_counts) else None
+            word_count = f"{raw_wc:,}" if isinstance(raw_wc, int) else 'N/A'
             f.write(f"| {i} | {domain[:30]} | {content_type} | {word_count} |\n")
 
         f.write(f"\n")

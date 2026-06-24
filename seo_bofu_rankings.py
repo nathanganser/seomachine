@@ -39,8 +39,23 @@ def main():
     print("=" * 80)
 
     # Initialize
-    dfs = DataForSEO()
-    gsc = GoogleSearchConsole()
+    try:
+        dfs = DataForSEO()
+        print("✓ DataForSEO connected")
+    except Exception as e:
+        print(f"✗ DataForSEO error: {e}")
+        dfs = None
+
+    try:
+        gsc = GoogleSearchConsole()
+        print("✓ Google Search Console connected")
+    except Exception as e:
+        print(f"✗ GSC error: {e}")
+        gsc = None
+
+    if not dfs and not gsc:
+        print("\nNeither DataForSEO nor GSC available. Aborting.")
+        return
 
     # CRITICAL BOFU Keywords from config
     critical_keywords = config.get('bofu_keywords', [])
@@ -48,45 +63,49 @@ def main():
         print("\nNo bofu_keywords configured in config/competitors.json")
         return
 
-    print("\n" + "=" * 80)
-    print("PART 1: LIVE SERP CHECK (DataForSEO)")
-    print("=" * 80)
+    if dfs:
+        print("\n" + "=" * 80)
+        print("PART 1: LIVE SERP CHECK (DataForSEO)")
+        print("=" * 80)
 
-    for keyword in critical_keywords[:20]:  # Limit to top 20 to control API costs
-        print(f"\n>>> Checking: '{keyword}'")
-        try:
-            serp = dfs.get_serp_data(keyword, limit=50)
+        for keyword in critical_keywords[:20]:  # Limit to top 20 to control API costs
+            print(f"\n>>> Checking: '{keyword}'")
+            try:
+                serp = dfs.get_serp_data(keyword, limit=50)
 
-            print(f"    Search Volume: {serp.get('search_volume', 'N/A'):,}" if serp.get('search_volume') else "    Search Volume: N/A")
-            print(f"    CPC: ${serp.get('cpc', 0):.2f}" if serp.get('cpc') else "    CPC: N/A")
-            print(f"    Competition: {serp.get('competition', 'N/A')}")
+                print(f"    Search Volume: {serp.get('search_volume', 'N/A'):,}" if serp.get('search_volume') else "    Search Volume: N/A")
+                print(f"    CPC: ${serp.get('cpc', 0):.2f}" if serp.get('cpc') else "    CPC: N/A")
+                print(f"    Competition: {serp.get('competition', 'N/A')}")
 
-            # Find our site in results
-            our_pos = None
-            our_url = None
-            for result in serp.get('organic_results', []):
-                if site_domain in result.get('domain', ''):
-                    our_pos = result.get('position')
-                    our_url = result.get('url')
-                    break
+                # Find our site in results
+                our_pos = None
+                our_url = None
+                for result in serp.get('organic_results', []):
+                    if site_domain in (result.get('domain') or ''):
+                        our_pos = result.get('position')
+                        our_url = result.get('url')
+                        break
 
-            if our_pos:
-                print(f"    ✓ RANKING: #{our_pos}")
-                print(f"      URL: {our_url}")
-            else:
-                print(f"    ✗ NOT IN TOP 50")
+                if our_pos:
+                    print(f"    ✓ RANKING: #{our_pos}")
+                    print(f"      URL: {our_url}")
+                else:
+                    print(f"    ✗ NOT IN TOP 50")
 
-            # Show top 5 results
-            print(f"    Top 5 Results:")
-            for result in serp.get('organic_results', [])[:5]:
-                print(f"      #{result['position']:2d}. {result['domain']}")
+                # Show top 5 results
+                print(f"    Top 5 Results:")
+                for result in serp.get('organic_results', [])[:5]:
+                    pos = result.get('position')
+                    domain_str = result.get('domain') or 'unknown'
+                    pos_str = f"#{pos:2d}" if isinstance(pos, int) else " --"
+                    print(f"      {pos_str}. {domain_str}")
 
-        except Exception as e:
-            print(f"    Error: {e}")
+            except Exception as e:
+                print(f"    Error: {e}")
 
     # Competitor alternative keywords
     alternative_keywords = config.get('alternative_keywords', [])
-    if alternative_keywords:
+    if alternative_keywords and dfs:
         print("\n" + "=" * 80)
         print("PART 2: COMPETITOR ALTERNATIVE KEYWORDS")
         print("=" * 80)
@@ -100,7 +119,7 @@ def main():
 
                 our_pos = None
                 for result in serp.get('organic_results', []):
-                    if site_domain in result.get('domain', ''):
+                    if site_domain in (result.get('domain') or ''):
                         our_pos = result.get('position')
                         break
 
@@ -111,78 +130,87 @@ def main():
 
                 print(f"    Top 3 Results:")
                 for result in serp.get('organic_results', [])[:3]:
-                    print(f"      #{result['position']:2d}. {result['domain']}")
+                    pos = result.get('position')
+                    domain_str = result.get('domain') or 'unknown'
+                    pos_str = f"#{pos:2d}" if isinstance(pos, int) else " --"
+                    print(f"      {pos_str}. {domain_str}")
 
             except Exception as e:
                 print(f"    Error: {e}")
 
     # GSC Data for relevant keywords
-    print("\n" + "=" * 80)
-    print("PART 3: GSC DATA - HIGH-INTENT KEYWORDS")
-    print("=" * 80)
-
-    all_keywords = gsc.get_keyword_positions(days=30, limit=2000)
-
-    # Filter using relevant_terms from config
-    relevant_terms = config.get('relevant_terms', [])
-    skip_terms = config.get('skip_terms', [])
-
-    hosting_keywords = []
-    for kw in all_keywords:
-        keyword = kw['keyword'].lower()
-        if skip_terms and any(skip in keyword for skip in skip_terms):
-            continue
-        if relevant_terms:
-            if any(term.lower() in keyword for term in relevant_terms):
-                hosting_keywords.append(kw)
-        else:
-            hosting_keywords.append(kw)
-
-    hosting_keywords.sort(key=lambda x: x['impressions'], reverse=True)
-
-    print(f"\nFound {len(hosting_keywords)} high-intent keywords")
-    print("-" * 80)
-
-    page_1 = [k for k in hosting_keywords if k['position'] <= 10]
-    page_2 = [k for k in hosting_keywords if 10 < k['position'] <= 20]
-    page_3_plus = [k for k in hosting_keywords if k['position'] > 20]
-
-    print(f"Page 1: {len(page_1)} | Page 2: {len(page_2)} | Page 3+: {len(page_3_plus)}")
-
-    print(f"\n🏆 PAGE 1 KEYWORDS:")
-    for kw in page_1[:30]:
-        ctr = kw['ctr'] * 100
-        print(f"  #{kw['position']:<5.1f} | {kw['keyword'][:55]:<55} | {kw['impressions']:>5,} imp | {kw['clicks']:>3} clicks | {ctr:.1f}% CTR")
-
-    print(f"\n📈 PAGE 2 QUICK WINS:")
-    for kw in page_2[:20]:
-        ctr = kw['ctr'] * 100
-        print(f"  #{kw['position']:<5.1f} | {kw['keyword'][:55]:<55} | {kw['impressions']:>5,} imp | {kw['clicks']:>3} clicks | {ctr:.1f}% CTR")
-
-    print(f"\n❌ PAGE 3+ (Need Work):")
-    for kw in page_3_plus[:15]:
-        ctr = kw['ctr'] * 100
-        print(f"  #{kw['position']:<5.1f} | {kw['keyword'][:55]:<55} | {kw['impressions']:>5,} imp | {kw['clicks']:>3} clicks | {ctr:.1f}% CTR")
-
-    # Check specific important queries from config
-    key_queries = config.get('key_queries', critical_keywords[:10])
-    if key_queries:
+    all_keywords = []
+    if gsc:
         print("\n" + "=" * 80)
-        print("PART 4: KEY QUERY PERFORMANCE (GSC)")
+        print("PART 3: GSC DATA - HIGH-INTENT KEYWORDS")
         print("=" * 80)
 
-        for query in key_queries:
-            matches = [k for k in all_keywords if query.lower() in k['keyword'].lower()]
-            if matches:
-                best = min(matches, key=lambda x: x['position'])
-                total_imp = sum(m['impressions'] for m in matches)
-                total_clicks = sum(m['clicks'] for m in matches)
-                print(f"\n'{query}':")
-                print(f"  Best Position: #{best['position']:.1f} for '{best['keyword']}'")
-                print(f"  Total Related Impressions: {total_imp:,}")
-                print(f"  Total Related Clicks: {total_clicks}")
+        try:
+            all_keywords = gsc.get_keyword_positions(days=30, limit=2000)
+        except Exception as e:
+            print(f"Error fetching GSC data: {e}")
+            all_keywords = []
+
+        # Filter using relevant_terms from config
+        relevant_terms = config.get('relevant_terms', [])
+        skip_terms = config.get('skip_terms', [])
+
+        hosting_keywords = []
+        for kw in all_keywords:
+            keyword = kw['keyword'].lower()
+            if skip_terms and any(skip in keyword for skip in skip_terms):
+                continue
+            if relevant_terms:
+                if any(term.lower() in keyword for term in relevant_terms):
+                    hosting_keywords.append(kw)
             else:
-                print(f"\n'{query}': No data in GSC")
+                hosting_keywords.append(kw)
+
+        hosting_keywords.sort(key=lambda x: x['impressions'], reverse=True)
+
+        print(f"\nFound {len(hosting_keywords)} high-intent keywords")
+        print("-" * 80)
+
+        page_1 = [k for k in hosting_keywords if k['position'] <= 10]
+        page_2 = [k for k in hosting_keywords if 10 < k['position'] <= 20]
+        page_3_plus = [k for k in hosting_keywords if k['position'] > 20]
+
+        print(f"Page 1: {len(page_1)} | Page 2: {len(page_2)} | Page 3+: {len(page_3_plus)}")
+
+        print(f"\n🏆 PAGE 1 KEYWORDS:")
+        for kw in page_1[:30]:
+            ctr = kw['ctr'] * 100
+            print(f"  #{kw['position']:<5.1f} | {kw['keyword'][:55]:<55} | {kw['impressions']:>5,} imp | {kw['clicks']:>3} clicks | {ctr:.1f}% CTR")
+
+        print(f"\n📈 PAGE 2 QUICK WINS:")
+        for kw in page_2[:20]:
+            ctr = kw['ctr'] * 100
+            print(f"  #{kw['position']:<5.1f} | {kw['keyword'][:55]:<55} | {kw['impressions']:>5,} imp | {kw['clicks']:>3} clicks | {ctr:.1f}% CTR")
+
+        print(f"\n❌ PAGE 3+ (Need Work):")
+        for kw in page_3_plus[:15]:
+            ctr = kw['ctr'] * 100
+            print(f"  #{kw['position']:<5.1f} | {kw['keyword'][:55]:<55} | {kw['impressions']:>5,} imp | {kw['clicks']:>3} clicks | {ctr:.1f}% CTR")
+
+        # Check specific important queries from config
+        key_queries = config.get('key_queries', critical_keywords[:10])
+        if key_queries and all_keywords:
+            print("\n" + "=" * 80)
+            print("PART 4: KEY QUERY PERFORMANCE (GSC)")
+            print("=" * 80)
+
+            for query in key_queries:
+                matches = [k for k in all_keywords if query.lower() in k['keyword'].lower()]
+                if matches:
+                    best = min(matches, key=lambda x: x['position'])
+                    total_imp = sum(m['impressions'] for m in matches)
+                    total_clicks = sum(m['clicks'] for m in matches)
+                    print(f"\n'{query}':")
+                    print(f"  Best Position: #{best['position']:.1f} for '{best['keyword']}'")
+                    print(f"  Total Related Impressions: {total_imp:,}")
+                    print(f"  Total Related Clicks: {total_clicks}")
+                else:
+                    print(f"\n'{query}': No data in GSC")
 
     print("\n" + "=" * 80)
     print("ANALYSIS COMPLETE")

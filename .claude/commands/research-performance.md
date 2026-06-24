@@ -28,10 +28,10 @@ python3 research_performance_matrix.py
 ```
 
 This will:
-1. Fetch all pages from GA4 (last 90 days)
+1. Fetch all pages from Vercel Analytics CSVs (closest match to 90 days)
 2. Filter to content pages only
 3. Enrich with GSC ranking data
-4. Calculate traffic trends (180-day comparison)
+4. Calculate traffic trends by comparing the 1/7/30/90-day CSV windows
 5. Categorize into performance quadrants
 6. Generate report: `research/performance-matrix-YYYY-MM-DD.md`
 
@@ -61,7 +61,7 @@ After running `/research-performance`:
 ## Time & Requirements
 
 **Time:** 2-4 minutes
-**Requirements:** GA4 required, GSC recommended
+**Requirements:** Vercel Analytics CSV exports required (at repo root), GSC recommended
 **Cost:** Free
 
 ## When to Run

@@ -17,7 +17,7 @@ Use this command to audit existing landing pages for conversion optimization opp
 
 1. Fetches or reads the landing page content
 2. Runs comprehensive CRO analysis using multiple analyzers
-3. Pulls GA4 performance data (if available for [YOUR COMPANY] pages)
+3. Pulls Vercel Analytics performance data (if CSV exports are available for [YOUR COMPANY] pages)
 4. Generates prioritized recommendations
 5. Saves audit report for reference
 
@@ -93,12 +93,14 @@ cro = check_cro(content, page_type, goal)
 
 ### Step 3: Performance Data ([YOUR COMPANY] Pages Only)
 
-For yoursite.com pages, pull GA4 data if available:
-- Page views (last 30 days)
-- Bounce rate
-- Average time on page
-- Conversion events (if tracked)
-- Traffic sources
+For yoursite.com pages, pull Vercel Analytics CSV data if available:
+- Page views (closest available window: 1/7/30/90 days)
+- Visitor counts
+- Trend direction (rising/declining) across windows
+- Site-wide referrer breakdown (from Top Referrers CSV)
+
+Note: bounce rate, time on page, and conversion events are not in the Vercel
+CSV export — use Drains or skip those if you need them.
 
 ### Step 4: Generate Report
 

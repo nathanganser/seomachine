@@ -12,7 +12,6 @@ from datetime import datetime
 from typing import List, Dict, Any, Set
 from collections import Counter, defaultdict
 from dotenv import load_dotenv
-import re
 
 # Load environment variables
 load_dotenv(os.path.join(os.path.dirname(__file__), 'data_sources', 'config', '.env'))
@@ -396,26 +395,33 @@ def find_cluster_gaps(
             return []
 
         # Get set of keywords we already rank for in this cluster
-        ranking_keywords = {kw['keyword'].lower().strip() for kw in cluster_keywords}
+        ranking_keywords = {
+            (kw.get('keyword') or '').lower().strip()
+            for kw in cluster_keywords
+            if kw.get('keyword')
+        }
 
         # Find gaps
         gaps = []
         for related_kw in related:
-            kw_lower = related_kw['keyword'].lower().strip()
+            kw_name = related_kw.get('keyword')
+            if not kw_name:
+                continue
+            kw_lower = kw_name.lower().strip()
 
             if kw_lower not in ranking_keywords:
                 gaps.append({
-                    'keyword': related_kw['keyword'],
-                    'search_volume': related_kw.get('search_volume', 0),
-                    'difficulty': related_kw.get('difficulty', 50)
+                    'keyword': kw_name,
+                    'search_volume': related_kw.get('search_volume') or 0,
+                    'difficulty': related_kw.get('difficulty') or 50,
                 })
 
-        # Sort by search volume
-        gaps.sort(key=lambda x: x.get('search_volume', 0), reverse=True)
+        # Sort by search volume (handle None safely)
+        gaps.sort(key=lambda x: x.get('search_volume') or 0, reverse=True)
 
         return gaps[:limit]
 
-    except Exception as e:
+    except Exception:
         return []
 
 

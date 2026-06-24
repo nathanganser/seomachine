@@ -21,7 +21,13 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'data_sources'))
 
 from modules.google_search_console import GoogleSearchConsole
 from modules.dataforseo import DataForSEO
-from modules.google_analytics import GoogleAnalytics
+from modules.vercel_analytics import VercelAnalytics
+
+from research_quick_wins import main as run_quick_wins
+from research_competitor_gaps import main as run_competitor_gaps
+from research_performance_matrix import main as run_performance_matrix
+from research_topic_clusters import main as run_topic_clusters
+from research_trending import main as run_trending
 
 
 def main():
@@ -59,11 +65,7 @@ def main():
     print("1/5: QUICK WINS ANALYSIS")
     print("=" * 80)
     try:
-        from research_quick_wins import main as quick_wins_main
-        # Capture quick wins data (would need to modify research_quick_wins to return data)
-        print("Running quick wins research...")
-        # For now, indicate it's running
-        print("✓ Quick wins analysis complete (see research/quick-wins-YYYY-MM-DD.md)")
+        run_quick_wins()
         results['quick_wins'] = 'completed'
     except Exception as e:
         print(f"⚠ Quick wins analysis failed: {e}")
@@ -80,16 +82,14 @@ def main():
         try:
             skip = input().strip().lower()
         except EOFError:
-            # Non-interactive: default to skipping the paid step
-            skip = 'y'
-            print("(non-interactive mode: defaulting to skip)")
+            # Non-interactive: default to running the paid step
+            skip = 'n'
+            print("(non-interactive mode: running competitor gap analysis)")
         if skip == 'y':
             print("Skipping competitor gap analysis")
             results['competitor_gaps'] = 'skipped'
         else:
-            print("Running competitor gap analysis...")
-            # Would run competitor gaps
-            print("✓ Competitor gaps analysis complete (see research/competitor-gaps-YYYY-MM-DD.md)")
+            run_competitor_gaps()
             results['competitor_gaps'] = 'completed'
     except KeyboardInterrupt:
         print("\nSkipping competitor gap analysis")
@@ -103,8 +103,7 @@ def main():
     print("3/5: CONTENT PERFORMANCE MATRIX")
     print("=" * 80)
     try:
-        print("Running performance matrix analysis...")
-        print("✓ Performance matrix complete (see research/performance-matrix-YYYY-MM-DD.md)")
+        run_performance_matrix()
         results['performance_matrix'] = 'completed'
     except Exception as e:
         print(f"⚠ Performance matrix failed: {e}")
@@ -115,8 +114,7 @@ def main():
     print("4/5: TOPIC CLUSTER ANALYSIS")
     print("=" * 80)
     try:
-        print("Running topic cluster analysis...")
-        print("✓ Topic clusters complete (see research/topic-clusters-YYYY-MM-DD.md)")
+        run_topic_clusters()
         results['topic_clusters'] = 'completed'
     except Exception as e:
         print(f"⚠ Topic clusters failed: {e}")
@@ -127,8 +125,7 @@ def main():
     print("5/5: TRENDING TOPICS ANALYSIS")
     print("=" * 80)
     try:
-        print("Running trending analysis...")
-        print("✓ Trending topics complete (see research/trending-YYYY-MM-DD.md)")
+        run_trending()
         results['trending'] = 'completed'
     except Exception as e:
         print(f"⚠ Trending analysis failed: {e}")

@@ -127,6 +127,7 @@ Read the article and identify:
 
 **Mini-Story Check** (2-3 required per article):
 - Does article include specific scenarios with names?
+- Are fictional stories introduced with a hypothetical frame ("Let's take the example of...", "Imagine...", "Consider...")?
 - Do stories have concrete details (dates, numbers, outcomes)?
 - Are stories placed strategically (early, middle, end)?
 

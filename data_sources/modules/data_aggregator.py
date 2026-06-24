@@ -1,7 +1,8 @@
 """
 Data Aggregator
 
-Combines data from multiple sources (GA4, GSC, DataForSEO) for comprehensive analysis.
+Combines data from multiple sources (Vercel Analytics CSVs, GSC, DataForSEO)
+for comprehensive analysis.
 """
 
 import os
@@ -10,12 +11,12 @@ from datetime import datetime
 from dotenv import load_dotenv
 
 try:
-    from .google_analytics import GoogleAnalytics
+    from .vercel_analytics import VercelAnalytics
     from .google_search_console import GoogleSearchConsole
     from .dataforseo import DataForSEO
 except ImportError:
     # Fallback for direct execution
-    from google_analytics import GoogleAnalytics
+    from vercel_analytics import VercelAnalytics
     from google_search_console import GoogleSearchConsole
     from dataforseo import DataForSEO
 
@@ -30,9 +31,9 @@ class DataAggregator:
         load_dotenv('data_sources/config/.env')
 
         try:
-            self.ga = GoogleAnalytics()
+            self.ga = VercelAnalytics()
         except Exception as e:
-            print(f"Warning: Google Analytics not configured: {e}")
+            print(f"Warning: Vercel Analytics CSVs not found: {e}")
             self.ga = None
 
         try:
@@ -134,7 +135,7 @@ class DataAggregator:
             except Exception as e:
                 print(f"Error getting quick wins: {e}")
 
-        # Declining content from GA4
+        # Declining content from analytics
         if self.ga:
             try:
                 declining = self.ga.get_declining_pages(
@@ -194,7 +195,7 @@ class DataAggregator:
                 report['summary']['avg_engagement_rate'] = sum(p['engagement_rate'] for p in top_pages) / len(top_pages)
                 report['top_performers'] = top_pages[:10]
             except Exception as e:
-                print(f"Error getting GA4 summary: {e}")
+                print(f"Error getting analytics summary: {e}")
 
         if self.gsc:
             try:

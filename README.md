@@ -535,7 +535,7 @@ Six Python modules for landing page conversion optimization:
 - `cta_analyzer.py` - CTA effectiveness scoring (quality, distribution, goal alignment)
 - `trust_signal_analyzer.py` - Trust signal detection (testimonials, social proof, risk reversals)
 - `landing_page_scorer.py` - Overall landing page scoring (0-100 with category breakdowns)
-- `landing_performance.py` - Landing page performance tracking via GA4/GSC
+- `landing_performance.py` - Landing page performance tracking via Vercel Analytics CSVs / GSC
 - `cro_checker.py` - CRO best practices checklist validation
 
 ### Additional Analysis Modules
@@ -631,7 +631,7 @@ seomachine/
 │   └── skills/            # 26 marketing skills
 ├── data_sources/          # Analytics integrations
 │   ├── modules/          # Python analysis modules
-│   │   ├── google_analytics.py
+│   │   ├── vercel_analytics.py
 │   │   ├── google_search_console.py
 │   │   ├── dataforseo.py
 │   │   ├── data_aggregator.py

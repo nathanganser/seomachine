@@ -1,122 +1,64 @@
-# Publish Draft to WordPress
+# Publish Draft to Nuxt Content
 
-Publishes a draft article from this project to WordPress as a Draft, with all SEO metadata auto-populated.
+Publishes a draft article by copying it to the mh-landing Nuxt Content directory, then deletes the original file.
 
 ## Usage
-`/publish-draft [filename] [--type post|page|custom]`
+`/publish-draft [filename]`
 
 ### Examples
 
-**Create a blog post (default):**
 ```
-/publish-draft drafts/content-marketing-guide-2025-12-10.md
+/publish-draft drafts/buchhaltungssoftware-schweiz-2026-05-03.md
+/publish-draft landing-pages/belege-scannen-ki-freelancer-schweiz-2026-05-03.md
+/publish-draft components-ready/invoicing.md
 ```
-
-**Create a page:**
-```
-/publish-draft drafts/pricing-comparison.md --type page
-```
-
-**Create a custom post type:**
-```
-/publish-draft drafts/product-comparison.md --type compare
-```
-
-### Post Types
-- `post` - Standard blog post (default) - supports categories and tags
-- `page` - WordPress page - no categories/tags
-- Custom types (e.g., `compare`) - must be registered in WordPress with REST API support
 
 ## What This Command Does
 
-1. **Parses the draft file** - Extracts all metadata from frontmatter
-2. **Converts Markdown to HTML** - Formats content for WordPress
-3. **Creates WordPress draft** - Posts via REST API with status "draft"
-4. **Sets Yoast SEO fields**:
-   - SEO Title (from Meta Title)
-   - Meta Description
-   - Focus Keyphrase (from Target Keyword)
-5. **Assigns taxonomy** - Categories and Tags if specified
-6. **Returns edit URL** - Direct link to edit the post in WordPress
-
-## Metadata Mapping
-
-| Draft Field | WordPress/Yoast Field |
-|-------------|----------------------|
-| H1 Title | Post Title |
-| Meta Title | Yoast SEO Title |
-| Meta Description | Yoast Meta Description + Excerpt |
-| Target Keyword | Yoast Focus Keyphrase |
-| URL Slug | Post Slug |
-| Category | Post Categories |
-| Tags | Post Tags |
-| Content | Post Content (HTML) |
-
-## Required Environment Variables
-
-These must be set in `.env`:
-```
-WORDPRESS_URL=https://yoursite.com
-WORDPRESS_USERNAME=your-username
-WORDPRESS_APP_PASSWORD=xxxx-xxxx-xxxx-xxxx
-```
-
-### Getting an Application Password
-1. Log into WordPress Admin
-2. Go to Users > Your Profile
-3. Scroll to "Application Passwords"
-4. Enter a name (e.g., "SEO Machine")
-5. Click "Add New Application Password"
-6. Copy the generated password to your `.env` file
+1. **Parses the draft file** — Extracts the `URL Slug` from frontmatter
+2. **Extracts language and slug** — From the URL Slug field (e.g., `/de/buchhaltungssoftware-schweiz` → language=`de`, slug=`buchhaltungssoftware-schweiz`)
+3. **Copies the file** to `/Users/nathanganser/Documents/Development/mh-landing/content/{language}/{slug}.md`
+4. **Deletes the original** file from the seomachine directory
+5. **Confirms success** — Shows the destination path
 
 ## Process
 
 When you run this command:
 
-### Step 1: Validate File
-- Confirm the draft file exists
-- Parse metadata and content
-- Display extracted fields for confirmation
+### Step 1: Validate and Parse
+- Confirm the draft file exists and read it
+- Extract the `URL Slug` field from frontmatter (look for `URL Slug:` in the metadata, with or without `**` bold markers)
+- Parse the language code from the first path segment (e.g., `de`, `en`, `fr`, `it`, `es`, `pt`)
+- Parse the slug from the remaining path (e.g., `buchhaltungssoftware-schweiz`)
+- If no language prefix is found in the URL Slug, ask the user which language to use
+- Display the extracted language and slug for confirmation
 
-### Step 2: Publish to WordPress
-Run the WordPress publisher:
-```bash
-cd /path/to/seomachine
-python data_sources/modules/wordpress_publisher.py "$FILE_PATH" --type "$POST_TYPE"
-```
+### Step 2: Copy to Destination
+- Target: `/Users/nathanganser/Documents/Development/mh-landing/content/{language}/{slug}.md`
+- Verify the target language directory exists (e.g., `/Users/nathanganser/Documents/Development/mh-landing/content/de/`)
+- If a file already exists at the destination, warn the user and ask before overwriting
+- Copy the file using `cp`
 
-Where `$POST_TYPE` is `post`, `page`, or a custom post type.
+### Step 3: Delete Original
+- Delete the original markdown file from the seomachine directory using `rm`
+- If from `components-ready/`, also delete associated audit reports in `audits/components/` matching the same slug
+- If from `drafts/`, also delete associated report files in `drafts/_reports/` matching the same slug
 
-### Step 3: Confirm Success
-Display the WordPress edit URL so the user can review and publish.
+### Step 4: Confirm
+- Display the destination path
+- Confirm the original was deleted
 
-## Optional: Add Categories/Tags
+## URL Slug Parsing Rules
 
-To assign categories or tags, add these fields to your draft frontmatter:
+The `URL Slug` field typically looks like: `/de/buchhaltungssoftware-schweiz` or `/en/invoicing`
 
-```markdown
-**Category**: [Your Category]
-**Tags**: [your topic], beginner, getting started
-```
-
-Multiple categories/tags are comma-separated.
-
-## Troubleshooting
-
-### "WORDPRESS_URL must be set"
-Add credentials to `.env` file. See Required Environment Variables above.
-
-### "401 Unauthorized"
-- Verify username is correct
-- Regenerate Application Password
-- Ensure user has permission to create posts
-
-### "Could not find category"
-The category will be created automatically if it doesn't exist.
+- Strip leading/trailing slashes
+- First segment = language code (2 letters)
+- Remaining segments joined = slug
+- Valid languages: `de`, `en`, `fr`, `it`, `es`, `pt`
 
 ## Notes
 
-- Posts are always created as **drafts** (never published automatically)
-- The H1 heading from the article becomes the WordPress post title
-- Images/media are not uploaded - only text content is transferred
-- You can run this command multiple times on the same file (creates new drafts each time)
+- The file is copied as-is — no content transformation is applied
+- If the URL Slug is missing, ask the user for the language and slug
+- Always confirm the extracted language + slug before copying

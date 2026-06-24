@@ -46,7 +46,12 @@ def main():
     print(f"COMPETITOR SEO ANALYSIS: {company_name.upper()} VS COMPETITORS")
     print("=" * 90)
 
-    dfs = DataForSEO()
+    try:
+        dfs = DataForSEO()
+        print("✓ DataForSEO connected")
+    except Exception as e:
+        print(f"✗ DataForSEO error: {e}")
+        return
 
     bofu_keywords = config.get('bofu_keywords', [])
     mofu_keywords = config.get('mofu_keywords', [])
@@ -74,17 +79,18 @@ def main():
             print(f"    Search Volume: {volume:,}" if volume else "    Search Volume: N/A")
 
             for result in serp.get('organic_results', []):
-                domain = result.get('domain', '')
+                domain = result.get('domain') or ''
                 for comp_domain, comp_name in competitors.items():
                     if comp_domain in domain:
                         pos = result.get('position')
-                        all_rankings[keyword][comp_name] = pos
+                        if pos is not None and comp_name not in all_rankings[keyword]:
+                            all_rankings[keyword][comp_name] = pos
                         break
 
             print(f"    Rankings:")
             for comp_name in comp_names:
-                pos = all_rankings[keyword].get(comp_name, '-')
-                if pos != '-':
+                pos = all_rankings[keyword].get(comp_name)
+                if pos is not None:
                     status = "✅" if pos <= 10 else "📈" if pos <= 20 else "❌"
                     print(f"      {status} {comp_name:12s}: #{pos}")
                 else:
@@ -254,10 +260,12 @@ def main():
                 serp = dfs.get_serp_data(keyword, limit=50)
 
                 for result in serp.get('organic_results', []):
-                    domain = result.get('domain', '')
+                    domain = result.get('domain') or ''
                     for comp_domain, comp_name in competitors.items():
                         if comp_domain in domain:
-                            mofu_rankings[keyword][comp_name] = result.get('position')
+                            pos = result.get('position')
+                            if pos is not None and comp_name not in mofu_rankings[keyword]:
+                                mofu_rankings[keyword][comp_name] = pos
                             break
 
                 for comp_name in comp_names:

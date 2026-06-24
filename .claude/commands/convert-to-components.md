@@ -56,7 +56,13 @@ description: "[from Meta Description]"
 
 ### Step 3: Map Sections to Components
 
-For each identified section, select the best-fit component from the template. Use this mapping as a starting point:
+The mapping differs by content type. Check the content type (Step 9 logic applies here too) and use the appropriate table.
+
+---
+
+#### Landing Page Mapping
+
+For each identified section, select the best-fit component from the template:
 
 | Section Type | Primary Component | Alternative |
 |-------------|------------------|-------------|
@@ -73,6 +79,105 @@ For each identified section, select the best-fit component from the template. Us
 | Final CTA | `::pages-landing-final-cta` | — |
 | Video embed | `::hero-media` | — |
 | Prose / content that doesn't fit | `::markdown` (boxed: true) | — |
+
+---
+
+#### Blog Article Mapping
+
+**First, decide which opener pattern applies:**
+
+- **Blog article** — informational, opinion, news, evergreen explainer published at `/blog/<slug>`. **Opens with `::blog`** (Article schema + dated header with author). Prose lives in nested `::markdown as: article` blocks inside `::blog`.
+- **Integration / product-content article** — long-form commercial page under `/integrations/<platform>`, `/alternative/<competitor>`, or a feature page (`/invoicing`, `/accounting`, etc.). **Opens with `::feature-image`** (hero image + the article's title in the `title:` prop). Skip `::blog` entirely — these pages aren't dated editorial content. Prose lives in top-level `::markdown as: article` blocks following the `::feature-image`. If you need author attribution, drop a one-sentence credit at the end of the final `::markdown` block.
+
+Detection cues for the integration / product-content pattern: source frontmatter `url_slug` contains `/integrations/`, `/alternative/`, or matches a feature-page path; the article reads as evergreen "how to use Magic Heidi for X" rather than dated commentary.
+
+The rest of this section describes the blog opener. For integration / product-content articles, replace the `::blog` block at the top with a `::feature-image` block (no nested children) and keep every `::markdown as: article` block at the top level (no 2-space indent). Structured-component placement after the opener is identical for both patterns.
+
+---
+
+`::blog` is the article header component (title, description, date, author + structured data for SEO). It comes FIRST on the page, after the page frontmatter.
+
+**`::blog` may wrap `::markdown` blocks — and ONLY `::markdown` blocks.** All article prose goes inside `::blog` as nested `::markdown` blocks with `as: article` (indented 2 spaces). Structured components — `::pages-landing-faq`, `::pages-landing-comparison`, `::feature-grid`, `::feature-image`, `::feature-showcase`, `::hero-reviews`, etc. — MUST NOT be nested inside `::blog`. They come AS SIBLINGS AFTER `::blog`'s closing `::`.
+
+The correct structure is:
+
+```
+---
+title: "[article title]"
+description: "[meta description]"
+---
+
+::blog
+---
+date: "[publication date]"
+title: "[article title]"
+description: "[meta description]"
+author:
+  name: "Nathan Ganser"
+  description: "Founder of Magic Heidi"
+  avatar: "https://magicheidi.ch/images/visuals/nathan.webp"
+---
+
+  ::markdown
+  ---
+  as: article
+  ---
+  [intro prose, key takeaways, first body sections]
+  ::
+
+  ::markdown
+  ---
+  as: article
+  ---
+  [more body prose]
+  ::
+
+::
+
+::pages-landing-comparison
+---
+[comparison table YAML]
+---
+::
+
+::feature-image
+---
+[feature image YAML]
+---
+::
+
+::pages-landing-faq
+---
+[FAQ YAML]
+---
+::
+```
+
+**Critical rules**:
+- `::blog` may contain `::markdown` blocks (with `as: article`) and nothing else. Indent each nested `::markdown` block with 2 spaces.
+- Structured components (`::pages-landing-faq`, `::pages-landing-comparison`, `::feature-grid`, `::feature-image`, `::feature-showcase`, `::hero-reviews`, etc.) MUST come as siblings after `::blog` closes — never nested inside it.
+- **Target 4+ structured components after `::blog`** for a typical 2,000-word article. The prose blocks inside `::blog` are connective tissue between the visual components below; treat any extractable pattern as an opportunity, not a special case.
+- **Inside `::blog`, split prose into 3–5 separate `::markdown as: article` blocks at H2 boundaries.** A single mega-block is a signal you missed extraction opportunities — re-scan the prose with the table below.
+- Scan the prose for these patterns and lift each one out into the matching component. Place extracted components after `::blog`'s closing `::`, in the order they appeared in the source:
+
+| Pattern in the article | Component to use |
+|---|---|
+| A list of 3–5 items (tips, steps, benefits, reasons) | `::feature-grid` with emoji icons derived from content |
+| A "how it works" or numbered steps section | `::feature-grid` with 1️⃣2️⃣3️⃣ icons |
+| Any named enumeration in prose ("the three indicators…", "four signs of…", "five things to check") — even if it's a single sentence | `::feature-grid` with topical emoji icons |
+| Pros/cons, benefits/risks, gains/losses, or any two contrasting categories with bullets | `::pages-landing-features` with 2 category items |
+| A section describing a product feature + a relevant screenshot exists | `::feature-image` (horizontal) |
+| A section with 3 highlights + product screenshot or video | `::feature-showcase` |
+| A comparison table or "X vs Y" section | `::pages-landing-comparison` |
+| A FAQ or Q&A section | `::pages-landing-faq` |
+| Testimonials, user quotes, or social proof | `::hero-reviews` |
+| A summary recap with 3–5 takeaways or thresholds | `::feature-grid` (theme: elevated) |
+| A YouTube link or video reference in the prose | `::hero-media` with `youtube.id` |
+| A final "try it / start here" paragraph | `::hero-basic{.bg-cream}` wrapping `::hero-cta-links` |
+
+When you lift content out, replace its prose footprint with a one-sentence pointer ("Die Indizien findest du als Übersicht weiter unten") or drop the prose entirely — let the structured component carry the section. The reader sees all prose first, then the components in source order; design for that flow.
+
+---
 
 **Important**: Always check the component template file for the exact YAML schema. Do not guess prop names — copy them from the template examples.
 
@@ -117,7 +222,7 @@ Before saving, verify:
 
 ### Step 8: Save and Report
 
-- Save to: `components-ready/[slug]-[YYYY-MM-DD].md`
+- Save to: `components-ready/[slug].md`
 - Print a conversion summary:
   - Number of sections converted
   - Components used (list each)
@@ -180,19 +285,19 @@ Run agents appropriate to the detected content type:
    - **Agent**: `seo-optimizer`
    - **Input**: Full MDC file content
    - **Output**: SEO optimization report
-   - **File**: `audits/components/seo-report-[slug]-[YYYY-MM-DD].md`
+   - **File**: `audits/components/seo-report-[slug].md`
 
 2. **Internal Linker Agent**
    - **Agent**: `internal-linker`
    - **Input**: MDC file content
    - **Output**: Internal linking recommendations (verify component CTAs and links reference valid URLs)
-   - **File**: `audits/components/link-suggestions-[slug]-[YYYY-MM-DD].md`
+   - **File**: `audits/components/link-suggestions-[slug].md`
 
 3. **Meta Creator Agent**
    - **Agent**: `meta-creator`
    - **Input**: MDC file content and target keyword
    - **Output**: Meta title/description options
-   - **File**: `audits/components/meta-options-[slug]-[YYYY-MM-DD].md`
+   - **File**: `audits/components/meta-options-[slug].md`
 
 **For landing pages** (source from `landing-pages/`):
 
@@ -200,13 +305,13 @@ Run agents appropriate to the detected content type:
    - **Agent**: `landing-page-optimizer`
    - **Input**: Full MDC file content
    - **Output**: CRO optimization report (above-fold, CTAs, trust signals, friction analysis)
-   - **File**: `audits/components/optimization-report-[slug]-[YYYY-MM-DD].md`
+   - **File**: `audits/components/optimization-report-[slug].md`
 
 2. **CRO Analyst Agent**
    - **Agent**: `cro-analyst`
    - **Input**: MDC file content and conversion goal
    - **Output**: Psychology and persuasion analysis
-   - **File**: `audits/components/cro-analysis-[slug]-[YYYY-MM-DD].md`
+   - **File**: `audits/components/cro-analysis-[slug].md`
 
 **For both content types:**
 
@@ -214,7 +319,7 @@ Run agents appropriate to the detected content type:
   - **Agent**: `content-analyzer`
   - **Input**: Full MDC file, meta elements, keywords
   - **Output**: Search intent, keyword density, readability, SEO quality rating
-  - **File**: `audits/components/content-analysis-[slug]-[YYYY-MM-DD].md`
+  - **File**: `audits/components/content-analysis-[slug].md`
 
 ---
 
@@ -231,10 +336,21 @@ These prevent the most common breakage in MDC files:
 
 ---
 
+## Cleanup Previous Stage
+After all processing is complete (conversion, scoring, agents), delete the source files:
+- Delete the source markdown file (from `drafts/` or `landing-pages/`)
+- If the source was from `drafts/`, also delete associated report files in `drafts/_reports/` that match the same topic slug
+- Only delete files related to this specific article, not the entire folder
+
 ## Output
-Save to: `components-ready/[slug]-[YYYY-MM-DD].md`
+Save to: `components-ready/[slug].md`
 
 ## File Management
-- Source files in `landing-pages/` or `drafts/` are NOT modified
 - Output goes to `components-ready/` as a new file
-- Use the same slug as the source file with the current date
+- Use the same slug as the source file
+
+## Next Steps
+
+After the file is saved to `components-ready/`, tell the user:
+
+> **Next step:** Run `/translate-components components-ready/[filename]` to translate to other locales.

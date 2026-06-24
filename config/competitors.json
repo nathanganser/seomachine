@@ -1,0 +1,80 @@
+{
+  "direct_competitors": [
+    "bexio.com",
+    "klara.ch",
+    "smallinvoice.ch",
+    "cashctrl.com",
+    "banana.ch"
+  ],
+  "content_competitors": [
+    "milchbueechli.ch",
+    "ezyfacture.ch"
+  ],
+  "bofu_keywords": [
+    "rechnungssoftware schweiz",
+    "buchhaltungssoftware schweiz",
+    "rechnungsprogramm freiberufler",
+    "rechnung erstellen schweiz",
+    "beste rechnungssoftware selbständige",
+    "bexio alternative",
+    "klara alternative",
+    "buchhaltung freelancer schweiz",
+    "magic heidi erfahrungen",
+    "magic heidi vs bexio"
+  ],
+  "mofu_keywords": [
+    "rechnung schreiben schweiz vorlage",
+    "mwst abrechnung schweiz",
+    "buchhaltung für selbständige",
+    "einnahmen ausgaben rechnung schweiz",
+    "qr rechnung schweiz erstellen",
+    "belege scannen app schweiz"
+  ],
+  "alternative_keywords": [
+    "bexio alternative",
+    "klara alternative",
+    "smallinvoice alternative",
+    "cashctrl alternative",
+    "banana buchhaltung alternative"
+  ],
+  "key_queries": [
+    "rechnungssoftware schweiz",
+    "buchhaltungssoftware selbständige",
+    "magic heidi"
+  ],
+  "relevant_terms": [
+    "rechnung",
+    "buchhaltung",
+    "mwst",
+    "selbständig",
+    "freiberufler",
+    "freelancer",
+    "software",
+    "app",
+    "schweiz",
+    "kostenlos",
+    "vergleich",
+    "alternative",
+    "qr-rechnung",
+    "belege scannen",
+    "einnahmen ausgaben"
+  ],
+  "skip_terms": [
+    "celebrity",
+    "net worth",
+    "biography",
+    "dating",
+    "reddit",
+    "wikipedia",
+    "youtube"
+  ],
+  "topic_patterns": {
+    "Product Features": ["feature", "tool", "funktion", "software", "app", "programm"],
+    "Pricing": ["preis", "pricing", "kosten", "kostenlos", "gratis", "plan", "free", "trial"],
+    "Tutorials": ["wie", "how to", "anleitung", "tutorial", "schritt", "guide", "tipps"],
+    "Comparisons": ["vs", "versus", "vergleich", "comparison", "alternative", "beste"],
+    "Tax & Compliance": ["mwst", "steuer", "steuererklärung", "abrechnung", "vorsteuer"],
+    "Invoicing": ["rechnung", "rechnungssoftware", "faktura", "qr-rechnung", "mahnung"],
+    "Accounting": ["buchhaltung", "buchführung", "bilanz", "einnahmen", "ausgaben", "kontenplan"]
+  }
+}

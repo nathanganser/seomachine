@@ -17,12 +17,13 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
+load_dotenv(os.path.join(os.path.dirname(__file__), 'data_sources', 'config', '.env'))
 
 # Add data_sources to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'data_sources'))
 
 from modules.google_search_console import GoogleSearchConsole
-from modules.google_analytics import GoogleAnalytics
+from modules.vercel_analytics import VercelAnalytics
 
 
 # Performance thresholds
@@ -48,20 +49,20 @@ def main():
         return
 
     try:
-        ga = GoogleAnalytics()
-        print("   ✓ Google Analytics 4 connected")
+        ga = VercelAnalytics()
+        print("   ✓ Vercel Analytics CSVs loaded")
     except Exception as e:
-        print(f"   ✗ GA4 Error: {e}")
-        print("   GA4 is required for performance matrix analysis")
+        print(f"   ✗ Vercel Analytics Error: {e}")
+        print("   Vercel Analytics CSV exports are required for performance matrix analysis")
         return
 
-    # Get all pages from GA4
-    print("\n2. Fetching page traffic data from GA4 (last 90 days)...")
+    # Get all pages from Vercel Analytics
+    print("\n2. Fetching page traffic data (last 90 days)...")
     try:
-        ga_pages = ga.get_top_pages(days=90, limit=500)
+        ga_pages = ga.get_top_pages(days=90, limit=500, path_filter=None)
         print(f"   ✓ Found {len(ga_pages)} pages with traffic")
     except Exception as e:
-        print(f"   ✗ Error fetching GA4 data: {e}")
+        print(f"   ✗ Error fetching Vercel Analytics data: {e}")
         return
 
     # Filter to blog/content pages only
@@ -374,7 +375,7 @@ def write_markdown_report(
             f.write(f"- **Monthly Traffic:** {page['monthly_pageviews']:,} pageviews\n")
             f.write(f"- **Expected Traffic:** {expected:,} pageviews\n")
             f.write(f"- **Traffic Gap:** {gap:,} pageviews/month missing\n")
-            f.write(f"- **Current CTR:** {page['ctr']*100:.2f}%\n")
+            f.write(f"- **Current CTR:** {page['ctr']:.2f}%\n")
             f.write(f"- **Priority:** {page['priority']}\n\n")
             f.write(f"**Action:** {page['action']}\n\n")
             f.write(f"**Specific Steps:**\n")

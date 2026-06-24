@@ -63,11 +63,11 @@ If the source file already has a locale suffix, keep it as-is.
 
 Before proceeding, check if any target files already exist (e.g., `slug.fr.md`). If they do, warn the user and ask whether to overwrite or skip.
 
-### Step 4: Sequential Translation (One Agent Per Locale)
+### Step 4: Parallel Translation (One Agent Per Locale)
 
-**CRITICAL**: Process one locale at a time. Do NOT attempt multiple locales in a single pass.
+**CRITICAL**: Spawn ALL locale agents in parallel (in a single message with multiple Agent tool calls). Each agent works independently on its own locale, keeping context minimal and focused.
 
-For each target locale, create a sub-agent (using the Task tool) with this briefing:
+For each target locale, create a sub-agent (using the Agent tool) with this briefing:
 
 ```
 You are translating an MDC component file to [TARGET LOCALE].
@@ -98,7 +98,7 @@ After saving, verify the structural integrity:
 - No URLs modified
 ```
 
-Wait for each agent to complete before starting the next locale.
+Launch all locale agents in parallel — they are independent and do not need to wait for each other.
 
 ### Step 5: Structural Validation
 

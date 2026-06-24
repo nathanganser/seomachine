@@ -215,7 +215,7 @@ Opportunities fall into quadrants:
 
 **Report Date**: [YYYY-MM-DD]
 **Analysis Period**: Last [X] days
-**Data Sources**: GA4, Google Search Console, DataForSEO
+**Data Sources**: Vercel Web Analytics (CSV exports), Google Search Console, DataForSEO
 
 ---
 
@@ -497,7 +497,7 @@ Based on opportunity analysis, allocate effort as follows:
 
 **How We'll Measure**:
 - Weekly ranking checks on target keywords
-- GA4 traffic monitoring on updated pages
+- Vercel Analytics traffic monitoring on updated pages (re-export CSVs to refresh)
 - GSC CTR tracking on meta improvements
 - DataForSEO competitor gap monitoring
 

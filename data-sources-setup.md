@@ -1,12 +1,12 @@
 # Data Sources Setup Guide
 
-This guide provides step-by-step instructions for setting up the data source integrations used by SEO Machine: Google Analytics 4 (GA4), Google Search Console, DataForSEO, and WordPress.
+This guide provides step-by-step instructions for setting up the data source integrations used by SEO Machine: Vercel Web Analytics (CSV-based), Google Search Console, DataForSEO, and WordPress.
 
 ---
 
 ## Table of Contents
 
-1. [Google Analytics 4 (GA4) Setup](#google-analytics-4-ga4-setup)
+1. [Vercel Web Analytics Setup](#vercel-web-analytics-setup)
 2. [Google Search Console Setup](#google-search-console-setup)
 3. [DataForSEO Setup](#dataforseo-setup)
 4. [WordPress Setup](#wordpress-setup)
@@ -15,72 +15,45 @@ This guide provides step-by-step instructions for setting up the data source int
 
 ---
 
-## Google Analytics 4 (GA4) Setup
+## Vercel Web Analytics Setup
 
-Google Analytics 4 provides traffic data, user behavior metrics, and page performance insights for your website.
+Vercel Web Analytics provides traffic data and referrer breakdowns for your site. The integration reads CSVs you export from the Vercel dashboard — no API credentials needed.
 
 ### Prerequisites
-- Admin access to your Google Analytics 4 property
-- A Google Cloud project (will be created if you don't have one)
+- A Vercel project with Web Analytics enabled
 
-### Step 1: Enable the Google Analytics Data API
+### Step 1: Export the "Top Pages" CSVs
 
-1. Go to the [Google Cloud Console](https://console.cloud.google.com/)
-2. Select or create a project for your SEO Machine integration
-3. Navigate to **APIs & Services > Library**
-4. Search for "Google Analytics Data API"
-5. Click on the API and click **Enable**
+1. Open your project in the [Vercel dashboard](https://vercel.com/dashboard)
+2. Click **Analytics** → **Pages**
+3. Use the date-range picker and **Export CSV** to download four files, one per window:
+   - **Last 24 hours**
+   - **Last 7 days**
+   - **Last 30 days**
+   - **Last 90 days**
+4. Keep Vercel's default filenames (e.g. `Top Pages - Mar 4, 13_00 - Jun 4, 14_59.csv`). The loader parses the dates from the filename to bucket each export to a window.
 
-### Step 2: Create a Service Account
+### Step 2: Export the "Top Referrers" CSV
 
-1. In Google Cloud Console, go to **APIs & Services > Credentials**
-2. Click **Create Credentials** and select **Service Account**
-3. Fill in the service account details:
-   - **Name**: `seo-machine-ga4` (or any descriptive name)
-   - **Description**: "Service account for SEO Machine GA4 integration"
-4. Click **Create and Continue**
-5. Skip the optional "Grant this service account access to project" step (click **Continue**)
-6. Skip the optional "Grant users access to this service account" step (click **Done**)
+1. In the same Analytics view, click **Referrers**
+2. Set the range to **Last 90 days** and **Export CSV**
+3. Save the file with its default name (e.g. `Top Referrers - Mar 4, 13_00 - Jun 4, 14_59.csv`)
 
-### Step 3: Create and Download the Service Account Key
+### Step 3: Place the CSVs
 
-1. Find your newly created service account in the **Credentials** page
-2. Click on the service account email
-3. Go to the **Keys** tab
-4. Click **Add Key > Create new key**
-5. Select **JSON** as the key type
-6. Click **Create**
-7. The JSON key file will automatically download to your computer
-8. **Important**: Keep this file secure! It provides access to your GA4 data
+Drop all five CSVs at the repo root. If you'd rather keep them elsewhere, set:
+```
+VERCEL_ANALYTICS_DIR=/absolute/path/to/your/csv/folder
+```
+in your `.env` file.
 
-### Step 4: Grant Access to Your GA4 Property
+### Step 4: Refresh Periodically
 
-1. Go to [Google Analytics](https://analytics.google.com/)
-2. Select your GA4 property
-3. Click **Admin** (gear icon in bottom left)
-4. Under **Property**, click **Property access management**
-5. Click the **+** button in the top right and select **Add users**
-6. Enter the service account email (from Step 2, looks like `seo-machine-ga4@your-project.iam.gserviceaccount.com`)
-7. Select the role **Viewer** (read-only access)
-8. Uncheck "Notify new users by email"
-9. Click **Add**
+Whenever you want fresh data, re-export the CSVs from Vercel and overwrite (or just add — the loader picks the most recently modified file per window). A weekly cadence is usually enough for SEO content workflows.
 
-### Step 5: Get Your GA4 Property ID
+### Limitations
 
-1. In Google Analytics, click **Admin**
-2. Under **Property**, click **Property Settings**
-3. Copy your **Property ID** (format: `123456789`)
-
-### Step 6: Configure the Integration
-
-1. Rename your downloaded JSON key file to `ga4-credentials.json`
-2. Move the file to: `credentials/ga4-credentials.json`
-3. Create a `.env` file in the root directory if it doesn't exist
-4. Add the following line to your `.env` file:
-   ```
-   GA4_PROPERTY_ID=123456789
-   ```
-   (Replace with your actual Property ID from Step 5)
+CSV exports do not include conversion events, bounce rate, engagement time, or per-page traffic sources. For those, you'd need to set up [Vercel Drains](https://vercel.com/docs/drains/reference/analytics) streaming events to your own datastore.
 
 ---
 
@@ -90,42 +63,36 @@ Google Search Console provides search query data, click-through rates, average p
 
 ### Prerequisites
 - Verified ownership of your website in Google Search Console
-- A Google Cloud project (same one used for GA4 is fine)
+- A Google Cloud project
 
 ### Step 1: Enable the Google Search Console API
 
 1. Go to the [Google Cloud Console](https://console.cloud.google.com/)
-2. Select the same project you used for GA4 (or create a new one)
+2. Select or create a project
 3. Navigate to **APIs & Services > Library**
 4. Search for "Google Search Console API"
 5. Click on the API and click **Enable**
 
-### Step 2: Create a Service Account (or Reuse Existing)
+### Step 2: Create a Service Account
 
-**Option A: Reuse Your GA4 Service Account** (Recommended)
-- You can use the same service account created for GA4
-- Skip to Step 3 and use the same JSON key file
-
-**Option B: Create a New Service Account**
 1. In Google Cloud Console, go to **APIs & Services > Credentials**
 2. Click **Create Credentials** and select **Service Account**
 3. Fill in the service account details:
    - **Name**: `seo-machine-gsc` (or any descriptive name)
    - **Description**: "Service account for SEO Machine GSC integration"
-4. Click **Create and Continue**
-5. Skip the optional steps and click **Done**
-6. Create and download a JSON key (same process as GA4 Step 3)
+4. Click **Create and Continue**, then skip the optional steps and click **Done**
+5. Find the service account in the **Credentials** page, click its email, go to the **Keys** tab
+6. Click **Add Key > Create new key**, choose **JSON**, click **Create**. The key file downloads automatically.
 
 ### Step 3: Grant Access to Your Search Console Property
 
 1. Go to [Google Search Console](https://search.google.com/search-console)
 2. Select your property (website)
 3. Click **Settings** in the left sidebar
-4. Click **Users and permissions**
-5. Click **Add user**
-6. Enter the service account email (e.g., `seo-machine-ga4@your-project.iam.gserviceaccount.com`)
-7. Select permission level: **Full** (required for API access, but only provides read access)
-8. Click **Add**
+4. Click **Users and permissions** → **Add user**
+5. Enter the service account email (e.g., `seo-machine-gsc@your-project.iam.gserviceaccount.com`)
+6. Select permission level: **Full** (required for API access, but only provides read access)
+7. Click **Add**
 
 ### Step 4: Get Your Site URL
 
@@ -135,20 +102,6 @@ Your site URL is the property name in Search Console, typically one of:
 - Check in Search Console settings to confirm the exact format
 
 ### Step 5: Configure the Integration
-
-**Using the Same Service Account as GA4** (Your Current Setup):
-
-Since you're using the same service account for both GA4 and GSC, the configuration is simple:
-
-1. **Credentials file**: Use the existing `credentials/ga4-credentials.json` (no additional file needed)
-2. **Add to your `.env` file**:
-   ```
-   GSC_SITE_URL=https://yoursite.com/
-   GSC_CREDENTIALS_PATH=credentials/ga4-credentials.json
-   ```
-3. The integration will automatically use the shared credentials file
-
-**If Using a Separate Service Account** (Alternative):
 
 1. Rename the JSON key to `gsc-credentials.json`
 2. Move to: `credentials/gsc-credentials.json`
@@ -259,17 +212,17 @@ See `wordpress/README.md` for more details.
 
 After setting up your data sources, test them to ensure they're working correctly.
 
-### Test GA4 Integration
+### Test Vercel Analytics Integration
 
-Run the GA4 agent to fetch traffic data:
+With the CSVs at the repo root, run the module directly:
 ```bash
-npm run agent:ga4-traffic-data
+python3 data_sources/modules/vercel_analytics.py
 ```
 
 Expected output:
-- List of top-performing pages with pageviews
-- Traffic metrics for recent time periods
-- No authentication errors
+- A list of detected windows (e.g. `[1, 7, 30, 90] day(s)`)
+- Top 10 pages from the 30-day window
+- Top traffic sources (from the Top Referrers CSV)
 
 ### Test Google Search Console Integration
 
@@ -299,20 +252,18 @@ Expected output:
 
 ## Troubleshooting
 
-### GA4 Issues
+### Vercel Analytics Issues
 
-**Error: "Permission denied"**
-- Verify the service account email is added to your GA4 property with Viewer permissions
-- Double-check you're using the correct Property ID in `.env`
+**Error: "No 'Top Pages*.csv' exports found in ..."**
+- Make sure the CSVs are at the repo root (or wherever `VERCEL_ANALYTICS_DIR` points)
+- Filenames must match Vercel's default format: `Top Pages - <Mon DD>, <HH_MM> - <Mon DD>, <HH_MM>.csv`
 
-**Error: "API not enabled"**
-- Make sure you enabled the Google Analytics Data API in Google Cloud Console
-- Wait a few minutes after enabling for changes to propagate
+**Only one or two windows detected**
+- Export all four windows from the Vercel dashboard (24h / 7d / 30d / 90d)
+- Trend analysis needs at least two windows; declining-pages analysis needs two distinct window lengths
 
-**Error: "Invalid credentials"**
-- Verify the JSON key file is in the correct location
-- Ensure the file hasn't been corrupted or modified
-- Check that the service account hasn't been deleted
+**Data feels stale**
+- Re-export the CSVs from the dashboard and replace the files. The loader picks the most-recently-modified file per window.
 
 ### Google Search Console Issues
 
@@ -397,8 +348,9 @@ Store encrypted backups of your credentials in a secure location:
 seomachine/
 ├── .env                          # Environment variables
 ├── credentials/
-│   ├── ga4-credentials.json     # GA4 service account key
-│   └── gsc-credentials.json     # GSC service account key (or reuse GA4)
+│   └── gsc-credentials.json     # GSC service account key
+├── Top Pages*.csv                # Vercel Web Analytics exports (4 windows)
+├── Top Referrers*.csv            # Vercel referrers export
 ├── config/
 │   └── competitors.json         # Competitor configuration
 └── data-sources-setup.md        # This file
@@ -406,11 +358,12 @@ seomachine/
 
 ### Environment Variables
 ```bash
-# Google Analytics 4
-GA4_PROPERTY_ID=123456789
+# Vercel Analytics (optional — defaults to repo root)
+# VERCEL_ANALYTICS_DIR=/path/to/csv/folder
 
 # Google Search Console
 GSC_SITE_URL=https://yoursite.com/
+GSC_CREDENTIALS_PATH=credentials/gsc-credentials.json
 COMPANY_NAME=Your Company
 
 # DataForSEO
@@ -424,8 +377,9 @@ WP_APP_PASSWORD=your_application_password
 ```
 
 ### Useful Links
+- [Vercel Dashboard](https://vercel.com/dashboard)
+- [Vercel Web Analytics docs](https://vercel.com/docs/analytics)
 - [Google Cloud Console](https://console.cloud.google.com/)
-- [Google Analytics](https://analytics.google.com/)
 - [Google Search Console](https://search.google.com/search-console)
 - [DataForSEO Dashboard](https://app.dataforseo.com/)
 - [DataForSEO API Documentation](https://docs.dataforseo.com/)

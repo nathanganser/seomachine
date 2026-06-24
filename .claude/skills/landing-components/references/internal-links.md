@@ -6,7 +6,8 @@
 /features
 /a-propos
 /bank-statement-import
-/bexio-alternative
+/alternative/bexio
+/alternative/banana
 /security
 /quotes
 /web
@@ -18,3 +19,4 @@
 /societe-individuelle-suisse
 /tutorials
 /reviews
+/brutto-netto-rechner-schweiz

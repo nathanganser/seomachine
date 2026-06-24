@@ -6,59 +6,123 @@ Use this command to conduct comprehensive SEO keyword research and competitive a
 `/research [topic]`
 
 ## What This Command Does
-1. Performs keyword research for your industry-related topics
+1. Fetches live keyword data and SERP results via DataForSEO
 2. Analyzes top-ranking competitor content
 3. Identifies content gaps and opportunities
-4. Develops unique angle for your company perspective
+4. Develops unique angle for Magic Heidi's positioning
 5. Creates detailed research brief for writing
+
+## Data Source: DataForSEO (NOT Ahrefs)
+
+**Always use DataForSEO** for all keyword and SERP data. Never use the Ahrefs MCP tools.
+
+### Detecting the keyword language
+- Determine the language from the topic/keyword itself
+- French keywords (contain accents, French words) → use `language_code="fr"`
+- Italian keywords → use `language_code="it"`
+- English keywords → use `language_code="en"`
+- German keywords (default) → use `language_code="de"` (or omit, it's the default)
+- Location is always Switzerland: `location_code=2756`
+
+### Step 1 — SERP data for the primary keyword
+```python
+import sys
+sys.path.insert(0, 'data_sources')
+from dotenv import load_dotenv
+load_dotenv('data_sources/config/.env')
+from modules.dataforseo import DataForSEO
+
+dfs = DataForSEO()
+# For French keyword:
+serp = dfs.get_serp_data("programme comptabilité suisse", language_code="fr")
+print(f"Volume: {serp['search_volume']}, CPC: {serp['cpc']}, Competition: {serp['competition']}")
+for r in serp['organic_results'][:10]:
+    print(r['position'], r['domain'], r['title'], r['url'])
+print("SERP features:", serp['features'])
+```
+
+### Step 2 — Related keyword ideas
+```python
+ideas = dfs.get_keyword_ideas("programme comptabilité suisse", language_code="fr", limit=50)
+for kw in ideas[:20]:
+    print(kw['keyword'], kw['search_volume'], kw['competition'])
+```
+
+### Step 3 — Question keywords (People Also Ask)
+```python
+questions = dfs.get_questions("programme comptabilité suisse", language_code="fr", limit=30)
+for q in questions[:10]:
+    print(q['keyword'])
+```
+
+### Step 4 — Magic Heidi's current ranking
+```python
+rankings = dfs.get_rankings(
+    domain="magicheidi.ch",
+    keywords=["programme comptabilité suisse", "logiciel comptabilité suisse"],
+    language_code="fr"
+)
+for r in rankings:
+    print(r['keyword'], r['position'], r['url'])
+```
+
+### Step 5 — Competitor comparison
+```python
+comp = dfs.analyze_competitor(
+    competitor_domain="cresus.ch",
+    keywords=["programme comptabilité suisse", "logiciel comptabilité indépendant suisse"],
+    your_domain="magicheidi.ch",
+    language_code="fr"
+)
+for c in comp['comparison']:
+    print(c['keyword'], "Crésus:", c['competitor_position'], "MH:", c['your_position'])
+```
+
+Run all steps using inline Python via the Bash tool. Parse the output to build the research brief.
 
 ## Process
 
-### Keyword Research
-- **Primary Keyword**: Identify main target keyword for the topic
-- **Search Volume & Difficulty**: Research estimated monthly searches and competition level
-- **Keyword Variations**: Find semantic variations and long-tail opportunities
-- **Related Questions**: Discover what people are actually asking (People Also Ask, forums, Reddit)
-- **Search Intent**: Determine if intent is informational, navigational, commercial, or transactional
-- **Topic Cluster**: Identify how this topic fits into your company content clusters
+### Keyword Research (via DataForSEO)
+- **Primary Keyword**: Identify main target keyword from the topic
+- **Search Volume & Difficulty**: Pull live CH volume, CPC, competition score from DataForSEO SERP data
+- **Keyword Variations**: Use `get_keyword_ideas()` to find semantic variations and long-tail opportunities
+- **Related Questions**: Use `get_questions()` to discover People Also Ask queries
+- **Search Intent**: Determine from SERP result types and titles (informational / commercial / transactional)
+- **Topic Cluster**: Cross-reference with @context/target-keywords.md to place in existing cluster
 
-### Competitive Analysis
-- **Top 10 SERP Review**: Analyze the top 10 ranking articles for target keyword
-- **Content Length**: Note word count of top-performing articles (benchmark target)
-- **Common Themes**: What topics/sections do all top articles cover?
+### Competitive Analysis (via DataForSEO SERP data)
+- **Top 10 SERP Review**: Extract from `get_serp_data()` organic_results — note domain, title, URL for each
+- **SERP Features**: Note features array (featured_snippet, people_also_ask, video, etc.)
+- **Common Themes**: What do top-ranking titles and domains have in common?
 - **Content Gaps**: What's missing from competitor coverage?
-- **Unique Angles**: What perspectives or insights are underexplored?
-- **Featured Snippets**: Identify if there's a featured snippet opportunity
-- **Domain Authority**: Note which competitors rank (indie blogs vs. major publications)
+- **Unique Angles**: What perspectives are underexplored?
+- **Magic Heidi Position**: Use `get_rankings()` to find current position (if any)
 
 ### Context Integration
-- **your company Advantage**: How can your company product features naturally enhance this content?
-- **Brand Alignment**: Check @context/brand-voice.md for messaging fit
-- **Existing Content**: Review @context/internal-links-map.md for related your company articles
+- **Magic Heidi Advantage**: How can Magic Heidi's features naturally enhance this content?
+- **Brand Alignment**: Check @context/brand-voice.md for tone and messaging fit
+- **Existing Content**: Review @context/internal-links-map.md for internal linking opportunities
 - **Target Keywords**: Cross-reference with @context/target-keywords.md priority list
 - **SEO Guidelines**: Ensure research aligns with @context/seo-guidelines.md requirements
 
-### Podcast Industry Focus
-- **Podcast Creator Angle**: How does this topic specifically impact target audiences?
-- **Technical Requirements**: Any your industry-specific technical considerations?
-- **Industry Trends**: Current trends in your industry that relate to this topic
-- **Use Cases**: Real podcast scenarios where this topic matters
-- **Pain Points**: Specific challenges target audiences face with this topic
+### Swiss Freelancer Focus
+- **Freelancer Angle**: How does this topic specifically impact Swiss independents?
+- **Swiss-Specific Rules**: Any canton, TVA, AHV, or Swiss legal considerations?
+- **Language Market**: Which language(s) does this serve? (German 70%, French 20%, Italian 5%, English 5%)
+- **Pain Points**: What specific admin challenges do Swiss freelancers face with this topic?
 
 ### Content Planning
-- **Recommended Structure**: Outline H2 and H3 headings based on research
-- **Content Depth**: Determine target word count (typically 2000-3000+ for SEO)
-- **Supporting Evidence**: Identify statistics, studies, or data to include
-- **Expert Sources**: Find industry experts or quotes to reference
-- **Visual Opportunities**: Suggest images, screenshots, or graphics needed
-- **Internal Links**: Map 3-5 key your company pages to link to (from @context/internal-links-map.md)
-- **External Authority**: Identify 2-3 authoritative external sources to link
+- **Recommended Structure**: Outline H2 and H3 headings based on SERP patterns
+- **Content Depth**: Determine target word count (benchmark from top 10 average)
+- **Supporting Evidence**: Identify statistics, Swiss legal references, or data to include
+- **Internal Links**: Map 3-5 key Magic Heidi pages to link to (from @context/internal-links-map.md)
+- **External Authority**: Identify 2-3 authoritative external sources (admin.ch, estv.admin.ch, six-group.com, etc.)
 
 ### Hook Development
 - **Introduction Angle**: Compelling way to open the article
-- **Value Proposition**: Clear benefit reader will get from article
-- **Contrarian Elements**: Any unexpected perspectives to explore
-- **Story Opportunities**: Real examples or case studies to feature
+- **Value Proposition**: Clear benefit the reader will get
+- **Contrarian Elements**: Any unexpected Swiss-specific perspectives
+- **Story Opportunities**: Real freelancer scenarios to feature
 
 ## Output
 Provides a comprehensive research brief with:

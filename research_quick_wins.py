@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "data_sources"))
 
 from modules.google_search_console import GoogleSearchConsole
 from modules.dataforseo import DataForSEO
-from modules.google_analytics import GoogleAnalytics
+from modules.vercel_analytics import VercelAnalytics
 from modules.opportunity_scorer import OpportunityScorer, OpportunityType
 from modules.search_intent_analyzer import SearchIntentAnalyzer
 
@@ -67,10 +67,10 @@ def main():
         dfs = None
 
     try:
-        ga = GoogleAnalytics()
-        print("   ✓ Google Analytics 4 connected")
+        ga = VercelAnalytics()
+        print("   ✓ Vercel Analytics CSVs loaded")
     except Exception as e:
-        print(f"   ⚠ GA4 Error: {e}")
+        print(f"   ⚠ Vercel Analytics Error: {e}")
         ga = None
 
     # Initialize scoring and analysis modules
@@ -157,15 +157,14 @@ def main():
             except Exception as e:
                 print(f"  DataForSEO error: {e}")
 
-        # Get page performance from GA4 (if we have the URL)
+        # Get page performance from Vercel Analytics (if we have the URL)
         if ga and kw.get("ranking_url"):
             try:
-                # Extract path from URL
                 from urllib.parse import urlparse
 
                 path = urlparse(kw["ranking_url"]).path
 
-                print(f"\nChecking GA4 performance for {path}...")
+                print(f"\nChecking analytics for {path}...")
                 page_data = ga.get_page_performance(path, days=30)
 
                 if page_data and "pageviews" in page_data:
@@ -178,7 +177,7 @@ def main():
                     kw["pageviews"] = page_data["pageviews"]
                     kw["engagement"] = page_data.get("avg_engagement_time", 0)
             except Exception as e:
-                print(f"  GA4 error: {e}")
+                print(f"  Analytics error: {e}")
 
         # Calculate enhanced opportunity score
         print(f"\nEnhanced Scoring Analysis...")
@@ -226,7 +225,20 @@ def main():
                 if hasattr(primary_intent, "value"):
                     primary_intent = primary_intent.value
                 kw["search_intent"] = str(primary_intent)
-                kw["intent_confidence"] = float(intent_result.get("confidence", 0))
+                # confidence may be a dict keyed by intent or a numeric scalar
+                confidence_data = intent_result.get("confidence", 0)
+                if isinstance(confidence_data, dict):
+                    # Pull confidence for the primary intent (fall back to overall/max)
+                    kw["intent_confidence"] = float(
+                        confidence_data.get(str(primary_intent))
+                        or confidence_data.get("overall")
+                        or (max(confidence_data.values()) if confidence_data else 0)
+                    )
+                else:
+                    try:
+                        kw["intent_confidence"] = float(confidence_data) if confidence_data else 0.0
+                    except (TypeError, ValueError):
+                        kw["intent_confidence"] = 0.0
                 print(
                     f"  Search Intent: {kw['search_intent']} (confidence: {kw['intent_confidence']:.0f}%)"
                 )
@@ -441,7 +453,8 @@ def write_markdown_report(opportunities):
         f.write(f"**Combined Metrics:**\n")
         f.write(f"- Total Impressions: {total_impressions:,}\n")
         f.write(f"- Total Current Clicks: {total_clicks}\n")
-        f.write(f"- Current CTR: {(total_clicks / total_impressions * 100):.2f}%\n\n")
+        current_ctr_pct = (total_clicks / total_impressions * 100) if total_impressions > 0 else 0.0
+        f.write(f"- Current CTR: {current_ctr_pct:.2f}%\n\n")
         f.write(f"**Potential Impact:**\n")
         f.write(f"- Target CTR (page 1): 5.5%\n")
         f.write(f"- Potential Total Clicks: {estimated_potential}\n")

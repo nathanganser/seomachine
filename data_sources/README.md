@@ -12,14 +12,13 @@ Data sources provide real-time performance metrics for:
 
 ## Supported Data Sources
 
-### Google Analytics 4 (GA4)
-- **Purpose**: Traffic, engagement, and conversion data
+### Vercel Web Analytics (CSV-based)
+- **Purpose**: Traffic and referrer data, read from manually-exported CSVs
 - **Key Metrics**:
-  - Page views and sessions by article
-  - Average engagement time
-  - Bounce rate and scroll depth
-  - Conversion tracking (sign-ups, trials)
-  - Traffic sources (organic, direct, referral)
+  - Pageviews and unique visitors by path
+  - Site-wide referrer breakdown (google.com, chatgpt.com, etc.)
+  - Trends across 1/7/30/90-day windows (when all four CSVs are present)
+- **Not available from CSV exports**: bounce rate, engagement time, conversion events, per-page traffic sources. Set up [Vercel Drains](https://vercel.com/docs/drains/reference/analytics) for those.
 
 ### Google Search Console
 - **Purpose**: Search performance and keyword data
@@ -45,11 +44,10 @@ Data sources provide real-time performance metrics for:
 data_sources/
 ├── config/                 # API credentials and settings
 │   ├── .env.example       # Template for environment variables
-│   ├── ga4_config.json    # GA4 property settings
 │   ├── gsc_config.json    # Search Console property settings
 │   └── dataforseo_config.json  # DataForSEO settings
 ├── modules/               # Integration modules
-│   ├── google_analytics.py
+│   ├── vercel_analytics.py  # Reads CSV exports from Vercel Web Analytics
 │   ├── google_search_console.py
 │   ├── dataforseo.py
 │   └── data_aggregator.py
@@ -67,26 +65,26 @@ data_sources/
 ### 1. Install Dependencies
 
 ```bash
-pip install google-analytics-data google-auth-oauthlib google-auth-httplib2
-pip install google-api-python-client
-pip install requests python-dotenv pandas
-```
-
-Or use the requirements file:
-```bash
 pip install -r data_sources/requirements.txt
 ```
 
-### 2. Configure API Credentials
+### 2. Configure Data Sources
 
-#### Google Analytics 4
-1. Go to [Google Cloud Console](https://console.cloud.google.com/)
-2. Create a new project or select existing
-3. Enable Google Analytics Data API
-4. Create service account credentials
-5. Download JSON key file
-6. Save as `data_sources/config/ga4_credentials.json`
-7. Add service account email to GA4 property (View access)
+#### Vercel Web Analytics (CSV-based)
+The traffic analytics integration reads manually-exported CSVs from the Vercel
+Web Analytics dashboard. No API credentials needed.
+
+1. Open your project in the [Vercel dashboard](https://vercel.com/dashboard)
+2. Go to **Analytics → Pages → Export CSV** (and **Referrers → Export CSV**)
+3. Export four time windows for Pages: **24h, 7d, 30d, 90d** (or as close as the UI offers)
+4. Export one Referrers CSV (90d recommended)
+5. Drop the files at the repo root — leave Vercel's default filenames
+   (`Top Pages - <Mon DD>, <HH_MM> - <Mon DD>, <HH_MM>.csv`)
+6. Re-export when you want fresh data (overwrite or add — the loader picks the
+   most recent file per window)
+
+Optional: set `VERCEL_ANALYTICS_DIR=/some/other/path` to keep the CSVs out of
+the repo root.
 
 #### Google Search Console
 1. Use same Google Cloud project
@@ -104,7 +102,7 @@ pip install -r data_sources/requirements.txt
    DATAFORSEO_PASSWORD=your_password
    ```
 
-### 3. Configure Data Sources
+### 3. Configure Environment
 
 Copy example config:
 ```bash
@@ -113,9 +111,8 @@ cp data_sources/config/.env.example data_sources/config/.env
 
 Edit `.env` with your credentials:
 ```env
-# Google Analytics 4
-GA4_PROPERTY_ID=123456789
-GA4_CREDENTIALS_PATH=data_sources/config/ga4_credentials.json
+# Vercel Analytics (optional — defaults to repo root)
+# VERCEL_ANALYTICS_DIR=/path/to/csv/folder
 
 # Google Search Console
 GSC_SITE_URL=https://castos.com
@@ -135,24 +132,24 @@ CACHE_TTL_HOURS=24
 
 ### From Command Line
 
-#### Fetch Google Analytics Data
+#### Fetch Vercel Analytics Data (from CSVs)
 ```python
-from data_sources.modules.google_analytics import GoogleAnalytics
+from data_sources.modules.vercel_analytics import VercelAnalytics
 
-ga = GoogleAnalytics()
+ga = VercelAnalytics()  # reads Top Pages*.csv from repo root
 
-# Get top performing articles (last 30 days)
-top_articles = ga.get_top_pages(days=30, limit=10)
+# Get top pages (closest available window is used: 1/7/30/90 days)
+top_articles = ga.get_top_pages(days=30, limit=10, path_filter=None)
 
-# Get traffic trends for specific URL
-trends = ga.get_page_trends(
-    url="/blog/podcast-monetization-guide",
-    days=90
-)
+# Trend across the four windows
+trends = ga.get_page_trends(url="/blog/podcast-monetization-guide", days=90)
 
-# Get conversion data
-conversions = ga.get_conversions(days=30)
+# Site-wide traffic sources (from Top Referrers*.csv)
+sources = ga.get_traffic_sources(days=90)
 ```
+
+Note: conversions and per-page traffic sources are not in the CSV export.
+For those you'd need Vercel Drains streaming events to your own store.
 
 #### Fetch Search Console Data
 ```python
@@ -257,9 +254,8 @@ To avoid API rate limits and costs:
 The Performance Agent uses this data to:
 
 1. **Identify Declining Content**
-   - Articles losing traffic (GA4)
+   - Articles losing traffic (Vercel Analytics — compares 30d vs 90d windows)
    - Keywords dropping in position (GSC + DataForSEO)
-   - Increased bounce rates (GA4)
 
 2. **Find Quick Wins**
    - Keywords ranking 11-20 (GSC + DataForSEO)

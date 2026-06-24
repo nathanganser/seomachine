@@ -95,12 +95,13 @@ This gets pulled into AI-generated summaries and helps both AI and human readers
 **REQUIRED: Mini-Stories (2-3 per article)**
 
 Research shows we're 22x more likely to remember facts wrapped in stories. Every article MUST include 2-3 mini-scenarios with:
-- A **specific person** (use names, even if fictional: "Sarah," "Mike," "The team at Acme Corp")
-- A **concrete situation** with details (dates, numbers, specifics)
+- A **hypothetical frame** that signals the story is illustrative ("Let's take the example of...", "Imagine...", "Picture...", "Consider someone like...")
+- A **specific person** with a name, explicitly called fictional ("Marc, a fictional Swiss designer")
+- A **concrete situation** with details (numbers, specifics, plausible context)
 - A **clear outcome** that illustrates the point
 
 **Example mini-story (aim for 50-150 words each):**
-> "When Marcus launched his SaaS product in March 2024, he chose the cheapest hosting plan he could find, $5/month seemed like a no-brainer. Six months later, his app hit 10,000 active users. That's when he discovered the hidden bandwidth fees buried in his provider's terms. His $5/month plan suddenly became $89/month. Worse, migrating mid-growth meant a 3-week gap in analytics that cost him a $2,000 partnership deal. The 'savings' from cheap hosting cost him over $3,000."
+> "Let's take the example of Marc, a fictional Swiss designer who wants to become a freelancer. Instead of applying for a trade license or creating a legal entity, he needs to just start finding his first clients and invoice. It's only after having found 2-3 clients that Marc will be able to apply for his freelancer status."
 
 **Place mini-stories:**
 - One in the introduction or early section (to hook readers)
@@ -143,9 +144,22 @@ Don't just put one CTA at the end. Embedded CTAs get 121% more conversions than 
 #### Internal Linking (3-5+ links)
 - Reference @context/internal-links-map.md for key pages
 - Link to relevant pillar content from your site
-- Link to related blog articles
 - Link to product/service pages where natural
 - Use descriptive anchor text with keywords
+
+#### Inline Article Links (only when relevant)
+
+After drafting, do one pass over @context/internal-links-map.md and insert inline links to any URL listed there that is genuinely relevant to a specific sentence in the article. **Only link when the destination meaningfully extends or supports what the sentence is saying** — do not force links for the sake of count.
+
+**Rules:**
+- Only use URLs that appear in `@context/internal-links-map.md`. If a relevant destination isn't in the map yet, flag it to the user instead of inventing a URL.
+- Match the language: German article → `/de/...` URLs; French → `/fr/...`; Italian → `/it/...`; English → root paths (no `/en/`).
+- Always use the canonical post-redirect URL from the redirect table at the top of the map.
+- Use descriptive anchor text (the map suggests anchor examples per language) — not "click here" or "read more".
+- Place the link inline where the topic naturally arises in the body, not in a "Related articles" block at the end.
+- Don't double-link the same destination, and don't stack multiple links in one paragraph.
+- Add every URL you link to `internal_links` in the article's frontmatter.
+- Zero is a valid answer — if nothing in the map is genuinely relevant, add no inline links from this pass.
 
 #### External Linking (2-3 links)
 - Link to authoritative sources for statistics
@@ -206,6 +220,7 @@ Word Count: [actual word count]
 - [ ] Primary keyword in 2+ H2 headings
 - [ ] Keyword density 1-2%
 - [ ] 3-5+ internal links included
+- [ ] Inline-article-links pass done against @context/internal-links-map.md (only relevant links added)
 - [ ] 2-3 external authority links
 - [ ] Meta title 50-60 characters
 - [ ] Meta description 150-160 characters
@@ -233,11 +248,11 @@ Word Count: [actual word count]
 
 ## File Management
 After completing the article, automatically save to:
-- **File Location**: `drafts/[topic-slug]-[YYYY-MM-DD].md`
+- **File Location**: `drafts/[topic-slug].md`
 - **File Format**: Markdown with frontmatter and formatted content
-- **Naming Convention**: Use lowercase, hyphenated topic slug and current date
+- **Naming Convention**: Use lowercase, hyphenated topic slug
 
-Example: `drafts/content-marketing-strategies-2025-10-15.md`
+Example: `drafts/content-marketing-strategies.md`
 
 ## Automatic Content Scrubbing
 
@@ -281,7 +296,7 @@ After saving the main article, immediately execute optimization agents:
 - **Agent**: `content-analyzer`
 - **Input**: Full article, meta elements, keywords, SERP data (if available)
 - **Output**: Comprehensive analysis covering search intent, keyword density, content length comparison, readability score, and SEO quality rating
-- **File**: `drafts/_reports/content-analysis-[topic-slug]-[YYYY-MM-DD].md`
+- **File**: `drafts/_reports/content-analysis-[topic-slug].md`
 
 This new agent uses 5 specialized analysis modules:
 - Search intent analysis
@@ -294,25 +309,25 @@ This new agent uses 5 specialized analysis modules:
 - **Agent**: `seo-optimizer`
 - **Input**: Full article content
 - **Output**: SEO optimization report and suggestions
-- **File**: `drafts/_reports/seo-report-[topic-slug]-[YYYY-MM-DD].md`
+- **File**: `drafts/_reports/seo-report-[topic-slug].md`
 
 ### 3. Meta Creator Agent
 - **Agent**: `meta-creator`
 - **Input**: Article content and primary keyword
 - **Output**: Multiple meta title/description options
-- **File**: `drafts/_reports/meta-options-[topic-slug]-[YYYY-MM-DD].md`
+- **File**: `drafts/_reports/meta-options-[topic-slug].md`
 
 ### 4. Internal Linker Agent
 - **Agent**: `internal-linker`
 - **Input**: Article content
 - **Output**: Specific internal linking recommendations
-- **File**: `drafts/_reports/link-suggestions-[topic-slug]-[YYYY-MM-DD].md`
+- **File**: `drafts/_reports/link-suggestions-[topic-slug].md`
 
 ### 5. Keyword Mapper Agent
 - **Agent**: `keyword-mapper`
 - **Input**: Article and target keywords
 - **Output**: Keyword placement analysis and improvements
-- **File**: `drafts/_reports/keyword-analysis-[topic-slug]-[YYYY-MM-DD].md`
+- **File**: `drafts/_reports/keyword-analysis-[topic-slug].md`
 
 ## Automatic Quality Loop
 
@@ -360,6 +375,12 @@ The `_REVIEW_NOTES.md` file contains:
 - Remaining priority fixes
 - Reason for human review
 
+## Cleanup Previous Stage
+After all processing is complete (scrubbing, scoring, agents), delete the research brief file that was used as input:
+- If a research brief from `research/` was provided or referenced, delete that file
+- If `/write` was invoked with just a topic (no brief), skip this step
+- Only delete the specific brief file used, not the entire `research/` folder
+
 ## Quality Standards
 Every article must meet these requirements:
 
@@ -388,3 +409,9 @@ Every article must meet these requirements:
 - Publish-ready quality
 
 This ensures every article is comprehensive, optimized, engaging, and ready to rank while providing genuine value to your target audience.
+
+## Next Steps
+
+After the article is complete and passes quality scoring, tell the user:
+
+> **Next step:** Run `/convert-to-components drafts/[filename]` to convert the article to MDC component format.

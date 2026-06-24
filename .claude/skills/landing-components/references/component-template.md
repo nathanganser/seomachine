@@ -57,7 +57,7 @@ The foundational layout component. Most section components extend it.
 Props:
   - label (string, optional) — small uppercase label above title
   - title (string, required) — main heading (supports HTML: <span>, <br>). 4-5 words ideally.
-  - subtitle (string, optional) — text below title  - max 2 sentenses 
+  - subtitle (string, optional) — text below title. Target 1 sentence, ≤20 words. Hard cap 2 sentences. Inline HTML supported (<span>, <br>, <strong>, <em>, <a href="…">…</a>). For feature sections, append `<a href="/feature-path">Mehr zu X →</a>` at the end of the subtitle to deep-link to the matching feature page (/invoicing, /ai-expenses-scanning, /accounting, /vat-management, /bank-statement-import, /security, /customer-management, /quotes, /web, /iphone, /mac, /windows, /freelancer). Long multi-clause subtitles read as filler — trim ruthlessly.
   - theme ('light' | 'dark', default 'light') — color scheme
   - orientation ('vertical' | 'horizontal', default 'vertical') — layout direction
   - fullscreen (boolean) — centers content in 100vh
@@ -246,7 +246,8 @@ Horizontal hero section with image + highlights (emoji/title/description).
 Extends hero-basic. Great for product reviews, detailed feature sections.
 =================================================================
 Props (in addition to all hero-basic props):
-  - image (required) — { src: string, alt?: string }
+  - image (required if no video) — { src: string, alt?: string }
+  - video (alternative to image) — { src: string } — looping silent .mp4. Prefer video over image when an animation file exists for the topic (e.g. invoice-gen.{locale}.mp4 for the invoicing showcase).
   - highlights (HighlightItem[], optional):
       - icon (string) — emoji displayed to the left
       - title (string) — short heading
@@ -273,6 +274,27 @@ highlights:
   - icon: "📊"
     title: Tax-Ready Reports
     description: "Export clean reports your accountant will love. Always audit-ready."
+---
+::
+
+<!-- Feature showcase with VIDEO (looping .mp4) instead of image — confirmed working -->
+::feature-showcase
+---
+label: Magic Heidi
+title: "Buchhaltung, Faktura und Spesen <span>in einer App</span>"
+subtitle: "Eine App für die drei Werkzeuge, die du täglich brauchst."
+video:
+  src: "invoice-gen.{locale}.mp4"
+highlights:
+  - icon: "🇨🇭"
+    title: Swiss QR Invoices
+    description: "SIX-konforme QR-Rechnungen, deine Kunden zahlen mit einem Scan."
+  - icon: "🤖"
+    title: KI-Belegscan
+    description: "Foto vom Beleg, Magic Heidi liest Datum, Betrag und MWST heraus."
+  - icon: "📊"
+    title: MWST automatisch
+    description: "Magic Heidi rechnet jede Rechnung korrekt, du übernimmst die Quartalszahlen."
 ---
 ::
 
@@ -641,7 +663,10 @@ Props:
       - quote (string)
       - author (string)
       - role (string)
+      - link (string, optional) — URL to the source review page (Capterra, Google, Trustpilot, App Store, etc.). Renders the review card as a clickable link to the source.
       - avatarUrl (string, optional) — custom avatar image (falls back to DiceBear generated)
+
+Convention: when reviews come from public review sites, set `link:` on each item so visitors can click through to verify. Use the source's name in `author` (e.g., "Capterra Bewertung", "Google Bewertung", "Trustpilot Bewertung") and put the rating + a "alle Bewertungen lesen" hint in `role`.
 -->
 ::hero-reviews
 ---
@@ -652,16 +677,18 @@ cta:
   label: Join them today
   url: /start
 items:
-  - quote: "First testimonial quote text here. Keep it authentic and specific."
-    author: Person One
-    role: Job Title, Location
-  - quote: "Second testimonial in another language if needed. Shows multilingual support."
-    author: Nathan Ganser
-    role: Founder @ Magic Heidi
-    avatarUrl: "avatar: "https://magicheidi.ch/images/visuals/nathan.webp""
-  - quote: "Third testimonial quote. Mix of languages and roles builds credibility."
-    author: Person Three
-    role: Third Role
+  - quote: "First testimonial — short, specific, mentions an outcome or workflow win."
+    author: "Capterra Bewertung"
+    role: "4.7★ — alle Bewertungen lesen"
+    link: "https://www.capterra.com/p/10020344/Magic-Heidi/"
+  - quote: "Second testimonial referencing a different angle or product strength."
+    author: "Google Bewertung"
+    role: "5.0★ — alle Bewertungen lesen"
+    link: "https://maps.app.goo.gl/KD7uvvF2vJGNupxR8"
+  - quote: "Third testimonial. Different source, different angle keeps it credible."
+    author: "Trustpilot Bewertung"
+    role: "4.5★ — alle Bewertungen lesen"
+    link: "https://www.trustpilot.com/review/magicheidi.ch"
 ---
 ::
 
@@ -778,20 +805,47 @@ secondary:
 <!--
 =================================================================
 HERO-CTA-LINKS
-Standalone CTA section with title/subtitle + button links.
-Nest inside hero-basic (see "Hero Basic Coral Background" example above), do not use alone.
+CTA card with title/subtitle + button links.
+ALWAYS nest inside hero-basic for proper section padding and background.
+Do not use as a top-level component on its own.
 =================================================================
 Props:
-  - title (string)
-  - subtitle (string)
+  - title (string) — card headline
+  - subtitle (string) — supporting text below the title
   - links (CTAButtonProps[]):
       - label (string)
-      - url (string, required)
+      - url (string, required) — internal path (/start), external URL, or asset URL
       - variant ('primary' | 'secondary')
-      - icon (string, optional)
-      - external (boolean, optional)
+      - icon (string, optional) — emoji rendered inside the button (e.g. 📝, 📕, ⬇️, ✨)
+      - external (boolean, optional) — opens in new tab
   - style (object, optional) — inline CSS e.g. { margin-top: '120px' }
+
+Pattern: keep title/subtitle on hero-cta-links, NOT on the hero-basic wrapper.
+Use hero-basic only for section styling (background class, label, layout).
+This avoids duplicate headlines and keeps the CTA card self-contained.
 -->
+
+<!-- Standalone CTA section (download buttons, sign-up, etc.) -->
+::hero-basic{.bg-cream}
+---
+label: Download
+---
+  ::hero-cta-links
+  ---
+  title: "Hol dir die Vorlage jetzt"
+  subtitle: "Word und PDF mit allen Pflichtangaben. Kostenlos, ohne Anmeldung."
+  links:
+    - label: Word herunterladen
+      url: "https://example.com/template.docx"
+      variant: primary
+      icon: 📝
+    - label: PDF herunterladen
+      url: "https://example.com/template.pdf"
+      variant: secondary
+      icon: 📕
+  ---
+  ::
+::
 
 
 <!--
@@ -824,7 +878,12 @@ BLOG COMPONENTS
 -->
 
 <!--
-Blog wrapper — wraps content with SEO metadata, structured data, author display.
+Blog header — renders the article title, description, publication date, and author display with structured data for SEO.
+
+`::blog` may wrap `::markdown` blocks (with `as: article`) for the article body. It MUST NOT wrap other components — `::pages-landing-faq`, `::pages-landing-comparison`, `::feature-grid`, `::feature-image`, `::feature-showcase`, `::hero-reviews`, etc. all go AFTER `::blog`'s closing `::`, as siblings.
+
+Place `::blog` first on the page (after page frontmatter). Indent nested `::markdown` blocks with 2 spaces.
+
 Props:
   - date (string) — publication date - Write directly the date
   - title (string) — article title
@@ -844,7 +903,23 @@ author:
   description: "Founder of Magic Heidi"
   avatar: "https://magicheidi.ch/images/visuals/nathan.webp"
 ---
-Blog content goes here. Full markdown supported.
+
+  ::markdown
+  ---
+  as: article
+  ---
+  Article body prose goes here. Add more `::markdown as: article` blocks for additional prose sections.
+  ::
+
+::
+
+<!-- Structured components (FAQ, comparison, feature-grid, etc.) come AFTER `::blog`, as siblings -->
+::pages-landing-faq
+---
+items:
+  - question: "Example question?"
+    answer: "Example answer."
+---
 ::
 
 <!-- Blog author data — standalone author profile display -->
@@ -897,6 +972,10 @@ Drop into any content page.
 
 <!-- Swiss salary calculator -->
 ::salary-calculator
+::
+
+<!-- Swiss monthly-to-hourly wage calculator (Stundenlohn-Rechner) -->
+::hourly-wage-calculator
 ::
 
 <!-- Swiss freelancer tax calculator -->

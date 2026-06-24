@@ -18,8 +18,8 @@ def load_research_quick_wins_module():
     google_search_console.GoogleSearchConsole = object
     dataforseo = types.ModuleType("modules.dataforseo")
     dataforseo.DataForSEO = object
-    google_analytics = types.ModuleType("modules.google_analytics")
-    google_analytics.GoogleAnalytics = object
+    vercel_analytics = types.ModuleType("modules.vercel_analytics")
+    vercel_analytics.VercelAnalytics = object
     opportunity_scorer = types.ModuleType("modules.opportunity_scorer")
     opportunity_scorer.OpportunityScorer = object
     opportunity_scorer.OpportunityType = object
@@ -31,7 +31,7 @@ def load_research_quick_wins_module():
         "modules": modules_pkg,
         "modules.google_search_console": google_search_console,
         "modules.dataforseo": dataforseo,
-        "modules.google_analytics": google_analytics,
+        "modules.vercel_analytics": vercel_analytics,
         "modules.opportunity_scorer": opportunity_scorer,
         "modules.search_intent_analyzer": search_intent,
     }

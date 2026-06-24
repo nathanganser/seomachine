@@ -1,5 +1,4 @@
-# Google Analytics and Search Console
-google-analytics-data>=0.18.0
+# Google Search Console (Vercel Analytics uses CSV exports — no API client needed)
 google-auth>=2.23.0
 google-auth-oauthlib>=1.1.0
 google-auth-httplib2>=0.1.1

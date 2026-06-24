@@ -12,7 +12,7 @@ SEO Machine is an open-source Claude Code workspace for creating SEO-optimized b
 pip install -r data_sources/requirements.txt
 ```
 
-API credentials are configured in `data_sources/config/.env` (GA4, GSC, DataForSEO, WordPress). GA4 service account credentials go in `credentials/ga4-credentials.json`.
+API credentials are configured in `data_sources/config/.env` (GSC, DataForSEO, WordPress). Traffic analytics comes from manually-exported Vercel Web Analytics CSVs placed at the repo root (or any folder pointed to by `VERCEL_ANALYTICS_DIR`).
 
 ## Commands
 
@@ -53,7 +53,7 @@ Located in `data_sources/modules/`. The Content Analyzer chains:
 
 ### Data Integrations
 
-- `google_analytics.py` - GA4 traffic/engagement data
+- `vercel_analytics.py` - Vercel Web Analytics traffic data, read from manually-exported CSVs ("Top Pages*.csv" and "Top Referrers*.csv") at the repo root. Supports 1/7/30/90-day windows; trend signals come from comparing windows.
 - `google_search_console.py` - Rankings and impressions
 - `dataforseo.py` - SERP positions, keyword metrics (defaults to Switzerland/German via env vars)
 - `data_aggregator.py` - Combines all sources into unified analytics

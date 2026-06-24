@@ -1,13 +1,12 @@
 """
 Landing Page Performance Tracker
 
-Tracks landing page performance metrics via GA4 and GSC.
-Extends existing google_analytics.py module for landing-page-specific analysis.
+Tracks landing page performance metrics via Vercel Web Analytics CSVs and GSC.
 
 Metrics tracked:
 - Traffic (page views, sessions, users)
-- Engagement (bounce rate, time on page)
-- Conversions (by goal type, by traffic source)
+- Engagement (bounce rate, time on page) - limited; Vercel CSVs don't include these
+- Conversions (by goal type, by traffic source) - not available from CSV exports
 - SEO (for SEO landing pages via GSC)
 """
 
@@ -15,12 +14,11 @@ import os
 from typing import Dict, List, Any, Optional
 from datetime import datetime, timedelta
 
-# Try to import GA4 module (may not be available in all environments)
 try:
-    from .google_analytics import GoogleAnalytics
-    GA4_AVAILABLE = True
+    from .vercel_analytics import VercelAnalytics
+    ANALYTICS_AVAILABLE = True
 except ImportError:
-    GA4_AVAILABLE = False
+    ANALYTICS_AVAILABLE = False
 
 try:
     from .google_search_console import GoogleSearchConsole
@@ -32,7 +30,7 @@ except ImportError:
 class LandingPagePerformance:
     """Track and analyze landing page performance"""
 
-    # Conversion event mappings (adjust to match your GA4 setup)
+    # Conversion event mappings (used as labels — Vercel CSVs don't include conversions)
     CONVERSION_EVENTS = {
         'trial': ['trial_started', 'signup_complete', 'start_trial'],
         'demo': ['demo_requested', 'demo_booked', 'schedule_demo'],
@@ -62,7 +60,10 @@ class LandingPagePerformance:
 
     def __init__(self):
         """Initialize performance tracker"""
-        self.ga4 = GoogleAnalytics() if GA4_AVAILABLE else None
+        try:
+            self.ga4 = VercelAnalytics() if ANALYTICS_AVAILABLE else None
+        except Exception:
+            self.ga4 = None
         self.gsc = GoogleSearchConsole() if GSC_AVAILABLE else None
 
     def get_landing_page_performance(
@@ -94,7 +95,7 @@ class LandingPagePerformance:
             'recommendations': []
         }
 
-        # Get traffic metrics from GA4
+        # Get traffic metrics from analytics
         if self.ga4:
             traffic_data = self._get_traffic_metrics(url, days)
             results['traffic'] = traffic_data
@@ -122,13 +123,13 @@ class LandingPagePerformance:
         return results
 
     def _get_traffic_metrics(self, url: str, days: int) -> Dict[str, Any]:
-        """Get traffic metrics from GA4"""
+        """Get traffic metrics from analytics"""
         if not self.ga4:
-            return {'error': 'GA4 not configured'}
+            return {'error': 'analytics not configured'}
 
         try:
-            # This would use the GA4 API to get page-specific metrics
-            # Placeholder implementation - adjust to your GA4 setup
+            # Placeholder: Vercel CSV exports only include path + visitors + total.
+            # Per-source/per-event breakdowns require Vercel Drains.
             return {
                 'page_views': 0,
                 'sessions': 0,
@@ -146,9 +147,9 @@ class LandingPagePerformance:
             return {'error': str(e)}
 
     def _get_engagement_metrics(self, url: str, days: int) -> Dict[str, Any]:
-        """Get engagement metrics from GA4"""
+        """Get engagement metrics from analytics"""
         if not self.ga4:
-            return {'error': 'GA4 not configured'}
+            return {'error': 'analytics not configured'}
 
         try:
             return {
@@ -172,9 +173,9 @@ class LandingPagePerformance:
         days: int,
         goal: str
     ) -> Dict[str, Any]:
-        """Get conversion metrics from GA4"""
+        """Get conversion metrics from analytics"""
         if not self.ga4:
-            return {'error': 'GA4 not configured'}
+            return {'error': 'analytics not configured'}
 
         events = self.CONVERSION_EVENTS.get(goal, [])
 
@@ -385,7 +386,7 @@ class LandingPagePerformance:
             PPC-specific metrics
         """
         if not self.ga4:
-            return {'error': 'GA4 not configured'}
+            return {'error': 'analytics not configured'}
 
         try:
             return {
@@ -455,16 +456,15 @@ def compare_landing_pages(
 
 # Example usage
 if __name__ == "__main__":
-    # Example usage (requires GA4 credentials)
+    # Example usage (requires Vercel Analytics CSVs at repo root)
     print("Landing Page Performance Tracker")
     print("=" * 40)
 
     # Check if modules are available
-    print(f"GA4 Available: {GA4_AVAILABLE}")
+    print(f"Analytics Available: {ANALYTICS_AVAILABLE}")
     print(f"GSC Available: {GSC_AVAILABLE}")
 
-    # Example (would need real credentials)
-    if GA4_AVAILABLE or GSC_AVAILABLE:
+    if ANALYTICS_AVAILABLE or GSC_AVAILABLE:
         result = get_landing_page_performance(
             url="https://yoursite.com/pricing/",
             days=30,
@@ -484,5 +484,5 @@ if __name__ == "__main__":
             for rec in result['recommendations'][:3]:
                 print(f"  [{rec['priority'].upper()}] {rec['recommendation']}")
     else:
-        print("\nNote: GA4 and GSC modules not available.")
-        print("This module requires google_analytics.py and google_search_console.py")
+        print("\nNote: Analytics and GSC modules not available.")
+        print("This module requires vercel_analytics.py and google_search_console.py")

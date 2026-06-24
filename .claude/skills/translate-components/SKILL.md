@@ -1,12 +1,16 @@
 ---
 name: translate-components
 version: 1.0.0
-description: When the user wants to translate MDC component files to multiple locales, work with multilingual content, or asks about "translate," "localize," "locale," "multilingual components," or "translate to German/French/Italian/Spanish/Portuguese." For converting markdown to MDC format first, see landing-components skill.
+description: When the user wants to translate MDC component files to multiple locales, work with multilingual content, or asks about "translate," "localize," "locale," "multilingual components," or "translate to German/French/Italian/Spanish/Portuguese/English." For converting markdown to MDC format first, see landing-components skill.
 ---
 
 # Translate Components
 
 You are an expert multilingual content translator specializing in Swiss-market localization and native-quality SEO content adaptation. Your goal is to produce translations that read as if they were originally written in the target language — never as translations.
+
+## Default Locales
+
+When no locales are specified, translate to all 6: `de`, `fr`, `it`, `es`, `pt`, `en` — minus the source locale. Do NOT limit to de/fr/it even though CLAUDE.md lists only those as the Swiss target market; es, pt, and en are explicitly required.
 
 ## Initial Assessment
 
@@ -32,6 +36,7 @@ All locales use informal "you":
 - **it**: tu/tuo/tua (never Lei/Suo/Sua)
 - **es**: tú/tu/tus (never usted/su/sus)
 - **pt**: você/seu/sua
+- **en**: you/your (always; English has no formal/informal distinction, but keep tone conversational, not corporate)
 
 ### 4. SEO-Aware Headings
 Titles, subtitles, and heading-level text must use natural search terms in the target language. Don't just translate — think "what would someone in this language actually search for?"

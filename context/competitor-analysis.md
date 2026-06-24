@@ -368,6 +368,225 @@ Fill in this template with your main competitors' information. Update quarterly 
 
 ---
 
+### Competitor 6: Crésus (Epsitec)
+
+**Company Overview**:
+
+* **Website**: cresus.ch
+* **Primary Offering**: Swiss accounting, invoicing and payroll software (Crésus Comptabilité, Facturation, Salaires) plus the newer cloud product Crésus Horizon
+* **Target Audience**: Indépendants, fiduciaires, SMEs — strongest in French-speaking Switzerland (Romandie)
+* **Pricing**: License-based desktop modules (one-off CHF 200+ per module) plus Crésus Horizon subscription
+* **Market Position**: Romandie market leader for accounting/invoicing software; recognised Swiss-legislation specialist
+
+**Content Strategy**:
+
+* **Blog URL**: support.cresus.ch for manuals; corporate news on cresus.ch
+* **Publishing Frequency**: Low for educational blog content; ongoing for documentation
+* **Content Types**: Manuals, video tutorials, partner directory, webinars, release notes
+* **Average Article Length**: Documentation-heavy; varies by module
+* **Content Quality**: Strong for accounting-literate French-speaking users; weak as accessible freelancer education
+
+**Top Performing Content**:
+
+1. Logiciel comptabilité Suisse pages
+
+   * Keyword: logiciel comptabilité Suisse / logiciel facturation Suisse
+   * Estimated Traffic: High in FR Swiss market
+   * Why It Works: Long-standing FR-Swiss authority and Swiss-legislation positioning
+
+2. Crésus Horizon product pages
+
+   * Keyword: comptabilité cloud Suisse / Crésus Horizon
+   * Estimated Traffic: Medium
+   * Why It Works: Brand strength carrying into the cloud product launch
+
+3. Salaires module pages
+
+   * Keyword: logiciel salaires Suisse
+   * Estimated Traffic: Medium
+   * Why It Works: Established payroll authority in Romandie
+
+**SEO Strengths**:
+
+* Strong domain authority in the FR-Swiss software niche
+* 30+ year domain history
+* Heavy fiduciary backlink profile
+* Reseller and education partnerships
+* Owns “logiciel comptabilité Suisse” SERP in French
+
+**SEO Weaknesses**:
+
+* Desktop-first heritage; cloud product is recent
+* Heavy reliance on installed software workflows
+* Limited blog and educational content
+* No AI scanning narrative
+* Weak DE coverage compared with FR
+* Dated UX in core desktop modules
+
+**Content Gaps**:
+
+* “Crésus alternative” / “alternative à Crésus”
+* “Crésus trop cher” / “Crésus trop compliqué”
+* Cloud vs desktop comptabilité Suisse
+* AI scanning for FR-Swiss freelancers
+* Mobile-first invoicing in French
+
+**Differentiation Opportunities**:
+
+* Position Magic Heidi as the modern cloud + mobile alternative for FR-Swiss freelancers
+* Target “Crésus alternative” and “Crésus indépendant” style queries
+* Emphasise AI scanning versus manual data entry
+* Highlight 5-platform native apps versus desktop install
+* Capture price-sensitive Romandie freelancers who find Crésus heavy
+
+---
+
+### Competitor 7: WinBIZ
+
+**Company Overview**:
+
+* **Website**: winbiz.ch
+* **Primary Offering**: All-in-one Swiss ERP covering accounting, invoicing, salaries, stock and CRM
+* **Target Audience**: SMEs and some indépendants, especially in FR-Swiss; large trust-partner ecosystem
+* **Pricing**: From CHF 69/month
+* **Market Position**: Established FR-Swiss SME ERP with 50,000+ clients and 900+ fiduciaire partners
+
+**Content Strategy**:
+
+* **Blog URL**: winbiz.ch news/blog section
+* **Publishing Frequency**: Low
+* **Content Types**: Product pages, partner directory, release notes
+* **Average Article Length**: Thin and product-led
+* **Content Quality**: Product-focused, not educational
+
+**Top Performing Content**:
+
+1. Logiciel ERP Suisse pages
+
+   * Keyword: logiciel ERP Suisse / logiciel gestion PME Suisse
+   * Estimated Traffic: Medium
+   * Why It Works: Long domain history and partner backlinks
+
+2. Trust partner directory
+
+   * Keyword: fiduciaire WinBIZ / partenaire WinBIZ
+   * Estimated Traffic: Medium
+   * Why It Works: 900+ fiduciaire pages create internal authority and link variety
+
+3. Salaires Suisse module
+
+   * Keyword: logiciel salaires PME Suisse
+   * Estimated Traffic: Medium
+   * Why It Works: Payroll demand in FR-Swiss SMEs
+
+**SEO Strengths**:
+
+* 30-year domain history
+* Strong fiduciaire backlink ecosystem (900+ partners)
+* Multi-language coverage (FR/DE/IT)
+* Established FR-Swiss ERP authority
+
+**SEO Weaknesses**:
+
+* Heavy SME framing; weak freelancer signal
+* Almost no educational content
+* Dated UX and installed-software heritage
+* No AI scanning
+* Cluttered all-in-one positioning
+* Higher price point than freelancer-focused tools
+
+**Content Gaps**:
+
+* “WinBIZ alternative” / “alternative à WinBIZ”
+* “WinBIZ indépendant” / “WinBIZ trop complexe”
+* ERP vs. simple invoicing for freelancers
+* Cloud-first vs. installed software comparison
+* Mobile freelancer workflows
+
+**Differentiation Opportunities**:
+
+* Position Magic Heidi as freelancer-simple vs. WinBIZ SME-complex
+* Target “WinBIZ alternative” and “logiciel facturation indépendant Suisse”
+* Strengthen the existing /fr/winbiz review page with comparison angles
+* Highlight 2-minute setup versus WinBIZ ERP onboarding
+* Emphasise AI scanning and native apps across iOS, Android, Mac, Windows and Web
+* Capture freelancers who evaluated WinBIZ and found it too heavy
+
+---
+
+### Competitor 8: AbaNinja (Abacus / Swiss21)
+
+**Company Overview**:
+
+* **Website**: abaninja.ch (also bundled in swiss21.org)
+* **Primary Offering**: Cloud invoicing software for micro-businesses; free tier up to 500 invoices
+* **Target Audience**: Solo entrepreneurs, freelancers, associations, startups, micro-businesses
+* **Pricing**: Free tier with up to 500 invoices; paid bundles via Swiss21 from CHF ~15/month
+* **Market Position**: Free invoicing leader, backed by Abacus brand authority
+
+**Content Strategy**:
+
+* **Blog URL**: No standalone blog; Swiss21 has a helpdesk and Abacus has a corporate blog
+* **Publishing Frequency**: Low
+* **Content Types**: Product pages, helpdesk articles, Abacus parent content
+* **Average Article Length**: Thin
+* **Content Quality**: Product-led, minimal educational depth
+
+**Top Performing Content**:
+
+1. AbaNinja product pages
+
+   * Keyword: AbaNinja / kostenlose Rechnungssoftware Schweiz
+   * Estimated Traffic: High via brand and free positioning
+   * Why It Works: Free tier is genuinely competitive and brand-authoritative
+
+2. Swiss21 free software pages
+
+   * Keyword: kostenlose Schweizer Software / Swiss21
+   * Estimated Traffic: Medium to high
+   * Why It Works: Bundled free tools attract budget-driven traffic
+
+3. Abacus parent links
+
+   * Keyword: Abacus AbaNinja / Schweizer Buchhaltungssoftware
+   * Estimated Traffic: Inherits Abacus authority
+   * Why It Works: Strong DR transfer from the parent domain
+
+**SEO Strengths**:
+
+* Backed by Abacus (Swiss accounting heavyweight)
+* Generous free tier as a strong content hook
+* 500 free invoices is meaningfully more than most free tiers
+* Multi-language Swiss coverage
+* Trust transfer from the Abacus brand
+
+**SEO Weaknesses**:
+
+* No content marketing engine
+* No AI scanning
+* Weak educational content
+* Dated UX
+* Free positioning attracts low-intent traffic
+* Limited freelancer-specific story
+
+**Content Gaps**:
+
+* “AbaNinja Alternative”
+* “AbaNinja vs Magic Heidi”
+* AI scanning for freelancers
+* Mobile-first freelancer apps
+* Modern UX comparison content
+
+**Differentiation Opportunities**:
+
+* Compare Magic Heidi’s free tier (3 invoices, all features including AI scanning) versus AbaNinja’s free tier (500 invoices, limited features)
+* Position Magic Heidi as modern, beautifully designed and mobile-first vs. AbaNinja’s basic UX
+* Emphasise AI scanning — AbaNinja has none
+* Frame as: AbaNinja for casual one-off invoicers, Magic Heidi for serious self-employed freelancers
+* Target “AbaNinja Alternative” comparison content
+
+---
+
 ## Secondary Competitors / Content Publishers
 
 These may not be direct product competitors but compete for content visibility:
@@ -403,6 +622,38 @@ These may not be direct product competitors but compete for content visibility:
 * **Why They Matter**: Compete for long-tail product and invoicing searches
 * **Content Approach**: Product-only pages with minimal educational content
 * **Opportunity vs. Them**: Easy to outrank with high-quality guides, comparison pages and Swiss freelancer-focused content
+
+### Publisher 5: Run my Accounts
+
+* **Website**: runmyaccounts.ch
+* **Focus**: Cloud bookkeeping outsourcing service for SMEs and startups, founded in Stäfa in 2008
+* **Why They Matter**: Active blog ranks for educational freelancer and SME bookkeeping queries (e.g., “Freelancer auf was muss ich achten”)
+* **Content Approach**: Service-led, with a steady stream of how-to and explainer articles aimed at small Swiss businesses
+* **Opportunity vs. Them**: Magic Heidi is software, not a bookkeeping service. Frame Magic Heidi as the self-service, in-control alternative for freelancers who do not want to outsource and pay hourly.
+
+### Publisher 6: Pebe Smart
+
+* **Website**: pebe.ch
+* **Focus**: 30-year-old Swiss accounting software, modular across invoicing, accounting and payroll
+* **Why They Matter**: Pro tier from CHF 18/month undercuts Magic Heidi on price; ranks for “Buchhaltung Schweiz Einzelunternehmer” and similar terms
+* **Content Approach**: Mostly product-led pages and documentation, limited content marketing
+* **Opportunity vs. Them**: Position Magic Heidi as the modern, mobile, AI-powered choice versus Pebe’s traditional desktop-plus-web positioning. Target “Pebe Alternative” and price-versus-features comparison content.
+
+### Publisher 7: Accounto
+
+* **Website**: accounto.ch
+* **Focus**: Zürich-based AI accounting SaaS for SMEs and fiduciaries, founded 2016
+* **Why They Matter**: Owns a meaningful share of the “AI accounting Switzerland” narrative; appears in roundups Magic Heidi targets, even though it is not freelancer-direct
+* **Content Approach**: PR-led with limited educational depth; press coverage and product pages dominate
+* **Opportunity vs. Them**: Frame Accounto as fiduciary-first and unsuitable for solo freelancers. Magic Heidi is the freelancer-direct AI alternative that does not require a fiduciary to use.
+
+### Publisher 8: Sage / Infoniqa
+
+* **Website**: infoniqa.com (Sage Start, Sage 50 Extra and Sage 200 Extra were sold by Sage to Infoniqa in 2021)
+* **Focus**: Legacy Swiss SME accounting under new ownership
+* **Why They Matter**: Brand recognition and legacy SEO authority; still ranks for core Swiss accounting terms
+* **Content Approach**: Migration-focused and product-led under the Infoniqa rebrand
+* **Opportunity vs. Them**: Capture frustrated Sage users navigating the Infoniqa transition with “Sage alternative Schweiz” and “Sage Start Alternative Schweiz” comparison content. Highlight Magic Heidi’s 2-minute setup versus complex Sage migrations.
 
 ---
 
@@ -943,6 +1194,13 @@ These may not be direct product competitors but compete for content visibility:
 * [ ] Ezyfacture French-language rankings
 * [ ] Milchbüechli rankings for simple accounting keywords
 * [ ] Swiss21 free software positioning
+* [ ] Crésus Horizon cloud product launches and FR-Swiss SERP movement
+* [ ] WinBIZ partner directory growth and FR ERP rankings
+* [ ] AbaNinja free-tier positioning and Swiss21 bundle changes
+* [ ] Pebe Smart pricing and freelancer positioning
+* [ ] Accounto press coverage and AI accounting narrative
+* [ ] Sage/Infoniqa rebrand SEO impact and migration content
+* [ ] Run my Accounts blog publishing on freelancer/SME topics
 
 ### Tools for Monitoring:
 
@@ -994,7 +1252,7 @@ These may not be direct product competitors but compete for content visibility:
 * **Quarterly**: Full competitive audit and strategy review
 * **Annually**: Comprehensive competitor landscape assessment
 
-**Last Updated**: May 3, 2026
+**Last Updated**: May 9, 2026 (added Crésus, WinBIZ, AbaNinja as primary competitors; added Run my Accounts, Pebe Smart, Accounto and Sage/Infoniqa as secondary publishers)
 **Next Review**: August 3, 2026
 **Reviewer**: Nathan Ganser
 

@@ -455,10 +455,15 @@ def write_markdown_report(gaps: List[Dict[str, Any]], total_found: int):
 
         # Analyze patterns
         total_volume = sum(g.get('search_volume', 0) for g in gaps if g.get('search_volume'))
-        avg_difficulty = sum(g.get('difficulty', 0) for g in gaps if g.get('difficulty')) / len([g for g in gaps if g.get('difficulty')])
+        difficulty_values = [g.get('difficulty') for g in gaps if g.get('difficulty')]
+        if difficulty_values:
+            avg_difficulty = sum(difficulty_values) / len(difficulty_values)
+            difficulty_display = f"{avg_difficulty:.1f}/100"
+        else:
+            difficulty_display = "N/A"
 
         f.write(f"- **Total Potential Search Volume:** {total_volume:,}/month\n")
-        f.write(f"- **Average SEO Difficulty:** {avg_difficulty:.1f}/100\n")
+        f.write(f"- **Average SEO Difficulty:** {difficulty_display}\n")
 
         # Content type breakdown
         content_types = {}

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 SEO Baseline Analysis
-Pulls comprehensive data from DataForSEO, GSC, and GA4 to establish
-current position for high buyer-intent keywords.
+Pulls comprehensive data from DataForSEO, GSC, and Vercel Web Analytics
+to establish current position for high buyer-intent keywords.
 
 Configure keywords in config/competitors.json under "bofu_keywords" and "mofu_keywords".
 """

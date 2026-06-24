@@ -1,6 +1,4 @@
-invoice-list.{locale}.webp
-invoices-mobile.{locale}.webp
-expenses-list.{locale}.webp
+# Image assets
 expenses-mobile.{locale}.webp
 invoice-list.{locale}.webp
 invoices-mobile.{locale}.webp
@@ -20,3 +18,7 @@ paperwork.webp
 swiss-business-office.webp
 taxes.webp
 customer-management-illustration.webp
+
+# Video assets (looping, no audio) — use as `video:` prop on hero-media or feature-showcase
+invoice-gen.{locale}.mp4   # invoice generation animation — best for the hero/showcase th
+import-bank-statement-as-invoice.mp4 # bank statement import animation

@@ -507,21 +507,26 @@ class ContentScorer:
         meta_description = metadata.get('meta_description', '')
         primary_keyword = metadata.get('primary_keyword', '')
 
-        # Extract from content if not provided
+        # Extract from content if not provided. Two formats supported:
+        # 1. Inline markdown: `**Meta Title**: ...`
+        # 2. YAML frontmatter: `meta_title: "..."` or `meta_title: ...`
+        def _extract(field_inline: str, field_yaml: str) -> str:
+            m = re.search(rf'\*\*{field_inline}\*\*:\s*(.+)', content)
+            if m:
+                return m.group(1).strip().strip('"').strip("'")
+            m = re.search(rf'(?m)^{field_yaml}:\s*(.+)$', content)
+            if m:
+                return m.group(1).strip().strip('"').strip("'")
+            return ''
+
         if not meta_title:
-            match = re.search(r'\*\*Meta Title\*\*:\s*(.+)', content)
-            if match:
-                meta_title = match.group(1).strip()
+            meta_title = _extract('Meta Title', 'meta_title')
 
         if not meta_description:
-            match = re.search(r'\*\*Meta Description\*\*:\s*(.+)', content)
-            if match:
-                meta_description = match.group(1).strip()
+            meta_description = _extract('Meta Description', 'meta_description')
 
         if not primary_keyword:
-            match = re.search(r'\*\*(?:Target|Primary) Keyword\*\*:\s*(.+)', content)
-            if match:
-                primary_keyword = match.group(1).strip()
+            primary_keyword = _extract('(?:Target|Primary) Keyword', 'primary_keyword')
 
         details['meta_title'] = meta_title
         details['meta_title_length'] = len(meta_title)
@@ -823,6 +828,32 @@ class ContentScorer:
         return "\n".join(lines)
 
 
+def parse_frontmatter(content: str) -> Dict[str, Any]:
+    """Parse YAML-style frontmatter at the top of a markdown file.
+
+    Supports the subset our drafts actually use: `key: value` and
+    `key: "quoted value"`. Returns {} if no frontmatter is present.
+    """
+    if not content.startswith('---'):
+        return {}
+    end = content.find('\n---', 3)
+    if end == -1:
+        return {}
+    block = content[3:end]
+    meta: Dict[str, Any] = {}
+    for line in block.splitlines():
+        if not line.strip() or line.lstrip().startswith('#') or line.lstrip().startswith('-'):
+            continue
+        if ':' not in line:
+            continue
+        key, _, value = line.partition(':')
+        key = key.strip()
+        value = value.strip().strip('"').strip("'")
+        if key:
+            meta[key] = value
+    return meta
+
+
 def main():
     """CLI entry point for testing"""
     import sys
@@ -840,8 +871,10 @@ def main():
         print(f"Error: File not found: {file_path}")
         sys.exit(1)
 
+    metadata = parse_frontmatter(content)
+
     scorer = ContentScorer()
-    result = scorer.score(content)
+    result = scorer.score(content, metadata=metadata)
 
     print(scorer.format_report(result))
 

@@ -91,7 +91,7 @@ pip install -r data_sources/requirements.txt
 
 ### 3. Test Data Connections
 ```bash
-python data_sources/modules/google_analytics.py
+python data_sources/modules/vercel_analytics.py
 python data_sources/modules/google_search_console.py
 python data_sources/modules/dataforseo.py
 ```
@@ -234,7 +234,7 @@ Revenue leakage compounds - stop declines before creating new content.
 **80/20 rule**: 80% effort on quick wins and optimization, 20% on new strategic content.
 
 ### 5. Review Data Freshness
-- GA4: Usually next-day data
+- Vercel Analytics: As fresh as your last CSV export (re-export weekly recommended)
 - GSC: 2-3 day delay typical
 - DataForSEO: Real-time API data
 
