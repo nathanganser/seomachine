@@ -9,17 +9,23 @@ positioning:
   target_audience: "Swiss SMEs, teams, businesses with employees, fiduciaries"
   market_position: "Market leader, 100,000+ companies, DR ~65-75"
 
-pricing:  # bexio pricing as of March 2026 (per live /de/alternative/bexio check 2026-01-27); RE-VERIFY before publish
+pricing:  # verified against live bexio.com/de-CH/pakete-preise on 2026-07-13 (March 2026 lineup)
   free_tier: false
   free_tier_limits: "30-day trial only, no permanent free plan"
   plans:
     - name: Basic
       price: "CHF 35/Mt. (jährlich) / CHF 45/Mt. (monatlich)"
+      notes: "1 user, e-banking, NO AI receipt scanning, no payroll"
     - name: Advanced
       price: "CHF 42/Mt. (jährlich) / CHF 52/Mt. (monatlich)"
+      notes: "2 users, AI scanning 50/mo; payroll add-on +CHF 7/Mt. (1 employee) or +CHF 25/Mt. (5); renamed from Starter March 2026 (+20%)"
     - name: Optima
-      price: "CHF 69/Mt. (jährlich)"
-  notes: "Payroll and some banking features cost extra or need higher tiers. Annual cost Basic ≈ CHF 420, Advanced ≈ CHF 504, Optima ≈ CHF 828."
+      price: "CHF 69/Mt. (jährlich) / CHF 79/Mt. (monatlich)"
+      notes: "5 users, AI scanning 100/mo; payroll add-on +CHF 25/Mt. (5 employees)"
+    - name: Ultimate
+      price: "CHF 119/Mt. (jährlich) / CHF 129/Mt. (monatlich)"
+      notes: "25 users, unlimited scans (~1000 fair use), payroll for 25 included, bexio Pay included"
+  notes: "bexio Pay +CHF 14/Mt. on Advanced/Optima. Annual billing saves CHF 120/yr per tier. Annual cost: Basic CHF 420, Advanced CHF 504, Optima CHF 828, Ultimate CHF 1'428."
 
 features:
   invoicing_qr: 5
@@ -80,7 +86,7 @@ seo:  # Swiss volumes, DataForSEO 2026-07-02
 existing_pages:
   - /alternative/bexio (all 6 locales, ranks ~#5 for "bexio alternative")
 
-last_verified: 2026-07-02
+last_verified: 2026-07-13
 sources:
   - context/competitor-analysis.md
-  - live check of magicheidi.ch/de/alternative/bexio (bexio pricing March 2026)
+  - https://www.bexio.com/de-CH/pakete-preise (fetched 2026-07-13)
