@@ -9,12 +9,16 @@ positioning:
   target_audience: "Swiss SMEs, local businesses with staff, vertical industries (gastro, retail, beauty, trades)"
   market_position: "Broad challenger / business operating system"
 
-pricing:  # per context/competitor-analysis.md (May 2026); RE-VERIFY before publish
-  free_tier: false  # some entry modules have been free historically — verify current state before claiming
+pricing:  # verified against live klara.ch/en/business on 2026-07-13
+  free_tier: false  # formerly free accounting discontinued in 2023 (itmagazine.ch); 30-day trial only
   plans:
-    - name: Paid modules
-      price: "ab CHF 35/Mt."
-  notes: "Modular pricing; total depends on which modules you activate."
+    - name: Business Basic
+      price: "CHF 55/Mt. (jährlich) / CHF 69/Mt. (monatlich) / CHF 48/Mt. (2 Jahre)"
+    - name: Business Plus
+      price: "CHF 79/Mt. (jährlich) / CHF 99/Mt. (monatlich)"
+    - name: Business Premium
+      price: "CHF 127/Mt. (jährlich) / CHF 159/Mt. (monatlich)"
+  notes: "Add-on modules (POS, shop, payroll etc.) priced separately on top of packages. Annual cost Basic ≈ CHF 660. On-site support CHF 180/h."
 
 features:
   invoicing_qr: 4
@@ -64,6 +68,7 @@ seo:  # Swiss volumes, DataForSEO 2026-07-02
 existing_pages:
   - /alternative/klara (all 6 locales)
 
-last_verified: 2026-07-02
+last_verified: 2026-07-13
 sources:
   - context/competitor-analysis.md
+  - https://www.klara.ch/en/business (fetched 2026-07-13)
