@@ -1,0 +1,86 @@
+# bexio — competitor data for comparison pages
+name: bexio
+website: bexio.com
+tagline: "Business Software für Schweizer KMU"
+headquarters: Rapperswil, Switzerland
+
+positioning:
+  primary_use_case: "All-in-one SME business administration (invoicing, accounting, payroll, warehouse)"
+  target_audience: "Swiss SMEs, teams, businesses with employees, fiduciaries"
+  market_position: "Market leader, 100,000+ companies, DR ~65-75"
+
+pricing:  # bexio pricing as of March 2026 (per live /de/alternative/bexio check 2026-01-27); RE-VERIFY before publish
+  free_tier: false
+  free_tier_limits: "30-day trial only, no permanent free plan"
+  plans:
+    - name: Basic
+      price: "CHF 35/Mt. (jährlich) / CHF 45/Mt. (monatlich)"
+    - name: Advanced
+      price: "CHF 42/Mt. (jährlich) / CHF 52/Mt. (monatlich)"
+    - name: Optima
+      price: "CHF 69/Mt. (jährlich)"
+  notes: "Payroll and some banking features cost extra or need higher tiers. Annual cost Basic ≈ CHF 420, Advanced ≈ CHF 504, Optima ≈ CHF 828."
+
+features:
+  invoicing_qr: 5
+  expense_capture: 3      # scanning exists but with limits (AI scan limits per plan)
+  vat_mwst: 5
+  bank_reconciliation: 5  # direct e-banking sync with Swiss banks — genuine strength
+  accounting_depth: 5     # full double-entry, fiduciary access
+  payroll: 4              # available (add-on/higher tiers)
+  mobile_apps: 3          # mobile app exists; desktop is web-only
+  integrations: 5         # large marketplace ecosystem
+  team_features: 5
+
+strengths:
+  - Market leader with strong brand trust and 100k+ customers
+  - Full double-entry accounting with fiduciary/Treuhänder access
+  - Direct e-banking connections to Swiss banks
+  - Payroll, inventory, and team features for growing SMEs
+  - Large integration marketplace and partner ecosystem
+
+weaknesses:
+  - Priced and designed for SMEs — solo users pay for modules they never open
+  - No permanent free tier (30-day trial only)
+  - Setup and navigation heavier than freelancer-first tools
+  - Receipt scanning has plan-based limits
+  - No native desktop apps (web-based)
+
+best_for:
+  - SMEs with employees needing payroll and full accounting
+  - Businesses working closely with a Treuhänder
+  - Teams needing multi-user access and inventory
+
+not_ideal_for:
+  - Solo freelancers wanting simple invoicing + expenses
+  - Price-sensitive Einzelfirmen
+  - People without accounting knowledge who want minimal setup
+
+common_complaints:  # from review mining; keep factual, no editorializing
+  - Price increases and per-module costs add up for small users
+  - Overkill feature set for one-person businesses
+
+migration_to_magic_heidi:
+  difficulty: easy
+  what_transfers: "Contacts via CSV export/import; open invoices re-created manually"
+  what_doesnt: "Accounting history stays in bexio (export PDFs/reports for records)"
+  time_estimate: "Under an hour for a typical freelancer"
+
+seo:  # Swiss volumes, DataForSEO 2026-07-02
+  keywords:
+    - {kw: "bexio preise", vol: 720, lang: de}
+    - {kw: "bexio kosten", vol: 170, lang: de}
+    - {kw: "bexio alternative", vol: 140, lang: de}
+    - {kw: "bexio alternativen", vol: 140, lang: de}
+    - {kw: "alternative bexio", vol: 140, lang: fr}
+    - {kw: "bexio erfahrungen", vol: 40, lang: de}
+    - {kw: "bexio avis", vol: 30, lang: fr}
+    - {kw: "klara vs bexio", vol: 20, lang: de}
+
+existing_pages:
+  - /alternative/bexio (all 6 locales, ranks ~#5 for "bexio alternative")
+
+last_verified: 2026-07-02
+sources:
+  - context/competitor-analysis.md
+  - live check of magicheidi.ch/de/alternative/bexio (bexio pricing March 2026)

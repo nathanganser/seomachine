@@ -1,0 +1,72 @@
+# AbaNinja (Abacus / Swiss21) — competitor data for comparison pages
+name: AbaNinja
+website: abaninja.ch
+tagline: "Kostenlose Cloud-Rechnungssoftware"
+headquarters: St. Gallen area, Switzerland (Abacus Research)
+
+positioning:
+  primary_use_case: "Free cloud invoicing for micro-businesses"
+  target_audience: "Solo entrepreneurs, associations, startups, casual invoicers"
+  market_position: "Free-invoicing leader, backed by Abacus brand"
+
+pricing:  # per context/competitor-analysis.md (May 2026); RE-VERIFY before publish
+  free_tier: true
+  free_tier_limits: "Up to 500 invoices/year free — generous limit, but feature set is basic"
+  plans:
+    - name: Free
+      price: "CHF 0 (bis 500 Rechnungen)"
+    - name: Swiss21 bundles
+      price: "ab ~CHF 15/Mt."
+
+features:
+  invoicing_qr: 4
+  expense_capture: 2      # no AI scanning
+  vat_mwst: 3
+  bank_reconciliation: 3
+  accounting_depth: 3     # via Swiss21 bundle
+  payroll: 2              # via Swiss21 bundle
+  mobile_apps: 2
+  integrations: 3
+  team_features: 2
+
+strengths:
+  - 500 free invoices/year — most generous free invoicing tier in Switzerland
+  - Backed by Abacus, a Swiss accounting heavyweight
+  - Multi-language Swiss coverage
+  - Expandable via Swiss21 bundles
+
+weaknesses:
+  - Free tier is invoice-count-generous but feature-basic
+  - No AI receipt scanning
+  - Dated UX compared with modern freelancer tools
+  - Weak freelancer-specific workflows (expenses, VAT prep, mobile)
+
+best_for:
+  - Casual/occasional invoicers and associations
+  - Micro-businesses that mainly need free invoice volume
+  - Users already in the Abacus/Swiss21 ecosystem
+
+not_ideal_for:
+  - Full-time freelancers needing expenses, VAT and mobile workflows
+  - Users wanting modern UX and AI-assisted data entry
+
+migration_to_magic_heidi:
+  difficulty: easy
+  what_transfers: "Contacts via CSV; invoices re-created"
+  time_estimate: "Under an hour for a typical freelancer"
+
+seo:  # Swiss volumes, DataForSEO 2026-07-02
+  keywords:
+    - {kw: "abaninja erfahrungen", vol: 20, lang: de}
+
+existing_pages:
+  - /alternative/abaninja (all 6 locales)
+
+framing_note: >
+  Honest contrast: AbaNinja free = many invoices, limited features.
+  Magic Heidi free = few invoices (3), ALL features. Different philosophies —
+  say so explicitly; readers respect the distinction.
+
+last_verified: 2026-07-02
+sources:
+  - context/competitor-analysis.md

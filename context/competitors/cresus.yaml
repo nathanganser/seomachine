@@ -1,0 +1,66 @@
+# Crésus (Epsitec) — competitor data for comparison pages (FR-Swiss focus)
+name: Crésus
+website: cresus.ch
+tagline: "Logiciels de gestion suisses (comptabilité, facturation, salaires)"
+headquarters: Yverdon-les-Bains, Switzerland (Epsitec SA)
+
+positioning:
+  primary_use_case: "Desktop accounting, invoicing and payroll modules + Crésus Horizon cloud"
+  target_audience: "Indépendants, fiduciaires and SMEs in French-speaking Switzerland"
+  market_position: "Romandie market leader, 30+ year history, Swiss-legislation specialist"
+
+pricing:  # per context/competitor-analysis.md (May 2026); RE-VERIFY before publish
+  free_tier: false
+  plans:
+    - name: Desktop modules
+      price: "one-off CHF 200+ per module (Comptabilité, Facturation, Salaires)"
+    - name: Crésus Horizon
+      price: "cloud subscription (verify current pricing)"
+
+features:
+  invoicing_qr: 4
+  expense_capture: 1
+  vat_mwst: 5
+  bank_reconciliation: 3
+  accounting_depth: 5
+  payroll: 5
+  mobile_apps: 1          # desktop heritage
+  integrations: 2
+  team_features: 3
+
+strengths:
+  - Strongest brand in FR-Swiss accounting software
+  - Deep Swiss-legislation compliance (VAT, payroll, salary certificates)
+  - Fiduciary network and education partnerships
+  - One-off licence model appeals to subscription-averse users
+
+weaknesses:
+  - Desktop-first heritage; cloud (Horizon) still young
+  - Requires accounting literacy
+  - No AI scanning, no mobile-first workflow
+  - Dated UX in core desktop modules
+
+best_for:
+  - FR-Swiss businesses with payroll needs
+  - Users working with a fiduciaire on Crésus files
+  - Accounting-literate indépendants preferring desktop software
+
+not_ideal_for:
+  - Mobile-first freelancers
+  - Users without bookkeeping knowledge wanting quick setup
+
+migration_to_magic_heidi:
+  difficulty: easy
+  what_transfers: "Contacts via CSV; accounting history stays in Crésus"
+  time_estimate: "Under an hour for a typical freelancer"
+
+seo:  # Swiss volumes, DataForSEO 2026-07-02 — all Crésus queries returned no measurable volume
+  keywords: []
+  note: "FR competitor demand concentrates on 'alternative bexio' (140) and 'winbiz prix' (20); Crésus terms too small to measure — treat Crésus pages as long-tail/support content, not priority targets."
+
+existing_pages:
+  - /alternative/cresus (all 6 locales)
+
+last_verified: 2026-07-02
+sources:
+  - context/competitor-analysis.md

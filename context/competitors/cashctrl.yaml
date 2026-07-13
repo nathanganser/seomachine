@@ -1,0 +1,67 @@
+# CashCtrl — competitor data for comparison pages
+name: CashCtrl
+website: cashctrl.com
+tagline: "Cloud-Buchhaltung für KMU und Treuhänder"
+headquarters: Basel area, Switzerland
+
+positioning:
+  primary_use_case: "Cloud accounting/ERP for accounting-literate users and fiduciaries"
+  target_audience: "SMEs, fiduciaries, accountants, technical users"
+  market_position: "Technical accounting player with budget appeal"
+
+pricing:  # per context/competitor-analysis.md (May 2026); RE-VERIFY before publish
+  free_tier: true
+  free_tier_limits: "Generous free version with core accounting"
+  plans:
+    - name: FREE
+      price: "CHF 0"
+    - name: PRO
+      price: "CHF 24.60/Mt."
+
+features:
+  invoicing_qr: 4
+  expense_capture: 2      # manual entry; no AI scanning
+  vat_mwst: 4
+  bank_reconciliation: 3
+  accounting_depth: 5     # full double-entry
+  payroll: 1
+  mobile_apps: 1          # web only, no native apps
+  integrations: 4         # strong API
+  team_features: 3        # multi-client for fiduciaries
+
+strengths:
+  - Genuinely generous free tier
+  - Full double-entry accounting at budget price
+  - Strong API and technical documentation
+  - Multi-client features for fiduciaries
+
+weaknesses:
+  - Written for accountants — assumes bookkeeping knowledge
+  - No native mobile apps, no mobile-first workflow
+  - No AI receipt scanning
+  - Dated design; not built for freelancers without accounting training
+
+best_for:
+  - Accounting-literate users on a budget
+  - Fiduciaries managing several mandates
+  - Technical users wanting API access to their books
+
+not_ideal_for:
+  - Freelancers without accounting knowledge
+  - Mobile-first users who invoice and scan receipts on the go
+
+migration_to_magic_heidi:
+  difficulty: easy
+  what_transfers: "Contacts via CSV; invoices re-created"
+  time_estimate: "Under an hour for a typical freelancer"
+
+seo:  # Swiss volumes, DataForSEO 2026-07-02
+  keywords:
+    - {kw: "cashctrl erfahrungen", vol: 20, lang: de}
+
+existing_pages:
+  - /alternative/cashctrl (all 6 locales)
+
+last_verified: 2026-07-02
+sources:
+  - context/competitor-analysis.md

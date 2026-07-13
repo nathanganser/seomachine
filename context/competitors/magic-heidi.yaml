@@ -1,0 +1,73 @@
+# Magic Heidi — own-product data for comparison pages
+# Single source of truth. Update here, then propagate to all /alternative/* pages.
+name: Magic Heidi
+website: magicheidi.ch
+tagline: "Rechnungen, Ausgaben und MWST für Schweizer Freelancer"
+headquarters: Zürich, Switzerland
+
+positioning:
+  primary_use_case: "Invoicing + expenses + VAT for solo Swiss freelancers"
+  target_audience: "Swiss freelancers and Einzelfirmen without employees"
+  market_position: "Freelancer-first challenger; simplest Swiss-only tool"
+
+pricing:  # verified against live /de/pricing on 2026-07-02
+  free_tier: true
+  free_tier_limits: "3 invoices & 3 expenses, ALL features (incl. AI scanning, bank import), no credit card, no time limit"
+  plans:
+    - name: Gratis
+      price: "CHF 0"
+    - name: Jährlich
+      price: "CHF 25/Mt. (CHF 299/Jahr)"
+    - name: Monatlich
+      price: "CHF 39/Mt."
+  notes: "30-day money-back guarantee on paid plans. No feature differences between paid plans."
+
+features:  # 1-5 self-assessment, be honest
+  invoicing_qr: 5          # SIX-compliant QR-bill v2.3, DE/FR/IT/EN, 50+ currencies
+  expense_capture: 5       # AI scanning (photo/PDF/email import), not basic OCR
+  vat_mwst: 5              # Both methods (effektiv + Saldosteuersatz), tax-ready exports
+  bank_reconciliation: 4   # CSV import from Swiss banks + auto-matching; no direct e-banking API sync
+  accounting_depth: 2      # Simplified (Milchbüechli-style); no double-entry, no balance sheet
+  payroll: 0               # none — not for employers
+  mobile_apps: 5           # native iOS, Android, Mac, Windows + web, real-time sync
+  integrations: 3          # Zapier, REST API, webhooks, email import
+  team_features: 1         # built for solo users
+
+strengths:
+  - Built exclusively for Swiss freelancers/Einzelfirmen — nothing SME-bloated
+  - AI receipt scanning (date, amount, vendor, currency, VAT auto-extracted)
+  - Native apps on 5 platforms with real-time sync
+  - Free tier includes every feature (3 invoices/3 expenses)
+  - Swiss VAT both filing methods built in
+  - Data hosted in Zürich, full ZIP export anytime
+  - Founder-direct support in DE/FR/IT/EN
+  - Setup in minutes, no accounting knowledge needed
+
+weaknesses:  # be honest — used for "who should NOT choose us" sections
+  - No payroll — wrong fit for businesses with employees
+  - No double-entry accounting / balance sheet (simplified accounting only)
+  - No POS, webshop, inventory or project management
+  - Free tier capped at 3 invoices (AbaNinja offers 500)
+  - Bank import via CSV, not direct e-banking connection (bexio has direct sync)
+  - Monthly plan (CHF 39) pricier than some budget tools; annual (CHF 25) is the real price point
+
+best_for:
+  - Solo freelancers and Einzelfirmen in Switzerland
+  - People without accounting knowledge
+  - Mobile-first users (invoice on-site, scan receipts on the go)
+  - VAT-registered freelancers wanting automatic MWST handling
+
+not_ideal_for:
+  - Companies with employees (payroll needed)
+  - Businesses needing full double-entry accounting or ERP
+  - Retail needing POS/inventory
+  - Fiduciaries managing many client mandates
+
+social_proof:  # keep in sync with /reviews
+  users: "5,000+ Swiss freelancers"
+  ratings: "4.9★ App Store · 5.0★ Google · 4.7★ Capterra · 4.5★ Trustpilot"
+
+last_verified: 2026-07-02
+sources:
+  - context/features.md  # pricing corrected 2026-07-02 to match live site
+  - https://magicheidi.ch/de/pricing

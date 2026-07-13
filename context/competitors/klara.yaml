@@ -1,0 +1,69 @@
+# KLARA — competitor data for comparison pages
+name: KLARA
+website: klara.ch
+tagline: "Das Business-Betriebssystem für KMU"
+headquarters: Lucerne, Switzerland
+
+positioning:
+  primary_use_case: "Broad business OS: invoicing, accounting, POS, online shop, website, booking"
+  target_audience: "Swiss SMEs, local businesses with staff, vertical industries (gastro, retail, beauty, trades)"
+  market_position: "Broad challenger / business operating system"
+
+pricing:  # per context/competitor-analysis.md (May 2026); RE-VERIFY before publish
+  free_tier: false  # some entry modules have been free historically — verify current state before claiming
+  plans:
+    - name: Paid modules
+      price: "ab CHF 35/Mt."
+  notes: "Modular pricing; total depends on which modules you activate."
+
+features:
+  invoicing_qr: 4
+  expense_capture: 3
+  vat_mwst: 4
+  bank_reconciliation: 4
+  accounting_depth: 4
+  payroll: 4
+  mobile_apps: 3
+  integrations: 3
+  team_features: 4
+  pos_shop_website: 5   # its real differentiator
+
+strengths:
+  - Very broad feature surface (POS, shop, website, booking, payroll)
+  - Strong vertical/industry landing pages and brand awareness
+  - Four-language coverage
+  - Good fit for local businesses that need more than invoicing
+
+weaknesses:
+  - Breadth dilutes simplicity — solo freelancers navigate features they never use
+  - Not clearly positioned for self-employed people without staff
+  - Blog is product-update-driven, little freelancer education
+  - No AI expense scanning narrative
+
+best_for:
+  - Local businesses needing POS, shop or website alongside admin
+  - SMEs in KLARA's vertical industries
+  - Businesses with employees
+
+not_ideal_for:
+  - Solo freelancers wanting a focused invoicing + expenses tool
+  - Users who value minimal setup and a small learning curve
+
+migration_to_magic_heidi:
+  difficulty: easy
+  what_transfers: "Contacts via CSV; invoices re-created"
+  time_estimate: "Under an hour for a typical freelancer"
+
+seo:  # Swiss volumes, DataForSEO 2026-07-02
+  keywords:
+    - {kw: "klara vs bexio", vol: 20, lang: de}
+    - {kw: "bexio vs klara", vol: 10, lang: de}
+    - {kw: "klara alternative", vol: 10, lang: de}
+    - {kw: "klara erfahrungen", vol: 10, lang: de}
+
+existing_pages:
+  - /alternative/klara (all 6 locales)
+
+last_verified: 2026-07-02
+sources:
+  - context/competitor-analysis.md

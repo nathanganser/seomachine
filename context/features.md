@@ -35,7 +35,7 @@ This document outlines Magic Heidi's key features, benefits, and differentiators
 - **Conversion Angle**: "See exactly how your freelance business is performing in one simple dashboard."
 
 ### 7. **Free Tier With No Credit Card**
-- **Feature**: Full-featured free plan with up to 3 invoices. No credit card required and no time limit. Pro unlocks unlimited invoices, quotes, expenses, and clients.
+- **Feature**: Full-featured free plan with up to 3 invoices and 3 expenses. No credit card required and no time limit. Pro unlocks unlimited invoices, quotes, expenses, and clients.
 - **Benefit**: Start with real invoices before paying. No risk, no pressure, no hidden catch.
 - **Conversion Angle**: "Start free. No credit card. No time limit. Upgrade only when you're ready."
 
@@ -115,7 +115,7 @@ This document outlines Magic Heidi's key features, benefits, and differentiators
 
 ### vs. bexio
 - **Built exclusively for freelancers**: bexio is designed for larger SMEs with teams, warehouses, and features many solo freelancers do not need.
-- **Lower price point**: Magic Heidi is positioned at CHF 30/mo compared with bexio at CHF 45+/mo.
+- **Lower price point**: Magic Heidi Pro costs CHF 25/mo billed annually (CHF 299/year) or CHF 39/mo monthly, compared with bexio from CHF 35–69/mo on annual billing (CHF 45+/mo monthly, March 2026 pricing).
 - **Native desktop apps**: Mac and Windows apps in addition to mobile and web.
 - **AI expense scanning included**: AI receipt capture is part of the freelancer workflow.
 - **Faster setup**: Start in minutes instead of navigating complex SME accounting setup.
@@ -182,7 +182,7 @@ This document outlines Magic Heidi's key features, benefits, and differentiators
 ## Pricing & Plan Benefits
 
 ### Free Plan Benefits
-- Create up to 3 invoices.
+- Create up to 3 invoices and track up to 3 expenses.
 - Access all main features, including QR-bills, AI scanning, bank import, and VAT tracking.
 - Use all platforms: iOS, Android, Mac, Windows, and Web.
 - No credit card required.
@@ -194,13 +194,13 @@ This document outlines Magic Heidi's key features, benefits, and differentiators
 - Unlimited invoices, quotes, expenses, and clients.
 - Priority email and phone support in DE, FR, IT, and EN.
 - Zapier integration and API access.
-- Full freelancer workflow for CHF 30/mo.
+- Full freelancer workflow for CHF 39/mo.
 - 30-day money-back guarantee.
 
 ### Pro Annual Benefits
 - Everything in Monthly Pro, plus:
-- CHF 25/mo billed annually.
-- Save compared with monthly billing.
+- CHF 25/mo billed annually (CHF 299/year).
+- Save CHF 169/year compared with monthly billing.
 - Same unlimited invoices, quotes, expenses, and clients.
 - Same priority support and integrations.
 - Same 30-day money-back guarantee.
@@ -237,7 +237,7 @@ This document outlines Magic Heidi's key features, benefits, and differentiators
 **Answer**: Magic Heidi is built especially for Swiss freelancers and Einzelfirmen. If you are a solo business owner, it gives you the invoicing, expenses, VAT, and payment tracking you need without the complexity of SME tools. If you have employees and need payroll, Magic Heidi is not the right fit.
 
 ### "Can I really use it for free? What's the catch?"
-**Answer**: Yes. The free plan lets you create up to 3 invoices and try the main features, including QR-bills, AI scanning, bank import, and VAT tracking. No credit card is required and there is no time limit.
+**Answer**: Yes. The free plan lets you create up to 3 invoices and 3 expenses and try all features, including QR-bills, AI scanning, bank import, and VAT tracking. No credit card is required and there is no time limit.
 
 ### "Is my data safe? Where is it stored?"
 **Answer**: Magic Heidi hosts data in Zürich, Switzerland. Data is encrypted at rest and in transit, automatic backups protect your files, and you can export a full ZIP archive of your data anytime.

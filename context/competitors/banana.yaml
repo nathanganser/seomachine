@@ -1,0 +1,68 @@
+# Banana Accounting — competitor data for comparison pages
+name: Banana Accounting
+website: banana.ch
+tagline: "Buchhaltungssoftware für die Schweiz"
+headquarters: Lugano, Switzerland
+
+positioning:
+  primary_use_case: "Desktop double-entry accounting"
+  target_audience: "Accounting-literate users, schools, small businesses, accountants"
+  market_position: "Legacy niche player with strong education credibility"
+
+pricing:  # per context/competitor-analysis.md (May 2026); RE-VERIFY before publish
+  free_tier: true
+  free_tier_limits: "Free up to 70 transactions"
+  plans:
+    - name: Jahresabo
+      price: "CHF 89/Jahr (≈ CHF 7.40/Mt.)"
+
+features:
+  invoicing_qr: 3
+  expense_capture: 1      # manual, spreadsheet-like entry
+  vat_mwst: 4
+  bank_reconciliation: 2
+  accounting_depth: 5     # proper double-entry
+  payroll: 1
+  mobile_apps: 1          # desktop-first
+  integrations: 2
+  team_features: 1
+
+strengths:
+  - Very low cost (CHF 89/year)
+  - Proper double-entry accounting with strong template library
+  - Decades of credibility, used in Swiss accounting education
+  - Eight-language coverage
+
+weaknesses:
+  - Requires accounting knowledge (double-entry, chart of accounts)
+  - Desktop-first, no modern mobile/cloud workflow
+  - No AI scanning, manual data entry
+  - Dated UX; invoicing is secondary to bookkeeping
+
+best_for:
+  - Users who know double-entry bookkeeping and want full control
+  - Budget-conscious users comfortable with desktop software
+  - Anyone whose Treuhänder specifically works with Banana files
+
+not_ideal_for:
+  - Freelancers without bookkeeping training
+  - Mobile-first users
+  - People wanting invoicing as the primary workflow
+
+migration_to_magic_heidi:
+  difficulty: easy
+  what_transfers: "Contacts via CSV; accounting history stays in Banana files"
+  time_estimate: "Under an hour for a typical freelancer"
+
+seo:  # Swiss volumes, DataForSEO 2026-07-02
+  keywords:
+    - {kw: "banana alternative", vol: 10, lang: de}
+    - {kw: "bexio vs banana", vol: 10, lang: de}
+    - {kw: "banana buchhaltung erfahrungen", vol: 10, lang: de}
+
+existing_pages:
+  - /alternative/banana (all 6 locales)
+
+last_verified: 2026-07-02
+sources:
+  - context/competitor-analysis.md

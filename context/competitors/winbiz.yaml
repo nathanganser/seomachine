@@ -1,0 +1,65 @@
+# WinBIZ — competitor data for comparison pages (FR-Swiss focus)
+name: WinBIZ
+website: winbiz.ch
+tagline: "Logiciel de gestion suisse tout-en-un"
+headquarters: Martigny, Switzerland
+
+positioning:
+  primary_use_case: "All-in-one Swiss ERP: accounting, invoicing, salaries, stock, CRM"
+  target_audience: "SMEs and some indépendants, strongest in FR-Swiss; 900+ fiduciaire partners"
+  market_position: "Established FR-Swiss SME ERP, 50,000+ clients, 30-year history"
+
+pricing:  # per context/competitor-analysis.md (May 2026); RE-VERIFY before publish
+  free_tier: false
+  plans:
+    - name: Subscriptions
+      price: "ab CHF 69/Mt."
+
+features:
+  invoicing_qr: 4
+  expense_capture: 1
+  vat_mwst: 5
+  bank_reconciliation: 3
+  accounting_depth: 5
+  payroll: 5
+  mobile_apps: 1
+  integrations: 3
+  team_features: 4
+
+strengths:
+  - Full ERP breadth (accounting, payroll, stock, CRM)
+  - Huge fiduciaire partner ecosystem (900+)
+  - Multi-language (FR/DE/IT)
+  - Long-standing FR-Swiss authority
+
+weaknesses:
+  - SME-complex: heavy onboarding for solo users
+  - Higher price point (from CHF 69/Mt.) than freelancer tools
+  - No AI scanning, installed-software heritage
+  - Almost no educational content or freelancer positioning
+
+best_for:
+  - FR-Swiss SMEs needing ERP breadth (stock, payroll, CRM)
+  - Businesses whose fiduciaire works with WinBIZ
+
+not_ideal_for:
+  - Solo indépendants who need invoicing + expenses, not an ERP
+  - Mobile-first users, users without accounting knowledge
+
+migration_to_magic_heidi:
+  difficulty: easy
+  what_transfers: "Contacts via CSV; accounting history stays in WinBIZ"
+  time_estimate: "Under an hour for a typical freelancer"
+
+seo:  # Swiss volumes, DataForSEO 2026-07-02
+  keywords:
+    - {kw: "winbiz prix", vol: 20, lang: fr}
+    - {kw: "alternative winbiz", vol: 10, lang: fr}
+    - {kw: "winbiz avis", vol: 10, lang: fr}
+
+existing_pages:
+  - /alternative/winbiz (all 6 locales)
+
+last_verified: 2026-07-02
+sources:
+  - context/competitor-analysis.md

@@ -1,0 +1,64 @@
+# Smallinvoice — competitor data for comparison pages
+name: Smallinvoice
+website: smallinvoice.ch
+tagline: "Schweizer Rechnungs-, CRM- und Projektsoftware"
+headquarters: Switzerland
+
+positioning:
+  primary_use_case: "Invoicing + CRM + project/time management"
+  target_audience: "Freelancers and small service businesses needing invoicing plus project tracking"
+  market_position: "Invoicing-focused challenger with modular pricing"
+
+pricing:  # per context/competitor-analysis.md (May 2026); RE-VERIFY before publish
+  free_tier: false  # verify — historically low-cost entry tiers
+  plans:
+    - name: Modular tiers
+      price: "CHF 7–30+/Mt. depending on modules"
+
+features:
+  invoicing_qr: 5         # genuine QR-bill topical authority
+  expense_capture: 2      # no AI scanning
+  vat_mwst: 3
+  bank_reconciliation: 3
+  accounting_depth: 2     # invoicing-focused, weak accounting
+  payroll: 0
+  mobile_apps: 2          # web-based
+  integrations: 4
+  team_features: 3        # projects, time tracking
+
+strengths:
+  - Low entry price with modular tiers
+  - Strong QR-bill support and Swiss invoicing focus
+  - Project management and time tracking built in
+  - Multi-language coverage
+
+weaknesses:
+  - Invoicing-only focus — accounting and VAT workflows are thinner
+  - No AI receipt scanning
+  - Web-only (no native mobile/desktop apps)
+  - Inconsistent content/product communication cadence
+
+best_for:
+  - Freelancers who bill by the hour and want built-in time tracking
+  - Service businesses needing light project management with invoicing
+  - Budget-conscious users who only need invoicing
+
+not_ideal_for:
+  - Freelancers wanting expenses + VAT + accounting in one tool
+  - Mobile-first users wanting native apps
+
+migration_to_magic_heidi:
+  difficulty: easy
+  what_transfers: "Contacts via CSV; invoices re-created"
+  time_estimate: "Under an hour for a typical freelancer"
+
+seo:  # Swiss volumes, DataForSEO 2026-07-02
+  keywords:
+    - {kw: "smallinvoice erfahrungen", vol: 10, lang: de}
+
+existing_pages:
+  - /alternative/smallinvoice (all 6 locales)
+
+last_verified: 2026-07-02
+sources:
+  - context/competitor-analysis.md
