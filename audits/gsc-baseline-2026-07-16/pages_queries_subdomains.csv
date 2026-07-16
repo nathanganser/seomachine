@@ -1,0 +1,56 @@
+page,query,locale_bucket,clicks,impressions,ctr,position
+https://app.magicheidi.ch/,magic heidi login,subdomain,30,56,0.535714,1.21
+https://app.magicheidi.ch/,magic heidi,subdomain,2,633,0.00316,1.38
+https://app.magicheidi.ch/,magic heidi app,subdomain,1,13,0.076923,1.92
+https://www.magicheidi.ch/integrations/stripe,from stripe,subdomain,1,1,1,2
+https://app.magicheidi.ch/,magicheidi,subdomain,0,47,0,1.4
+https://www.magicheidi.ch/integrations/amazon,amazon fba suisse,subdomain,0,40,0,15.57
+https://www.magicheidi.ch/integrations/stripe,stripe bookkeeping,subdomain,0,27,0,34.85
+https://app.magicheidi.ch/,heidi login,subdomain,0,17,0,6.18
+https://www.magicheidi.ch/integrations/stripe,stripe switzerland,subdomain,0,8,0,12.62
+https://www.magicheidi.ch/integrations/stripe,site:magicheidi.ch,subdomain,0,7,0,28
+https://www.magicheidi.ch/integrations/amazon,amazon fba switzerland,subdomain,0,6,0,11.33
+https://www.magicheidi.ch/integrations/stripe,stripe accounting,subdomain,0,6,0,29.83
+https://www.magicheidi.ch/integrations/stripe,stripe fees switzerland,subdomain,0,6,0,11.67
+https://www.magicheidi.ch/integrations/amazon,amazon fba buchhaltungssoftware,subdomain,0,5,0,57.4
+https://help.magicheidi.ch/,site:https://magicheidi.ch,subdomain,0,4,0,70
+https://app.magicheidi.ch/,heidi app log in,subdomain,0,3,0,7.33
+https://www.magicheidi.ch/integrations/stripe,stripe gebühren schweiz,subdomain,0,3,0,1
+https://app.magicheidi.ch/,login heidi,subdomain,0,2,0,11
+https://app.magicheidi.ch/?auto-guest-login=true,magic heidi,subdomain,0,2,0,4
+https://app.magicheidi.ch/?mp_anonymous_id=%24device%3A0edcdb8b-c0de-4436-9038-aba48005b93a,magic heidi login,subdomain,0,2,0,1
+https://app.magicheidi.ch/?mp_anonymous_id=%24device%3Ab5d0c844-c3eb-4bc7-97e0-3eb1ef27ef0c,site:magicheidi.ch,subdomain,0,2,0,301.5
+https://app.magicheidi.ch/?mp_anonymous_id=%24device%3Ac3376493-334a-4f96-8798-9e952334d1c3,site:magicheidi.ch,subdomain,0,2,0,1
+https://app.magicheidi.ch/?mp_anonymous_id=%24device%3Adb2ac2eb-7e3f-4ccc-a661-7e57f08cc440,site:magicheidi.ch,subdomain,0,2,0,302.5
+https://app.magicheidi.ch/?mp_anonymous_id=%24device%3Af1b51df5-3bd5-4766-a5a8-59ed77eaff3a,magic heidi login,subdomain,0,2,0,5
+https://www.magicheidi.ch/integrations/amazon,amazon fba wholesalers in switzerland,subdomain,0,2,0,8
+https://www.magicheidi.ch/integrations/etsy,etsy,subdomain,0,2,0,2.5
+https://app.magicheidi.ch/,app heidi,subdomain,0,1,0,8
+https://app.magicheidi.ch/,desktop version,subdomain,0,1,0,1
+https://app.magicheidi.ch/,heidi digital,subdomain,0,1,0,44
+https://app.magicheidi.ch/,miatagirlheidi,subdomain,0,1,0,8
+https://app.magicheidi.ch/?mp_anonymous_id=%24device%3A47599dbd-cc91-43aa-a433-d40dde9495ca,magic heidi login,subdomain,0,1,0,5
+https://app.magicheidi.ch/?mp_anonymous_id=%24device%3Abe6fd318-07dc-458c-abb3-c9fc51e9305b,heidi digital,subdomain,0,1,0,36
+https://app.magicheidi.ch/?mp_anonymous_id=%24device%3Abe6fd318-07dc-458c-abb3-c9fc51e9305b,magic heidi,subdomain,0,1,0,1
+https://help.magicheidi.ch/,site:magicheidi.ch,subdomain,0,1,0,59
+https://www.magicheidi.ch/,quels sont les meilleurs logiciels de gestion pour pme en suisse en 2026 ?,subdomain,0,1,0,9
+https://www.magicheidi.ch/,rechnung-online,subdomain,0,1,0,10
+https://www.magicheidi.ch/integrations/amazon,amazon accounting,subdomain,0,1,0,52
+https://www.magicheidi.ch/integrations/amazon,amazon.it,subdomain,0,1,0,27
+https://www.magicheidi.ch/integrations/amazon,seller,subdomain,0,1,0,3
+https://www.magicheidi.ch/integrations/etsy,etsy payout time,subdomain,0,1,0,1
+https://www.magicheidi.ch/integrations/etsy,etsy seller fees for digital products,subdomain,0,1,0,1
+https://www.magicheidi.ch/integrations/etsy,etsy seller sign up,subdomain,0,1,0,1
+https://www.magicheidi.ch/integrations/etsy,how do you get paid from etsy,subdomain,0,1,0,1
+https://www.magicheidi.ch/integrations/etsy,site:magicheidi.ch,subdomain,0,1,0,160
+https://www.magicheidi.ch/integrations/etsy,я в швейцарии,subdomain,0,1,0,2
+https://www.magicheidi.ch/integrations/shopify,shopify pricing switzerland 2026,subdomain,0,1,0,4
+https://www.magicheidi.ch/integrations/shopify,shopify pricing switzerland chf 2026,subdomain,0,1,0,4
+https://www.magicheidi.ch/integrations/shopify,shopify suisse,subdomain,0,1,0,19
+https://www.magicheidi.ch/integrations/stripe,"""stripe tax"" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",subdomain,0,1,0,9
+https://www.magicheidi.ch/integrations/stripe,stripe konditionen,subdomain,0,1,0,1
+https://www.magicheidi.ch/integrations/stripe,stripe payout,subdomain,0,1,0,4
+https://www.magicheidi.ch/integrations/stripe,stripe pricing switzerland 2026,subdomain,0,1,0,6
+https://www.magicheidi.ch/integrations/stripe,stripe pricing switzerland official,subdomain,0,1,0,8
+https://www.magicheidi.ch/integrations/stripe,stripe schweiz,subdomain,0,1,0,3
+https://www.magicheidi.ch/integrations/stripe,stripe zurich,subdomain,0,1,0,7

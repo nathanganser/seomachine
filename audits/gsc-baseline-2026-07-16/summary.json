@@ -1,0 +1,36 @@
+{
+  "site_url": "sc-domain:magicheidi.ch",
+  "exported_at": "2026-07-16T11:37:36",
+  "date_range": {
+    "start": "2026-04-17",
+    "end": "2026-07-16"
+  },
+  "page_query_rows_total": 106322,
+  "page_rows_total": 2605,
+  "buckets": {
+    "bare": {
+      "page_query_rows": 24001,
+      "pages": 477,
+      "clicks": 3488,
+      "impressions": 915049
+    },
+    "de": {
+      "page_query_rows": 33928,
+      "pages": 494,
+      "clicks": 6196,
+      "impressions": 869787
+    },
+    "other_locale": {
+      "page_query_rows": 48338,
+      "pages": 1607,
+      "clicks": 16835,
+      "impressions": 2053437
+    },
+    "subdomain": {
+      "page_query_rows": 55,
+      "pages": 27,
+      "clicks": 76,
+      "impressions": 2639
+    }
+  }
+}

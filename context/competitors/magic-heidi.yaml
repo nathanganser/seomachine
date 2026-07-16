@@ -70,4 +70,4 @@ social_proof:  # keep in sync with /reviews
 last_verified: 2026-07-02
 sources:
   - context/features.md  # pricing corrected 2026-07-02 to match live site
-  - https://magicheidi.ch/de/pricing
+  - https://magicheidi.ch/pricing

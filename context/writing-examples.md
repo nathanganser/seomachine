@@ -184,7 +184,7 @@ Le plus simple pour vous faire une idée: essayez par vous-même, créez votre p
 
 ## Example 1: [ARTICLE TITLE]
 
-**URL**: [https://magicheidi.ch/de/invoice-swiss-individual]
+**URL**: [https://magicheidi.ch/invoice-swiss-individual]
 **Primary Keyword**: [rechnung schreiben privatperson]
 **Word Count**: [1'800 words]
 **Publication Date**: [22 Feb, 2024]
