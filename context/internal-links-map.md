@@ -2,18 +2,19 @@
 
 This document catalogs key Magic Heidi pages that should be referenced in blog content for strategic internal linking. Use this as the go-to reference when adding internal links to articles.
 
-**Last verified**: 2026-05-25 (against `mh-landing` repo content folders, `config/redirects.ts`, `nuxt.config.ts` route rules, plus live HTTP checks on magicheidi.ch)
+**Last verified**: 2026-07-19 (live curl checks against magicheidi.ch — see note below; supersedes the 2026-05-25 pass, which predates the 2026-07-16 default-locale switch)
 
 ---
 
 ## Site structure — read this first
 
-- **Six locales** are configured (Nuxt i18n, `prefix_except_default`): `en` (default, **no prefix**), `de`, `fr`, `it`, `es`, `pt`. `/en/` returns 404 (the catch-all `/en/* → /*` rewrite handles legacy paths).
-- **German content uses `/de/` prefix**, French `/fr/`, Italian `/it/`, Spanish `/es/`, Portuguese `/pt/`.
+- **Six locales** are configured (Nuxt i18n). Since the **2026-07-16 default-locale switch**, bare URLs (`magicheidi.ch/slug`, **no prefix**) serve **German**; English lives at **`/en/slug`**; French/Italian/Spanish/Portuguese are unchanged at `/fr/`, `/it/`, `/es/`, `/pt/`. This reverses the pre-migration scheme — if you see "en default, no prefix" anywhere (including in memory files), it's describing the old behavior.
+- Verified live 2026-07-18/19: bare `/` renders with `lang="de-CH"` and a self-referencing `de-CH` hreflang; `/de/*` paths 308-redirect to their bare equivalent; `/en` returns a real 200 page (not a 404 — the old catch-all `/en/* → /*` rewrite no longer applies to the bare `/en` route itself).
 - **Most pages exist in all 6 languages** at the same slug, but a few do not (see "Pages missing in some locales" below).
 - **Slugs are not localised on most pages** — many use German words across every language (`/rechnungsprogramm`, `/buchhaltungssoftware`, `/mwst-freelancer`, `/einzelfirma-grunden-schweiz`, `/beleg-scanner-schweiz`, `/rechnungsvorlage`, `/qr-rechnung-erstellen`, `/rechnung-schreiben-schweiz`, `/stundenlohn-berechnen-schweiz`). Don't try to "translate" the slug; the German slug is canonical in every language.
-- When linking from a non-English article, **always use the language-prefixed URL** (e.g. from a German article, link to `/de/rechnungsprogramm`, not `/rechnungsprogramm`).
-- If you link a slug that doesn't exist in the article's locale, the site does a 302 lookup in other locales — wasted hop. Always pick an existing locale path.
+- **Inline content links** (markdown `[text](/slug)` inside an article body) are auto-localized at render time by the site's `ProseA.vue` component via Nuxt i18n's `localePath()` — a bare `/mwst-freelancer` written in *any* locale's markdown renders with that page's own locale prefix automatically (confirmed live: bare `/mwst-freelancer` inside `/en/vat-management`'s content renders as `href="/en/mwst-freelancer"`). **Always write inline content links bare (no locale prefix)** — this is simpler and matches the auto-localization behavior. Do NOT hand-prefix inline links with a specific locale (e.g. `/de/...`) since it's unconfirmed whether an already-prefixed link gets corrected for the current page's locale or left as literally written; a `/de/...` link inside non-German content risks sending readers to the German page. (One live article, `top-5-buchhaltungssoftware-schweiz`, still has hand-written `/de/`-prefixed inline links as of 2026-07-19 — a pre-migration leftover, not a pattern to copy.)
+- **Structured-data / schema fields are different** — e.g. the `page-path` prop in `::pages-landing-magic-heidi-software-schema` is NOT auto-localized and must be hand-set per locale (`/en/original-slug`, `/fr/original-slug`, etc., bare/no-prefix only for the German version). Confirmed via the live canonical tag and JSON-LD on `/en/alternative/klara`.
+- If you link a slug that doesn't exist in the article's locale, the site does a lookup in other locales — wasted hop. Always pick an existing locale path.
 
 ### Pages missing in some locales
 
@@ -396,4 +397,4 @@ Hub: `/integrations` (and locale variants). Individual integration pages, all li
 
 ---
 
-*Note: Verify URLs whenever the site structure changes. Source of truth: `mh-landing/content/<locale>/`, `mh-landing/config/redirects.ts`, and the `routeRules` blocks in `mh-landing/nuxt.config.ts`. Last live verification: 2026-05-25.*
+*Note: Verify URLs whenever the site structure changes. Source of truth: `mh-landing/content/<locale>/`, `mh-landing/config/redirects.ts`, and the `routeRules` blocks in `mh-landing/nuxt.config.ts`. Last live verification: 2026-07-19.*
