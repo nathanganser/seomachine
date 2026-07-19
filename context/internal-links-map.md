@@ -61,8 +61,15 @@ The following old URLs **redirect** to new canonical paths. Always link to the c
 | `/tools-and-utilities/eur-to-chf-conversion` (all locales) | `/euro-conversion` |
 | `/vat-method` | `/vat-management` |
 | `/login` | `https://app.magicheidi.ch` (external) |
+| `/blog/comment-saffilier-a-lavs-en-tant-quindependant` (all locales) | `/ahv-compensation-fund` (2026-07-16 merge) |
+| `/gmbh-vs-selbstaendig-vs-ag` (de/fr/it/es/pt) | `/einzelfirma-oder-gmbh-schweiz` (2026-07-16 merge) |
+| `/steuerabzuege-selbstaendige-schweiz` (de/fr/it/es/pt) | `/steuerabzuge-schweiz` (2026-07-16 merge) |
+| `/blog/generieren-sie-muhelos-schweizerische-rechnungen-mit-qr-code-auf-ihrem-mac-mit-magic-heidi` (all locales) | `/mac` (2026-07-16 merge) |
+| `/duplication` (German/bare only — other locales keep the slug) | `/doppelerwerbstaetigkeit-schweiz` (2026-07-16 re-slug) |
 
 If you discover a 301/308 in production that isn't here, it's still real — check `mh-landing/config/redirects.ts`. The list above covers the most common ones a writer might reach for.
+
+**Anchor-text convention (2026-07-16, anti-cannibalization):** always anchor "Buchhaltungssoftware"/"Buchhaltung" → `/buchhaltungssoftware`, "Rechnungsprogramm"/"Rechnungssoftware"/"Fakturierung" → `/rechnungsprogramm`, comparison intent ("Vergleich", "beste …") → `/top-5-buchhaltungssoftware-schweiz`, "bexio Preise" → `/bexio-preise` (not `/alternative/bexio`). Mixed anchors are what let the accounting pillar cannibalize the invoicing pillar.
 
 ---
 
@@ -183,6 +190,13 @@ All exist in all 6 locales unless noted.
 - This is a **real live page** in every locale (the legacy `/vat-method` redirects here). Use it as the VAT pillar for es/pt content, and as an English-anchor alternative when `/mwst-freelancer` doesn't fit the sentence.
 - **When to link**: Same triggers as `/mwst-freelancer`; pick whichever slug reads better in the anchor.
 
+### VAT number lookup & registration guide (`mwst-registrierung`)
+- **All 6 locales**: `/mwst-registrierung` (bare = DE post-migration), `/en/mwst-registrierung`, `/fr/mwst-registrierung`, `/it/mwst-registrierung`, `/es/mwst-registrierung`, `/pt/mwst-registrierung`. Also has DE-only canton subpages (`/mwst-registrierung/zurich`, `/genf`, `/bern`, `/tessin`, `/waadt`, `/aargau`, `/st-gallen`, `/luzern`).
+- **When to link**: Articles about the Swiss VAT number format (CHE-XXX.XXX.XXX MWST), verifying/looking up a VAT number via the UID register, or general VAT registration process/threshold content distinct from the freelancer-specific angle already covered by `/mwst-freelancer`.
+- **Anchor (EN)**: "Swiss VAT number guide", "VAT registration guide", "how to find your Swiss VAT number"
+- **Anchor (DE)**: "MWST-Registrierung Schweiz", "Schweizer MWST-Nummer"
+- **Added 2026-07-18**: this page was ranking for "vat number switzerland" / "swiss vat number" (EN queries) but was untracked here and had zero EN inbound links — added to close that gap after a SE Ranking review found it.
+
 ### Bank statement import & reconciliation
 - **EN**: `/bank-statement-import` · **DE**: `/de/bank-statement-import` · **FR**: `/fr/bank-statement-import` · **IT**: `/it/bank-statement-import` · **ES**: `/es/bank-statement-import` · **PT**: `/pt/bank-statement-import`
 - **When to link**: Articles about marking invoices paid, Bankabgleich, camt.053, e-banking exports, payment matching, "stop chasing payments manually".
@@ -283,6 +297,7 @@ All 10 competitor alternative pages exist in all 6 locales.
 | AbaNinja | `/alternative/abaninja` |
 | Pebe | `/alternative/pebe` |
 | Sage | `/alternative/sage` |
+| ERPLight | `/alternative/erplight` (added 2026-07-18 — highest-relevance uncovered organic competitor per SE Ranking, sourced in `context/competitors/erplight.yaml`) |
 
 **When to link**: Whenever a competitor is named, in comparison articles, when discussing pricing differences, or when discussing migration. **Only one link per competitor mention** — don't double-link.
 

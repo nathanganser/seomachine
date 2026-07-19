@@ -1,0 +1,80 @@
+# ERPLight — competitor data for comparison pages
+name: ERPLight
+website: erplight.ch
+tagline: "ERP so einfach wie nie zuvor"
+headquarters: Switzerland
+
+positioning:
+  primary_use_case: "Minimalist document/invoicing tool: quotes, orders, QR invoices, basic expense capture, accountant export"
+  target_audience: "Swiss freelancers and small/growing SMEs (Schweizer Selbständige und KMU) who want essential-only functionality with zero learning curve"
+  market_position: "Budget-friendly, stripped-down challenger — explicitly positions against 'overloaded' competitors"
+
+pricing:  # verified against live erplight.ch on 2026-07-18
+  free_tier: true  # "Starter" — forever free, unlimited documents, Swiss QR-code, PDF export
+  plans:
+    - name: Starter
+      price: "CHF 0/Monat (dauerhaft, unbegrenzte Dokumente)"
+    - name: Professional
+      price: "CHF 14.90/Monat (empfohlen — eigenes Logo, Cloud-Sync)"
+    - name: Business
+      price: "CHF 29.90/Monat (Team-Funktionen)"
+  notes: "A separate landing page (erplight.ch/buchhaltungssoftware-einzelfirma) advertises a Pro plan 'ab CHF 19.90/Monat' for sole proprietors specifically — likely a promotional/segment-specific price point rather than a 4th tier. Re-verify at next quarterly pass."
+
+features:
+  invoicing_qr: 4
+  expense_capture: 2   # mobile receipt capture only, no AI extraction narrative found
+  vat_mwst: 2           # has a standalone MWST-Rechner tool, but no automatic MWST-on-invoice/quarterly-return narrative like Magic Heidi
+  bank_reconciliation: 1
+  accounting_depth: 2   # positions explicitly as "no double-entry needed under CHF 500k", not a full accounting suite
+  payroll: 1
+  mobile_apps: 2         # web-based, camera receipt capture; no native iPhone/Mac apps found
+  integrations: 1
+  team_features: 2       # Business tier only
+  free_tool_pages: 5     # standout differentiator — see seo.keywords below
+
+strengths:
+  - Genuinely free forever tier with unlimited documents (no invoice-count cap)
+  - Strong SEO footprint on free-tool/utility pages (QR-invoice generator, IBAN checker, VAT calculator, quote generator) — these are the pages beating Magic Heidi's own tool pages in search
+  - Very low price ceiling (CHF 29.90/mo top tier) vs. most Swiss competitors
+  - Minimalist positioning resonates with price-sensitive micro-businesses
+
+weaknesses:
+  - No AI receipt/expense scanning (manual/photo capture only, no automatic data extraction claim)
+  - No native Mac/iPhone/Windows apps (web-only)
+  - Thin on MWST automation — a calculator tool, not automatic per-invoice VAT handling across both Swiss methods
+  - No bank statement import/reconciliation feature found
+  - German-only (no French/Italian/English/Spanish/Portuguese content found)
+
+best_for:
+  - Extremely price-sensitive freelancers who just need to send occasional QR invoices and quotes
+  - Users who want a free tool for a one-off task (QR-bill generation, IBAN validation) without signing up for a full product
+
+not_ideal_for:
+  - Freelancers who want AI-automated expense/receipt capture
+  - Non-German-speaking users (no FR/IT/EN/ES/PT content)
+  - Anyone wanting native Mac/iPhone apps or bank reconciliation
+
+migration_to_magic_heidi:
+  difficulty: easy
+  what_transfers: "Customer contacts and invoice history exportable as ZIP with PDF summary; re-created in Magic Heidi"
+  time_estimate: "Under an hour for a typical freelancer"
+
+seo:  # Swiss volumes/positions, SE Ranking 2026-07-18 — erplight's own ranking pages, for competitive context
+  keywords:
+    - {kw: "qr rechnung erstellen", vol: 1500, lang: de, note: "erplight ranks pos 7 (einzahlungsschein-erstellen) and pos 28 (qr-rechnung-erstellen)"}
+    - {kw: "einzahlungsschein erstellen", vol: 1000, lang: de, note: "erplight pos 7"}
+    - {kw: "offerte", vol: 1900, lang: de, note: "erplight pos 1 (SGE) via offerte-erstellen-schweiz"}
+    - {kw: "mwst rechner", vol: 1900, lang: de, note: "erplight pos 17 via mwst-rechner-schweiz"}
+    - {kw: "iban validieren", vol: 390, lang: de, note: "erplight pos 5 via iban-pruefen-schweiz"}
+  domain_relevance: 9.23  # SE Ranking organic-competitor relevance score vs. magicheidi.ch — highest of any product competitor
+  common_keywords: 1315
+  missing_keywords: 1226  # keywords erplight ranks for that magicheidi.ch does not
+
+existing_pages:
+  - none yet — this file supports the new /alternative/erplight page (all locales pending)
+
+last_verified: 2026-07-18
+sources:
+  - https://erplight.ch (fetched 2026-07-18)
+  - WebSearch: "erplight.ch Preise Pläne Rechnung Buchhaltung Schweiz" (2026-07-18)
+  - SE Ranking MCP: DATA_getDomainCompetitors, DATA_getDomainKeywords for erplight.ch (2026-07-18)
