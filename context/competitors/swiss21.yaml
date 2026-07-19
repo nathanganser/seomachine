@@ -1,0 +1,91 @@
+# Swiss21 — competitor data for comparison pages
+name: Swiss21
+website: swiss21.org
+tagline: "Das digitale Ökosystem für Schweizer KMU"
+headquarters: St. Gallen, Switzerland
+
+positioning:
+  primary_use_case: "ERP platform combining accounting, payroll, CRM, shop, POS and mobile expense management"
+  target_audience: "Swiss SMEs, start-ups, clubs and associations"
+  market_position: "Broad Swiss ERP ecosystem powered by applications such as 21.AbaNinja and 21.AbaSalary"
+
+pricing:  # verified against live swiss21.org/preise on 2026-07-19
+  free_tier: true
+  plans:
+    - name: Starter
+      price: "CHF 0/Monat"
+      limits: "1 user, 1 payroll, 1'000 documents and 1'000 addresses/products per year"
+    - name: Basic
+      price: "CHF 21/Monat"
+      limits: "3 users, 7 payrolls, 2'100 documents and addresses/products per year"
+    - name: Pro
+      price: "CHF 49/Monat"
+      limits: "5 users, 21 payrolls, 5'000 documents and addresses/products per year"
+  notes: "Extra users cost CHF 5, extra payrolls CHF 3.50; POS and e-commerce add-ons are priced separately. Advanced accounting and unlimited document recognition start in Basic."
+
+features:
+  invoicing_qr: 5
+  expense_capture: 4
+  vat_mwst: 5
+  bank_reconciliation: 5
+  accounting_depth: 5
+  payroll: 5
+  mobile_apps: 4
+  integrations: 5
+  team_features: 5
+  pos_shop_crm: 5
+
+strengths:
+  - Permanent free Starter tier with generous annual document limits
+  - Broad accounting, payroll, CRM, shop, POS and mobile expense ecosystem
+  - More than 70 bank connections and daily automated transaction matching
+  - Full accounting, Swiss VAT methods, payroll and team capabilities
+  - Built on established Swiss software such as Abacus applications
+
+weaknesses:
+  - Product naming spans Swiss21, 21.AbaNinja, AbaSalary and AbaClik, which adds conceptual complexity
+  - Advanced accounting and unlimited document recognition require a paid tier
+  - Broader setup and navigation than a solo invoicing-and-expenses workflow
+  - Public Trustpilot feedback is mixed and repeatedly mentions support and usability, but the sample is small
+  - No native Mac or Windows app comparable to Magic Heidi's desktop apps
+
+review_signals:
+  source: "Trustpilot profile for swiss21.org"
+  snapshot: "2.4/5 from 18 reviews on 2026-07-19"
+  positive_themes:
+    - Some long-term users praise the value, invoicing and year-end workflow for small companies
+  critical_themes:
+    - Support accessibility and response times
+    - Usability and manual work in some receipt-processing workflows
+    - Subscription or license activation problems
+  caveat: "Trustpilot explicitly notes that the small self-selected sample may not be representative; treat it as a dated signal."
+
+best_for:
+  - SMEs requiring payroll, connected banking, double-entry accounting, CRM, POS or a shop
+  - Clubs and companies wanting a generous free entry tier
+  - Teams that expect to grow into several connected operational applications
+
+not_ideal_for:
+  - Solo freelancers wanting the shortest possible learning curve
+  - Users who want native desktop apps and a single-product interface
+  - Freelancers who do not need payroll, CRM, shop, POS or full accounting
+
+migration_to_magic_heidi:
+  difficulty: medium
+  what_transfers: "Export contacts and the records needed for the cut-over; retain the full accounting archive and coordinate open entries with the fiduciary"
+  time_estimate: "Depends on whether only invoicing or full accounting/payroll is in use"
+
+seo:
+  keywords:
+    - {kw: "swiss21", vol: 610, lang: de}
+    - {kw: "swiss21 erfahrungen", vol: 20, lang: de}
+
+existing_pages:
+  - none yet — this file supports /alternative/swiss21 (German first)
+
+last_verified: 2026-07-19
+sources:
+  - https://swiss21.org/
+  - https://swiss21.org/preise/
+  - https://www.ubs.com/ch/de/services/digital-banking/marketplace/accounting/swiss21.html
+  - https://de.trustpilot.com/review/swiss21.org

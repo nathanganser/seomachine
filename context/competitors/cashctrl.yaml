@@ -1,67 +1,82 @@
 # CashCtrl — competitor data for comparison pages
 name: CashCtrl
 website: cashctrl.com
-tagline: "Cloud-Buchhaltung für KMU und Treuhänder"
-headquarters: Basel area, Switzerland
+tagline: "Schweizer Cloud-Buchhaltung und ERP"
+headquarters: Switzerland
 
 positioning:
-  primary_use_case: "Cloud accounting/ERP for accounting-literate users and fiduciaries"
-  target_audience: "SMEs, fiduciaries, accountants, technical users"
-  market_position: "Technical accounting player with budget appeal"
+  primary_use_case: "Browser-based double-entry accounting and ERP for SMEs, fiduciaries, associations and self-employed people"
+  target_audience: "SMEs, fiduciaries, accountants, associations and technical users"
+  market_position: "Feature-rich Swiss cloud accounting product with a strong free tier"
 
-pricing:  # per context/competitor-analysis.md (May 2026); RE-VERIFY before publish
+pricing:  # verified against cashctrl.com/de/info/plans on 2026-07-19
   free_tier: true
-  free_tier_limits: "Generous free version with core accounting"
+  free_tier_limits: "1 user, 1 organization; accounting, annual accounts, QR invoices, debtors/creditors, contacts, articles/assets and reports"
   plans:
     - name: FREE
       price: "CHF 0"
     - name: PRO
-      price: "CHF 24.60/Mt."
+      price: "Live pricing calculator displayed CHF N/A during verification; re-check before quoting a number"
+    - name: FL4T
+      price: "CHF 3'900/Jahr"
+  notes: "PRO is prepaid for 6 months, 1 year or 2 years and does not auto-renew. The public calculator did not expose a usable base price on 2026-07-19."
 
 features:
   invoicing_qr: 4
-  expense_capture: 2      # manual entry; no AI scanning
-  vat_mwst: 4
-  bank_reconciliation: 3
-  accounting_depth: 5     # full double-entry
-  payroll: 1
-  mobile_apps: 1          # web only, no native apps
-  integrations: 4         # strong API
-  team_features: 3        # multi-client for fiduciaries
+  expense_capture: 2
+  vat_mwst: 5
+  bank_reconciliation: 4
+  accounting_depth: 5
+  payroll: 4
+  mobile_apps: 1          # no native apps; mobile browsers work without official support
+  integrations: 5
+  team_features: 4
 
 strengths:
-  - Genuinely generous free tier
-  - Full double-entry accounting at budget price
-  - Strong API and technical documentation
-  - Multi-client features for fiduciaries
+  - Permanent free tier with full double-entry accounting and QR invoices
+  - PRO adds payroll, mandates, roles, bank-statement import, attachments, API and advanced reports
+  - Swiss hosting, backups, clear documentation and free technical email support
+  - Strong customization and data import/export options
 
 weaknesses:
-  - Written for accountants — assumes bookkeeping knowledge
-  - No native mobile apps, no mobile-first workflow
-  - No AI receipt scanning
-  - Dated design; not built for freelancers without accounting training
+  - Classical accounting workflow assumes comfort with accounts, debit and credit
+  - No native mobile apps; the vendor does not officially support mobile browsers
+  - No documented AI receipt-data extraction comparable to Magic Heidi's photo workflow
+  - Current public PRO calculator did not return a usable price during verification
+
+review_signals:
+  source: "Named customer statements published on CashCtrl's own site"
+  positive_themes:
+    - Logical, intuitive bookkeeping for some non-accountants
+    - Clear interface and practical invoicing
+    - Reliable support in a published customer portrait
+  caveat: "These are vendor-selected testimonials, not independent review-platform samples."
 
 best_for:
-  - Accounting-literate users on a budget
-  - Fiduciaries managing several mandates
-  - Technical users wanting API access to their books
+  - Accounting-literate users who want a capable free cloud ledger
+  - Fiduciaries managing multiple organizations
+  - SMEs needing payroll, API access, roles or configurable order processing
 
 not_ideal_for:
-  - Freelancers without accounting knowledge
-  - Mobile-first users who invoice and scan receipts on the go
+  - Mobile-first freelancers
+  - Users who want receipt capture without understanding bookkeeping entries
 
 migration_to_magic_heidi:
   difficulty: easy
-  what_transfers: "Contacts via CSV; invoices re-created"
-  time_estimate: "Under an hour for a typical freelancer"
+  what_transfers: "Contacts and suitable accounting lists via CSV/Excel; keep exported reports and source documents as the historical archive"
+  time_estimate: "Depends on the number of contacts and open invoices"
 
-seo:  # Swiss volumes, DataForSEO 2026-07-02
+seo:
   keywords:
+    - {kw: "cashctrl", vol: 80, lang: de}
     - {kw: "cashctrl erfahrungen", vol: 20, lang: de}
 
 existing_pages:
   - /alternative/cashctrl (all 6 locales)
 
-last_verified: 2026-07-02
+last_verified: 2026-07-19
 sources:
-  - context/competitor-analysis.md
+  - https://cashctrl.com/de/info/plans
+  - https://cashctrl.com/de/info/pro
+  - https://cashctrl.com/en/help/faq
+  - https://cashctrl.com/de/about/terms

@@ -1,0 +1,90 @@
+# Lexware Office (ehemals lexoffice) — competitor data for comparison pages
+name: "Lexware Office"
+legacy_names:
+  - lexoffice
+website: lexware.de
+tagline: "Online-Buchhaltung, Rechnungen und Lohn für den deutschen Markt"
+headquarters: "Freiburg im Breisgau, Deutschland"
+
+branding:
+  current_name: "Lexware Office"
+  former_name: lexoffice
+  status: "Umbenannt; laut Anbieter bleiben Produkt, Verträge und Konditionen für Bestandskunden bestehen."
+
+positioning:
+  primary_use_case: "Online-Buchhaltung, Belege, Rechnungen, EÜR/Umsatzsteuer und optional deutsche Lohnabrechnung"
+  target_audience: "Selbstständige, Freiberufler und kleine Unternehmen in Deutschland"
+  market_position: "Bekannte deutsche Cloud-Buchhaltung unter der Lexware-Marke"
+
+swiss_suitability:
+  status: "nicht für Unternehmen mit Sitz in der Schweiz geeignet"
+  evidence: "Der offizielle Support nennt Lexware Office ausschliesslich für Deutschland geeignet. Länderspezifische Steuersätze, Währungen und Onlinebanking ausserhalb Deutschlands sind nicht nutzbar."
+  implications:
+    - "Keine gültige Schweizer MWST-Konfiguration"
+    - "Keine CHF-Unternehmenswährung für den Schweizer Betrieb"
+    - "Kein Schweizer Onlinebanking"
+
+pricing:
+  currency: EUR
+  free_tier: false
+  trial: "Kostenloser Test wird angeboten; Dauer gemäss aktuellem Checkout prüfen"
+  plans:
+    - name: S
+      price: "EUR 7.90/Mt. zzgl. MwSt."
+      notes: "Belegerfassung und -archiv"
+    - name: M
+      price: "EUR 12.90/Mt. zzgl. MwSt."
+      notes: "Angebote, (E-)Rechnungen und Mahnungen"
+    - name: L
+      price: "EUR 21.90/Mt. zzgl. MwSt."
+      notes: "Buchhaltung, EÜR und Umsatzsteuer"
+    - name: XL
+      price: "EUR 32.90/Mt. zzgl. MwSt."
+      notes: "EU- und Abschlagsrechnungen, API"
+  notes: "Reguläre Listenpreise am 19.07.2026. Zeitlich begrenzte Einstiegsrabatte wurden nicht als Dauerpreis übernommen. Monatlich kündbar laut Preisübersicht."
+
+features:
+  invoicing: "Angebote, E-Rechnungen und Mahnungen ab Version M"
+  expense_capture: "Belegerfassung und -archiv ab Version S"
+  tax: "Deutsche EÜR und Umsatzsteuer ab Version L"
+  payroll: "Deutsche Lohn- und Gehaltsabrechnung optional"
+  banking: "Onlinebanking für Deutschland; laut Support nicht ausserhalb Deutschlands"
+  api: "Ab Version XL"
+
+strengths:
+  - "Klar gestufte deutsche Buchhaltungsfunktionen von Belegarchiv bis API"
+  - "Etablierte Lexware-Marke und deutscher Steuerberater-Kontext"
+  - "Optional integrierte deutsche Lohnabrechnung"
+  - "Hosting, Datensicherung, Updates und Support laut Preisübersicht enthalten"
+
+weaknesses:
+  - "Laut offiziellem Support ausschliesslich für Deutschland geeignet"
+  - "Keine gültigen Schweizer Steuersätze, CHF-Unternehmenswährung oder Schweizer Bankanbindung"
+  - "Deutsche EÜR/Umsatzsteuer/Lohnlogik ist für Schweizer Einzelfirmen nicht übertragbar"
+
+best_for:
+  - "Selbstständige und kleine Unternehmen mit Sitz in Deutschland"
+  - "Deutsche Betriebe, die Buchhaltung und Lohn unter einer Marke bündeln wollen"
+
+not_ideal_for:
+  - "Unternehmen mit Sitz in der Schweiz"
+  - "Schweizer Freelancer, die MWST, CHF und QR-Rechnungen lokal abbilden müssen"
+
+migration_to_magic_heidi:
+  difficulty: "mittel"
+  what_transfers: "Kontakte und Dokumente nach Export; offene Rechnungen je nach Status neu erfassen."
+  what_doesnt: "Deutsche Steuer- und Lohnlogik, Buchungskonten, Bankverbindungen und Automationen."
+  recommendation: "Dokumentarchiv sichern, offene Posten abstimmen und Schweizer MWST/Bankdaten in Magic Heidi neu konfigurieren."
+
+seo:
+  keywords:
+    - {kw: "lexoffice schweiz", vol: 10, lang: de}
+    - {kw: "lexware office schweiz", vol: null, lang: de}
+  canonical_page: "/alternative/lexoffice"
+
+last_verified: 2026-07-19
+sources:
+  - "https://www.lexware.de/lexoffice/"
+  - "https://help.lexware.de/de-form/articles/548411-osterreich-schweiz"
+  - "https://help.lexware.de/allgemein/ustid-der-schweiz"
+  - "https://www.lexware.de/preise/"

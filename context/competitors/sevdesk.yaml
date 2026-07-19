@@ -1,0 +1,79 @@
+# sevdesk — competitor data for comparison pages
+name: sevdesk
+website: sevdesk.de
+tagline: "Cloud-Buchhaltung für Selbstständige und kleine Unternehmen"
+headquarters: "Offenburg, Deutschland"
+
+positioning:
+  primary_use_case: "Rechnungsstellung und Buchhaltung für Unternehmen in Deutschland und Österreich"
+  target_audience: "Selbstständige, Freiberufler und kleine Unternehmen mit Sitz in Deutschland oder Österreich"
+  market_position: "Etablierte DACH-Cloud-Buchhaltung mit deutscher und österreichischer Produktvariante"
+
+swiss_suitability:
+  status: "nicht für Unternehmen mit Sitz in der Schweiz ausgerichtet"
+  evidence: "sevdesk.ch verweist Schweizer Interessenten auf die deutsche oder österreichische Variante und nennt Deutschland und Österreich als unterstützte Unternehmenssitze."
+  implications:
+    - "Deutsche bzw. österreichische Steuerlogik statt Schweizer MWST"
+    - "ELSTER, DATEV/EÜR und deutsche UStVA sind für Schweizer Einzelfirmen kein Ersatz für ESTV-Prozesse"
+    - "Schweizer QR-Rechnung und Schweizer Bankabgleich werden auf der Schweizer Hinweisseite nicht als unterstützte lokale Workflows zugesichert"
+
+pricing:
+  currency: EUR
+  free_tier: true
+  free_tier_limits: "Dauerhaft kostenloser Basistarif; laut Preis-FAQ 3 Rechnungen/E-Rechnungen pro Monat"
+  plans:
+    - name: Kostenlos
+      price: "EUR 0"
+      notes: "3 Rechnungen/E-Rechnungen pro Monat"
+    - name: Rechnung
+      price: "ab EUR 12.90/Mt. zzgl. MwSt."
+    - name: Buchhaltung
+      price: "ab EUR 25.90/Mt. zzgl. MwSt."
+    - name: Buchhaltung Pro
+      price: "ab EUR 34.90/Mt. zzgl. MwSt."
+  notes: "Reguläre öffentlich ausgewiesene Ab-Preise; Aktionsrabatte und Laufzeiten ändern sich. Die Tarife sind nicht als Schweizer Produktangebot ausgewiesen."
+
+features:
+  invoicing: "Angebote, Rechnungen, Mahnungen und deutsche E-Rechnungsformate"
+  expense_capture: "KI-gestützte Belegerfassung in den Buchhaltungstarifen"
+  tax: "Deutsche/österreichische Buchhaltungs- und Steuerprozesse; deutscher Auftritt nennt EÜR, UStVA und ELSTER"
+  banking: "Online-Banking und Zahlungsabgleich für unterstützte Banken"
+  mobile_apps: "iOS und Android"
+  integrations: "DATEV/ADDISON, Marktplatz; REST API im Pro-Tarif"
+
+strengths:
+  - "Breite Rechnungs- und Buchhaltungsfunktionen für den deutschen und österreichischen Markt"
+  - "KI-Belegerfassung sowie iOS- und Android-App"
+  - "Online-Banking, Zahlungsabgleich und Steuerberater-Workflows"
+  - "Dauerhaft kostenloser Einstiegstarif"
+
+weaknesses:
+  - "Laut eigener Schweizer Website nicht für Unternehmen mit Sitz in der Schweiz ausgerichtet"
+  - "Deutsche/österreichische Steuerbegriffe und Behördenprozesse statt Schweizer MWST/ESTV"
+  - "Preisangaben in EUR und teilweise laufzeitabhängig"
+
+best_for:
+  - "Selbstständige und kleine Unternehmen mit Sitz in Deutschland oder Österreich"
+  - "Deutsche Betriebe, die DATEV, ELSTER oder EÜR-Workflows benötigen"
+
+not_ideal_for:
+  - "Schweizer Einzelfirmen, die Schweizer MWST und QR-Rechnungen zuverlässig abbilden müssen"
+  - "Nutzer, die eine ausdrücklich für Schweizer Unternehmen zugesicherte Lösung suchen"
+
+migration_to_magic_heidi:
+  difficulty: "mittel"
+  what_transfers: "Kontakte lassen sich typischerweise per Tabellenexport vorbereiten; Belege und abgeschlossene Rechnungen als Archiv exportieren."
+  what_doesnt: "Deutsche Buchungskonten, UStVA-Logik, ELSTER-Übermittlungen und Automationen werden nicht übernommen."
+  recommendation: "Altdaten revisionssicher exportieren, offene Rechnungen prüfen und Schweizer MWST-Einstellungen in Magic Heidi neu aufsetzen."
+
+seo:
+  keywords:
+    - {kw: "sevdesk schweiz", vol: 50, lang: de}
+  canonical_page: "/alternative/sevdesk"
+
+last_verified: 2026-07-19
+sources:
+  - "https://www.sevdesk.ch/"
+  - "https://sevdesk.de/preise/"
+  - "https://sevdesk.de/funktionen/"
+  - "https://hilfe.sevdesk.de/de/articles/9382213-einstellung-zu-buchhaltung-steuer"

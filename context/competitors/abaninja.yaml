@@ -1,72 +1,91 @@
-# AbaNinja (Abacus / Swiss21) — competitor data for comparison pages
+# AbaNinja (Abacus / Swiss21 / DeepCloud) — competitor data for comparison pages
 name: AbaNinja
 website: abaninja.ch
-tagline: "Kostenlose Cloud-Rechnungssoftware"
-headquarters: St. Gallen area, Switzerland (Abacus Research)
+tagline: "Moderne Fakturierung trifft automatisierte Buchhaltung"
+headquarters: St. Gallen area, Switzerland
 
 positioning:
-  primary_use_case: "Free cloud invoicing for micro-businesses"
-  target_audience: "Solo entrepreneurs, associations, startups, casual invoicers"
-  market_position: "Free-invoicing leader, backed by Abacus brand"
+  primary_use_case: "Cloud invoicing, accounting, banking and administration for Swiss SMEs, freelancers and associations"
+  target_audience: "Swiss SMEs, startups, freelancers, associations and fiduciaries"
+  market_position: "Broad Abacus-backed cloud accounting platform with a permanent starter plan"
 
-pricing:  # per context/competitor-analysis.md (May 2026); RE-VERIFY before publish
+pricing:  # verified against live abaninja.ch/de on 2026-07-19
   free_tier: true
-  free_tier_limits: "Up to 500 invoices/year free — generous limit, but feature set is basic"
+  free_tier_limits: "Starter: 1 user, 1 payroll, 1,000 documents/year and 1,000 addresses/products"
   plans:
-    - name: Free
-      price: "CHF 0 (bis 500 Rechnungen)"
-    - name: Swiss21 bundles
-      price: "ab ~CHF 15/Mt."
+    - name: Starter
+      price: "CHF 0"
+    - name: Basic
+      price: "CHF 21/Mt."
+    - name: Pro
+      price: "CHF 49/Mt."
+  notes: "All plans list financial accounting, order management, QR invoices and bank connectivity. Basic adds permanent bank connections, broader VAT methods, API and advanced accounting."
 
 features:
-  invoicing_qr: 4
-  expense_capture: 2      # no AI scanning
-  vat_mwst: 3
-  bank_reconciliation: 3
-  accounting_depth: 3     # via Swiss21 bundle
-  payroll: 2              # via Swiss21 bundle
-  mobile_apps: 2
-  integrations: 3
-  team_features: 2
+  invoicing_qr: 5
+  expense_capture: 5      # official site advertises AI extraction and mass uploads
+  vat_mwst: 4
+  bank_reconciliation: 5  # 70+ connected banks; permanent sync from Basic
+  accounting_depth: 5
+  payroll: 4
+  mobile_apps: 3          # mobile time/expense extensions via AbaClik/AbaClock
+  integrations: 5
+  team_features: 4
 
 strengths:
-  - 500 free invoices/year — most generous free invoicing tier in Switzerland
-  - Backed by Abacus, a Swiss accounting heavyweight
-  - Multi-language Swiss coverage
-  - Expandable via Swiss21 bundles
+  - Permanent free starter plan with 1,000 documents per year
+  - AI-assisted supplier-document extraction and automatic accounting workflows
+  - Connections to more than 70 Swiss banks and automatic matching
+  - Abacus ecosystem, payroll, order processing, API/webhooks and upgrade path
 
 weaknesses:
-  - Free tier is invoice-count-generous but feature-basic
-  - No AI receipt scanning
-  - Dated UX compared with modern freelancer tools
-  - Weak freelancer-specific workflows (expenses, VAT prep, mobile)
+  - Broad accounting and operations scope is more complex than a solo-only admin app
+  - Some advanced VAT, permanent banking and API features require Basic or Pro
+  - Swiss21 public reviews are mixed and often discuss support or day-to-day complexity; the sample is small
+  - Product naming across AbaNinja, 21.AbaNinja and DeepNinja remains potentially confusing for existing users
+
+review_signals:
+  source: "Trustpilot profile for swiss21.org"
+  snapshot: "2.4/5 from 18 reviews on 2026-07-19"
+  positive_themes:
+    - Some users value the wide Swiss21/Abacus feature set and price
+    - Recent independent discussion describes the product as reliable and capable
+  critical_themes:
+    - Support and correction effort in daily accounting workflows
+    - Confusion around configuration and migrations
+  caveat: "Trustpilot explicitly says the small sample may not be representative."
 
 best_for:
-  - Casual/occasional invoicers and associations
-  - Micro-businesses that mainly need free invoice volume
-  - Users already in the Abacus/Swiss21 ecosystem
+  - Users wanting a generous free starter plan
+  - SMEs that need payroll, order processing, direct bank connections or the Abacus ecosystem
+  - Users whose fiduciary already works with Abacus or Swiss21
 
 not_ideal_for:
-  - Full-time freelancers needing expenses, VAT and mobile workflows
-  - Users wanting modern UX and AI-assisted data entry
+  - Solo freelancers who prefer a narrower invoicing, expenses and VAT workflow
+  - Users who want identical functionality across native phone and desktop apps
 
 migration_to_magic_heidi:
   difficulty: easy
-  what_transfers: "Contacts via CSV; invoices re-created"
-  time_estimate: "Under an hour for a typical freelancer"
+  what_transfers: "Export contacts, products and invoice history where available; keep accounting reports and source documents as the legal archive"
+  time_estimate: "Depends on data volume and the active AbaNinja/Swiss21 setup"
 
-seo:  # Swiss volumes, DataForSEO 2026-07-02
+seo:
   keywords:
+    - {kw: "abaninja", vol: 4400, lang: de}
     - {kw: "abaninja erfahrungen", vol: 20, lang: de}
+    - {kw: "abaninja alternative", vol: 0, lang: de}
 
 existing_pages:
   - /alternative/abaninja (all 6 locales)
 
 framing_note: >
-  Honest contrast: AbaNinja free = many invoices, limited features.
-  Magic Heidi free = few invoices (3), ALL features. Different philosophies —
-  say so explicitly; readers respect the distinction.
+  Preserve the page-one brand and alternative rankings. Do not repeat the stale claim that AbaNinja
+  lacks AI scanning, bank automation or modern accounting. The current product offers all three.
+  Differentiate on Magic Heidi's solo-freelancer scope, native apps and simpler workflow.
 
-last_verified: 2026-07-02
+last_verified: 2026-07-19
 sources:
-  - context/competitor-analysis.md
+  - https://www.abaninja.ch/de/
+  - https://help.abaninja.ch/de/general/deepninja/migration-from-21abaninja.html
+  - https://www.deepcloud.swiss/newsroom/update/deepninja-die-all-in-one-business-software-fuer-schweizer-kmu-und-freelancer/
+  - https://de.trustpilot.com/review/swiss21.org

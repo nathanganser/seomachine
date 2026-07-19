@@ -1,0 +1,85 @@
+# Accounto — competitor data for comparison pages
+name: Accounto
+website: accounto.ch
+tagline: "Online Buchhaltungssoftware für KMU und Treuhänder"
+headquarters: Zurich, Switzerland
+
+positioning:
+  primary_use_case: "Automated accounting platform for Swiss fiduciaries and the SMEs they manage"
+  target_audience: "Swiss fiduciaries and SMEs with 1-19 employees working through a fiduciary partner"
+  market_position: "Fiduciary-led, modular accounting platform with automation and white-label options"
+
+pricing:  # verified against official pages on 2026-07-19
+  free_tier: false
+  plans:
+    - name: Individual subscription
+      price: "Preis auf Anfrage"
+  notes: "Accounto publishes no fixed package price on the current platform or KMU pages. Support and setup are defined according to the customer relationship; request a written total including the fiduciary service."
+
+features:
+  invoicing_qr: 3
+  expense_capture: 5
+  vat_mwst: 5
+  bank_reconciliation: 5
+  accounting_depth: 5
+  payroll: 4
+  mobile_apps: 3
+  integrations: 4
+  team_features: 5
+  fiduciary_workflows: 5
+
+strengths:
+  - Automated document processing, booking suggestions and bank reconciliation
+  - Full accounting modules, annual closing, budgeting, payroll and expense workflows
+  - Daily data access shared by SMEs and fiduciaries
+  - Modular, white-label platform built for fiduciary firms
+  - Swiss cloud hosting and a mobile receipt-capture app
+
+weaknesses:
+  - No public fixed-price package makes an immediate cost comparison difficult
+  - Product and onboarding are designed around fiduciary and SME processes, not a do-it-yourself solo workflow
+  - The official platform page addresses fiduciaries first; a freelancer may need both software and a fiduciary relationship
+  - More accounting depth, process setup and modules than many solo freelancers need
+
+review_signals:
+  source: "Public product documentation, Google Play listing, OMR profile and one public Reddit discussion"
+  snapshot: "No sufficiently broad independent review profile was found on 2026-07-19"
+  positive_themes:
+    - Strong automation and collaboration with the fiduciary are central to the official product positioning
+    - The mobile app captures and classifies receipts and multi-page documents
+  critical_themes:
+    - A public Reddit discussion reports frustration from one customer; this is one anecdote, not a representative sample
+    - Price transparency is limited because the current price is supplied on request
+  caveat: "Do not infer overall satisfaction from a single forum thread or vendor-authored success story."
+
+best_for:
+  - SMEs that want their fiduciary involved in a shared, automated workflow
+  - Fiduciaries managing several mandates and wanting white-label tooling
+  - Businesses needing double-entry accounting, annual closing, payroll or budgeting
+
+not_ideal_for:
+  - Solo freelancers wanting to send invoices and prepare simplified accounts themselves
+  - Buyers who need a published fixed price before a sales conversation
+  - Businesses that do not need payroll, team workflows or full accounting
+
+migration_to_magic_heidi:
+  difficulty: medium
+  what_transfers: "Export contacts and the records needed for continuity; keep the legally required archive and coordinate the cut-off date with the fiduciary"
+  time_estimate: "Depends on the accounting scope and fiduciary relationship; do not promise a fixed time"
+
+seo:
+  keywords:
+    - {kw: "accounto", vol: 590, lang: de}
+
+existing_pages:
+  - none yet — this file supports /alternative/accounto (German first)
+
+last_verified: 2026-07-19
+sources:
+  - https://accounto.ch/
+  - https://accounto.ch/plattform/
+  - https://accounto.ch/kmu/
+  - https://accounto.ch/modul-uebersicht/
+  - https://play.google.com/store/apps/details?hl=de&id=io.accounto.app
+  - https://omr.com/de/reviews/product/accounto
+  - https://www.reddit.com/r/Switzerland/comments/1qchtbg/anyone_using_accounto_and_super_unhappy_with_it/

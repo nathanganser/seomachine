@@ -1,68 +1,89 @@
 # Banana Accounting — competitor data for comparison pages
 name: Banana Accounting
 website: banana.ch
-tagline: "Buchhaltungssoftware für die Schweiz"
+tagline: "Professionelle Buchhaltungssoftware in Tabellenform"
 headquarters: Lugano, Switzerland
 
 positioning:
-  primary_use_case: "Desktop double-entry accounting"
-  target_audience: "Accounting-literate users, schools, small businesses, accountants"
-  market_position: "Legacy niche player with strong education credibility"
+  primary_use_case: "Local, spreadsheet-style bookkeeping with double-entry accounting and Swiss templates"
+  target_audience: "Accounting-literate users, small businesses, associations, private users, schools and fiduciaries"
+  market_position: "Established low-cost Swiss accounting application"
 
-pricing:  # per context/competitor-analysis.md (May 2026); RE-VERIFY before publish
+pricing:  # verified against banana.ch/de/buy on 2026-07-19; Swiss prices include VAT
   free_tier: true
-  free_tier_limits: "Free up to 70 transactions"
+  free_tier_limits: "Cash Manager and Timesheet; other accounting and productivity apps up to 70 transactions"
   plans:
-    - name: Jahresabo
-      price: "CHF 89/Jahr (≈ CHF 7.40/Mt.)"
+    - name: Free
+      price: "CHF 0"
+    - name: Professional
+      price: "CHF 89/Jahr"
+    - name: Advanced
+      price: "CHF 179/Jahr"
+  notes: "Advanced includes the current Swiss VAT form, import rules, advanced invoice customization and three support cases per year."
 
 features:
-  invoicing_qr: 3
-  expense_capture: 1      # manual, spreadsheet-like entry
+  invoicing_qr: 4
+  expense_capture: 2
   vat_mwst: 4
-  bank_reconciliation: 2
-  accounting_depth: 5     # proper double-entry
+  bank_reconciliation: 3  # statement import; Advanced adds completion rules
+  accounting_depth: 5
   payroll: 1
-  mobile_apps: 1          # desktop-first
+  mobile_apps: 2          # iOS/Android exist, but vendor says small-screen use is limited
   integrations: 2
-  team_features: 1
+  team_features: 1        # files are single-user, like Excel
 
 strengths:
-  - Very low cost (CHF 89/year)
-  - Proper double-entry accounting with strong template library
-  - Decades of credibility, used in Swiss accounting education
-  - Eight-language coverage
+  - Low annual price and a permanent free tier for light use
+  - Full double-entry accounting, Swiss templates and detailed reports
+  - Local NoCloud data model with offline use and user-controlled storage
+  - Available on Windows, macOS, Linux, Android, iOS and an in-development WebApp
 
 weaknesses:
-  - Requires accounting knowledge (double-entry, chart of accounts)
-  - Desktop-first, no modern mobile/cloud workflow
-  - No AI scanning, manual data entry
-  - Dated UX; invoicing is secondary to bookkeeping
+  - Spreadsheet-style workflows and account plans suit users comfortable with bookkeeping concepts
+  - Mobile versions are limited on small screens and are positioned as companions to desktop
+  - No native cloud collaboration; one person edits a file at a time
+  - Automated transaction completion and the current Swiss VAT form are Advanced features
+
+review_signals:
+  source: "Capterra and G2"
+  snapshot: "Capterra 4.3/5 from 11 reviews on 2026-07-19"
+  positive_themes:
+    - Familiar table layout and good value
+    - Multi-currency support and useful reports
+    - Strong fit for people who like Excel-style accounting
+  critical_themes:
+    - Interface can feel dated or confusing to newcomers
+    - Some reviewers report extra work for integrations or report extraction
+  caveat: "Small samples; several G2 reviews are incentivized and machine-translated."
 
 best_for:
-  - Users who know double-entry bookkeeping and want full control
-  - Budget-conscious users comfortable with desktop software
-  - Anyone whose Treuhänder specifically works with Banana files
+  - Users who know bookkeeping and want full control over local files
+  - Budget-conscious users comfortable with a table-based workflow
+  - Associations, schools and users whose fiduciary works with Banana files
 
 not_ideal_for:
-  - Freelancers without bookkeeping training
-  - Mobile-first users
-  - People wanting invoicing as the primary workflow
+  - Solo freelancers who want mobile-first receipt capture and automatic sync
+  - Teams needing real-time collaboration
+  - Users who do not want to manage accounts and booking logic
 
 migration_to_magic_heidi:
   difficulty: easy
-  what_transfers: "Contacts via CSV; accounting history stays in Banana files"
-  time_estimate: "Under an hour for a typical freelancer"
+  what_transfers: "Contacts and suitable lists via CSV; keep Banana files and reports as the historical accounting archive"
+  time_estimate: "Depends on the number of contacts and open items"
 
-seo:  # Swiss volumes, DataForSEO 2026-07-02
+seo:
   keywords:
-    - {kw: "banana alternative", vol: 10, lang: de}
-    - {kw: "bexio vs banana", vol: 10, lang: de}
+    - {kw: "banana buchhaltung", vol: 910, lang: de}
     - {kw: "banana buchhaltung erfahrungen", vol: 10, lang: de}
 
 existing_pages:
   - /alternative/banana (all 6 locales)
 
-last_verified: 2026-07-02
+last_verified: 2026-07-19
 sources:
-  - context/competitor-analysis.md
+  - https://www.banana.ch/de/buy
+  - https://www.banana.ch/de/download
+  - https://www.banana.ch/en/node/11412
+  - https://www.banana.ch/en/startbanana
+  - https://www.capterra.com/p/181146/Banana-Accounting/
+  - https://www.g2.com/de/products/banana-accounting/reviews

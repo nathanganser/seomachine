@@ -1,0 +1,81 @@
+# Zervant — competitor data for comparison pages
+name: Zervant
+website: zervant.com
+tagline: "Cloud-Rechnungssoftware für kleine Unternehmen"
+headquarters: "Finnland; deutschsprachiger Auftritt mit Anschrift in Frankfurt"
+
+positioning:
+  primary_use_case: "Rechnungen, Angebote, Zeiterfassung und Zahlungserinnerungen"
+  target_audience: "Selbstständige und kleine Unternehmen mit einfachem Rechnungsbedarf"
+  market_position: "Internationales, schlankes Rechnungsprogramm mit Gratis- und Premiumtarifen"
+
+swiss_suitability:
+  status: "teilweise für Schweizer Rechnungsstellung ausgerichtet, aber keine vollständige Schweizer Buchhaltung"
+  evidence:
+    - "Die offizielle Preisseite führt CHF und die Schweiz als Preisregion."
+    - "Ein offizieller, zuletzt 2024 aktualisierter Artikel bewirbt Schweizer QR-Rechnungen."
+    - "Die aktuelle Preis-FAQ schliesst die Schweiz vom Zahlungsabgleich aus."
+  caveat: "Aktuelle öffentliche Zervant-Seiten widersprechen sich bei Tarifnamen und Gratis-Limits. Funktionen vor dem Wechsel im Konto/Checkout bestätigen."
+
+pricing:
+  currency: CHF
+  free_tier: true
+  free_tier_limits: "Die deutsche Preis-FAQ nennt 5 Rechnungen pro Monat; die Vergleichstabelle derselben Seite nennt unbegrenzte Rechnungen. Vor Abschluss im Konto prüfen."
+  plans:
+    - name: Free
+      price: "CHF 0"
+    - name: Start
+      price: "CHF 12/Mt. oder CHF 120/Jahr (deutsche Preisseite)"
+    - name: Plus
+      price: "CHF 22/Mt. oder CHF 228/Jahr (deutsche Preisseite)"
+  notes: "Die englische Seite zeigte am selben Prüftag abweichende, höhere CHF-Preise und zusätzliche Tarife. Der Checkout ist deshalb die verbindliche Quelle."
+
+features:
+  invoicing: "Rechnungen per E-Mail/PDF, Angebote und Rechnungsstatus"
+  recurring_invoices: "Im höheren Tarif laut deutscher Preisübersicht"
+  time_tracking: "Zeiterfassung mit Übernahme auf Rechnungen"
+  expense_tracking: "Einnahmen-/Ausgabenverfolgung; kein Ersatz für eine Schweizer MWST-Buchhaltung"
+  qr_invoice: "Offizieller Artikel, aktualisiert 31.01.2024, bewirbt Schweizer QR-Rechnungen; aktuelle Verfügbarkeit im Produkt bestätigen"
+  banking: "Zahlungsabgleich laut Preis-FAQ nicht in der Schweiz verfügbar"
+  mobile_apps: "Mobile App wird auf Produkt- und Preisseiten angeboten"
+  hosting: "AWS-Server mit Datensicherung in Deutschland laut deutscher Preisseite"
+
+strengths:
+  - "Fokus auf einfache Rechnungsstellung statt umfassendes ERP"
+  - "Gratis-Einstieg sowie CHF-Preise für die Schweiz"
+  - "Angebote, Zeiterfassung und mobile Nutzung"
+  - "Schweizer QR-Rechnung wird in einem offiziellen Produktartikel beworben"
+
+weaknesses:
+  - "Keine vollständige Schweizer MWST- und Steuerlösung"
+  - "Zahlungsabgleich laut aktueller Preis-FAQ nicht in der Schweiz verfügbar"
+  - "Öffentliche Preis- und Limitangaben sind derzeit nicht konsistent"
+  - "Schweizer QR-Rechnungs-Claim stammt aus einem 2024 aktualisierten Artikel und sollte im Produkt bestätigt werden"
+
+best_for:
+  - "Kleine Betriebe, die vor allem Angebote und Rechnungen schreiben"
+  - "Preisbewusste Nutzer mit wenigen Rechnungen, die aktuelle Limits vorab prüfen"
+
+not_ideal_for:
+  - "MWST-pflichtige Schweizer Freelancer, die eine integrierte ESTV-Vorbereitung suchen"
+  - "Schweizer Nutzer, die automatischen Bankabgleich benötigen"
+
+migration_to_magic_heidi:
+  difficulty: "leicht bis mittel"
+  what_transfers: "Kunden- und Rechnungsdaten nach verfügbarem Export; PDFs für das Archiv."
+  what_doesnt: "Wiederholungen, Mahnregeln, Online-Zahlungen und Zeiterfassung müssen neu eingerichtet werden."
+  recommendation: "Alle Rechnungs-PDFs sichern, offene Posten abstimmen und QR-/MWST-Einstellungen in Magic Heidi neu prüfen."
+
+seo:
+  keywords:
+    - {kw: "zervant", vol: 10, lang: de}
+    - {kw: "zervant schweiz", vol: null, lang: de}
+  canonical_page: "/alternative/zervant"
+
+last_verified: 2026-07-19
+sources:
+  - "https://www.zervant.com/de/"
+  - "https://www.zervant.com/de/preise/"
+  - "https://www.zervant.com/en/pricing/"
+  - "https://www.zervant.com/de/blog/rechnung-in-die-schweiz-stellen/"
+  - "https://www.zervant.com/de/zeiterfassung/"

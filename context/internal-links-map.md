@@ -284,9 +284,9 @@ Pick whichever slug reads better in context (the German slug is the redirect tar
 
 ## Comparison / alternative pages
 
-All 10 competitor alternative pages exist in all 6 locales.
+The established competitor pages exist in all 6 core locales. The six pages added in the German-first July 2026 campaign initially exist only at their bare German URLs; do not invent locale-prefixed alternates until translations ship.
 
-| Competitor | Slug (prefix with `/`, `/de/`, `/fr/`, `/it/`, `/es/`, or `/pt/`) |
+| Competitor | Canonical German slug |
 |---|---|
 | bexio | `/alternative/bexio` |
 | Banana | `/alternative/banana` |
@@ -299,6 +299,12 @@ All 10 competitor alternative pages exist in all 6 locales.
 | Pebe | `/alternative/pebe` |
 | Sage | `/alternative/sage` |
 | ERPLight | `/alternative/erplight` (added 2026-07-18 — highest-relevance uncovered organic competitor per SE Ranking, sourced in `context/competitors/erplight.yaml`) |
+| Accounto | `/alternative/accounto` (German only, added 2026-07 campaign) |
+| Einzly | `/alternative/einzly` (German only, added 2026-07 campaign) |
+| Swiss21 | `/alternative/swiss21` (German only, added 2026-07 campaign) |
+| sevDesk | `/alternative/sevdesk` (German only, added 2026-07 campaign) |
+| Lexoffice / Lexware Office | `/alternative/lexoffice` (German only, added 2026-07 campaign) |
+| Zervant | `/alternative/zervant` (German only, added 2026-07 campaign) |
 
 **When to link**: Whenever a competitor is named, in comparison articles, when discussing pricing differences, or when discussing migration. **Only one link per competitor mention** — don't double-link.
 
@@ -373,8 +379,8 @@ Hub: `/integrations` (and locale variants). Individual integration pages, all li
 - `/buchhaltungssoftware` — for "what bookkeeping do I need"
 - `/pricing` — bottom-of-funnel CTA
 
-**Writing about competitors (bexio, banana, winbiz, smallinvoice, cashctrl, cresus, klara, abaninja, pebe, sage)**:
-- The matching `/alternative/<competitor>` page (all 6 locales)
+**Writing about competitors (bexio, banana, winbiz, smallinvoice, cashctrl, cresus, klara, abaninja, pebe, sage, erplight, accounto, einzly, swiss21, sevdesk, lexoffice, zervant)**:
+- The matching `/alternative/<competitor>` page. Use locale variants only where a matching content file exists; the July 2026 campaign pages launch in German first.
 - `/pricing` — for the cost comparison
 - `/features` — for the feature comparison
 

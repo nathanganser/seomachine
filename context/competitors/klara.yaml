@@ -1,74 +1,86 @@
 # KLARA — competitor data for comparison pages
 name: KLARA
 website: klara.ch
-tagline: "Das Business-Betriebssystem für KMU"
+tagline: "Business-Software für Schweizer KMU"
 headquarters: Lucerne, Switzerland
 
 positioning:
-  primary_use_case: "Broad business OS: invoicing, accounting, POS, online shop, website, booking"
-  target_audience: "Swiss SMEs, local businesses with staff, vertical industries (gastro, retail, beauty, trades)"
-  market_position: "Broad challenger / business operating system"
+  primary_use_case: "Broad business administration with accounting, CRM, order management and optional operational modules"
+  target_audience: "Swiss SMEs, local businesses and growing teams"
+  market_position: "Broad Swiss business operating system"
 
-pricing:  # verified against live klara.ch/en/business on 2026-07-13
-  free_tier: false  # formerly free accounting discontinued in 2023 (itmagazine.ch); 30-day trial only
+pricing:  # verified against live klara.ch/preise on 2026-07-19; prices exclude VAT
+  free_tier: false
   plans:
-    - name: Business Basic
-      price: "CHF 55/Mt. (jährlich) / CHF 69/Mt. (monatlich) / CHF 48/Mt. (2 Jahre)"
-    - name: Business Plus
-      price: "CHF 79/Mt. (jährlich) / CHF 99/Mt. (monatlich)"
-    - name: Business Premium
-      price: "CHF 127/Mt. (jährlich) / CHF 159/Mt. (monatlich)"
-  notes: "Add-on modules (POS, shop, payroll etc.) priced separately on top of packages. Annual cost Basic ≈ CHF 660. On-site support CHF 180/h."
+    - name: Business BASIC
+      price: "ab CHF 48/Mt. exkl. MWST"
+    - name: Business PLUS
+      price: "ab CHF 69/Mt. exkl. MWST"
+    - name: Business PREMIUM
+      price: "ab CHF 111/Mt. exkl. MWST"
+  notes: "KLARA lists payroll, time, project and payment-terminal modules separately. The accounting page advertises a 30-day trial."
 
 features:
   invoicing_qr: 4
-  expense_capture: 3
+  expense_capture: 4      # smartphone scanning plus AI extraction and booking support
   vat_mwst: 4
-  bank_reconciliation: 4
+  bank_reconciliation: 5  # connected bank transactions and automated matching
   accounting_depth: 4
   payroll: 4
   mobile_apps: 3
   integrations: 3
   team_features: 4
-  pos_shop_website: 5   # its real differentiator
+  pos_shop_website: 5
 
 strengths:
-  - Very broad feature surface (POS, shop, website, booking, payroll)
-  - Strong vertical/industry landing pages and brand awareness
-  - Four-language coverage
-  - Good fit for local businesses that need more than invoicing
+  - Broad feature surface with accounting, CRM, order management and optional payroll, POS, shop and project modules
+  - AI-assisted receipt scanning and automated bank reconciliation
+  - Strong fit for SMEs that want several operational workflows in one system
+  - Swiss product with sector-specific packages and support tiers
 
 weaknesses:
-  - Breadth dilutes simplicity — solo freelancers navigate features they never use
-  - Not clearly positioned for self-employed people without staff
-  - Blog is product-update-driven, little freelancer education
-  - No AI expense scanning narrative
+  - Entry price is substantially above Magic Heidi's annual plan for a solo user
+  - Breadth and package/add-on structure can be more than a solo freelancer needs
+  - Public Trustpilot feedback is currently weak and repeatedly mentions support, billing and performance; the sample is self-selected
+  - Best value depends on which modules and support level the business needs
+
+review_signals:
+  source: "Trustpilot profile for klara.ch"
+  snapshot: "1.3/5 from 148 reviews on 2026-07-19"
+  positive_themes:
+    - Some reviewers say the core accounting work is useful once configured
+  critical_themes:
+    - Support accessibility and response times
+    - Billing or account-access disputes
+    - Performance and the need for clearer guidance
+  caveat: "Trustpilot says reviews are open to anyone and can change; treat this as a dated, non-representative signal rather than a product-wide verdict."
 
 best_for:
-  - Local businesses needing POS, shop or website alongside admin
-  - SMEs in KLARA's vertical industries
-  - Businesses with employees
+  - Local businesses needing accounting plus CRM, order management, payroll, POS or shop functions
+  - SMEs with employees or several administrators
+  - Businesses that value a connected bank feed and full double-entry accounting
 
 not_ideal_for:
-  - Solo freelancers wanting a focused invoicing + expenses tool
-  - Users who value minimal setup and a small learning curve
+  - Solo freelancers wanting the smallest possible invoicing, expenses and VAT workflow
+  - Price-sensitive sole proprietors who do not need KLARA's broader modules
 
 migration_to_magic_heidi:
   difficulty: easy
-  what_transfers: "Contacts via CSV; invoices re-created"
-  time_estimate: "Under an hour for a typical freelancer"
+  what_transfers: "Contacts via CSV; historical invoices and accounting records should remain archived in KLARA or exported for the trustee"
+  time_estimate: "Depends on data volume; do not promise a fixed time"
 
-seo:  # Swiss volumes, DataForSEO 2026-07-02
+seo:
   keywords:
-    - {kw: "klara vs bexio", vol: 20, lang: de}
-    - {kw: "bexio vs klara", vol: 10, lang: de}
-    - {kw: "klara alternative", vol: 10, lang: de}
+    - {kw: "klara buchhaltung", vol: 210, lang: de}
     - {kw: "klara erfahrungen", vol: 10, lang: de}
+    - {kw: "klara kosten", vol: 10, lang: de}
+    - {kw: "klara alternative", vol: 10, lang: de}
 
 existing_pages:
   - /alternative/klara (all 6 locales)
 
-last_verified: 2026-07-13
+last_verified: 2026-07-19
 sources:
-  - context/competitor-analysis.md
-  - https://www.klara.ch/en/business (fetched 2026-07-13)
+  - https://www.klara.ch/preise
+  - https://www.klara.ch/buchhaltung
+  - https://de.trustpilot.com/review/klara.ch

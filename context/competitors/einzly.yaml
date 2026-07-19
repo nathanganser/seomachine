@@ -1,0 +1,89 @@
+# einzly — competitor data for comparison pages
+name: einzly
+website: einzly.ch
+tagline: "Buchhaltungssoftware für Schweizer Einzelfirmen"
+headquarters: Zurich, Switzerland
+
+positioning:
+  primary_use_case: "Simple invoicing, expenses, VAT and year-end preparation for Swiss sole proprietors"
+  target_audience: "Swiss self-employed people and sole proprietorships with turnover below CHF 500'000"
+  market_position: "Low-cost, browser-first solo accounting software"
+
+pricing:  # verified against live einzly.ch/de on 2026-07-19
+  free_tier: false
+  trial: "30 Tage ohne Kreditkarte"
+  plans:
+    - name: Basis monthly
+      price: "CHF 9/Monat"
+    - name: Basis annual
+      price: "CHF 80/Jahr (CHF 6.67/Monat)"
+    - name: Pro monthly
+      price: "CHF 15/Monat"
+    - name: Pro annual
+      price: "CHF 144/Jahr (CHF 12/Monat)"
+  notes: "Pro adds direct email sending, link tracking, priority support, orders/projects, fiduciary access, time billing and developer/API access."
+
+features:
+  invoicing_qr: 5
+  expense_capture: 5
+  vat_mwst: 5
+  bank_reconciliation: 4
+  accounting_depth: 2
+  payroll: 0
+  mobile_apps: 2
+  integrations: 4
+  team_features: 2
+  reminders: 5
+
+strengths:
+  - Very low annual price for unlimited QR invoices and simplified accounting
+  - AI receipt scanner, VAT preparation for both methods and camt.053 bank reconciliation
+  - Quotes, orders, partial invoices, reminders and year-end exports
+  - Strong fit for sole proprietors below CHF 500'000 turnover
+  - Public Trustpilot profile is strongly positive in a still-small sample
+
+weaknesses:
+  - No native App Store or desktop apps; mobile access is a progressive web app on the home screen
+  - No permanent free tier after the 30-day trial
+  - Simplified accounting is not suitable for companies requiring double-entry accounts, payroll or a balance sheet
+  - Some workflow capabilities, including direct email sending and fiduciary access, require Pro
+  - Public review history is recent and small, so the current rating may move quickly
+
+review_signals:
+  source: "Trustpilot profile for einzly.ch"
+  snapshot: "4.6/5 from 19 reviews on 2026-07-19"
+  positive_themes:
+    - Simple and understandable interface
+    - Fast, helpful support
+    - Good fit and price-performance ratio for small businesses
+  critical_themes:
+    - No recurring negative theme was visible in the small all-positive snapshot
+  caveat: "Nineteen self-selected reviews are useful anecdotes, not a representative product test."
+
+best_for:
+  - Price-sensitive Swiss sole proprietors wanting a browser-first workflow
+  - Users who want simple accounting, smart reminders and direct Stripe/SumUp/Shopify/Mollie imports
+  - Freelancers comfortable installing a progressive web app instead of a native app
+
+not_ideal_for:
+  - Users who want native iPhone, Android, Mac and Windows apps
+  - Businesses with employees or full double-entry accounting requirements
+  - Anyone who needs a permanent free plan
+
+migration_to_magic_heidi:
+  difficulty: easy
+  what_transfers: "Export contacts and year-end records; import the contact list and keep the previous legally relevant archive"
+  time_estimate: "Usually a small solo migration, but depends on history and open items"
+
+seo:
+  keywords:
+    - {kw: "einzly", vol: 30, lang: de, baseline: 30}
+    - {kw: "einzly erfahrungen", vol: 0, lang: de}
+
+existing_pages:
+  - none yet — /buchhaltungssoftware currently ranks accidentally for the brand query
+
+last_verified: 2026-07-19
+sources:
+  - https://www.einzly.ch/de
+  - https://de.trustpilot.com/review/einzly.ch

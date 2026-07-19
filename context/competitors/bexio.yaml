@@ -9,13 +9,13 @@ positioning:
   target_audience: "Swiss SMEs, teams, businesses with employees, fiduciaries"
   market_position: "Market leader, 100,000+ companies, DR ~65-75"
 
-pricing:  # verified against live bexio.com/de-CH/pakete-preise on 2026-07-13 (March 2026 lineup)
+pricing:  # verified against live bexio.com/de-CH/pakete-preise on 2026-07-19 (March 2026 lineup)
   free_tier: false
   free_tier_limits: "30-day trial only, no permanent free plan"
   plans:
     - name: Basic
       price: "CHF 35/Mt. (jährlich) / CHF 45/Mt. (monatlich)"
-      notes: "1 user, e-banking, NO AI receipt scanning, no payroll"
+      notes: "1 user; basic bookkeeping/invoicing; bank accounts can be stored but automatic banking reconciliation is unavailable; no AI booking scans; no payroll"
     - name: Advanced
       price: "CHF 42/Mt. (jährlich) / CHF 52/Mt. (monatlich)"
       notes: "2 users, AI scanning 50/mo; payroll add-on +CHF 7/Mt. (1 employee) or +CHF 25/Mt. (5); renamed from Starter March 2026 (+20%)"
@@ -86,7 +86,9 @@ seo:  # Swiss volumes, DataForSEO 2026-07-02
 existing_pages:
   - /alternative/bexio (all 6 locales, ranks ~#5 for "bexio alternative")
 
-last_verified: 2026-07-13
+last_verified: 2026-07-19
 sources:
   - context/competitor-analysis.md
-  - https://www.bexio.com/de-CH/pakete-preise (fetched 2026-07-13)
+  - https://www.bexio.com/de-CH/pakete-preise (fetched 2026-07-19)
+  - https://cdn.www.bexio.com/assets/content_craft/documents/bexio/compare-packages-de.pdf (Stand 2026-01-27)
+  - https://www.bexio.com/de-CH/events/banking-2 (Basic/Advanced banking distinction, fetched 2026-07-19)
