@@ -1,0 +1,279 @@
+{
+  "summary": [
+    {
+      "target": "abaninja.ch",
+      "backlinks": 4977,
+      "refdomains": 452,
+      "subnets": 167,
+      "ips": 195,
+      "nofollow_backlinks": 565,
+      "dofollow_backlinks": 4412,
+      "edu_backlinks": 0,
+      "gov_backlinks": 0,
+      "inlink_rank": 14,
+      "domain_inlink_rank": 57,
+      "from_home_page_backlinks": 42,
+      "dofollow_from_home_page_backlinks": 29,
+      "text_backlinks": 3144,
+      "dofollow_refdomains": 310,
+      "from_home_page_refdomains": 33,
+      "edu_refdomains": 0,
+      "gov_refdomains": 0,
+      "anchors": 249,
+      "dofollow_anchors": 64,
+      "pages_with_backlinks": 34,
+      "top_anchors_by_backlinks": [
+        {
+          "anchor": "AbaNinja - Rechnungssoftware",
+          "backlinks": 1309
+        },
+        {
+          "anchor": "AbaNinja",
+          "backlinks": 1075
+        },
+        {
+          "anchor": "www.abaninja.ch",
+          "backlinks": 926
+        },
+        {
+          "anchor": "abaninja",
+          "backlinks": 281
+        },
+        {
+          "anchor": "https://www.abaninja.ch",
+          "backlinks": 204
+        },
+        {
+          "anchor": "https://abaninja.ch/",
+          "backlinks": 197
+        },
+        {
+          "anchor": "abaninja.ch",
+          "backlinks": 149
+        },
+        {
+          "anchor": "Abaninja",
+          "backlinks": 136
+        },
+        {
+          "anchor": "",
+          "backlinks": 131
+        },
+        {
+          "anchor": "Angebotsübersicht AbaNinja Digitales Büro",
+          "backlinks": 9
+        }
+      ],
+      "top_anchors_by_refdomains": [
+        {
+          "anchor": "abaninja.ch",
+          "refdomains": 583
+        },
+        {
+          "anchor": "abaninja",
+          "refdomains": 208
+        },
+        {
+          "anchor": "Start",
+          "refdomains": 112
+        },
+        {
+          "anchor": "AbaNinja",
+          "refdomains": 74
+        },
+        {
+          "anchor": "www.abaninja.ch",
+          "refdomains": 65
+        },
+        {
+          "anchor": "",
+          "refdomains": 59
+        },
+        {
+          "anchor": "https://www.abaninja.ch",
+          "refdomains": 19
+        },
+        {
+          "anchor": "Abaninja",
+          "refdomains": 18
+        },
+        {
+          "anchor": "here",
+          "refdomains": 14
+        },
+        {
+          "anchor": "AbaNinja - Rechnungssoftware",
+          "refdomains": 13
+        }
+      ],
+      "top_pages_by_backlinks": [
+        {
+          "url": "https://www.abaninja.ch/",
+          "backlinks": 3454
+        },
+        {
+          "url": "https://abaninja.ch/",
+          "backlinks": 697
+        },
+        {
+          "url": "https://abaninja.ch/de/",
+          "backlinks": 192
+        },
+        {
+          "url": "https://abaninja.ch/apidocs/",
+          "backlinks": 179
+        },
+        {
+          "url": "http://www.abaninja.ch/",
+          "backlinks": 95
+        },
+        {
+          "url": "http://abaninja.ch/",
+          "backlinks": 85
+        },
+        {
+          "url": "http://www.abaninja.ch/de",
+          "backlinks": 43
+        },
+        {
+          "url": "http://www.abaninja.ch/fr",
+          "backlinks": 17
+        },
+        {
+          "url": "https://abaninja.ch/wp-content/uploads/2018/01/rechnungen-kostenlos.jpg",
+          "backlinks": 13
+        },
+        {
+          "url": "https://abaninja.ch/fr/",
+          "backlinks": 10
+        }
+      ],
+      "top_pages_by_refdomains": [
+        {
+          "url": "http://abaninja.ch/",
+          "refdomains": 523
+        },
+        {
+          "url": "https://abaninja.ch/",
+          "refdomains": 326
+        },
+        {
+          "url": "https://www.abaninja.ch/",
+          "refdomains": 120
+        },
+        {
+          "url": "https://app.abaninja.ch/login",
+          "refdomains": 118
+        },
+        {
+          "url": "https://abaninja.ch/de/",
+          "refdomains": 61
+        },
+        {
+          "url": "http://www.abaninja.ch/",
+          "refdomains": 61
+        },
+        {
+          "url": "https://abaninja.ch/en/",
+          "refdomains": 54
+        },
+        {
+          "url": "https://abaninja.ch/fr/",
+          "refdomains": 22
+        },
+        {
+          "url": "https://www.abaninja.ch/de/index.html",
+          "refdomains": 16
+        },
+        {
+          "url": "https://www.abaninja.ch/de/",
+          "refdomains": 13
+        }
+      ],
+      "top_tlds": [
+        {
+          "tld": "com",
+          "count": 221
+        },
+        {
+          "tld": "ch",
+          "count": 105
+        },
+        {
+          "tld": "in",
+          "count": 34
+        },
+        {
+          "tld": "de",
+          "count": 18
+        },
+        {
+          "tld": "org",
+          "count": 12
+        },
+        {
+          "tld": "net",
+          "count": 7
+        },
+        {
+          "tld": "top",
+          "count": 5
+        },
+        {
+          "tld": "swiss",
+          "count": 4
+        },
+        {
+          "tld": "pw",
+          "count": 4
+        },
+        {
+          "tld": "at",
+          "count": 3
+        }
+      ],
+      "top_countries": [
+        {
+          "country": "de",
+          "count": 179
+        },
+        {
+          "country": "us",
+          "count": 85
+        },
+        {
+          "country": "sg",
+          "count": 66
+        },
+        {
+          "country": "ch",
+          "count": 64
+        },
+        {
+          "country": "",
+          "count": 17
+        },
+        {
+          "country": "fi",
+          "count": 17
+        },
+        {
+          "country": "fr",
+          "count": 16
+        },
+        {
+          "country": "co",
+          "count": 10
+        },
+        {
+          "country": "in",
+          "count": 2
+        },
+        {
+          "country": "nl",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "summary": [
+    {
+      "target": "bexio.com",
+      "backlinks": 1477009,
+      "refdomains": 4559,
+      "subnets": 1718,
+      "ips": 2766,
+      "nofollow_backlinks": 17955,
+      "dofollow_backlinks": 1459054,
+      "edu_backlinks": 2,
+      "gov_backlinks": 1,
+      "inlink_rank": 27,
+      "domain_inlink_rank": 83,
+      "from_home_page_backlinks": 387,
+      "dofollow_from_home_page_backlinks": 360,
+      "text_backlinks": 1466436,
+      "dofollow_refdomains": 3260,
+      "from_home_page_refdomains": 292,
+      "edu_refdomains": 1,
+      "gov_refdomains": 1,
+      "anchors": 2273,
+      "dofollow_anchors": 1745,
+      "pages_with_backlinks": 1380,
+      "top_anchors_by_backlinks": [
+        {
+          "anchor": "https://www.bexio.com/de-CH/datenschutz",
+          "backlinks": 792889
+        },
+        {
+          "anchor": "Bexio",
+          "backlinks": 606416
+        },
+        {
+          "anchor": "File-invoice-dollar",
+          "backlinks": 20454
+        },
+        {
+          "anchor": "https://www.bexio.com/fr-CH/protection-des-donnees",
+          "backlinks": 11467
+        },
+        {
+          "anchor": "Mehr über Bexio erfahren",
+          "backlinks": 7031
+        },
+        {
+          "anchor": "Mehr →",
+          "backlinks": 5396
+        },
+        {
+          "anchor": "",
+          "backlinks": 3047
+        },
+        {
+          "anchor": "Mahnung Vorlage Für Die Schweiz Bexio",
+          "backlinks": 2899
+        },
+        {
+          "anchor": "https://support.bexio.com/hc/de",
+          "backlinks": 2278
+        },
+        {
+          "anchor": "bexio",
+          "backlinks": 1410
+        }
+      ],
+      "top_anchors_by_refdomains": [
+        {
+          "anchor": "bexio",
+          "refdomains": 425
+        },
+        {
+          "anchor": "https://www.bexio.com/de-CH/datenschutz",
+          "refdomains": 363
+        },
+        {
+          "anchor": "Bexio",
+          "refdomains": 337
+        },
+        {
+          "anchor": "",
+          "refdomains": 307
+        },
+        {
+          "anchor": "Datenschutzerklärung",
+          "refdomains": 295
+        },
+        {
+          "anchor": "bexio:",
+          "refdomains": 287
+        },
+        {
+          "anchor": "https://www.bexio.com/de-CH/datenschutz)",
+          "refdomains": 271
+        },
+        {
+          "anchor": "«Cloud und Datensicherheit»",
+          "refdomains": 255
+        },
+        {
+          "anchor": "«Datensicherheit – Definition und Massnahmen für Unternehmen»",
+          "refdomains": 246
+        },
+        {
+          "anchor": "bexio.com",
+          "refdomains": 228
+        }
+      ],
+      "top_pages_by_backlinks": [
+        {
+          "url": "https://www.bexio.com/de-CH/datenschutz",
+          "backlinks": 793081
+        },
+        {
+          "url": "https://www.bexio.com/",
+          "backlinks": 612825
+        },
+        {
+          "url": "https://www.bexio.com/de-CH/rechnung",
+          "backlinks": 20453
+        },
+        {
+          "url": "https://www.bexio.com/fr-CH/protection-des-donnees",
+          "backlinks": 11458
+        },
+        {
+          "url": "https://www.bexio.com/de-CH/partner-trial-40?q_partner_name=handwerker-ch",
+          "backlinks": 7094
+        }
+      ],
+      "top_pages_by_refdomains": [
+        {
+          "url": "https://www.bexio.com/",
+          "refdomains": 659
+        },
+        {
+          "url": "https://www.bexio.com/de-CH/",
+          "refdomains": 502
+        },
+        {
+          "url": "https://www.bexio.com/de-CH/datenschutz",
+          "refdomains": 458
+        },
+        {
+          "url": "https://www.bexio.com/de-CH/richtlinien/datenschutz",
+          "refdomains": 421
+        },
+        {
+          "url": "https://www.bexio.com/de-CH/cloud",
+          "refdomains": 316
+        }
+      ],
+      "top_tlds": [
+        {
+          "tld": "ch",
+          "count": 2036
+        },
+        {
+          "tld": "com",
+          "count": 1033
+        },
+        {
+          "tld": "de",
+          "count": 79
+        },
+        {
+          "tld": "site",
+          "count": 77
+        },
+        {
+          "tld": "website",
+          "count": 77
+        }
+      ],
+      "top_countries": [
+        {
+          "country": "us",
+          "count": 1634
+        },
+        {
+          "country": "ch",
+          "count": 1224
+        },
+        {
+          "country": "de",
+          "count": 692
+        },
+        {
+          "country": "co",
+          "count": 226
+        },
+        {
+          "country": "sg",
+          "count": 78
+        }
+      ]
+    }
+  ]
+}

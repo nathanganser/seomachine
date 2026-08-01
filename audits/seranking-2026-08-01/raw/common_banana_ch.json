@@ -1,0 +1,8618 @@
+[
+  {
+    "keyword": "qr rechnung erstellen",
+    "volume": 1500,
+    "cpc": 1.8,
+    "competition": 0.32,
+    "difficulty": 81,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 19,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 79.2,
+    "compare_traffic": 44,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 77.4,
+    "traffic": 43
+  },
+  {
+    "keyword": "qr rechnung",
+    "volume": 1000,
+    "cpc": 1.8,
+    "competition": 0.2,
+    "difficulty": 95,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 50,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 41,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einzahlungsschein erstellen",
+    "volume": 1000,
+    "cpc": 1.51,
+    "competition": 0.36,
+    "difficulty": 79,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 27.18,
+    "compare_traffic": 18,
+    "position": 29,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 24.16,
+    "traffic": 16
+  },
+  {
+    "keyword": "rechnung erstellen",
+    "volume": 610,
+    "cpc": 3.3,
+    "competition": 0.56,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 53,
+    "compare_url": "https://www.banana.ch/de/node/11510",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 23.1,
+    "traffic": 7
+  },
+  {
+    "keyword": "schweizer buchhaltungssoftware",
+    "volume": 590,
+    "cpc": 4.94,
+    "competition": 0.79,
+    "difficulty": 26,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 6,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 34.58,
+    "compare_traffic": 7,
+    "position": 11,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 14.82,
+    "traffic": 3
+  },
+  {
+    "keyword": "buchhaltungssoftware schweiz",
+    "volume": 590,
+    "cpc": 4.94,
+    "competition": 0.79,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 2,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 128.44,
+    "compare_traffic": 26,
+    "position": 11,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 19.76,
+    "traffic": 4
+  },
+  {
+    "keyword": "doppelte buchhaltung",
+    "volume": 590,
+    "cpc": 0.59,
+    "competition": 0.43,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches",
+      "image_in_block"
+    ],
+    "compare_position": 8,
+    "compare_url": "https://www.banana.ch/de/node/11190",
+    "compare_price": 1.18,
+    "compare_traffic": 2,
+    "position": 17,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0.59,
+    "traffic": 1
+  },
+  {
+    "keyword": "budget planner",
+    "volume": 590,
+    "cpc": 1,
+    "competition": 0.97,
+    "difficulty": 68,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 75,
+    "compare_url": "https://www.banana.ch/de/node/11356",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 20,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 3,
+    "traffic": 3
+  },
+  {
+    "keyword": "qr einzahlungsschein erstellen gratis",
+    "volume": 590,
+    "cpc": 1.11,
+    "competition": 0.24,
+    "difficulty": 28,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 16,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 3.33,
+    "compare_traffic": 3,
+    "position": 10,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 3.33,
+    "traffic": 3
+  },
+  {
+    "keyword": "qr-einzahlungsschein erstellen gratis",
+    "volume": 590,
+    "cpc": 1.11,
+    "competition": 0.24,
+    "difficulty": 28,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "related_searches"
+    ],
+    "compare_position": 16,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 2.22,
+    "compare_traffic": 2,
+    "position": 10,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 3.33,
+    "traffic": 3
+  },
+  {
+    "keyword": "mwst nummer",
+    "volume": 480,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 35,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "knowledge_graph",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 38,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 21,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 2
+  },
+  {
+    "keyword": "mwst sätze",
+    "volume": 480,
+    "cpc": 0.28,
+    "competition": 0.03,
+    "difficulty": 34,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 9,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0.84,
+    "compare_traffic": 3,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/tools/vat-calculator-switzerland",
+    "price": 1.12,
+    "traffic": 4
+  },
+  {
+    "keyword": "qr generator postfinance",
+    "volume": 480,
+    "cpc": 1.29,
+    "competition": 0.02,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 46,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 43,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr portal",
+    "volume": 480,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 41,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 38,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 22,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 13
+  },
+  {
+    "keyword": "ubs qr-rechnung erstellen",
+    "volume": 480,
+    "cpc": 1.14,
+    "competition": 0.03,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 25,
+    "compare_url": "https://www.banana.ch/de/node/11497",
+    "compare_price": 17.1,
+    "compare_traffic": 15,
+    "position": 4,
+    "url": "https://magicheidi.ch/de/banks/ubs",
+    "price": 26.22,
+    "traffic": 23
+  },
+  {
+    "keyword": "qr-generator postfinance",
+    "volume": 480,
+    "cpc": 1.29,
+    "competition": 0.02,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 47,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 44,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst-nummer",
+    "volume": 480,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 35,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "knowledge_graph",
+      "sge"
+    ],
+    "compare_position": 28,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 20,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 1
+  },
+  {
+    "keyword": "budgetplaner",
+    "volume": 390,
+    "cpc": 1.08,
+    "competition": 1,
+    "difficulty": 15,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "images",
+      "related_searches"
+    ],
+    "compare_position": 65,
+    "compare_url": "https://www.banana.ch/apps/de/node/9105",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 50,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst berechnen",
+    "volume": 390,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images"
+    ],
+    "compare_position": 71,
+    "compare_url": "https://www.banana.ch/de/node/11401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 15,
+    "url": "https://magicheidi.ch/de/tools/vat-calculator-switzerland",
+    "price": 0,
+    "traffic": 2
+  },
+  {
+    "keyword": "mwst berechnung",
+    "volume": 390,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 70,
+    "compare_url": "https://www.banana.ch/de/node/11401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 23,
+    "url": "https://magicheidi.ch/de/tools/vat-calculator-switzerland",
+    "price": 0,
+    "traffic": 5
+  },
+  {
+    "keyword": "budget app",
+    "volume": 390,
+    "cpc": 0.83,
+    "competition": 0.37,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 39,
+    "compare_url": "https://www.banana.ch/de/node/11356",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 13,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 1.66,
+    "traffic": 2
+  },
+  {
+    "keyword": "qr code rechnung erstellen",
+    "volume": 390,
+    "cpc": 1.73,
+    "competition": 0.55,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 46,
+    "compare_url": "https://www.banana.ch/de/node/11510",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 23,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 6.92,
+    "traffic": 4
+  },
+  {
+    "keyword": "qr facture",
+    "volume": 390,
+    "cpc": 1.27,
+    "competition": 0.18,
+    "difficulty": 47,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "related_searches"
+    ],
+    "compare_position": 31,
+    "compare_url": "https://www.banana.ch/apps/fr/node/9398",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 22,
+    "url": "https://magicheidi.ch/fr/qr-rechnung-erstellen",
+    "price": 2.54,
+    "traffic": 2
+  },
+  {
+    "keyword": "qr iban",
+    "volume": 390,
+    "cpc": 1.31,
+    "competition": 0.03,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/apps/de/node/9387",
+    "compare_price": 3.93,
+    "compare_traffic": 3,
+    "position": 18,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 1.31,
+    "traffic": 1
+  },
+  {
+    "keyword": "budgetch",
+    "volume": 390,
+    "cpc": 1.6,
+    "competition": 0.16,
+    "difficulty": 25,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "related_searches"
+    ],
+    "compare_position": 35,
+    "compare_url": "https://www.banana.ch/de/node/11356",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 8,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 1.6,
+    "traffic": 1
+  },
+  {
+    "keyword": "qr einzahlungsschein",
+    "volume": 390,
+    "cpc": 1.59,
+    "competition": 0.12,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "related_searches"
+    ],
+    "compare_position": 13,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 4.77,
+    "compare_traffic": 3,
+    "position": 43,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr-einzahlungsschein",
+    "volume": 390,
+    "cpc": 1.48,
+    "competition": 0.14,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 13,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 2.96,
+    "compare_traffic": 2,
+    "position": 46,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr-iban",
+    "volume": 390,
+    "cpc": 1.31,
+    "competition": 0.03,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 8,
+    "compare_url": "https://www.banana.ch/apps/de/node/9387",
+    "compare_price": 1.31,
+    "compare_traffic": 1,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 1.31,
+    "traffic": 1
+  },
+  {
+    "keyword": "budgetplaner schweiz",
+    "volume": 390,
+    "cpc": 0.95,
+    "competition": 0.54,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "L",
+      "T"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "gmb",
+      "related_searches"
+    ],
+    "compare_position": 66,
+    "compare_url": "https://www.banana.ch/de/node/11356",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 15,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 1.9,
+    "traffic": 2
+  },
+  {
+    "keyword": "qr code rechnungen erstellen",
+    "volume": 390,
+    "cpc": 1.73,
+    "competition": 0.55,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 32,
+    "compare_url": "https://www.banana.ch/apps/de/node/9745",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 11,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 8.65,
+    "traffic": 5
+  },
+  {
+    "keyword": "budgetrechner schweiz",
+    "volume": 320,
+    "cpc": 1.01,
+    "competition": 0.35,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 62,
+    "compare_url": "https://www.banana.ch/de/node/11356",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 25,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 8.08,
+    "traffic": 8
+  },
+  {
+    "keyword": "accounting software",
+    "volume": 320,
+    "cpc": 5.26,
+    "competition": 0.02,
+    "difficulty": 64,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/",
+    "compare_price": 57.86,
+    "compare_traffic": 11,
+    "position": 29,
+    "url": "https://magicheidi.ch/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm",
+    "volume": 320,
+    "cpc": 5.13,
+    "competition": 0.81,
+    "difficulty": 19,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 14,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 15.39,
+    "compare_traffic": 3,
+    "position": 69,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware",
+    "volume": 320,
+    "cpc": 6.09,
+    "competition": 0.69,
+    "difficulty": 38,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 48.72,
+    "compare_traffic": 8,
+    "position": 30,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "ubs einzahlungsschein erstellen",
+    "volume": 320,
+    "cpc": 1.39,
+    "competition": 0.02,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 41,
+    "compare_url": "https://www.banana.ch/de/node/11497",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 5,
+    "url": "https://magicheidi.ch/de/banks/ubs",
+    "price": 9.73,
+    "traffic": 7
+  },
+  {
+    "keyword": "qr rechnung erstellen post",
+    "volume": 260,
+    "cpc": 1.74,
+    "competition": 0.05,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "related_searches"
+    ],
+    "compare_position": 38,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 27,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 10.44,
+    "traffic": 6
+  },
+  {
+    "keyword": "budget planer",
+    "volume": 260,
+    "cpc": 0.96,
+    "competition": 1,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 66,
+    "compare_url": "https://www.banana.ch/apps/de/node/9105",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 34,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr rechnung generator",
+    "volume": 260,
+    "cpc": 1.87,
+    "competition": 0.28,
+    "difficulty": 30,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 51,
+    "compare_url": "https://www.banana.ch/de/node/11510",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 17,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 3.74,
+    "traffic": 2
+  },
+  {
+    "keyword": "qr-rechnung generator",
+    "volume": 260,
+    "cpc": 1.95,
+    "competition": 0.28,
+    "difficulty": 30,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 45,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 13,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 13.65,
+    "traffic": 7
+  },
+  {
+    "keyword": "qr rechnung net",
+    "volume": 260,
+    "cpc": 1.68,
+    "competition": 0.07,
+    "difficulty": 33,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 72,
+    "compare_url": "https://www.banana.ch/de/node/11510",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 36,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr-rechnung net",
+    "volume": 260,
+    "cpc": 1.67,
+    "competition": 0.14,
+    "difficulty": 33,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 70,
+    "compare_url": "https://www.banana.ch/de/node/11510",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 36,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "post einzahlungsschein erstellen",
+    "volume": 260,
+    "cpc": 1.19,
+    "competition": 0.07,
+    "difficulty": 22,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "sge"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de/node/11497",
+    "compare_price": 2.38,
+    "compare_traffic": 2,
+    "position": 28,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 1.19,
+    "traffic": 1
+  },
+  {
+    "keyword": "gratis buchhaltung",
+    "volume": 210,
+    "cpc": 1.67,
+    "competition": 0.83,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://www.banana.ch/apps/de/node/4489",
+    "compare_price": 8.35,
+    "compare_traffic": 5,
+    "position": 33,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware für kmu",
+    "volume": 210,
+    "cpc": 7.66,
+    "competition": 0.36,
+    "difficulty": 25,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 45.96,
+    "compare_traffic": 6,
+    "position": 24,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einfache buchhaltung",
+    "volume": 210,
+    "cpc": 2.88,
+    "competition": 0.63,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 5,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 8.64,
+    "compare_traffic": 3,
+    "position": 23,
+    "url": "https://magicheidi.ch/de/milchbuechleinrechnung",
+    "price": 2.88,
+    "traffic": 1
+  },
+  {
+    "keyword": "einfach buchhaltung",
+    "volume": 210,
+    "cpc": 2.88,
+    "competition": 0.63,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 10,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 2.88,
+    "compare_traffic": 1,
+    "position": 23,
+    "url": "https://magicheidi.ch/de/milchbuechleinrechnung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm gratis",
+    "volume": 210,
+    "cpc": 1.67,
+    "competition": 0.83,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://www.banana.ch/de/free",
+    "compare_price": 5.01,
+    "compare_traffic": 3,
+    "position": 36,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "abkürzung mwst",
+    "volume": 210,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 7,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 3,
+    "position": 49,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungsstellung",
+    "volume": 210,
+    "cpc": 2.26,
+    "competition": 0.17,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "knowledge_graph",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://www.banana.ch/doc/de/node/10173",
+    "compare_price": 2.26,
+    "compare_traffic": 1,
+    "position": 55,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr rechnung erstellen raiffeisen",
+    "volume": 210,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 45,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 23,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 6
+  },
+  {
+    "keyword": "postfinance qr rechnung erstellen",
+    "volume": 210,
+    "cpc": 2.06,
+    "competition": 0.04,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask"
+    ],
+    "compare_position": 63,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 55,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "note de credit",
+    "volume": 210,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "knowledge_graph",
+      "sge"
+    ],
+    "compare_position": 7,
+    "compare_url": "https://www.banana.ch/doc/fr/node/2639",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 46,
+    "url": "https://magicheidi.ch/de/stornorechnung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "post qr rechnung",
+    "volume": 210,
+    "cpc": 0,
+    "competition": 0.03,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 46,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 58,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "post qr-rechnung",
+    "volume": 210,
+    "cpc": 0,
+    "competition": 0.04,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 47,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 59,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einzahlungsschein erstellen raiffeisen",
+    "volume": 210,
+    "cpc": 1.7,
+    "competition": 0.04,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 38,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 27,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 3.4,
+    "traffic": 2
+  },
+  {
+    "keyword": "n tva suisse",
+    "volume": 210,
+    "cpc": 2.08,
+    "competition": 0.02,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 25,
+    "compare_url": "https://www.banana.ch/apps/fr/node/9722",
+    "compare_price": 2.08,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/mwst-registrierung",
+    "price": 2.08,
+    "traffic": 1
+  },
+  {
+    "keyword": "iban.ch",
+    "volume": 170,
+    "cpc": 0.43,
+    "competition": 0.03,
+    "difficulty": 32,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "mads"
+    ],
+    "compare_position": 85,
+    "compare_url": "https://www.banana.ch/apps/de/node/9381",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 20,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst nr",
+    "volume": 170,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 26,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "knowledge_graph",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 26,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 19,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 1
+  },
+  {
+    "keyword": "buchhaltung schweiz",
+    "volume": 170,
+    "cpc": 5.96,
+    "competition": 0.65,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "L",
+      "C"
+    ],
+    "serp_features": [
+      "local_pack",
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 6,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 11.92,
+    "compare_traffic": 2,
+    "position": 27,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung erstellen schweiz",
+    "volume": 170,
+    "cpc": 3.2,
+    "competition": 0.69,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 20,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 3.2,
+    "compare_traffic": 1,
+    "position": 6,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 3.2,
+    "traffic": 1
+  },
+  {
+    "keyword": "saldosteuersatz",
+    "volume": 170,
+    "cpc": 0.15,
+    "competition": 0.02,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 9,
+    "compare_url": "https://www.banana.ch/apps/de/node/9752",
+    "compare_price": 0.15,
+    "compare_traffic": 1,
+    "position": 17,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mehrwertsteuersätze",
+    "volume": 170,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 34,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 51,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/tools/vat-calculator-switzerland",
+    "price": 0,
+    "traffic": 1
+  },
+  {
+    "keyword": "qr code rechnung",
+    "volume": 170,
+    "cpc": 1.69,
+    "competition": 0.31,
+    "difficulty": 49,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 34,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 44,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr erstellen",
+    "volume": 170,
+    "cpc": 0.49,
+    "competition": 0.65,
+    "difficulty": 59,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 46,
+    "compare_url": "https://www.banana.ch/de/node/11510",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 32,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungen erstellen schweiz",
+    "volume": 170,
+    "cpc": 3.2,
+    "competition": 0.69,
+    "difficulty": 28,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 21,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 3.2,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 9.6,
+    "traffic": 3
+  },
+  {
+    "keyword": "mwst schweiz berechnen",
+    "volume": 170,
+    "cpc": 0.57,
+    "competition": 0.03,
+    "difficulty": 10,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 44,
+    "compare_url": "https://www.banana.ch/apps/de/node/9729",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 19,
+    "url": "https://magicheidi.ch/de/tools/vat-calculator-switzerland",
+    "price": 0.57,
+    "traffic": 1
+  },
+  {
+    "keyword": "qr rechnung erstellen postfinance",
+    "volume": 170,
+    "cpc": 1.71,
+    "competition": 0.04,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 59,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 52,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst berechnen schweiz",
+    "volume": 170,
+    "cpc": 0.57,
+    "competition": 0.03,
+    "difficulty": 19,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 42,
+    "compare_url": "https://www.banana.ch/apps/de/node/9729",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 15,
+    "url": "https://magicheidi.ch/de/tools/vat-calculator-switzerland",
+    "price": 0.57,
+    "traffic": 1
+  },
+  {
+    "keyword": "qr-rechnung erstellen postfinance",
+    "volume": 170,
+    "cpc": 1.71,
+    "competition": 0.04,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 58,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 51,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "raiffeisen einzahlungsschein erstellen",
+    "volume": 170,
+    "cpc": 1.72,
+    "competition": 0.03,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 33,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 24,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 3.44,
+    "traffic": 2
+  },
+  {
+    "keyword": "qr code auf rechnung",
+    "volume": 170,
+    "cpc": 1.69,
+    "competition": 0.31,
+    "difficulty": 49,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 53,
+    "compare_url": "https://www.banana.ch/de/node/11510",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 49,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr-code auf rechnung",
+    "volume": 170,
+    "cpc": 1.89,
+    "competition": 0.28,
+    "difficulty": 48,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 51,
+    "compare_url": "https://www.banana.ch/de/node/11510",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 44,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "facturation suisse",
+    "volume": 170,
+    "cpc": 2.61,
+    "competition": 0.52,
+    "difficulty": 10,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 41,
+    "compare_url": "https://www.banana.ch/fr/node/11422",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnung-schreiben-schweiz",
+    "price": 2.61,
+    "traffic": 1
+  },
+  {
+    "keyword": "facture suisse",
+    "volume": 170,
+    "cpc": 2.61,
+    "competition": 0.52,
+    "difficulty": 18,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 3,
+    "compare_url": "https://www.banana.ch/apps/fr/node/9338",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 8,
+    "url": "https://magicheidi.ch/fr/rechnung-schreiben-schweiz",
+    "price": 2.61,
+    "traffic": 1
+  },
+  {
+    "keyword": "buchhaltung software",
+    "volume": 140,
+    "cpc": 7.52,
+    "competition": 0.91,
+    "difficulty": 32,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 30.08,
+    "compare_traffic": 4,
+    "position": 47,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "software buchhaltung",
+    "volume": 140,
+    "cpc": 7.52,
+    "competition": 0.91,
+    "difficulty": 32,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 30.08,
+    "compare_traffic": 4,
+    "position": 45,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhalter software",
+    "volume": 140,
+    "cpc": 7.52,
+    "competition": 0.91,
+    "difficulty": 53,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de/node/11522",
+    "compare_price": 15.04,
+    "compare_traffic": 2,
+    "position": 48,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm schweiz",
+    "volume": 140,
+    "cpc": 5.38,
+    "competition": 0.88,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 16.14,
+    "compare_traffic": 3,
+    "position": 20,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "schweizer rechnung",
+    "volume": 140,
+    "cpc": 3.13,
+    "competition": 0.4,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 70,
+    "compare_url": "https://www.banana.ch/doc/de/node/10173",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 6.26,
+    "traffic": 2
+  },
+  {
+    "keyword": "einzahlungsschein ubs",
+    "volume": 140,
+    "cpc": 1.38,
+    "competition": 0.07,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 33,
+    "compare_url": "https://www.banana.ch/de/node/11497",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 6,
+    "url": "https://magicheidi.ch/de/banks/ubs",
+    "price": 2.76,
+    "traffic": 2
+  },
+  {
+    "keyword": "software für buchhaltung",
+    "volume": 140,
+    "cpc": 7.52,
+    "competition": 0.91,
+    "difficulty": 40,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 15.04,
+    "compare_traffic": 2,
+    "position": 36,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "budget app schweiz",
+    "volume": 140,
+    "cpc": 0.83,
+    "competition": 0.37,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 28,
+    "compare_url": "https://www.banana.ch/apps/de/node/9105",
+    "compare_price": 1.66,
+    "compare_traffic": 2,
+    "position": 10,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0.83,
+    "traffic": 1
+  },
+  {
+    "keyword": "ubs einzahlungsschein",
+    "volume": 140,
+    "cpc": 1.38,
+    "competition": 0.07,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 35,
+    "compare_url": "https://www.banana.ch/de/node/11497",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 6,
+    "url": "https://magicheidi.ch/de/banks/ubs",
+    "price": 4.14,
+    "traffic": 3
+  },
+  {
+    "keyword": "buchhaltungsprogramm gratis schweiz",
+    "volume": 140,
+    "cpc": 1.92,
+    "competition": 0.81,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 6,
+    "compare_url": "https://www.banana.ch/de/free",
+    "compare_price": 1.92,
+    "compare_traffic": 1,
+    "position": 13,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 1.92,
+    "traffic": 1
+  },
+  {
+    "keyword": "buchhaltungsprogramm schweiz gratis",
+    "volume": 140,
+    "cpc": 1.92,
+    "competition": 0.81,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de/free",
+    "compare_price": 5.76,
+    "compare_traffic": 3,
+    "position": 18,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "gratis buchhaltungsprogramm schweiz",
+    "volume": 140,
+    "cpc": 1.92,
+    "competition": 0.81,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de/free",
+    "compare_price": 5.76,
+    "compare_traffic": 3,
+    "position": 21,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr rechnung erstellen ubs",
+    "volume": 140,
+    "cpc": 1.27,
+    "competition": 0.08,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 38,
+    "compare_url": "https://www.banana.ch/de/node/11497",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 4,
+    "url": "https://magicheidi.ch/de/banks/ubs",
+    "price": 8.89,
+    "traffic": 7
+  },
+  {
+    "keyword": "leere qr einzahlungsscheine",
+    "volume": 140,
+    "cpc": 1.37,
+    "competition": 0.65,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 6,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 1.37,
+    "compare_traffic": 1,
+    "position": 32,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "leere qr-einzahlungsscheine",
+    "volume": 140,
+    "cpc": 1.13,
+    "competition": 0.53,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 7,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 1.13,
+    "compare_traffic": 1,
+    "position": 31,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr-rechnung erstellen ubs",
+    "volume": 140,
+    "cpc": 1.27,
+    "competition": 0.08,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 38,
+    "compare_url": "https://www.banana.ch/de/node/11497",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 4,
+    "url": "https://magicheidi.ch/de/banks/ubs",
+    "price": 8.89,
+    "traffic": 7
+  },
+  {
+    "keyword": "qr code einzahlungsschein erstellen",
+    "volume": 140,
+    "cpc": 1.43,
+    "competition": 0.41,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 1.43,
+    "compare_traffic": 1,
+    "position": 27,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramme schweiz",
+    "volume": 140,
+    "cpc": 5.38,
+    "competition": 0.88,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 5,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 10.76,
+    "compare_traffic": 2,
+    "position": 12,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 5.38,
+    "traffic": 1
+  },
+  {
+    "keyword": "facture qr",
+    "volume": 140,
+    "cpc": 1.27,
+    "competition": 0.22,
+    "difficulty": 21,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "related_searches"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://www.banana.ch/apps/fr/node/9645",
+    "compare_price": 1.27,
+    "compare_traffic": 1,
+    "position": 19,
+    "url": "https://magicheidi.ch/fr/blog/comment-creer-une-facture-avec-code-qr-suisse-facilement-et-gratuitement",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "apps haushaltsbuch",
+    "volume": 110,
+    "cpc": 0.72,
+    "competition": 0.46,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 62,
+    "compare_url": "https://www.banana.ch/de/node/11356",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 44,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm kmu",
+    "volume": 110,
+    "cpc": 16.38,
+    "competition": 0.41,
+    "difficulty": 39,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 49.14,
+    "compare_traffic": 3,
+    "position": 54,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "saldosteuersatz mwst",
+    "volume": 110,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 11,
+    "compare_url": "https://www.banana.ch/apps/de/node/9752",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "abkürzung mehrwertsteuer schweiz",
+    "volume": 110,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 33,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 8,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 67,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "doppelte buchführung",
+    "volume": 110,
+    "cpc": 0.17,
+    "competition": 0.25,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 9,
+    "compare_url": "https://www.banana.ch/de/node/11190",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 25,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst saldosteuersatz",
+    "volume": 110,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 9,
+    "compare_url": "https://www.banana.ch/apps/de/node/9752",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 15,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 1
+  },
+  {
+    "keyword": "buchhaltung einzelfirma",
+    "volume": 110,
+    "cpc": 3.84,
+    "competition": 0.55,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "L",
+      "C"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "gmb",
+      "related_searches"
+    ],
+    "compare_position": 8,
+    "compare_url": "https://www.banana.ch/apps/de/node/4900",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 47,
+    "url": "https://magicheidi.ch/de/milchbuechleinrechnung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "exemple facture suisse",
+    "volume": 110,
+    "cpc": 1.72,
+    "competition": 0.39,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads"
+    ],
+    "compare_position": 3,
+    "compare_url": "https://www.banana.ch/apps/fr/node/9398",
+    "compare_price": 1.72,
+    "compare_traffic": 1,
+    "position": 5,
+    "url": "https://magicheidi.ch/fr/rechnungsvorlage",
+    "price": 1.72,
+    "traffic": 1
+  },
+  {
+    "keyword": "qr rechnung schweiz",
+    "volume": 110,
+    "cpc": 1.86,
+    "competition": 0.39,
+    "difficulty": 49,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 42,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 1.86,
+    "traffic": 1
+  },
+  {
+    "keyword": "mwst konforme rechnung",
+    "volume": 110,
+    "cpc": 1.31,
+    "competition": 0.07,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 49,
+    "compare_url": "https://www.banana.ch/doc/de/node/10173",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 19,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "haushaltsbuch app",
+    "volume": 110,
+    "cpc": 0.72,
+    "competition": 0.46,
+    "difficulty": 25,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 48,
+    "compare_url": "https://www.banana.ch/de/node/11356",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 40,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "inkl mwst",
+    "volume": 110,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 16,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 45,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einzelfirma buchhaltung",
+    "volume": 110,
+    "cpc": 3.84,
+    "competition": 0.55,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "L",
+      "C"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "gmb",
+      "related_searches"
+    ],
+    "compare_position": 8,
+    "compare_url": "https://www.banana.ch/apps/de/node/4900",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 47,
+    "url": "https://magicheidi.ch/de/milchbueechli-app",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr-rechnung erstellen kostenlos",
+    "volume": 110,
+    "cpc": 1.53,
+    "competition": 0.51,
+    "difficulty": 28,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 36,
+    "compare_url": "https://www.banana.ch/de/node/11510",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 11,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 3.06,
+    "traffic": 2
+  },
+  {
+    "keyword": "einzahlungsschein mit qr code erstellen",
+    "volume": 110,
+    "cpc": 1.73,
+    "competition": 0.43,
+    "difficulty": 30,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 14,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 5.19,
+    "compare_traffic": 3,
+    "position": 25,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 3.46,
+    "traffic": 2
+  },
+  {
+    "keyword": "qr rechnung erstellen kostenlos",
+    "volume": 110,
+    "cpc": 1.53,
+    "competition": 0.51,
+    "difficulty": 28,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 36,
+    "compare_url": "https://www.banana.ch/de/node/11510",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 10,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 1.53,
+    "traffic": 1
+  },
+  {
+    "keyword": "qr-rechnung schweiz",
+    "volume": 110,
+    "cpc": 1.86,
+    "competition": 0.39,
+    "difficulty": 49,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 63,
+    "compare_url": "https://www.banana.ch/de/node/11510",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 60,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "post qr rechnung erstellen",
+    "volume": 110,
+    "cpc": 1.47,
+    "competition": 0.04,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 38,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 26,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 1.47,
+    "traffic": 1
+  },
+  {
+    "keyword": "post qr-rechnung erstellen",
+    "volume": 110,
+    "cpc": 1.59,
+    "competition": 0.05,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 39,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 27,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 1.59,
+    "traffic": 1
+  },
+  {
+    "keyword": "qr-einzahlungsschein post",
+    "volume": 110,
+    "cpc": 1.36,
+    "competition": 0.09,
+    "difficulty": 26,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 16,
+    "compare_url": "https://www.banana.ch/de/node/11497",
+    "compare_price": 2.72,
+    "compare_traffic": 2,
+    "position": 35,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr rechnung raiffeisen",
+    "volume": 110,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 26,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 57,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 41,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr-rechnung raiffeisen",
+    "volume": 110,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 26,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 52,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 40,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "logiciel comptabilité suisse",
+    "volume": 110,
+    "cpc": 3.35,
+    "competition": 0.9,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I",
+      "N"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "digital_complaints",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/fr/accounting-non-profit",
+    "compare_price": 3.35,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 3.35,
+    "traffic": 1
+  },
+  {
+    "keyword": "inkl. mwst",
+    "volume": 110,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 49,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst online anmeldung",
+    "volume": 90,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 41,
+    "compare_url": "https://www.banana.ch/apps/de/node/9724",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 30,
+    "url": "https://magicheidi.ch/de/mwst-registrierung/st-gallen",
+    "price": 0,
+    "traffic": 2
+  },
+  {
+    "keyword": "buchhaltung jahresabschluss",
+    "volume": 90,
+    "cpc": 2.15,
+    "competition": 0.67,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://www.banana.ch/doc/de/node/3307",
+    "compare_price": 8.6,
+    "compare_traffic": 4,
+    "position": 72,
+    "url": "https://magicheidi.ch/gmbh-jahresabschluss-guide",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mehrwertsteuer berechnen schweiz",
+    "volume": 90,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 19,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 38,
+    "compare_url": "https://www.banana.ch/apps/de/node/9729",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 17,
+    "url": "https://magicheidi.ch/de/tools/vat-calculator-switzerland",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mehrwertsteuernummer",
+    "volume": 90,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 46,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 51,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 39,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "jahresabschluss buchhaltung",
+    "volume": 90,
+    "cpc": 2.15,
+    "competition": 0.67,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 5,
+    "compare_url": "https://www.banana.ch/doc/de/node/3307",
+    "compare_price": 2.15,
+    "compare_traffic": 1,
+    "position": 82,
+    "url": "https://magicheidi.ch/gmbh-jahresabschluss-guide",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung für gmbh",
+    "volume": 90,
+    "cpc": 4.12,
+    "competition": 0.46,
+    "difficulty": 21,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 32,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 65,
+    "url": "https://magicheidi.ch/gmbh-jahresabschluss-guide",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "sumup.ch",
+    "volume": 90,
+    "cpc": 2.49,
+    "competition": 1,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads"
+    ],
+    "compare_position": 36,
+    "compare_url": "https://www.banana.ch/apps/de/node/9811",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 55,
+    "url": "https://magicheidi.ch/de/integrations/sumup",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mehrwertsteuer schweiz berechnen",
+    "volume": 90,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 10,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 73,
+    "compare_url": "https://www.banana.ch/de/node/11401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 17,
+    "url": "https://magicheidi.ch/de/tools/vat-calculator-switzerland",
+    "price": 0,
+    "traffic": 1
+  },
+  {
+    "keyword": "qr einzahlungsschein erstellen postfinance",
+    "volume": 90,
+    "cpc": 1.71,
+    "competition": 0.1,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 47,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 48,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung mit mwst",
+    "volume": 90,
+    "cpc": 0,
+    "competition": 0.03,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 32,
+    "compare_url": "https://www.banana.ch/doc/de/node/10173",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 48,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung mit qr code erstellen",
+    "volume": 90,
+    "cpc": 1.96,
+    "competition": 0.73,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 46,
+    "compare_url": "https://www.banana.ch/de/node/11510",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 3.92,
+    "traffic": 2
+  },
+  {
+    "keyword": "facture qr code suisse gratuit",
+    "volume": 90,
+    "cpc": 1.27,
+    "competition": 0.5,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "related_searches"
+    ],
+    "compare_position": 11,
+    "compare_url": "https://www.banana.ch/apps/fr/node/9645",
+    "compare_price": 1.27,
+    "compare_traffic": 1,
+    "position": 9,
+    "url": "https://magicheidi.ch/fr/qr-rechnung-erstellen",
+    "price": 1.27,
+    "traffic": 1
+  },
+  {
+    "keyword": "einzahlungsschein qr code",
+    "volume": 70,
+    "cpc": 1.4,
+    "competition": 0.28,
+    "difficulty": 41,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 25,
+    "compare_url": "https://www.banana.ch/de/node/11497",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 46,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "budgetplanung privathaushalt",
+    "volume": 70,
+    "cpc": 0,
+    "competition": 0.13,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 40,
+    "compare_url": "https://www.banana.ch/apps/de/node/9105",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 25,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "online buchhaltung schweiz",
+    "volume": 70,
+    "cpc": 7.39,
+    "competition": 0.79,
+    "difficulty": 33,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 7.39,
+    "compare_traffic": 1,
+    "position": 20,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst konforme rechnung schweiz",
+    "volume": 70,
+    "cpc": 1.93,
+    "competition": 0.11,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 44,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "saldosteuersätze",
+    "volume": 70,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 14,
+    "compare_url": "https://www.banana.ch/apps/de/node/9906",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 31,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "umsatzabstimmung mwst",
+    "volume": 70,
+    "cpc": 1.41,
+    "competition": 0.09,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/doc/de/node/10118",
+    "compare_price": 1.41,
+    "compare_traffic": 1,
+    "position": 61,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "swiss qr code generator",
+    "volume": 70,
+    "cpc": 1.05,
+    "competition": 0.41,
+    "difficulty": 37,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 47,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 24,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 1.05,
+    "traffic": 1
+  },
+  {
+    "keyword": "qr code einzahlungsschein",
+    "volume": 70,
+    "cpc": 1.69,
+    "competition": 0.19,
+    "difficulty": 41,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "related_searches"
+    ],
+    "compare_position": 15,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 1.69,
+    "compare_traffic": 1,
+    "position": 45,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst umsatzabstimmung",
+    "volume": 70,
+    "cpc": 1.41,
+    "competition": 0.09,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 8,
+    "compare_url": "https://www.banana.ch/doc/de/node/10118",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 54,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einfache buchhaltung schweiz",
+    "volume": 70,
+    "cpc": 2.9,
+    "competition": 0.76,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "L",
+      "C"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "gmb",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 9,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 14,
+    "url": "https://magicheidi.ch/de/milchbuechleinrechnung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung online schweiz",
+    "volume": 70,
+    "cpc": 7.39,
+    "competition": 0.79,
+    "difficulty": 34,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 7.39,
+    "compare_traffic": 1,
+    "position": 29,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst switzerland",
+    "volume": 70,
+    "cpc": 0,
+    "competition": 0.04,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 18,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 6,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 1
+  },
+  {
+    "keyword": "modèle facture suisse",
+    "volume": 70,
+    "cpc": 1.48,
+    "competition": 0.7,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 15,
+    "compare_url": "https://www.banana.ch/apps/fr/node/9398",
+    "compare_price": 1.48,
+    "compare_traffic": 1,
+    "position": 4,
+    "url": "https://magicheidi.ch/fr/rechnungsvorlage",
+    "price": 4.44,
+    "traffic": 3
+  },
+  {
+    "keyword": "was ist doppelte buchhaltung",
+    "volume": 70,
+    "cpc": 0.01,
+    "competition": 0.21,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de/node/11190",
+    "compare_price": 0.01,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0.01,
+    "traffic": 1
+  },
+  {
+    "keyword": "was ist eine doppelte buchhaltung",
+    "volume": 70,
+    "cpc": 0.01,
+    "competition": 0.21,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de/node/11190",
+    "compare_price": 0.01,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0.01,
+    "traffic": 1
+  },
+  {
+    "keyword": "saldosteuersatzmethode",
+    "volume": 70,
+    "cpc": 0.04,
+    "competition": 0.04,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 11,
+    "compare_url": "https://www.banana.ch/apps/de/node/9930",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr einzahlungsschein erstellen gratis post",
+    "volume": 70,
+    "cpc": 1.24,
+    "competition": 0.1,
+    "difficulty": 30,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://www.banana.ch/de/node/11497",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 1.24,
+    "traffic": 1
+  },
+  {
+    "keyword": "qr rechnung erstellen schweiz",
+    "volume": 70,
+    "cpc": 1.85,
+    "competition": 0.53,
+    "difficulty": 36,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 26,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 1.85,
+    "compare_traffic": 1,
+    "position": 13,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 1.85,
+    "traffic": 1
+  },
+  {
+    "keyword": "mwst-konforme rechnung schweiz",
+    "volume": 70,
+    "cpc": 1.93,
+    "competition": 0.11,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 43,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "saldosteuersätze 2024",
+    "volume": 70,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 11,
+    "compare_url": "https://www.banana.ch/apps/de/node/9906",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 34,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware schweiz kostenlos",
+    "volume": 70,
+    "cpc": 1.98,
+    "competition": 0.97,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge"
+    ],
+    "compare_position": 6,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 1.98,
+    "compare_traffic": 1,
+    "position": 14,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einzahlungsschein qr-code",
+    "volume": 70,
+    "cpc": 1.4,
+    "competition": 0.28,
+    "difficulty": 32,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 25,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 1.4,
+    "compare_traffic": 1,
+    "position": 43,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware schweiz für private",
+    "volume": 70,
+    "cpc": 1.66,
+    "competition": 0.94,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de/node/11407",
+    "compare_price": 1.66,
+    "compare_traffic": 1,
+    "position": 20,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "swiss qr-code generator",
+    "volume": 70,
+    "cpc": 1.05,
+    "competition": 0.41,
+    "difficulty": 37,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "related_searches"
+    ],
+    "compare_position": 57,
+    "compare_url": "https://www.banana.ch/de/node/11510",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 24,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr-code einzahlungsschein",
+    "volume": 70,
+    "cpc": 1.69,
+    "competition": 0.19,
+    "difficulty": 41,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 13,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 1.69,
+    "compare_traffic": 1,
+    "position": 42,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "logiciel comptabilité suisse gratuit",
+    "volume": 70,
+    "cpc": 2.39,
+    "competition": 0.84,
+    "difficulty": 10,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/fr/node/10770",
+    "compare_price": 2.39,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 2.39,
+    "traffic": 1
+  },
+  {
+    "keyword": "qr-rechnung erstellen schweiz",
+    "volume": 70,
+    "cpc": 1.85,
+    "competition": 0.53,
+    "difficulty": 36,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 26,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 1.85,
+    "compare_traffic": 1,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 1.85,
+    "traffic": 1
+  },
+  {
+    "keyword": "qr referenz",
+    "volume": 70,
+    "cpc": 0,
+    "competition": 0.18,
+    "difficulty": 18,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 23,
+    "compare_url": "https://www.banana.ch/apps/de/node/9517",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 56,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr-referenz",
+    "volume": 70,
+    "cpc": 0,
+    "competition": 0.06,
+    "difficulty": 18,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 19,
+    "compare_url": "https://www.banana.ch/apps/de/node/9517",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 45,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "swiss invoice",
+    "volume": 70,
+    "cpc": 4.22,
+    "competition": 0.55,
+    "difficulty": 10,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 2,
+    "compare_url": "https://www.banana.ch/apps/en/node/9338",
+    "compare_price": 4.22,
+    "compare_traffic": 1,
+    "position": 3,
+    "url": "https://magicheidi.ch/rechnung-schreiben-schweiz",
+    "price": 8.44,
+    "traffic": 2
+  },
+  {
+    "keyword": "bulletin de versement qr code",
+    "volume": 70,
+    "cpc": 1.51,
+    "competition": 0.45,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 9,
+    "compare_url": "https://www.banana.ch/fr/node/11497",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 29,
+    "url": "https://magicheidi.ch/fr/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungs app",
+    "volume": 50,
+    "cpc": 4.39,
+    "competition": 0.66,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 14,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 37,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung programm",
+    "volume": 50,
+    "cpc": 5.57,
+    "competition": 0.89,
+    "difficulty": 26,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 5.57,
+    "compare_traffic": 1,
+    "position": 55,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einzahlungsschein zum ausdrucken",
+    "volume": 50,
+    "cpc": 1.23,
+    "competition": 0.35,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://www.banana.ch/de/node/11497",
+    "compare_price": 1.23,
+    "compare_traffic": 1,
+    "position": 32,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr code schweiz",
+    "volume": 50,
+    "cpc": 1.15,
+    "competition": 0.08,
+    "difficulty": 46,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 13,
+    "compare_url": "https://www.banana.ch/apps/de/node/9517",
+    "compare_price": 1.15,
+    "compare_traffic": 1,
+    "position": 45,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung app",
+    "volume": 50,
+    "cpc": 4.39,
+    "competition": 0.66,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 28,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 39,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "doppelte buchhaltung schweiz",
+    "volume": 50,
+    "cpc": 2.09,
+    "competition": 0.77,
+    "difficulty": 5,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://www.banana.ch/de/node/11190",
+    "compare_price": 2.09,
+    "compare_traffic": 1,
+    "position": 12,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mehrwertsteuer schweiz anmeldung",
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.05,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 61,
+    "compare_url": "https://www.banana.ch/de/node/11416",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 21,
+    "url": "https://magicheidi.ch/de/mwst-registrierung/st-gallen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "gratis buchhaltungsprogramm",
+    "volume": 50,
+    "cpc": 1.64,
+    "competition": 0.79,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://www.banana.ch/de/free",
+    "compare_price": 1.64,
+    "compare_traffic": 1,
+    "position": 36,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "was ist mwst",
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.03,
+    "difficulty": 38,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 15,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 65,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst anmeldung online",
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 45,
+    "compare_url": "https://www.banana.ch/apps/de/node/9724",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 14,
+    "url": "https://magicheidi.ch/de/mwst-registrierung/st-gallen",
+    "price": 0,
+    "traffic": 1
+  },
+  {
+    "keyword": "schweizer mwst",
+    "volume": 50,
+    "cpc": 0.29,
+    "competition": 0.04,
+    "difficulty": 28,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "knowledge_graph",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 32,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungsprogramm schweiz",
+    "volume": 50,
+    "cpc": 4.61,
+    "competition": 0.9,
+    "difficulty": 10,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 27,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 9,
+    "url": "https://magicheidi.ch/de/rechnungsprogramm",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung privat",
+    "volume": 50,
+    "cpc": 1.61,
+    "competition": 0.96,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de/node/11571",
+    "compare_price": 12.88,
+    "compare_traffic": 8,
+    "position": 46,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "app buchhaltung",
+    "volume": 50,
+    "cpc": 4.39,
+    "competition": 0.66,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 39,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 51,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware online",
+    "volume": 50,
+    "cpc": 7.87,
+    "competition": 0.23,
+    "difficulty": 64,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "tads",
+      "bads",
+      "sge"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 15.74,
+    "compare_traffic": 2,
+    "position": 46,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhalter selbstständig",
+    "volume": 50,
+    "cpc": 3.45,
+    "competition": 0.69,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de/de/EUER",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 67,
+    "url": "https://magicheidi.ch/de/collaborating-with-your-accountant",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einzahlungsschein drucken gratis",
+    "volume": 50,
+    "cpc": 0.76,
+    "competition": 0.14,
+    "difficulty": 28,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 19,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 14,
+    "url": "https://magicheidi.ch/de/banks/ubs",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr einzahlungsschein erstellen raiffeisen",
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 31,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 26,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr einzahlungsschein erstellen ubs",
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.03,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 33,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 4,
+    "url": "https://magicheidi.ch/de/banks/ubs",
+    "price": 0,
+    "traffic": 1
+  },
+  {
+    "keyword": "einzahlungsschein qr code erstellen",
+    "volume": 50,
+    "cpc": 1.58,
+    "competition": 0.24,
+    "difficulty": 30,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 15,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 26,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "programme facturation",
+    "volume": 50,
+    "cpc": 3.51,
+    "competition": 0.45,
+    "difficulty": 38,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 41,
+    "compare_url": "https://www.banana.ch/fr",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 9,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mehrwertsteuer berechnen formel schweiz",
+    "volume": 50,
+    "cpc": 0.67,
+    "competition": 0.05,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 38,
+    "compare_url": "https://www.banana.ch/apps/de/node/9729",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 26,
+    "url": "https://magicheidi.ch/de/tools/vat-calculator-switzerland",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "gratis buchhaltungsprogramm schweiz privathaushalt",
+    "volume": 50,
+    "cpc": 1.33,
+    "competition": 0.74,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/apps/de/node/4489",
+    "compare_price": 1.33,
+    "compare_traffic": 1,
+    "position": 40,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware schweiz einzelfirma",
+    "volume": 50,
+    "cpc": 4.44,
+    "competition": 0.93,
+    "difficulty": 5,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de/at",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/milchbueechli-app",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr einzahlungsschein von hand ausfüllen",
+    "volume": 50,
+    "cpc": 0.66,
+    "competition": 0.1,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 18,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 38,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "finanz app schweiz",
+    "volume": 50,
+    "cpc": 2.34,
+    "competition": 0.54,
+    "difficulty": 21,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 56,
+    "compare_url": "https://www.banana.ch/de/node/11356",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einzahlungsschein qr-code erstellen",
+    "volume": 50,
+    "cpc": 1.58,
+    "competition": 0.24,
+    "difficulty": 30,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "related_searches"
+    ],
+    "compare_position": 13,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 26,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr iban postfinance",
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 58,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "swiss iban example",
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 21,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/apps/en/node/9381",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/qr-bill-2025-changes-explained",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr iban raiffeisen",
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 22,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 41,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr-iban raiffeisen",
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 49,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 1
+  },
+  {
+    "keyword": "budget app kostenlos schweiz",
+    "volume": 50,
+    "cpc": 0.57,
+    "competition": 0.36,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 21,
+    "compare_url": "https://www.banana.ch/apps/de/node/9105",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 10,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "comment faire une facture",
+    "volume": 50,
+    "cpc": 2.55,
+    "competition": 0.66,
+    "difficulty": 28,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 18,
+    "compare_url": "https://www.banana.ch/doc/fr/node/9755",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 7,
+    "url": "https://magicheidi.ch/fr/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungen mit qr code",
+    "volume": 50,
+    "cpc": 1.92,
+    "competition": 0.36,
+    "difficulty": 40,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "knowledge_graph",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 36,
+    "compare_url": "https://www.banana.ch/de/node/11510",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 48,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "logiciel comptable suisse",
+    "volume": 50,
+    "cpc": 3.16,
+    "competition": 0.8,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I",
+      "N"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "digital_complaints",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/fr/accounting-non-profit",
+    "compare_price": 3.16,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 3.16,
+    "traffic": 1
+  },
+  {
+    "keyword": "logiciel compta suisse",
+    "volume": 50,
+    "cpc": 3.16,
+    "competition": 0.8,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I",
+      "N"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "digital_complaints",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/fr/accounting-non-profit",
+    "compare_price": 3.16,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 3.16,
+    "traffic": 1
+  },
+  {
+    "keyword": "mwst anmelden online",
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 36,
+    "compare_url": "https://www.banana.ch/apps/de/node/9724",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 15,
+    "url": "https://magicheidi.ch/de/mwst-registrierung/st-gallen",
+    "price": 0,
+    "traffic": 1
+  },
+  {
+    "keyword": "mehrwertsteuer schweiz anmelden",
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.05,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 59,
+    "compare_url": "https://www.banana.ch/de/node/11416",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 20,
+    "url": "https://magicheidi.ch/de/mwst-registrierung/st-gallen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "logiciel comptable",
+    "volume": 50,
+    "cpc": 3.19,
+    "competition": 0.53,
+    "difficulty": 33,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 16,
+    "compare_url": "https://www.banana.ch/fr",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 32,
+    "url": "https://magicheidi.ch/fr/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "logiciel de facturation suisse",
+    "volume": 50,
+    "cpc": 3.49,
+    "competition": 0.7,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 40,
+    "compare_url": "https://www.banana.ch/fr/node/11422",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 3.49,
+    "traffic": 1
+  },
+  {
+    "keyword": "haushalts app",
+    "volume": 40,
+    "cpc": 0.54,
+    "competition": 0.3,
+    "difficulty": 34,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 57,
+    "compare_url": "https://www.banana.ch/de/node/11356",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 46,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "online budget",
+    "volume": 40,
+    "cpc": 1.3,
+    "competition": 0.45,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I",
+      "N"
+    ],
+    "serp_features": [
+      "reviews",
+      "sitelinks",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 72,
+    "compare_url": "https://www.banana.ch/de/node/11356",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 20,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware kleinunternehmer",
+    "volume": 40,
+    "cpc": 5.54,
+    "competition": 0.89,
+    "difficulty": 40,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 16.62,
+    "compare_traffic": 3,
+    "position": 49,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "leerer einzahlungsschein",
+    "volume": 40,
+    "cpc": 1.07,
+    "competition": 0.86,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 7,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 38,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung selbstständig",
+    "volume": 40,
+    "cpc": 5.1,
+    "competition": 0.74,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 6,
+    "compare_url": "https://www.banana.ch/de/de/EUER",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 84,
+    "url": "https://magicheidi.ch/de/collaborating-with-your-accountant",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "doppelte buchhaltung excel",
+    "volume": 40,
+    "cpc": 1.84,
+    "competition": 0.76,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://www.banana.ch/doc/de/node/2617",
+    "compare_price": 3.68,
+    "compare_traffic": 2,
+    "position": 34,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungen scannen",
+    "volume": 40,
+    "cpc": 1.68,
+    "competition": 0.84,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 30,
+    "compare_url": "https://www.banana.ch/doc/de/node/9956",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 55,
+    "url": "https://magicheidi.ch/de/ai-expenses-scanning",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungsstellung schweiz",
+    "volume": 40,
+    "cpc": 2.82,
+    "competition": 0.15,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 54,
+    "compare_url": "https://www.banana.ch/doc/de/node/10173",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 7,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst code schweiz",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 42,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm mac",
+    "volume": 40,
+    "cpc": 4.34,
+    "competition": 0.68,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://www.banana.ch/de/mac_installieren",
+    "compare_price": 4.34,
+    "compare_traffic": 1,
+    "position": 34,
+    "url": "https://magicheidi.ch/de/mac",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "nettomethode mwst",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 28,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 14,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung drucken",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.39,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 3,
+    "compare_url": "https://www.banana.ch/doc/de/node/8295",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 47,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst dienstleistungen schweiz",
+    "volume": 40,
+    "cpc": 0.23,
+    "competition": 0.15,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 42,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 61,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr code erstellen schweiz",
+    "volume": 40,
+    "cpc": 1.33,
+    "competition": 0.62,
+    "difficulty": 58,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 43,
+    "compare_url": "https://www.banana.ch/de/node/11510",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 34,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einfache buchhaltungssoftware",
+    "volume": 40,
+    "cpc": 4.94,
+    "competition": 0.96,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 9.88,
+    "compare_traffic": 2,
+    "position": 60,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einfaches buchhaltungsprogramm",
+    "volume": 40,
+    "cpc": 3.2,
+    "competition": 0.9,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de/de/DB",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 68,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "bexio kontenplan",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.05,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 28,
+    "compare_url": "https://www.banana.ch/apps/de/node/8017",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 17,
+    "url": "https://magicheidi.ch/de/blog/bexio-tutorial-ausgaben-erstellen-und-verwalten-leicht-gemacht",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware cloud",
+    "volume": 40,
+    "cpc": 5.78,
+    "competition": 0.86,
+    "difficulty": 32,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 81,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 53,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "berechnung mwst",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.03,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 62,
+    "compare_url": "https://www.banana.ch/de/node/11401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 33,
+    "url": "https://magicheidi.ch/de/tools/vat-calculator-switzerland",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "nettobetrag",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 24,
+    "compare_url": "https://www.banana.ch/doc/de/doppiamsg_de_wrnivabaseimponibileconimportononindivisabase",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 95,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mein budget",
+    "volume": 40,
+    "cpc": 0.87,
+    "competition": 0.16,
+    "difficulty": 18,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 33,
+    "compare_url": "https://www.banana.ch/apps/de/node/9105",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 22,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung mac",
+    "volume": 40,
+    "cpc": 4.34,
+    "competition": 0.68,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de/mac_installieren",
+    "compare_price": 4.34,
+    "compare_traffic": 1,
+    "position": 29,
+    "url": "https://magicheidi.ch/de/mac",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung scannen",
+    "volume": 40,
+    "cpc": 1.68,
+    "competition": 0.84,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 27,
+    "compare_url": "https://www.banana.ch/doc/de/node/9956",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 61,
+    "url": "https://magicheidi.ch/de/ai-expenses-scanning",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "ch mwst",
+    "volume": 40,
+    "cpc": 0.28,
+    "competition": 0.08,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 15,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 34,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware kleinunternehmen",
+    "volume": 40,
+    "cpc": 5.54,
+    "competition": 0.89,
+    "difficulty": 34,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 2,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 16.62,
+    "compare_traffic": 3,
+    "position": 45,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung selbständig",
+    "volume": 40,
+    "cpc": 5.1,
+    "competition": 0.74,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 5,
+    "compare_url": "https://www.banana.ch/de/de/EUER",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 70,
+    "url": "https://magicheidi.ch/de/collaborating-with-your-accountant",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung für selbstständige",
+    "volume": 40,
+    "cpc": 5.1,
+    "competition": 0.74,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 8,
+    "compare_url": "https://www.banana.ch/de/de/EUER",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 68,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware einfach",
+    "volume": 40,
+    "cpc": 4.94,
+    "competition": 0.96,
+    "difficulty": 43,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de/de/DB",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 55,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "doppelte buchhaltung mit excel",
+    "volume": 40,
+    "cpc": 1.84,
+    "competition": 0.76,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "sge"
+    ],
+    "compare_position": 8,
+    "compare_url": "https://www.banana.ch/doc/de/node/2617",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 31,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhalter selbständig",
+    "volume": 40,
+    "cpc": 5.1,
+    "competition": 0.74,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de/de/EUER",
+    "compare_price": 5.1,
+    "compare_traffic": 1,
+    "position": 73,
+    "url": "https://magicheidi.ch/de/collaborating-with-your-accountant",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "budget planer app",
+    "volume": 40,
+    "cpc": 0.77,
+    "competition": 0.76,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 51,
+    "compare_url": "https://www.banana.ch/de/node/11356",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 19,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr-code erstellen schweiz",
+    "volume": 40,
+    "cpc": 1.33,
+    "competition": 0.62,
+    "difficulty": 58,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 54,
+    "compare_url": "https://www.banana.ch/de/node/11510",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 34,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "postfinance qr einzahlungsschein erstellen",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.04,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 51,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 52,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr-rechnung erstellen",
+    "volume": 40,
+    "cpc": 1.8,
+    "competition": 0.32,
+    "difficulty": 38,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 19,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 1.8,
+    "compare_traffic": 1,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 1.8,
+    "traffic": 1
+  },
+  {
+    "keyword": "was muss auf einer rechnung stehen schweiz",
+    "volume": 40,
+    "cpc": 1.25,
+    "competition": 0.26,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 66,
+    "compare_url": "https://www.banana.ch/doc/de/node/10173",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 14,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst saldosteuersatz liste",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 10,
+    "compare_url": "https://www.banana.ch/apps/de/node/9906",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 11,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "finanz-app schweiz",
+    "volume": 40,
+    "cpc": 1.96,
+    "competition": 0.67,
+    "difficulty": 21,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 53,
+    "compare_url": "https://www.banana.ch/de/node/11356",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "beste budget app schweiz",
+    "volume": 40,
+    "cpc": 0.87,
+    "competition": 0.35,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 42,
+    "compare_url": "https://www.banana.ch/de/node/11356",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 9,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "post einzahlungsschein mit iban ausfüllen",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.12,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://www.banana.ch/de/node/11497",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 41,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "raiffeisen qr iban",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 48,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "raiffeisen qr-iban",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 56,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einzahlungsschein erstellen schweiz",
+    "volume": 40,
+    "cpc": 1.72,
+    "competition": 0.53,
+    "difficulty": 28,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 12,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 15,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "budget planer schweiz",
+    "volume": 40,
+    "cpc": 1.36,
+    "competition": 1,
+    "difficulty": 25,
+    "total_sites": 0,
+    "intents": [
+      "L",
+      "T"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "gmb",
+      "related_searches"
+    ],
+    "compare_position": 54,
+    "compare_url": "https://www.banana.ch/apps/de/node/9105",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr iban prüfen",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.08,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "people_also_ask",
+      "tads",
+      "related_searches"
+    ],
+    "compare_position": 29,
+    "compare_url": "https://www.banana.ch/apps/de/node/9387",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 13,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr-iban prüfen",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.03,
+    "difficulty": 28,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 28,
+    "compare_url": "https://www.banana.ch/apps/de/node/9387",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 14,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "vorlage bilanz und erfolgsrechnung excel schweiz",
+    "volume": 40,
+    "cpc": 2.43,
+    "competition": 0.59,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 71,
+    "compare_url": "https://www.banana.ch/de/node/10909",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 39,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr iban in iban umwandeln",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 7,
+    "compare_url": "https://www.banana.ch/apps/de/node/9387",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 28,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr-iban in iban umwandeln",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 7,
+    "compare_url": "https://www.banana.ch/apps/de/node/9387",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 33,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung ohne mwst schweiz vorlage",
+    "volume": 40,
+    "cpc": 1.51,
+    "competition": 0.28,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 13,
+    "compare_url": "https://www.banana.ch/apps/de/node/9551",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 8,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst-code schweiz",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 38,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "comptabilité suisse excel gratuit",
+    "volume": 40,
+    "cpc": 1.57,
+    "competition": 0.45,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 8,
+    "compare_url": "https://www.banana.ch/apps/fr/node/9855",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 6,
+    "url": "https://magicheidi.ch/fr/rechnungsvorlage",
+    "price": 1.57,
+    "traffic": 1
+  },
+  {
+    "keyword": "online budgetrechner",
+    "volume": 40,
+    "cpc": 1.3,
+    "competition": 0.45,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 62,
+    "compare_url": "https://www.banana.ch/de/node/11356",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 28,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung selbstständige",
+    "volume": 40,
+    "cpc": 5.1,
+    "competition": 0.74,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "L",
+      "C"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "gmb",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 8,
+    "compare_url": "https://www.banana.ch/de/de/EUER",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 74,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "logiciel de comptabilité suisse",
+    "volume": 40,
+    "cpc": 3.16,
+    "competition": 0.99,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I",
+      "N"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "digital_complaints",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/fr/accounting-non-profit",
+    "compare_price": 3.16,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 3.16,
+    "traffic": 1
+  },
+  {
+    "keyword": "treuhandsoftware",
+    "volume": 40,
+    "cpc": 9.85,
+    "competition": 0.54,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 66,
+    "compare_url": "https://www.banana.ch/area/de/node/11013",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 80,
+    "url": "https://magicheidi.ch/de/digitale-treuhand",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mac buchhaltungssoftware",
+    "volume": 30,
+    "cpc": 6.38,
+    "competition": 0.76,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 13,
+    "compare_url": "https://www.banana.ch/de/mac_installieren",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 36,
+    "url": "https://magicheidi.ch/de/mac",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "neutraler einzahlungsschein ausdrucken",
+    "volume": 30,
+    "cpc": 1.08,
+    "competition": 0.33,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "mads"
+    ],
+    "compare_position": 12,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 29,
+    "url": "https://magicheidi.ch/de/banks/ubs",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mehrwertsteuer abkürzung schweiz",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 33,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 11,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 71,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst info 12",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "related_searches"
+    ],
+    "compare_position": 28,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 20,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 1
+  },
+  {
+    "keyword": "rechnungsvorlage schweiz ohne mwst",
+    "volume": 30,
+    "cpc": 1.5,
+    "competition": 0.73,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "images",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 48,
+    "compare_url": "https://www.banana.ch/apps/de/node/9551",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 1.5,
+    "traffic": 1
+  },
+  {
+    "keyword": "mwst rechnung",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.07,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://www.banana.ch/doc/de/node/10174",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 35,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "programme comptabilité suisse",
+    "volume": 30,
+    "cpc": 2.24,
+    "competition": 0.7,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I",
+      "N"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "digital_complaints",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/fr/accounting-non-profit",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 2.24,
+    "traffic": 1
+  },
+  {
+    "keyword": "einzahlungsschein ausfüllen",
+    "volume": 30,
+    "cpc": 0.77,
+    "competition": 0.25,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 8,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 48,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "app budgetplaner",
+    "volume": 30,
+    "cpc": 0.62,
+    "competition": 0.55,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 46,
+    "compare_url": "https://www.banana.ch/de/node/11356",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 34,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "software rechnungswesen",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.21,
+    "difficulty": 43,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 48,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst schreibweise",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 37,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge"
+    ],
+    "compare_position": 11,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 40,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungsprogramm kostenlos schweiz",
+    "volume": 30,
+    "cpc": 3.8,
+    "competition": 0.9,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 26,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 10,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einzahlungsscheine drucken",
+    "volume": 30,
+    "cpc": 1.53,
+    "competition": 0.62,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 7,
+    "compare_url": "https://www.banana.ch/de/node/11497",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 39,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "finanzplanung software",
+    "volume": 30,
+    "cpc": 7.36,
+    "competition": 0.47,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 78,
+    "compare_url": "https://www.banana.ch/de/node/11356",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 60,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "budgetplaner app",
+    "volume": 30,
+    "cpc": 0.62,
+    "competition": 0.55,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 41,
+    "compare_url": "https://www.banana.ch/de/node/11356",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssystem",
+    "volume": 30,
+    "cpc": 7.6,
+    "competition": 0.72,
+    "difficulty": 45,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 7.6,
+    "compare_traffic": 1,
+    "position": 44,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware mac",
+    "volume": 30,
+    "cpc": 6.38,
+    "competition": 0.76,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 11,
+    "compare_url": "https://www.banana.ch/de/mac_installieren",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 38,
+    "url": "https://magicheidi.ch/de/mac",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einzahlungsschein drucken",
+    "volume": 30,
+    "cpc": 1.53,
+    "competition": 0.62,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 6,
+    "compare_url": "https://www.banana.ch/de/node/11497",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 29,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr rechnung beispiel",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.65,
+    "difficulty": 33,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 5,
+    "compare_url": "https://www.banana.ch/apps/de/node/9398",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 25,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "finanzplan software",
+    "volume": 30,
+    "cpc": 7.36,
+    "competition": 0.47,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://www.banana.ch/de/node/11045",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 51,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "leere einzahlungsscheine",
+    "volume": 30,
+    "cpc": 1.09,
+    "competition": 1,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 7,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 43,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "doppelte buchhaltung beispiel",
+    "volume": 30,
+    "cpc": 1.18,
+    "competition": 0.48,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 6,
+    "compare_url": "https://www.banana.ch/de/node/11190",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 25,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "blanko einzahlungsschein",
+    "volume": 30,
+    "cpc": 0.79,
+    "competition": 0.54,
+    "difficulty": 22,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 15,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 47,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "doppelte buchhaltung beispiele",
+    "volume": 30,
+    "cpc": 1.18,
+    "competition": 0.48,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://www.banana.ch/de/node/11190",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 24,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "haushaltsbuch schweiz",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 1,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 31,
+    "compare_url": "https://www.banana.ch/apps/de/node/9105",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 15,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "bilanz beispiel schweiz",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.17,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 40,
+    "compare_url": "https://www.banana.ch/apps/de/node/9550",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 28,
+    "url": "https://magicheidi.ch/de/erfolgsrechnung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungssoftware schweiz",
+    "volume": 30,
+    "cpc": 6.11,
+    "competition": 0.61,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 26,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 6.11,
+    "compare_traffic": 1,
+    "position": 8,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 6.11,
+    "traffic": 1
+  },
+  {
+    "keyword": "rechnungswesen software",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.21,
+    "difficulty": 45,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 46,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einzahlungsschein mit qr code",
+    "volume": 30,
+    "cpc": 1.37,
+    "competition": 0.63,
+    "difficulty": 32,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 20,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 43,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm für privat",
+    "volume": 30,
+    "cpc": 1.45,
+    "competition": 0.98,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de/de/Intl",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 40,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm online",
+    "volume": 30,
+    "cpc": 3.73,
+    "competition": 0.86,
+    "difficulty": 67,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 3.73,
+    "compare_traffic": 1,
+    "position": 62,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einfaches buchhaltungsprogramm schweiz",
+    "volume": 30,
+    "cpc": 3.82,
+    "competition": 0.91,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 22,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst schweiz anmelden",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.05,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 58,
+    "compare_url": "https://www.banana.ch/apps/de/node/9724",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 26,
+    "url": "https://magicheidi.ch/de/mwst-registrierung/st-gallen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr-rechnung erstellen gratis",
+    "volume": 30,
+    "cpc": 1.78,
+    "competition": 0.46,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 32,
+    "compare_url": "https://www.banana.ch/de/node/11510",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 30,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 1.78,
+    "traffic": 1
+  },
+  {
+    "keyword": "qr generator credit suisse",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 25,
+    "total_sites": 0,
+    "intents": [
+      "I",
+      "N"
+    ],
+    "serp_features": [
+      "reviews",
+      "sitelinks",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 24,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 19,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "post qr rechnung generator",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.11,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 51,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 22,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr code generator schweiz einzahlungsschein",
+    "volume": 30,
+    "cpc": 1.58,
+    "competition": 0.46,
+    "difficulty": 39,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 29,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 15,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einfache buchhaltungssoftware schweiz",
+    "volume": 30,
+    "cpc": 3.84,
+    "competition": 0.9,
+    "difficulty": 21,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 3.84,
+    "compare_traffic": 1,
+    "position": 22,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst deklaration",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 9,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 40,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "finanzplaner software",
+    "volume": 30,
+    "cpc": 7.36,
+    "competition": 0.47,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "image_in_block"
+    ],
+    "compare_position": 81,
+    "compare_url": "https://www.banana.ch/de/node/11356",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 48,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr rechnung erstellen gratis",
+    "volume": 30,
+    "cpc": 1.78,
+    "competition": 0.46,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 34,
+    "compare_url": "https://www.banana.ch/apps/de/node/9745",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 13,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "ab wann doppelte buchhaltung schweiz",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.36,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 21,
+    "compare_url": "https://www.banana.ch/de/node/11190",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung einzelfirma vorlage",
+    "volume": 30,
+    "cpc": 3.5,
+    "competition": 0.63,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://www.banana.ch/apps/de/node/4900",
+    "compare_price": 3.5,
+    "compare_traffic": 1,
+    "position": 23,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware für mac",
+    "volume": 30,
+    "cpc": 6.38,
+    "competition": 0.76,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 16,
+    "compare_url": "https://www.banana.ch/de/mac_installieren",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 34,
+    "url": "https://magicheidi.ch/de/mac",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "haushaltsbuch app schweiz",
+    "volume": 30,
+    "cpc": 0.66,
+    "competition": 0.69,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 26,
+    "compare_url": "https://www.banana.ch/apps/de/node/9105",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 10,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einzahlungsschein schweiz vorlage pdf",
+    "volume": 30,
+    "cpc": 1.15,
+    "competition": 0.26,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 14,
+    "compare_url": "https://www.banana.ch/apps/de/node/9401",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 24,
+    "url": "https://magicheidi.ch/de/banks/ubs",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm für private",
+    "volume": 30,
+    "cpc": 1.45,
+    "competition": 0.98,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/de/de/Intl",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 53,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst effektive methode",
+    "volume": 30,
+    "cpc": 1.03,
+    "competition": 0.17,
+    "difficulty": 15,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/apps/de/node/9753",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "effektive methode mwst",
+    "volume": 30,
+    "cpc": 1.03,
+    "competition": 0.17,
+    "difficulty": 15,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://www.banana.ch/apps/de/node/9753",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 14,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "unterschied iban und qr iban",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 16,
+    "compare_url": "https://www.banana.ch/apps/de/node/9387",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "unterschied iban und qr-iban",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 16,
+    "compare_url": "https://www.banana.ch/apps/de/node/9387",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchungsbelege",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.06,
+    "difficulty": 26,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "knowledge_graph",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 63,
+    "compare_url": "https://www.banana.ch/de/node/10965",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 66,
+    "url": "https://magicheidi.ch/de/accounting-document",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "jahresabschluss einzelfirma vorlage",
+    "volume": 30,
+    "cpc": 1.9,
+    "competition": 0.57,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 9,
+    "compare_url": "https://www.banana.ch/apps/de/node/4900",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 70,
+    "url": "https://magicheidi.ch/gmbh-jahresabschluss-guide",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "exercice de comptabilité suisse gratuit avec corrigé",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 7,
+    "compare_url": "https://www.banana.ch/fr/node/11653",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsvorlage",
+    "price": 0,
+    "traffic": 1
+  },
+  {
+    "keyword": "programme comptabilité suisse gratuit",
+    "volume": 30,
+    "cpc": 1.95,
+    "competition": 0.79,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/fr/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "beste buchhaltungssoftware schweiz",
+    "volume": 30,
+    "cpc": 5.51,
+    "competition": 0.81,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 5,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 5.51,
+    "compare_traffic": 1,
+    "position": 9,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "swiss qr rechnung",
+    "volume": 30,
+    "cpc": 1.34,
+    "competition": 0.26,
+    "difficulty": 48,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask"
+    ],
+    "compare_position": 43,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 30,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "swiss qr-rechnung",
+    "volume": 30,
+    "cpc": 2.25,
+    "competition": 0.1,
+    "difficulty": 49,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 43,
+    "compare_url": "https://www.banana.ch/apps/de/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 31,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst-info 12",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 35,
+    "compare_url": "https://www.banana.ch/apps/de/node/9722",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 32,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "haushaltplaner",
+    "volume": 30,
+    "cpc": 1.1,
+    "competition": 1,
+    "difficulty": 21,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images"
+    ],
+    "compare_position": 27,
+    "compare_url": "https://www.banana.ch/apps/de/node/9105",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 12,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst abrechnungsmethode",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge"
+    ],
+    "compare_position": 38,
+    "compare_url": "https://www.banana.ch/apps/de/node/9024",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 57,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "freelancer buchhalter",
+    "volume": 30,
+    "cpc": 2.99,
+    "competition": 0.61,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 50,
+    "compare_url": "https://www.banana.ch/de/de/EUER",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 8,
+    "url": "https://magicheidi.ch/de/collaborating-with-your-accountant",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung digital",
+    "volume": 30,
+    "cpc": 7.67,
+    "competition": 0.73,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 47,
+    "compare_url": "https://www.banana.ch/de",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 66,
+    "url": "https://magicheidi.ch/de/digitale-treuhand",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr referenznummer beispiel",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 18,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/apps/de/node/9388",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "logiciel facturation suisse",
+    "volume": 30,
+    "cpc": 4.6,
+    "competition": 0.9,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 42,
+    "compare_url": "https://www.banana.ch/fr",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "logiciel de comptabilité suisse gratuit",
+    "volume": 30,
+    "cpc": 1.57,
+    "competition": 0.8,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.banana.ch/fr/node/10770",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "bulletin de versement vierge",
+    "volume": 30,
+    "cpc": 1.12,
+    "competition": 1,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 6,
+    "compare_url": "https://www.banana.ch/fr/node/11497",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 38,
+    "url": "https://magicheidi.ch/fr/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "papier qr-facture",
+    "volume": 30,
+    "cpc": 1.69,
+    "competition": 1,
+    "difficulty": 19,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 7,
+    "compare_url": "https://www.banana.ch/apps/fr/node/9388",
+    "compare_price": 1.69,
+    "compare_traffic": 1,
+    "position": 43,
+    "url": "https://magicheidi.ch/fr/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung für freelancer",
+    "volume": 30,
+    "cpc": 2.99,
+    "competition": 0.61,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 54,
+    "compare_url": "https://www.banana.ch/de/de/EUER",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 30,
+    "url": "https://magicheidi.ch/de/payrolling-for-freelancers",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung freelancer",
+    "volume": 30,
+    "cpc": 2.99,
+    "competition": 0.61,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 41,
+    "compare_url": "https://www.banana.ch/de/de/EUER",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 18,
+    "url": "https://magicheidi.ch/de/collaborating-with-your-accountant",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "accounting software switzerland",
+    "volume": 30,
+    "cpc": 7.8,
+    "competition": 0.68,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://www.banana.ch/",
+    "compare_price": 7.8,
+    "compare_traffic": 1,
+    "position": 5,
+    "url": "https://magicheidi.ch/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "générateur de facture qr",
+    "volume": 30,
+    "cpc": 1.27,
+    "competition": 0.51,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 19,
+    "compare_url": "https://www.banana.ch/apps/fr/node/9645",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 9,
+    "url": "https://magicheidi.ch/fr/blog/comment-creer-une-facture-avec-code-qr-suisse-facilement-et-gratuitement",
+    "price": 0,
+    "traffic": 0
+  }
+]

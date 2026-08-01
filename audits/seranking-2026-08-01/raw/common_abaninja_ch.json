@@ -1,0 +1,30 @@
+[
+  {
+    "keyword": "accounting software switzerland",
+    "volume": 30,
+    "cpc": 7.8,
+    "competition": 0.68,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 24,
+    "compare_url": "https://www.abaninja.ch/",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 5,
+    "url": "https://magicheidi.ch/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  }
+]

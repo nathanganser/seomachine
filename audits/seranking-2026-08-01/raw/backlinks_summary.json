@@ -1,0 +1,279 @@
+{
+  "summary": [
+    {
+      "target": "magicheidi.ch",
+      "backlinks": 437,
+      "refdomains": 203,
+      "subnets": 124,
+      "ips": 145,
+      "nofollow_backlinks": 98,
+      "dofollow_backlinks": 339,
+      "edu_backlinks": 24,
+      "gov_backlinks": 0,
+      "inlink_rank": 7,
+      "domain_inlink_rank": 51,
+      "from_home_page_backlinks": 5,
+      "dofollow_from_home_page_backlinks": 4,
+      "text_backlinks": 425,
+      "dofollow_refdomains": 150,
+      "from_home_page_refdomains": 5,
+      "edu_refdomains": 1,
+      "gov_refdomains": 0,
+      "anchors": 172,
+      "dofollow_anchors": 149,
+      "pages_with_backlinks": 106,
+      "top_anchors_by_backlinks": [
+        {
+          "anchor": "Magic Heidi",
+          "backlinks": 83
+        },
+        {
+          "anchor": "magicheidi.ch",
+          "backlinks": 53
+        },
+        {
+          "anchor": "https://magicheidi.ch/accounting-document",
+          "backlinks": 24
+        },
+        {
+          "anchor": "Visit Website",
+          "backlinks": 10
+        },
+        {
+          "anchor": "zu magicheidi.ch",
+          "backlinks": 10
+        },
+        {
+          "anchor": "magicheidi",
+          "backlinks": 7
+        },
+        {
+          "anchor": "Zur Anbieter-Seite",
+          "backlinks": 6
+        },
+        {
+          "anchor": "2.5% rate",
+          "backlinks": 6
+        },
+        {
+          "anchor": "Learn More",
+          "backlinks": 5
+        },
+        {
+          "anchor": "Magic Heidi logo",
+          "backlinks": 5
+        }
+      ],
+      "top_anchors_by_refdomains": [
+        {
+          "anchor": "Magic Heidi",
+          "refdomains": 67
+        },
+        {
+          "anchor": "magicheidi.ch",
+          "refdomains": 47
+        },
+        {
+          "anchor": "magicheidi",
+          "refdomains": 10
+        },
+        {
+          "anchor": "LINKS FOR magicheidi.ch TELEGRAM @happygrannypies",
+          "refdomains": 8
+        },
+        {
+          "anchor": "2.5% rate",
+          "refdomains": 4
+        },
+        {
+          "anchor": "zu magicheidi.ch",
+          "refdomains": 4
+        },
+        {
+          "anchor": "Visit Website",
+          "refdomains": 4
+        },
+        {
+          "anchor": "https://magicheidi.ch",
+          "refdomains": 4
+        },
+        {
+          "anchor": "Visit website",
+          "refdomains": 4
+        },
+        {
+          "anchor": "Learn More",
+          "refdomains": 3
+        }
+      ],
+      "top_pages_by_backlinks": [
+        {
+          "url": "https://magicheidi.ch/",
+          "backlinks": 185
+        },
+        {
+          "url": "https://magicheidi.ch/accounting-document",
+          "backlinks": 24
+        },
+        {
+          "url": "https://magicheidi.ch/de/accounting-software-switzerland",
+          "backlinks": 9
+        },
+        {
+          "url": "https://magicheidi.ch/de/web",
+          "backlinks": 8
+        },
+        {
+          "url": "https://magicheidi.ch/fr",
+          "backlinks": 7
+        },
+        {
+          "url": "https://magicheidi.ch/fr/bexio-alternative",
+          "backlinks": 7
+        },
+        {
+          "url": "https://magicheidi.ch/vat-rates-2024",
+          "backlinks": 6
+        },
+        {
+          "url": "https://magicheidi.ch/de",
+          "backlinks": 6
+        },
+        {
+          "url": "https://magicheidi.ch/privacy-policy",
+          "backlinks": 6
+        },
+        {
+          "url": "https://magicheidi.ch/best-bookkeeping-software-according-to-ai",
+          "backlinks": 6
+        }
+      ],
+      "top_pages_by_refdomains": [
+        {
+          "url": "https://magicheidi.ch/",
+          "refdomains": 107
+        },
+        {
+          "url": "https://magicheidi.ch/fr/directory-invoice-apps",
+          "refdomains": 8
+        },
+        {
+          "url": "https://magicheidi.ch/de",
+          "refdomains": 8
+        },
+        {
+          "url": "https://magicheidi.ch/blog/comment-faire-une-facture-suisse",
+          "refdomains": 8
+        },
+        {
+          "url": "https://magicheidi.ch/fr",
+          "refdomains": 7
+        },
+        {
+          "url": "https://magicheidi.ch/de/accounting-software-switzerland",
+          "refdomains": 6
+        },
+        {
+          "url": "https://magicheidi.ch/fr/bexio-alternative",
+          "refdomains": 6
+        },
+        {
+          "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+          "refdomains": 5
+        },
+        {
+          "url": "https://magicheidi.ch/blog/optimiser-la-gestion-comptable-en-suisse-de-bexio-a-magic-heidi-le-guide-complet-des-meilleurs-logiciels-pour-entreprises-et-independants",
+          "refdomains": 5
+        },
+        {
+          "url": "https://magicheidi.ch/vat-rates-2024",
+          "refdomains": 4
+        }
+      ],
+      "top_tlds": [
+        {
+          "tld": "com",
+          "count": 65
+        },
+        {
+          "tld": "ch",
+          "count": 29
+        },
+        {
+          "tld": "de",
+          "count": 26
+        },
+        {
+          "tld": "fr",
+          "count": 23
+        },
+        {
+          "tld": "co",
+          "count": 5
+        },
+        {
+          "tld": "top",
+          "count": 5
+        },
+        {
+          "tld": "org",
+          "count": 5
+        },
+        {
+          "tld": "eu",
+          "count": 4
+        },
+        {
+          "tld": "net",
+          "count": 4
+        },
+        {
+          "tld": "app",
+          "count": 3
+        }
+      ],
+      "top_countries": [
+        {
+          "country": "us",
+          "count": 70
+        },
+        {
+          "country": "fr",
+          "count": 39
+        },
+        {
+          "country": "de",
+          "count": 17
+        },
+        {
+          "country": "co",
+          "count": 14
+        },
+        {
+          "country": "fi",
+          "count": 14
+        },
+        {
+          "country": "ua",
+          "count": 13
+        },
+        {
+          "country": "ch",
+          "count": 10
+        },
+        {
+          "country": "gb",
+          "count": 7
+        },
+        {
+          "country": "ca",
+          "count": 5
+        },
+        {
+          "country": "",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

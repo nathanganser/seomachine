@@ -1,0 +1,7319 @@
+[
+  {
+    "keyword": "rechnung erstellen",
+    "volume": 610,
+    "cpc": 3.3,
+    "competition": 0.56,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 20,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 29.7,
+    "compare_traffic": 9,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 23.1,
+    "traffic": 7
+  },
+  {
+    "keyword": "schweizer buchhaltungssoftware",
+    "volume": 590,
+    "cpc": 4.94,
+    "competition": 0.79,
+    "difficulty": 26,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 18,
+    "compare_url": "https://www.klara.ch/",
+    "compare_price": 24.7,
+    "compare_traffic": 5,
+    "position": 11,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 14.82,
+    "traffic": 3
+  },
+  {
+    "keyword": "buchhaltungssoftware schweiz",
+    "volume": 590,
+    "cpc": 4.94,
+    "competition": 0.79,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 22,
+    "compare_url": "https://www.klara.ch/",
+    "compare_price": 19.76,
+    "compare_traffic": 4,
+    "position": 11,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 19.76,
+    "traffic": 4
+  },
+  {
+    "keyword": "doppelte buchhaltung",
+    "volume": 590,
+    "cpc": 0.59,
+    "competition": 0.43,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches",
+      "image_in_block"
+    ],
+    "compare_position": 10,
+    "compare_url": "https://www.klara.ch/blog/einzelunternehmen-doppelte-buchhaltung",
+    "compare_price": 1.18,
+    "compare_traffic": 2,
+    "position": 17,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0.59,
+    "traffic": 1
+  },
+  {
+    "keyword": "rechnungsvorlagen schweiz",
+    "volume": 480,
+    "cpc": 1.6,
+    "competition": 0.92,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 24,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 4.8,
+    "compare_traffic": 3,
+    "position": 9,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 6.4,
+    "traffic": 4
+  },
+  {
+    "keyword": "rechnungsvorlage schweiz",
+    "volume": 480,
+    "cpc": 1.6,
+    "competition": 0.92,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "related_searches"
+    ],
+    "compare_position": 26,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 9.6,
+    "compare_traffic": 6,
+    "position": 8,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 11.2,
+    "traffic": 7
+  },
+  {
+    "keyword": "erfolgsrechnung und bilanz",
+    "volume": 390,
+    "cpc": 1.22,
+    "competition": 0.24,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 43,
+    "compare_url": "https://www.klara.ch/blog/jahresrechnung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 26,
+    "url": "https://magicheidi.ch/de/erfolgsrechnung-schweiz",
+    "price": 2.44,
+    "traffic": 2
+  },
+  {
+    "keyword": "vorlage rechnung",
+    "volume": 390,
+    "cpc": 1.22,
+    "competition": 1,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "related_searches"
+    ],
+    "compare_position": 10,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 4.88,
+    "compare_traffic": 4,
+    "position": 23,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 4.88,
+    "traffic": 4
+  },
+  {
+    "keyword": "mwst berechnung",
+    "volume": 390,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 42,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 23,
+    "url": "https://magicheidi.ch/de/tools/vat-calculator-switzerland",
+    "price": 0,
+    "traffic": 5
+  },
+  {
+    "keyword": "vorlage für rechnung",
+    "volume": 390,
+    "cpc": 1.22,
+    "competition": 1,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 10,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 2.44,
+    "compare_traffic": 2,
+    "position": 34,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungen schreiben",
+    "volume": 320,
+    "cpc": 2.92,
+    "competition": 0.55,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 13,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 2.92,
+    "compare_traffic": 1,
+    "position": 18,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 2.92,
+    "traffic": 1
+  },
+  {
+    "keyword": "accounting software",
+    "volume": 320,
+    "cpc": 5.26,
+    "competition": 0.02,
+    "difficulty": 64,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 3,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 31.56,
+    "compare_traffic": 6,
+    "position": 29,
+    "url": "https://magicheidi.ch/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm",
+    "volume": 320,
+    "cpc": 5.13,
+    "competition": 0.81,
+    "difficulty": 19,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 18,
+    "compare_url": "https://www.klara.ch/buchhaltungsprogramm",
+    "compare_price": 10.26,
+    "compare_traffic": 2,
+    "position": 69,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware",
+    "volume": 320,
+    "cpc": 6.09,
+    "competition": 0.69,
+    "difficulty": 38,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 81,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 30,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung schreiben",
+    "volume": 320,
+    "cpc": 2.92,
+    "competition": 0.55,
+    "difficulty": 19,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 35,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 11.68,
+    "traffic": 4
+  },
+  {
+    "keyword": "schweiz umsatzsteuer",
+    "volume": 260,
+    "cpc": 0.28,
+    "competition": 0.08,
+    "difficulty": 25,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "knowledge_graph",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 23,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-dienstleistungen-ausland",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 67,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungsvorlagen word",
+    "volume": 260,
+    "cpc": 1.3,
+    "competition": 0.54,
+    "difficulty": 10,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "tads",
+      "related_searches"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 1.3,
+    "compare_traffic": 1,
+    "position": 38,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "jahresabrechnung",
+    "volume": 260,
+    "cpc": 2.43,
+    "competition": 0.06,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "knowledge_graph",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 47,
+    "compare_url": "https://www.klara.ch/blog/jahresrechnung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 24,
+    "url": "https://magicheidi.ch/de/accounting-document",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungsvorlage word",
+    "volume": 260,
+    "cpc": 1.3,
+    "competition": 0.54,
+    "difficulty": 10,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 20,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 1.3,
+    "compare_traffic": 1,
+    "position": 28,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 1.3,
+    "traffic": 1
+  },
+  {
+    "keyword": "sumup twint",
+    "volume": 260,
+    "cpc": 1.37,
+    "competition": 1,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 75,
+    "compare_url": "https://www.klara.ch/blog/zahlungsterminals-vergleich-schweiz",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 22,
+    "url": "https://magicheidi.ch/de/integrations/sumup",
+    "price": 1.37,
+    "traffic": 1
+  },
+  {
+    "keyword": "feiertagsentschädigung stundenlohn",
+    "volume": 210,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 3,
+    "compare_url": "https://www.klara.ch/blog/feiertage-entschaedigung-teilzeitangestellte",
+    "compare_price": 0,
+    "compare_traffic": 3,
+    "position": 42,
+    "url": "https://magicheidi.ch/de/stundenlohn-berechnen-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "gratis buchhaltung",
+    "volume": 210,
+    "cpc": 1.67,
+    "competition": 0.83,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 21,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 1.67,
+    "compare_traffic": 1,
+    "position": 33,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware für kmu",
+    "volume": 210,
+    "cpc": 7.66,
+    "competition": 0.36,
+    "difficulty": 25,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 30.64,
+    "compare_traffic": 4,
+    "position": 24,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einfache buchhaltung",
+    "volume": 210,
+    "cpc": 2.88,
+    "competition": 0.63,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage",
+    "compare_price": 2.88,
+    "compare_traffic": 1,
+    "position": 23,
+    "url": "https://magicheidi.ch/de/milchbuechleinrechnung",
+    "price": 2.88,
+    "traffic": 1
+  },
+  {
+    "keyword": "einfach buchhaltung",
+    "volume": 210,
+    "cpc": 2.88,
+    "competition": 0.63,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 18,
+    "compare_url": "https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 23,
+    "url": "https://magicheidi.ch/de/milchbuechleinrechnung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm gratis",
+    "volume": 210,
+    "cpc": 1.67,
+    "competition": 0.83,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads"
+    ],
+    "compare_position": 29,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 36,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "abkürzung mwst",
+    "volume": 210,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 14,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 2,
+    "position": 49,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "vorlage rechnung schweiz",
+    "volume": 210,
+    "cpc": 1.31,
+    "competition": 0.81,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "tads",
+      "related_searches"
+    ],
+    "compare_position": 25,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 1.31,
+    "compare_traffic": 1,
+    "position": 7,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 2.62,
+    "traffic": 2
+  },
+  {
+    "keyword": "rechnung ohne mwst schweiz",
+    "volume": 210,
+    "cpc": 2.07,
+    "competition": 0.11,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 11,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-dienstleistungen-ausland",
+    "compare_price": 2.07,
+    "compare_traffic": 1,
+    "position": 30,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "note de credit",
+    "volume": 210,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "knowledge_graph",
+      "sge"
+    ],
+    "compare_position": 38,
+    "compare_url": "https://support.klara.ch/hc/fr/articles/360008795080-Comptabilisation-des-notes-de-cr%C3%A9dit",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 46,
+    "url": "https://magicheidi.ch/de/stornorechnung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung schweiz vorlage",
+    "volume": 210,
+    "cpc": 1.31,
+    "competition": 0.81,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches",
+      "image_in_block"
+    ],
+    "compare_position": 20,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 1.31,
+    "compare_traffic": 1,
+    "position": 8,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 1.31,
+    "traffic": 1
+  },
+  {
+    "keyword": "rechnung word vorlage",
+    "volume": 170,
+    "cpc": 1.27,
+    "competition": 0.8,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "related_searches"
+    ],
+    "compare_position": 9,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 2.54,
+    "compare_traffic": 2,
+    "position": 29,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 2.54,
+    "traffic": 2
+  },
+  {
+    "keyword": "word vorlage rechnung",
+    "volume": 170,
+    "cpc": 1.27,
+    "competition": 0.8,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "related_searches",
+      "image_in_block"
+    ],
+    "compare_position": 7,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 3.81,
+    "compare_traffic": 3,
+    "position": 30,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 1.27,
+    "traffic": 1
+  },
+  {
+    "keyword": "buchhaltung schweiz",
+    "volume": 170,
+    "cpc": 5.96,
+    "competition": 0.65,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "L",
+      "C"
+    ],
+    "serp_features": [
+      "local_pack",
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 30,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 27,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "vorlage rechnung word",
+    "volume": 170,
+    "cpc": 1.27,
+    "competition": 0.8,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "related_searches",
+      "image_in_block"
+    ],
+    "compare_position": 8,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 1.27,
+    "compare_traffic": 1,
+    "position": 30,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungen schreiben vorlage",
+    "volume": 170,
+    "cpc": 1.43,
+    "competition": 0.97,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 7,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 4.29,
+    "compare_traffic": 3,
+    "position": 31,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "saldosteuersatz",
+    "volume": 170,
+    "cpc": 0.15,
+    "competition": 0.02,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 28,
+    "compare_url": "https://support.klara.ch/hc/de/articles/360006849900-Saldosteuersatz-MWST",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 17,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung schreiben vorlage",
+    "volume": 170,
+    "cpc": 1.43,
+    "competition": 0.97,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 11,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 1.43,
+    "compare_traffic": 1,
+    "position": 29,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst berechnen schweiz",
+    "volume": 170,
+    "cpc": 0.57,
+    "competition": 0.03,
+    "difficulty": 19,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 52,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 15,
+    "url": "https://magicheidi.ch/de/tools/vat-calculator-switzerland",
+    "price": 0.57,
+    "traffic": 1
+  },
+  {
+    "keyword": "facturation suisse",
+    "volume": 170,
+    "cpc": 2.61,
+    "competition": 0.52,
+    "difficulty": 10,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 8,
+    "compare_url": "https://www.klara.ch/fr-ch/logiciel-facturation",
+    "compare_price": 2.61,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnung-schreiben-schweiz",
+    "price": 2.61,
+    "traffic": 1
+  },
+  {
+    "keyword": "facture suisse",
+    "volume": 170,
+    "cpc": 2.61,
+    "competition": 0.52,
+    "difficulty": 18,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 14,
+    "compare_url": "https://www.klara.ch/fr-ch/logiciel-facturation",
+    "compare_price": 2.61,
+    "compare_traffic": 1,
+    "position": 8,
+    "url": "https://magicheidi.ch/fr/rechnung-schreiben-schweiz",
+    "price": 2.61,
+    "traffic": 1
+  },
+  {
+    "keyword": "mehrwertsteuer anmeldung",
+    "volume": 140,
+    "cpc": 0.16,
+    "competition": 0.03,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 48,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/mwst-registrierung/st-gallen",
+    "price": 0.16,
+    "traffic": 1
+  },
+  {
+    "keyword": "buchhaltung software",
+    "volume": 140,
+    "cpc": 7.52,
+    "competition": 0.91,
+    "difficulty": 32,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 28,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 47,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "software buchhaltung",
+    "volume": 140,
+    "cpc": 7.52,
+    "competition": 0.91,
+    "difficulty": 32,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 7.52,
+    "compare_traffic": 1,
+    "position": 45,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhalter software",
+    "volume": 140,
+    "cpc": 7.52,
+    "competition": 0.91,
+    "difficulty": 53,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 15,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 7.52,
+    "compare_traffic": 1,
+    "position": 48,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm schweiz",
+    "volume": 140,
+    "cpc": 5.38,
+    "competition": 0.88,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/buchhaltungsprogramm",
+    "compare_price": 16.14,
+    "compare_traffic": 3,
+    "position": 20,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "software für buchhaltung",
+    "volume": 140,
+    "cpc": 7.52,
+    "competition": 0.91,
+    "difficulty": 40,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 18,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 7.52,
+    "compare_traffic": 1,
+    "position": 36,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm gratis schweiz",
+    "volume": 140,
+    "cpc": 1.92,
+    "competition": 0.81,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 23,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 1.92,
+    "compare_traffic": 1,
+    "position": 13,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 1.92,
+    "traffic": 1
+  },
+  {
+    "keyword": "buchhaltungsprogramm schweiz gratis",
+    "volume": 140,
+    "cpc": 1.92,
+    "competition": 0.81,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 27,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 18,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mehrwertsteuer anmelden",
+    "volume": 140,
+    "cpc": 0.16,
+    "competition": 0.03,
+    "difficulty": 15,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 43,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/mwst-registrierung/st-gallen",
+    "price": 0.16,
+    "traffic": 1
+  },
+  {
+    "keyword": "mehrwertsteuer schweiz einfach erklärt",
+    "volume": 140,
+    "cpc": 0.01,
+    "competition": 0.11,
+    "difficulty": 25,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0.01,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/tools/vat-calculator-switzerland",
+    "price": 0.01,
+    "traffic": 1
+  },
+  {
+    "keyword": "gratis buchhaltungsprogramm schweiz",
+    "volume": 140,
+    "cpc": 1.92,
+    "competition": 0.81,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 28,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 21,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramme schweiz",
+    "volume": 140,
+    "cpc": 5.38,
+    "competition": 0.88,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 62,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 12,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 5.38,
+    "traffic": 1
+  },
+  {
+    "keyword": "rechnungsprogramm",
+    "volume": 110,
+    "cpc": 4.92,
+    "competition": 0.95,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 9,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 4.92,
+    "compare_traffic": 1,
+    "position": 22,
+    "url": "https://magicheidi.ch/de/rechnungsprogramm",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "online rechnung erstellen",
+    "volume": 110,
+    "cpc": 3.78,
+    "competition": 0.76,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 14,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 3.78,
+    "compare_traffic": 1,
+    "position": 25,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 3.78,
+    "traffic": 1
+  },
+  {
+    "keyword": "buchhaltungsprogramm kmu",
+    "volume": 110,
+    "cpc": 16.38,
+    "competition": 0.41,
+    "difficulty": 39,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 32.76,
+    "compare_traffic": 2,
+    "position": 54,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "saldosteuersatz mwst",
+    "volume": 110,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 26,
+    "compare_url": "https://support.klara.ch/hc/de/articles/360006849900-Saldosteuersatz-MWST",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung erstellen online",
+    "volume": 110,
+    "cpc": 3.78,
+    "competition": 0.76,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 15,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 7.56,
+    "compare_traffic": 2,
+    "position": 24,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 7.56,
+    "traffic": 2
+  },
+  {
+    "keyword": "rechnungen erstellen online",
+    "volume": 110,
+    "cpc": 3.78,
+    "competition": 0.76,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 19,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 7.56,
+    "compare_traffic": 2,
+    "position": 28,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 7.56,
+    "traffic": 2
+  },
+  {
+    "keyword": "abkürzung mehrwertsteuer schweiz",
+    "volume": 110,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 33,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 32,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 67,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "doppelte buchführung",
+    "volume": 110,
+    "cpc": 0.17,
+    "competition": 0.25,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/blog/einzelunternehmen-doppelte-buchhaltung",
+    "compare_price": 0.17,
+    "compare_traffic": 1,
+    "position": 25,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst saldosteuersatz",
+    "volume": 110,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 37,
+    "compare_url": "https://support.klara.ch/hc/de/articles/360006849900-Saldosteuersatz-MWST",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 15,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 1
+  },
+  {
+    "keyword": "buchhaltung einzelfirma",
+    "volume": 110,
+    "cpc": 3.84,
+    "competition": 0.55,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "L",
+      "C"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "gmb",
+      "related_searches"
+    ],
+    "compare_position": 19,
+    "compare_url": "https://www.klara.ch/blog/einzelunternehmen-doppelte-buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 47,
+    "url": "https://magicheidi.ch/de/milchbuechleinrechnung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst konforme rechnung",
+    "volume": 110,
+    "cpc": 1.31,
+    "competition": 0.07,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 31,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 19,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "inkl mwst",
+    "volume": 110,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 7,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 45,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einzelfirma buchhaltung",
+    "volume": 110,
+    "cpc": 3.84,
+    "competition": 0.55,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "L",
+      "C"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "gmb",
+      "related_searches"
+    ],
+    "compare_position": 22,
+    "compare_url": "https://support.klara.ch/hc/de/articles/360011331660-Privatkonto-bei-Selbst%C3%A4ndigen-Einzelunternehmen",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 47,
+    "url": "https://magicheidi.ch/de/milchbueechli-app",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungen online erstellen",
+    "volume": 110,
+    "cpc": 3.78,
+    "competition": 0.76,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 15,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 3.78,
+    "compare_traffic": 1,
+    "position": 22,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 3.78,
+    "traffic": 1
+  },
+  {
+    "keyword": "logiciel facturation",
+    "volume": 110,
+    "cpc": 4.83,
+    "competition": 0.35,
+    "difficulty": 51,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/fr-ch/logiciel-facturation",
+    "compare_price": 9.66,
+    "compare_traffic": 2,
+    "position": 24,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "logiciel factures",
+    "volume": 110,
+    "cpc": 3.31,
+    "competition": 0.17,
+    "difficulty": 49,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 11,
+    "compare_url": "https://www.klara.ch/fr-ch/logiciel-facturation",
+    "compare_price": 3.31,
+    "compare_traffic": 1,
+    "position": 6,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 6.62,
+    "traffic": 2
+  },
+  {
+    "keyword": "logiciel comptabilité suisse",
+    "volume": 110,
+    "cpc": 3.35,
+    "competition": 0.9,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I",
+      "N"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "digital_complaints",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 22,
+    "compare_url": "https://www.klara.ch/fr-ch/logiciel-comptabilite",
+    "compare_price": 6.7,
+    "compare_traffic": 2,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 3.35,
+    "traffic": 1
+  },
+  {
+    "keyword": "inkl. mwst",
+    "volume": 110,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 49,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "muster für rechnung",
+    "volume": 90,
+    "cpc": 1.18,
+    "competition": 0.99,
+    "difficulty": 19,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 16,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 29,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung jahresabschluss",
+    "volume": 90,
+    "cpc": 2.15,
+    "competition": 0.67,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/blog/checkliste-jahresabschluss",
+    "compare_price": 2.15,
+    "compare_traffic": 1,
+    "position": 72,
+    "url": "https://magicheidi.ch/gmbh-jahresabschluss-guide",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "erfolgsrechnung bilanz",
+    "volume": 90,
+    "cpc": 0.97,
+    "competition": 0.18,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 43,
+    "compare_url": "https://www.klara.ch/blog/jahresrechnung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 38,
+    "url": "https://magicheidi.ch/de/understanding-profit-and-loss-accounts",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "bilanz erfolgsrechnung",
+    "volume": 90,
+    "cpc": 0.97,
+    "competition": 0.18,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 41,
+    "compare_url": "https://www.klara.ch/blog/jahresrechnung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 34,
+    "url": "https://magicheidi.ch/de/erfolgsrechnung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mehrwertsteuer berechnen schweiz",
+    "volume": 90,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 19,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 40,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 17,
+    "url": "https://magicheidi.ch/de/tools/vat-calculator-switzerland",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "jahresabschluss buchhaltung",
+    "volume": 90,
+    "cpc": 2.15,
+    "competition": 0.67,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/blog/checkliste-jahresabschluss",
+    "compare_price": 2.15,
+    "compare_traffic": 1,
+    "position": 82,
+    "url": "https://magicheidi.ch/gmbh-jahresabschluss-guide",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung muster",
+    "volume": 90,
+    "cpc": 1.18,
+    "competition": 0.99,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 10,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 2.36,
+    "compare_traffic": 2,
+    "position": 32,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung für gmbh",
+    "volume": 90,
+    "cpc": 4.12,
+    "competition": 0.46,
+    "difficulty": 21,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 40,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 65,
+    "url": "https://magicheidi.ch/gmbh-jahresabschluss-guide",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "sumup.ch",
+    "volume": 90,
+    "cpc": 2.49,
+    "competition": 1,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads"
+    ],
+    "compare_position": 19,
+    "compare_url": "https://www.klara.ch/blog/zahlungsterminals-vergleich-schweiz",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 55,
+    "url": "https://magicheidi.ch/de/integrations/sumup",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "kostenlos rechnung erstellen",
+    "volume": 90,
+    "cpc": 2.16,
+    "competition": 0.77,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 10,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 4.32,
+    "compare_traffic": 2,
+    "position": 35,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung mit mwst",
+    "volume": 90,
+    "cpc": 0,
+    "competition": 0.03,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 20,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-dienstleistungen-ausland",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 48,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung erstellen kostenlos",
+    "volume": 90,
+    "cpc": 2.16,
+    "competition": 0.77,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 13,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 2.16,
+    "compare_traffic": 1,
+    "position": 29,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 2.16,
+    "traffic": 1
+  },
+  {
+    "keyword": "rechnung kostenlos erstellen",
+    "volume": 90,
+    "cpc": 2.16,
+    "competition": 0.77,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 12,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 2.16,
+    "compare_traffic": 1,
+    "position": 34,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungen erstellen kostenlos",
+    "volume": 90,
+    "cpc": 2.16,
+    "competition": 0.77,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 15,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 2.16,
+    "compare_traffic": 1,
+    "position": 41,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "logiciel de facturation",
+    "volume": 90,
+    "cpc": 3.93,
+    "competition": 0.35,
+    "difficulty": 43,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/fr-ch/logiciel-facturation",
+    "compare_price": 3.93,
+    "compare_traffic": 1,
+    "position": 13,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "concordance tva",
+    "volume": 90,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "related_searches"
+    ],
+    "compare_position": 18,
+    "compare_url": "https://www.klara.ch/fr-ch/blog/tva-maitrise",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 28,
+    "url": "https://magicheidi.ch/fr/swiss-vat-reconciliation-guide",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "online buchhaltung schweiz",
+    "volume": 70,
+    "cpc": 7.39,
+    "competition": 0.79,
+    "difficulty": 33,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 14.78,
+    "compare_traffic": 2,
+    "position": 20,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst konforme rechnung schweiz",
+    "volume": 70,
+    "cpc": 1.93,
+    "competition": 0.11,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 24,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-dienstleistungen-ausland",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "saldosteuersätze",
+    "volume": 70,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 16,
+    "compare_url": "https://support.klara.ch/hc/de/articles/360006849900-Saldosteuersatz-MWST",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 31,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungen stellen",
+    "volume": 70,
+    "cpc": 1.87,
+    "competition": 0.54,
+    "difficulty": 22,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 36,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "umsatzabstimmung mwst",
+    "volume": 70,
+    "cpc": 1.41,
+    "competition": 0.09,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 52,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 61,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungsvorlagen",
+    "volume": 70,
+    "cpc": 1.92,
+    "competition": 0.77,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "tads",
+      "related_searches"
+    ],
+    "compare_position": 41,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 50,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst umsatzabstimmung",
+    "volume": 70,
+    "cpc": 1.41,
+    "competition": 0.09,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 51,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 54,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einfache buchhaltung schweiz",
+    "volume": 70,
+    "cpc": 2.9,
+    "competition": 0.76,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "L",
+      "C"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "gmb",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 48,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 14,
+    "url": "https://magicheidi.ch/de/milchbuechleinrechnung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung online schweiz",
+    "volume": 70,
+    "cpc": 7.39,
+    "competition": 0.79,
+    "difficulty": 34,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 14.78,
+    "compare_traffic": 2,
+    "position": 29,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "modèle facture suisse",
+    "volume": 70,
+    "cpc": 1.48,
+    "competition": 0.7,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 16,
+    "compare_url": "https://www.klara.ch/fr-ch/blog/tva-suisse-2024-guide-pour-entreprises",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 4,
+    "url": "https://magicheidi.ch/fr/rechnungsvorlage",
+    "price": 4.44,
+    "traffic": 3
+  },
+  {
+    "keyword": "was ist doppelte buchhaltung",
+    "volume": 70,
+    "cpc": 0.01,
+    "competition": 0.21,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/blog/einzelunternehmen-doppelte-buchhaltung",
+    "compare_price": 0.01,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0.01,
+    "traffic": 1
+  },
+  {
+    "keyword": "was ist eine doppelte buchhaltung",
+    "volume": 70,
+    "cpc": 0.01,
+    "competition": 0.21,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/blog/einzelunternehmen-doppelte-buchhaltung",
+    "compare_price": 0.01,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0.01,
+    "traffic": 1
+  },
+  {
+    "keyword": "saldosteuersatzmethode",
+    "volume": 70,
+    "cpc": 0.04,
+    "competition": 0.04,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 20,
+    "compare_url": "https://support.klara.ch/hc/de/articles/360006849900-Saldosteuersatz-MWST",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst-konforme rechnung schweiz",
+    "volume": 70,
+    "cpc": 1.93,
+    "competition": 0.11,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 24,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-dienstleistungen-ausland",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware schweiz kostenlos",
+    "volume": 70,
+    "cpc": 1.98,
+    "competition": 0.97,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge"
+    ],
+    "compare_position": 26,
+    "compare_url": "https://www.klara.ch/",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 14,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware schweiz für private",
+    "volume": 70,
+    "cpc": 1.66,
+    "competition": 0.94,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 34,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 20,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "feiertagszuschlag stundenlohn schweiz",
+    "volume": 70,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 3,
+    "compare_url": "https://www.klara.ch/blog/feiertage-entschaedigung-teilzeitangestellte",
+    "compare_price": 0,
+    "compare_traffic": 1,
+    "position": 43,
+    "url": "https://magicheidi.ch/de/stundenlohn-berechnen-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "logiciel comptabilité suisse gratuit",
+    "volume": 70,
+    "cpc": 2.39,
+    "competition": 0.84,
+    "difficulty": 10,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/fr-ch/logiciel-comptabilite",
+    "compare_price": 2.39,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 2.39,
+    "traffic": 1
+  },
+  {
+    "keyword": "qr referenz",
+    "volume": 70,
+    "cpc": 0,
+    "competition": 0.18,
+    "difficulty": 18,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 42,
+    "compare_url": "https://www.klara.ch/blog/obligatorische-umstellung-qr-rechnung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 56,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungs app",
+    "volume": 50,
+    "cpc": 4.39,
+    "competition": 0.66,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 23,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 37,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "erfolgsrechnung vorlage",
+    "volume": 50,
+    "cpc": 2.36,
+    "competition": 0.32,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 18,
+    "compare_url": "https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 39,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung programm",
+    "volume": 50,
+    "cpc": 5.57,
+    "competition": 0.89,
+    "difficulty": 26,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads"
+    ],
+    "compare_position": 19,
+    "compare_url": "https://www.klara.ch/buchhaltungsprogramm",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 55,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "abschreibungen schweiz",
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.06,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 33,
+    "compare_url": "https://www.klara.ch/blog/abschreibungen-und-anlagen",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 12,
+    "url": "https://magicheidi.ch/de/annual-depreciation-for-self-employed-workers",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mehrwertsteuer dienstleistung schweiz",
+    "volume": 50,
+    "cpc": 0.17,
+    "competition": 0.2,
+    "difficulty": 26,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 5,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-dienstleistungen-ausland",
+    "compare_price": 0.17,
+    "compare_traffic": 1,
+    "position": 23,
+    "url": "https://magicheidi.ch/de/mwst-freelancer",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung erstellen vorlage",
+    "volume": 50,
+    "cpc": 1.99,
+    "competition": 0.69,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 12,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 18,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung schreiben schweiz",
+    "volume": 50,
+    "cpc": 3.8,
+    "competition": 0.6,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 20,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 3.8,
+    "traffic": 1
+  },
+  {
+    "keyword": "buchhaltung app",
+    "volume": 50,
+    "cpc": 4.39,
+    "competition": 0.66,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 19,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 39,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mehrwertsteuer schweiz dienstleistungen",
+    "volume": 50,
+    "cpc": 0.17,
+    "competition": 0.2,
+    "difficulty": 26,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 5,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-dienstleistungen-ausland",
+    "compare_price": 0.17,
+    "compare_traffic": 1,
+    "position": 19,
+    "url": "https://magicheidi.ch/de/mwst-freelancer",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "doppelte buchhaltung schweiz",
+    "volume": 50,
+    "cpc": 2.09,
+    "competition": 0.77,
+    "difficulty": 5,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge"
+    ],
+    "compare_position": 28,
+    "compare_url": "https://www.klara.ch/blog/einzelunternehmen-doppelte-buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 12,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "gratis buchhaltungsprogramm",
+    "volume": 50,
+    "cpc": 1.64,
+    "competition": 0.79,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 30,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 36,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "was ist mwst",
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.03,
+    "difficulty": 38,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 18,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 65,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungsprogramm schweiz",
+    "volume": 50,
+    "cpc": 4.61,
+    "competition": 0.9,
+    "difficulty": 10,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 5,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 4.61,
+    "compare_traffic": 1,
+    "position": 9,
+    "url": "https://magicheidi.ch/de/rechnungsprogramm",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung privat",
+    "volume": 50,
+    "cpc": 1.61,
+    "competition": 0.96,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 39,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 46,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "app buchhaltung",
+    "volume": 50,
+    "cpc": 4.39,
+    "competition": 0.66,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 18,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 51,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungen schreiben schweiz",
+    "volume": 50,
+    "cpc": 3.8,
+    "competition": 0.6,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 42,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 11.4,
+    "traffic": 3
+  },
+  {
+    "keyword": "buchhaltungssoftware online",
+    "volume": 50,
+    "cpc": 7.87,
+    "competition": 0.23,
+    "difficulty": 64,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "tads",
+      "bads",
+      "sge"
+    ],
+    "compare_position": 19,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 7.87,
+    "compare_traffic": 1,
+    "position": 46,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhalter selbstständig",
+    "volume": 50,
+    "cpc": 3.45,
+    "competition": 0.69,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 31,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 67,
+    "url": "https://magicheidi.ch/de/collaborating-with-your-accountant",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung vorlage schweiz",
+    "volume": 50,
+    "cpc": 1.3,
+    "competition": 0.81,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 22,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 5,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "programme facturation",
+    "volume": 50,
+    "cpc": 3.51,
+    "competition": 0.45,
+    "difficulty": 38,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://www.klara.ch/fr-ch/logiciel-facturation",
+    "compare_price": 3.51,
+    "compare_traffic": 1,
+    "position": 9,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst-pflicht schweiz einzelunternehmen",
+    "volume": 50,
+    "cpc": 0.12,
+    "competition": 0.28,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 31,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 60,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst pflicht schweiz einzelunternehmen",
+    "volume": 50,
+    "cpc": 0.12,
+    "competition": 0.28,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 37,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 29,
+    "url": "https://magicheidi.ch/de/mwst-freelancer",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mehrwertsteuer berechnen formel schweiz",
+    "volume": 50,
+    "cpc": 0.67,
+    "competition": 0.05,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 31,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 26,
+    "url": "https://magicheidi.ch/de/tools/vat-calculator-switzerland",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "gratis buchhaltungsprogramm schweiz privathaushalt",
+    "volume": 50,
+    "cpc": 1.33,
+    "competition": 0.74,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 31,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 40,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware schweiz einzelfirma",
+    "volume": 50,
+    "cpc": 4.44,
+    "competition": 0.93,
+    "difficulty": 5,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/",
+    "compare_price": 4.44,
+    "compare_traffic": 1,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/milchbueechli-app",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "vorlage rechnung privatperson",
+    "volume": 50,
+    "cpc": 0.59,
+    "competition": 0.97,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 24,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 10,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "erfolgsrechnung beispiel schweiz",
+    "volume": 50,
+    "cpc": 1.76,
+    "competition": 0.35,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "related_searches"
+    ],
+    "compare_position": 36,
+    "compare_url": "https://www.klara.ch/blog/jahresrechnung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 8,
+    "url": "https://magicheidi.ch/de/erfolgsrechnung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst abrechnung fristen",
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 6,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-fristverlaengerung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst-abrechnung fristen",
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 7,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-fristverlaengerung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungsvorlage word kostenlos",
+    "volume": 50,
+    "cpc": 1.16,
+    "competition": 0.73,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 9,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 31,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungsvorlage word schweiz",
+    "volume": 50,
+    "cpc": 1.42,
+    "competition": 0.74,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 14,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 1.42,
+    "compare_traffic": 1,
+    "position": 5,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 1.42,
+    "traffic": 1
+  },
+  {
+    "keyword": "comment faire une facture",
+    "volume": 50,
+    "cpc": 2.55,
+    "competition": 0.66,
+    "difficulty": 28,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://www.klara.ch/fr-ch/blog/comment-r%C3%A9diger-factures-avec-modele-word-gratuit",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 7,
+    "url": "https://magicheidi.ch/fr/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "logiciel comptable suisse",
+    "volume": 50,
+    "cpc": 3.16,
+    "competition": 0.8,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I",
+      "N"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "digital_complaints",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 20,
+    "compare_url": "https://www.klara.ch/fr-ch/logiciel-comptabilite",
+    "compare_price": 3.16,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 3.16,
+    "traffic": 1
+  },
+  {
+    "keyword": "logiciel compta suisse",
+    "volume": 50,
+    "cpc": 3.16,
+    "competition": 0.8,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I",
+      "N"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "digital_complaints",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 21,
+    "compare_url": "https://www.klara.ch/fr-ch/logiciel-comptabilite",
+    "compare_price": 3.16,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 3.16,
+    "traffic": 1
+  },
+  {
+    "keyword": "mehrwertsteuer schweiz anmelden",
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.05,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 41,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 20,
+    "url": "https://magicheidi.ch/de/mwst-registrierung/st-gallen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "logiciel comptable",
+    "volume": 50,
+    "cpc": 3.19,
+    "competition": 0.53,
+    "difficulty": 33,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 33,
+    "compare_url": "https://www.klara.ch/fr-ch/logiciel-comptabilite",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 32,
+    "url": "https://magicheidi.ch/fr/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "logiciel de facturation suisse",
+    "volume": 50,
+    "cpc": 3.49,
+    "competition": 0.7,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 2,
+    "compare_url": "https://www.klara.ch/fr-ch/logiciel-facturation",
+    "compare_price": 10.47,
+    "compare_traffic": 3,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 3.49,
+    "traffic": 1
+  },
+  {
+    "keyword": "buchhaltungssoftware kleinunternehmer",
+    "volume": 40,
+    "cpc": 5.54,
+    "competition": 0.89,
+    "difficulty": 40,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 39,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 49,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "beispiel rechnung",
+    "volume": 40,
+    "cpc": 1.09,
+    "competition": 0.88,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 15,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 1.09,
+    "compare_traffic": 1,
+    "position": 25,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung selbstständig",
+    "volume": 40,
+    "cpc": 5.1,
+    "competition": 0.74,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 28,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 84,
+    "url": "https://magicheidi.ch/de/collaborating-with-your-accountant",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware für kleinunternehmen",
+    "volume": 40,
+    "cpc": 5.54,
+    "competition": 0.89,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 45,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 49,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "doppelte buchhaltung excel",
+    "volume": 40,
+    "cpc": 1.84,
+    "competition": 0.76,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 3,
+    "compare_url": "https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage",
+    "compare_price": 1.84,
+    "compare_traffic": 1,
+    "position": 34,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "steuererklärung selbständige",
+    "volume": 40,
+    "cpc": 2.89,
+    "competition": 0.7,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 76,
+    "compare_url": "https://www.klara.ch/blog/home/checkliste-steuererklaerung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/steuerabzuge-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "selbstständig steuererklärung",
+    "volume": 40,
+    "cpc": 2.89,
+    "competition": 0.7,
+    "difficulty": 19,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 44,
+    "compare_url": "https://www.klara.ch/blog/expertentipps-selbststaendige-so-sparst-du-steuern",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 55,
+    "url": "https://magicheidi.ch/de/steuerabzuge-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einzelfirma steuern",
+    "volume": 40,
+    "cpc": 0.73,
+    "competition": 0.44,
+    "difficulty": 15,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 46,
+    "compare_url": "https://www.klara.ch/blog/expertentipps-selbststaendige-so-sparst-du-steuern",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 52,
+    "url": "https://magicheidi.ch/de/are-taxes-business-expenses",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst code schweiz",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 24,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 42,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "programm rechnungen schreiben",
+    "volume": 40,
+    "cpc": 6.57,
+    "competition": 0.94,
+    "difficulty": 36,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 12,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 49,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "gliederung erfolgsrechnung",
+    "volume": 40,
+    "cpc": 0.94,
+    "competition": 0.1,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 57,
+    "compare_url": "https://www.klara.ch/blog/jahresrechnung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 13,
+    "url": "https://magicheidi.ch/de/erfolgsrechnung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "steuern einzelfirma",
+    "volume": 40,
+    "cpc": 0.73,
+    "competition": 0.44,
+    "difficulty": 15,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 46,
+    "compare_url": "https://www.klara.ch/blog/expertentipps-selbststaendige-so-sparst-du-steuern",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 55,
+    "url": "https://magicheidi.ch/de/are-taxes-business-expenses",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "finanzbuchhaltungssoftware kleinunternehmen",
+    "volume": 40,
+    "cpc": 5.54,
+    "competition": 0.89,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 25,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungsvorlage kostenlos",
+    "volume": 40,
+    "cpc": 1.34,
+    "competition": 0.68,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 11,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "nettomethode mwst",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 42,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 14,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "programm für rechnungen schreiben",
+    "volume": 40,
+    "cpc": 6.57,
+    "competition": 0.94,
+    "difficulty": 36,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 10,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 44,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "programme zum rechnungen schreiben",
+    "volume": 40,
+    "cpc": 6.57,
+    "competition": 0.94,
+    "difficulty": 36,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 8,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 43,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "programm zum rechnungen schreiben",
+    "volume": 40,
+    "cpc": 6.57,
+    "competition": 0.94,
+    "difficulty": 33,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 8,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 42,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "kleinunternehmen buchhaltungssoftware",
+    "volume": 40,
+    "cpc": 5.54,
+    "competition": 0.89,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 49,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "programm rechnung schreiben",
+    "volume": 40,
+    "cpc": 6.57,
+    "competition": 0.94,
+    "difficulty": 33,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 12,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 47,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung ausstellen",
+    "volume": 40,
+    "cpc": 2,
+    "competition": 0.61,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst dienstleistungen schweiz",
+    "volume": 40,
+    "cpc": 0.23,
+    "competition": 0.15,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 5,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-dienstleistungen-ausland",
+    "compare_price": 0.23,
+    "compare_traffic": 1,
+    "position": 61,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einfache buchhaltungssoftware",
+    "volume": 40,
+    "cpc": 4.94,
+    "competition": 0.96,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 28,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 60,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einfaches buchhaltungsprogramm",
+    "volume": 40,
+    "cpc": 3.2,
+    "competition": 0.9,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 39,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 68,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungsvorlage excel schweiz",
+    "volume": 40,
+    "cpc": 2,
+    "competition": 0.57,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 30,
+    "compare_url": "https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 6,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 2,
+    "traffic": 1
+  },
+  {
+    "keyword": "erfolgsrechnung gliederung",
+    "volume": 40,
+    "cpc": 0.94,
+    "competition": 0.1,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 56,
+    "compare_url": "https://www.klara.ch/blog/jahresrechnung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 19,
+    "url": "https://magicheidi.ch/de/erfolgsrechnung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware cloud",
+    "volume": 40,
+    "cpc": 5.78,
+    "competition": 0.86,
+    "difficulty": 32,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 46,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 53,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst registrierung",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 50,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 11,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung schreiben programm",
+    "volume": 40,
+    "cpc": 6.57,
+    "competition": 0.94,
+    "difficulty": 41,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 18,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 50,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "steuererklärung selbständig",
+    "volume": 40,
+    "cpc": 2.89,
+    "competition": 0.7,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 43,
+    "compare_url": "https://www.klara.ch/blog/expertentipps-selbststaendige-so-sparst-du-steuern",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 51,
+    "url": "https://magicheidi.ch/de/steuerabzuge-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungen schreiben programm",
+    "volume": 40,
+    "cpc": 6.57,
+    "competition": 0.94,
+    "difficulty": 36,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 12,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 47,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "ch mwst",
+    "volume": 40,
+    "cpc": 0.28,
+    "competition": 0.08,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 23,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 34,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware kleinunternehmen",
+    "volume": 40,
+    "cpc": 5.54,
+    "competition": 0.89,
+    "difficulty": 34,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/",
+    "compare_price": 5.54,
+    "compare_traffic": 1,
+    "position": 45,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung selbständig",
+    "volume": 40,
+    "cpc": 5.1,
+    "competition": 0.74,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 70,
+    "url": "https://magicheidi.ch/de/collaborating-with-your-accountant",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung für selbstständige",
+    "volume": 40,
+    "cpc": 5.1,
+    "competition": 0.74,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 23,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 68,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "kleinunternehmer buchhaltungssoftware",
+    "volume": 40,
+    "cpc": 5.54,
+    "competition": 0.89,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 46,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware einfach",
+    "volume": 40,
+    "cpc": 4.94,
+    "competition": 0.96,
+    "difficulty": 43,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 15,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 55,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "doppelte buchhaltung mit excel",
+    "volume": 40,
+    "cpc": 1.84,
+    "competition": 0.76,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "sge"
+    ],
+    "compare_position": 3,
+    "compare_url": "https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage",
+    "compare_price": 1.84,
+    "compare_traffic": 1,
+    "position": 31,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "programm für rechnung schreiben",
+    "volume": 40,
+    "cpc": 6.57,
+    "competition": 0.94,
+    "difficulty": 36,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "sge"
+    ],
+    "compare_position": 16,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 45,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhalter selbständig",
+    "volume": 40,
+    "cpc": 5.1,
+    "competition": 0.74,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge"
+    ],
+    "compare_position": 32,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 73,
+    "url": "https://magicheidi.ch/de/collaborating-with-your-accountant",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "selbständige steuererklärung",
+    "volume": 40,
+    "cpc": 2.89,
+    "competition": 0.7,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 42,
+    "compare_url": "https://www.klara.ch/blog/expertentipps-selbststaendige-so-sparst-du-steuern",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/steuerabzuge-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "programme zum rechnung schreiben",
+    "volume": 40,
+    "cpc": 6.57,
+    "competition": 0.94,
+    "difficulty": 42,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 11,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 20,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "selbstständig steuern schweiz",
+    "volume": 40,
+    "cpc": 1.38,
+    "competition": 0.28,
+    "difficulty": 22,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 21,
+    "compare_url": "https://www.klara.ch/blog/expertentipps-selbststaendige-so-sparst-du-steuern",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 3,
+    "url": "https://magicheidi.ch/de/steuerabzuge-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "vorlage rechnung schweiz kostenlos",
+    "volume": 40,
+    "cpc": 1.12,
+    "competition": 0.6,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 16,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 7,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungsvorlage schweiz excel",
+    "volume": 40,
+    "cpc": 2,
+    "competition": 0.57,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 28,
+    "compare_url": "https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 8,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "excel buchhaltung vorlage gratis schweiz",
+    "volume": 40,
+    "cpc": 2.03,
+    "competition": 0.7,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 10,
+    "compare_url": "https://www.klara.ch/download-center",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 13,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "post einzahlungsschein mit iban ausfüllen",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.12,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 43,
+    "compare_url": "https://www.klara.ch/blog/obligatorische-umstellung-qr-rechnung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 41,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "vorlage bilanz und erfolgsrechnung excel schweiz",
+    "volume": 40,
+    "cpc": 2.43,
+    "competition": 0.59,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 6,
+    "compare_url": "https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 39,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr iban in iban umwandeln",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 25,
+    "compare_url": "https://www.klara.ch/blog/obligatorische-umstellung-qr-rechnung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 28,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr-iban in iban umwandeln",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 26,
+    "compare_url": "https://www.klara.ch/blog/obligatorische-umstellung-qr-rechnung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 33,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst-code schweiz",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 27,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 38,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "comptabilité suisse excel gratuit",
+    "volume": 40,
+    "cpc": 1.57,
+    "competition": 0.45,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 3,
+    "compare_url": "https://www.klara.ch/fr-ch/download-center",
+    "compare_price": 1.57,
+    "compare_traffic": 1,
+    "position": 6,
+    "url": "https://magicheidi.ch/fr/rechnungsvorlage",
+    "price": 1.57,
+    "traffic": 1
+  },
+  {
+    "keyword": "rechnungsvorlage schweiz word",
+    "volume": 40,
+    "cpc": 1.4,
+    "competition": 0.42,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "tads",
+      "related_searches"
+    ],
+    "compare_position": 12,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 6,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung selbstständige",
+    "volume": 40,
+    "cpc": 5.1,
+    "competition": 0.74,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "L",
+      "C"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "gmb",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 15,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 74,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "steuererklärung für selbständige",
+    "volume": 40,
+    "cpc": 2.89,
+    "competition": 0.7,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 37,
+    "compare_url": "https://www.klara.ch/blog/expertentipps-selbststaendige-so-sparst-du-steuern",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 43,
+    "url": "https://magicheidi.ch/de/steuerabzuge-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "selbstständige steuererklärung",
+    "volume": 40,
+    "cpc": 2.89,
+    "competition": 0.7,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 33,
+    "compare_url": "https://www.klara.ch/blog/expertentipps-selbststaendige-so-sparst-du-steuern",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 45,
+    "url": "https://magicheidi.ch/de/steuerabzuge-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "vorsteuerabzug mwst schweiz",
+    "volume": 40,
+    "cpc": 0.02,
+    "competition": 0.14,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 40,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 61,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "logiciel de comptabilité suisse",
+    "volume": 40,
+    "cpc": 3.16,
+    "competition": 0.99,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I",
+      "N"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "digital_complaints",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 21,
+    "compare_url": "https://www.klara.ch/fr-ch/logiciel-comptabilite",
+    "compare_price": 3.16,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 3.16,
+    "traffic": 1
+  },
+  {
+    "keyword": "software rechnung",
+    "volume": 30,
+    "cpc": 3.79,
+    "competition": 0.73,
+    "difficulty": 41,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 13,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 21,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungen software",
+    "volume": 30,
+    "cpc": 3.79,
+    "competition": 0.73,
+    "difficulty": 41,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 11,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 22,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "wie schreibe ich rechnungen",
+    "volume": 30,
+    "cpc": 1.17,
+    "competition": 0.57,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 18,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 29,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mehrwertsteuer abkürzung schweiz",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 33,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 30,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 71,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungsvorlage schweiz ohne mwst",
+    "volume": 30,
+    "cpc": 1.5,
+    "competition": 0.73,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "images",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 25,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 1.5,
+    "traffic": 1
+  },
+  {
+    "keyword": "mwst rechnung",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.07,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 24,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 35,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "programme comptabilité suisse",
+    "volume": 30,
+    "cpc": 2.24,
+    "competition": 0.7,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I",
+      "N"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "digital_complaints",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 21,
+    "compare_url": "https://www.klara.ch/fr-ch/logiciel-comptabilite",
+    "compare_price": 2.24,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 2.24,
+    "traffic": 1
+  },
+  {
+    "keyword": "dividenden gmbh",
+    "volume": 30,
+    "cpc": 0.03,
+    "competition": 0.15,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 33,
+    "compare_url": "https://support.klara.ch/hc/de/articles/360011318099-Dividende-Gewinnaussch%C3%BCttung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/einzelfirma-oder-gmbh-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "word vorlage rechnung erstellen",
+    "volume": 30,
+    "cpc": 1.39,
+    "competition": 0.73,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 7,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 24,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "software rechnungswesen",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.21,
+    "difficulty": 43,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 29,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 48,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung stellen vorlage",
+    "volume": 30,
+    "cpc": 1.59,
+    "competition": 0.69,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 8,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 13,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst schreibweise",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 37,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge"
+    ],
+    "compare_position": 14,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 40,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung software",
+    "volume": 30,
+    "cpc": 3.79,
+    "competition": 0.73,
+    "difficulty": 35,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 14,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 20,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "muster rechnung",
+    "volume": 30,
+    "cpc": 1.36,
+    "competition": 0.78,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 9,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 1.36,
+    "compare_traffic": 1,
+    "position": 33,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungsprogramm kostenlos schweiz",
+    "volume": 30,
+    "cpc": 3.8,
+    "competition": 0.9,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 15,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 10,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssystem",
+    "volume": 30,
+    "cpc": 7.6,
+    "competition": 0.72,
+    "difficulty": 45,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 7.6,
+    "compare_traffic": 1,
+    "position": 44,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung muster schweiz",
+    "volume": 30,
+    "cpc": 1.19,
+    "competition": 0.97,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 21,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 7,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "estv mwst anmeldung",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 29,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-fristverlaengerung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 13,
+    "url": "https://magicheidi.ch/de/mwst-registrierung/st-gallen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "dividende gmbh",
+    "volume": 30,
+    "cpc": 0.03,
+    "competition": 0.15,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 29,
+    "compare_url": "https://support.klara.ch/hc/de/articles/360011318099-Dividende-Gewinnaussch%C3%BCttung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/einzelfirma-oder-gmbh-schweiz",
+    "price": 0.03,
+    "traffic": 1
+  },
+  {
+    "keyword": "mwst abziehen",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 26,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 9,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 37,
+    "url": "https://magicheidi.ch/de/tools/vat-calculator-switzerland",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "doppelte buchhaltung beispiel",
+    "volume": 30,
+    "cpc": 1.18,
+    "competition": 0.48,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 8,
+    "compare_url": "https://www.klara.ch/blog/einzelunternehmen-doppelte-buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 25,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "estv anmeldung mwst",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 32,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-fristverlaengerung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 10,
+    "url": "https://magicheidi.ch/de/mwst-registrierung/st-gallen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung schreiben als privatperson",
+    "volume": 30,
+    "cpc": 1.22,
+    "competition": 0.34,
+    "difficulty": 15,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 48,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 2,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 2.44,
+    "traffic": 2
+  },
+  {
+    "keyword": "wie schreibe ich eine rechnung",
+    "volume": 30,
+    "cpc": 1.17,
+    "competition": 0.57,
+    "difficulty": 15,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "find_results_on",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 20,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 26,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "steuern selbständige",
+    "volume": 30,
+    "cpc": 1.27,
+    "competition": 0.36,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 19,
+    "compare_url": "https://www.klara.ch/blog/expertentipps-selbststaendige-so-sparst-du-steuern",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 51,
+    "url": "https://magicheidi.ch/de/steuerabzuge-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "bilanz beispiel schweiz",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.17,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 37,
+    "compare_url": "https://www.klara.ch/blog/jahresrechnung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 28,
+    "url": "https://magicheidi.ch/de/erfolgsrechnung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "vorsteuerabzug mwst",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.05,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 45,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 71,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungssoftware schweiz",
+    "volume": 30,
+    "cpc": 6.11,
+    "competition": 0.61,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 6.11,
+    "compare_traffic": 1,
+    "position": 8,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 6.11,
+    "traffic": 1
+  },
+  {
+    "keyword": "rechnungswesen software",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.21,
+    "difficulty": 45,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 21,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 46,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungssoftware",
+    "volume": 30,
+    "cpc": 5.86,
+    "competition": 0.48,
+    "difficulty": 44,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/rechnungsprogramm",
+    "compare_price": 5.86,
+    "compare_traffic": 1,
+    "position": 50,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungsformular",
+    "volume": 30,
+    "cpc": 1.18,
+    "competition": 0.98,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 26,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 52,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "steuern für selbständige",
+    "volume": 30,
+    "cpc": 0.45,
+    "competition": 0.56,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 11,
+    "compare_url": "https://www.klara.ch/blog/expertentipps-selbststaendige-so-sparst-du-steuern",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 38,
+    "url": "https://magicheidi.ch/de/steuerabzuge-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm für privat",
+    "volume": 30,
+    "cpc": 1.45,
+    "competition": 0.98,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 31,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 40,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm online",
+    "volume": 30,
+    "cpc": 3.73,
+    "competition": 0.86,
+    "difficulty": 67,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 3.73,
+    "compare_traffic": 1,
+    "position": 62,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einfaches buchhaltungsprogramm schweiz",
+    "volume": 30,
+    "cpc": 3.82,
+    "competition": 0.91,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/budget",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 22,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "wie rechnung schreiben",
+    "volume": 30,
+    "cpc": 1.17,
+    "competition": 0.57,
+    "difficulty": 15,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 18,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 25,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung schreiben wie",
+    "volume": 30,
+    "cpc": 1.17,
+    "competition": 0.57,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 27,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "steuer selbständige",
+    "volume": 30,
+    "cpc": 0.45,
+    "competition": 0.56,
+    "difficulty": 21,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 20,
+    "compare_url": "https://www.klara.ch/blog/expertentipps-selbststaendige-so-sparst-du-steuern",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 55,
+    "url": "https://magicheidi.ch/de/are-taxes-business-expenses",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einfache buchhaltungssoftware schweiz",
+    "volume": 30,
+    "cpc": 3.84,
+    "competition": 0.9,
+    "difficulty": 21,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/budget",
+    "compare_price": 3.84,
+    "compare_traffic": 1,
+    "position": 22,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mehrwertsteuer rechnung schweiz",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.03,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 13,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-dienstleistungen-ausland",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 46,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst deklaration",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 13,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 40,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "steuer selbstständig",
+    "volume": 30,
+    "cpc": 0.45,
+    "competition": 0.56,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 24,
+    "compare_url": "https://www.klara.ch/blog/expertentipps-selbststaendige-so-sparst-du-steuern",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 41,
+    "url": "https://magicheidi.ch/de/steuerabzuge-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "feiertagsentschädigung stundenlohn in prozent",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 29,
+    "compare_url": "https://www.klara.ch/blog/feiertage-entschaedigung-teilzeitangestellte",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 35,
+    "url": "https://magicheidi.ch/de/stundenlohn-berechnen-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "beispiel rechnung schweiz",
+    "volume": 30,
+    "cpc": 1.26,
+    "competition": 0.17,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads"
+    ],
+    "compare_position": 21,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 8,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung einzelfirma vorlage",
+    "volume": 30,
+    "cpc": 3.5,
+    "competition": 0.63,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 2,
+    "compare_url": "https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage",
+    "compare_price": 3.5,
+    "compare_traffic": 1,
+    "position": 23,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "brutto mit oder ohne mwst",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 18,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 47,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 37,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung erstellen vorlage word",
+    "volume": 30,
+    "cpc": 1.39,
+    "competition": 0.73,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "tads",
+      "bads",
+      "related_searches",
+      "image_in_block"
+    ],
+    "compare_position": 8,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 26,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm für private",
+    "volume": 30,
+    "cpc": 1.45,
+    "competition": 0.98,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 39,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 53,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst effektive methode",
+    "volume": 30,
+    "cpc": 1.03,
+    "competition": 0.17,
+    "difficulty": 15,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 42,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "effektive methode mwst",
+    "volume": 30,
+    "cpc": 1.03,
+    "competition": 0.17,
+    "difficulty": 15,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 51,
+    "compare_url": "https://support.klara.ch/hc/de/articles/360006849900-Saldosteuersatz-MWST",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 14,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung mehrwertsteuer",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 19,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 19,
+    "compare_url": "https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/mwst-freelancer",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "spesen app schweiz",
+    "volume": 30,
+    "cpc": 11.18,
+    "competition": 0.65,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 15,
+    "compare_url": "https://www.klara.ch/spesenmanagement",
+    "compare_price": 11.18,
+    "compare_traffic": 1,
+    "position": 59,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "jahresabschluss einzelfirma vorlage",
+    "volume": 30,
+    "cpc": 1.9,
+    "competition": 0.57,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 24,
+    "compare_url": "https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 70,
+    "url": "https://magicheidi.ch/gmbh-jahresabschluss-guide",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "programme comptabilité suisse gratuit",
+    "volume": 30,
+    "cpc": 1.95,
+    "competition": 0.79,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/fr-ch/logiciel-comptabilite",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungsvorlage schweiz gratis",
+    "volume": 30,
+    "cpc": 1.39,
+    "competition": 0.68,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "images",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 6,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "beste buchhaltungssoftware schweiz",
+    "volume": 30,
+    "cpc": 5.51,
+    "competition": 0.81,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 41,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 9,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "stundenlohn feiertagsentschädigung schweiz",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 35,
+    "compare_url": "https://www.klara.ch/blog/feiertage-entschaedigung-teilzeitangestellte",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 12,
+    "url": "https://magicheidi.ch/de/stundenlohn-berechnen-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "steuer selbstständige",
+    "volume": 30,
+    "cpc": 0.45,
+    "competition": 0.56,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge"
+    ],
+    "compare_position": 15,
+    "compare_url": "https://www.klara.ch/blog/expertentipps-selbststaendige-so-sparst-du-steuern",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 39,
+    "url": "https://magicheidi.ch/de/steuerabzuge-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung schreiben privatperson",
+    "volume": 30,
+    "cpc": 1.22,
+    "competition": 0.34,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 58,
+    "compare_url": "https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 2.44,
+    "traffic": 2
+  },
+  {
+    "keyword": "steuern bei selbstständigkeit",
+    "volume": 30,
+    "cpc": 0.45,
+    "competition": 0.56,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 14,
+    "compare_url": "https://www.klara.ch/blog/expertentipps-selbststaendige-so-sparst-du-steuern",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 45,
+    "url": "https://magicheidi.ch/de/steuerabzuge-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "steuer für selbständige",
+    "volume": 30,
+    "cpc": 0.45,
+    "competition": 0.56,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "image_in_block"
+    ],
+    "compare_position": 14,
+    "compare_url": "https://www.klara.ch/blog/expertentipps-selbststaendige-so-sparst-du-steuern",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 33,
+    "url": "https://magicheidi.ch/de/steuerabzuge-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "steuern als selbstständiger",
+    "volume": 30,
+    "cpc": 0.45,
+    "competition": 0.56,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 10,
+    "compare_url": "https://www.klara.ch/blog/expertentipps-selbststaendige-so-sparst-du-steuern",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 53,
+    "url": "https://magicheidi.ch/de/steuerabzuge-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "steuer bei selbstständigen",
+    "volume": 30,
+    "cpc": 0.45,
+    "competition": 0.56,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 27,
+    "compare_url": "https://www.klara.ch/blog/expertentipps-selbststaendige-so-sparst-du-steuern",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 39,
+    "url": "https://magicheidi.ch/de/steuerabzuge-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "selbstständig welche steuern",
+    "volume": 30,
+    "cpc": 0.45,
+    "competition": 0.56,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 15,
+    "compare_url": "https://www.klara.ch/blog/expertentipps-selbststaendige-so-sparst-du-steuern",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 37,
+    "url": "https://magicheidi.ch/de/steuerabzuge-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "steuer für selbstständige",
+    "volume": 30,
+    "cpc": 0.45,
+    "competition": 0.56,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 13,
+    "compare_url": "https://www.klara.ch/blog/expertentipps-selbststaendige-so-sparst-du-steuern",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 29,
+    "url": "https://magicheidi.ch/de/steuerabzuge-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung digital",
+    "volume": 30,
+    "cpc": 7.67,
+    "competition": 0.73,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 40,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 66,
+    "url": "https://magicheidi.ch/de/digitale-treuhand",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "logiciel facturation suisse",
+    "volume": 30,
+    "cpc": 4.6,
+    "competition": 0.9,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 2,
+    "compare_url": "https://www.klara.ch/fr-ch/logiciel-facturation",
+    "compare_price": 4.6,
+    "compare_traffic": 1,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "logiciel de comptabilité suisse gratuit",
+    "volume": 30,
+    "cpc": 1.57,
+    "competition": 0.8,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/fr-ch/logiciel-comptabilite",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung für freelancer",
+    "volume": 30,
+    "cpc": 2.99,
+    "competition": 0.61,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 76,
+    "compare_url": "https://www.klara.ch/buchhaltung",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 30,
+    "url": "https://magicheidi.ch/de/payrolling-for-freelancers",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "jahresarbeitszeit schweiz 42 stunden woche",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/blog/feiertage-entschaedigung-teilzeitangestellte",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/working-hours-in-switzerland",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "accounting software switzerland",
+    "volume": 30,
+    "cpc": 7.8,
+    "competition": 0.68,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.klara.ch/en/accounting-software",
+    "compare_price": 7.8,
+    "compare_traffic": 1,
+    "position": 5,
+    "url": "https://magicheidi.ch/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  }
+]

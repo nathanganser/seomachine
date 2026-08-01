@@ -1,0 +1,199 @@
+{
+  "summary": [
+    {
+      "target": "cashctrl.com",
+      "backlinks": 3402,
+      "refdomains": 458,
+      "subnets": 211,
+      "ips": 236,
+      "nofollow_backlinks": 2158,
+      "dofollow_backlinks": 1244,
+      "edu_backlinks": 9,
+      "gov_backlinks": 3,
+      "inlink_rank": 19,
+      "domain_inlink_rank": 56,
+      "from_home_page_backlinks": 26,
+      "dofollow_from_home_page_backlinks": 26,
+      "text_backlinks": 2542,
+      "dofollow_refdomains": 304,
+      "from_home_page_refdomains": 20,
+      "edu_refdomains": 7,
+      "gov_refdomains": 3,
+      "anchors": 185,
+      "dofollow_anchors": 139,
+      "pages_with_backlinks": 162,
+      "top_anchors_by_backlinks": [
+        {
+          "anchor": "CashCtrl",
+          "backlinks": 714
+        },
+        {
+          "anchor": "",
+          "backlinks": 589
+        },
+        {
+          "anchor": "Über uns",
+          "backlinks": 529
+        },
+        {
+          "anchor": "Zur CashCtrl Webseite",
+          "backlinks": 529
+        },
+        {
+          "anchor": "cashctrl.com",
+          "backlinks": 474
+        },
+        {
+          "anchor": "cashctrl",
+          "backlinks": 126
+        },
+        {
+          "anchor": "Cashctrl Online Business Management Und Buchhaltung Für Kmu",
+          "backlinks": 60
+        },
+        {
+          "anchor": "www.cashctrl.com",
+          "backlinks": 18
+        },
+        {
+          "anchor": "CashCtrl ist die ideale Buchhaltungs-Software für KMUs, Selbstständige und Startups. Flexibel, unkompliziert, preisgünstig. Made in Münchenstein.",
+          "backlinks": 18
+        },
+        {
+          "anchor": ".",
+          "backlinks": 18
+        }
+      ],
+      "top_anchors_by_refdomains": [
+        {
+          "anchor": "cashctrl.com",
+          "refdomains": 142
+        },
+        {
+          "anchor": "cashctrl",
+          "refdomains": 109
+        },
+        {
+          "anchor": "CashCtrl",
+          "refdomains": 56
+        },
+        {
+          "anchor": "",
+          "refdomains": 25
+        },
+        {
+          "anchor": "www.cashctrl.com",
+          "refdomains": 12
+        },
+        {
+          "anchor": "statement staggered EBIT CashCtrl",
+          "refdomains": 9
+        },
+        {
+          "anchor": "Partial Payment Invoice Template",
+          "refdomains": 9
+        },
+        {
+          "anchor": ".",
+          "refdomains": 8
+        },
+        {
+          "anchor": "https://cashctrl.com",
+          "refdomains": 7
+        },
+        {
+          "anchor": "CashCtrl AG",
+          "refdomains": 4
+        }
+      ],
+      "top_pages_by_backlinks": [
+        {
+          "url": "https://cashctrl.com/",
+          "backlinks": 899
+        },
+        {
+          "url": "http://www.cashctrl.com/",
+          "backlinks": 550
+        },
+        {
+          "url": "https://cashctrl.com/de/about/team",
+          "backlinks": 529
+        },
+        {
+          "url": "https://cashctrl.com/de",
+          "backlinks": 495
+        },
+        {
+          "url": "http://cashctrl.com/",
+          "backlinks": 408
+        }
+      ],
+      "top_pages_by_refdomains": [
+        {
+          "url": "https://cashctrl.com/",
+          "refdomains": 188
+        },
+        {
+          "url": "http://cashctrl.com/",
+          "refdomains": 99
+        },
+        {
+          "url": "https://cashctrl.com/de",
+          "refdomains": 41
+        },
+        {
+          "url": "http://www.cashctrl.com/",
+          "refdomains": 24
+        },
+        {
+          "url": "https://www.cashctrl.com/",
+          "refdomains": 17
+        }
+      ],
+      "top_tlds": [
+        {
+          "tld": "com",
+          "count": 171
+        },
+        {
+          "tld": "ch",
+          "count": 98
+        },
+        {
+          "tld": "in",
+          "count": 23
+        },
+        {
+          "tld": "co.in",
+          "count": 18
+        },
+        {
+          "tld": "org",
+          "count": 10
+        }
+      ],
+      "top_countries": [
+        {
+          "country": "us",
+          "count": 138
+        },
+        {
+          "country": "de",
+          "count": 117
+        },
+        {
+          "country": "sg",
+          "count": 68
+        },
+        {
+          "country": "ch",
+          "count": 62
+        },
+        {
+          "country": "fr",
+          "count": 14
+        }
+      ]
+    }
+  ]
+}

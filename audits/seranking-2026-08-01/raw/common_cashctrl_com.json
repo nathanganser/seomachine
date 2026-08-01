@@ -1,0 +1,2712 @@
+[
+  {
+    "keyword": "erfolgsrechnung",
+    "volume": 1000,
+    "cpc": 0.47,
+    "competition": 0.03,
+    "difficulty": 80,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 2,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/reports/income-statement-ebit",
+    "compare_price": 0.94,
+    "compare_traffic": 2,
+    "position": 26,
+    "url": "https://magicheidi.ch/de/understanding-profit-and-loss-accounts",
+    "price": 2.82,
+    "traffic": 6
+  },
+  {
+    "keyword": "schweizer buchhaltungssoftware",
+    "volume": 590,
+    "cpc": 4.94,
+    "competition": 0.79,
+    "difficulty": 26,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 5,
+    "compare_url": "https://cashctrl.com/",
+    "compare_price": 39.52,
+    "compare_traffic": 8,
+    "position": 11,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 14.82,
+    "traffic": 3
+  },
+  {
+    "keyword": "buchhaltungssoftware schweiz",
+    "volume": 590,
+    "cpc": 4.94,
+    "competition": 0.79,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 3,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 83.98,
+    "compare_traffic": 17,
+    "position": 11,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 19.76,
+    "traffic": 4
+  },
+  {
+    "keyword": "qr code rechnungen erstellen",
+    "volume": 390,
+    "cpc": 1.73,
+    "competition": 0.55,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 22,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/ordermanagement/qr-invoice-girocode",
+    "compare_price": 6.92,
+    "compare_traffic": 4,
+    "position": 11,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 8.65,
+    "traffic": 5
+  },
+  {
+    "keyword": "buchhaltungsprogramm",
+    "volume": 320,
+    "cpc": 5.13,
+    "competition": 0.81,
+    "difficulty": 19,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 3,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 41.04,
+    "compare_traffic": 8,
+    "position": 69,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware",
+    "volume": 320,
+    "cpc": 6.09,
+    "competition": 0.69,
+    "difficulty": 38,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 16,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 6.09,
+    "compare_traffic": 1,
+    "position": 30,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr rechnung net",
+    "volume": 260,
+    "cpc": 1.68,
+    "competition": 0.07,
+    "difficulty": 33,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 39,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/ordermanagement/qr-invoice-girocode",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 36,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr-rechnung net",
+    "volume": 260,
+    "cpc": 1.67,
+    "competition": 0.14,
+    "difficulty": 33,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 40,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/ordermanagement/qr-invoice-girocode",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 36,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "beispiel erfolgsrechnung",
+    "volume": 260,
+    "cpc": 0.96,
+    "competition": 0.15,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 18,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/reports/income-statement-ebit",
+    "compare_price": 0.96,
+    "compare_traffic": 1,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/erfolgsrechnung-schweiz",
+    "price": 0.96,
+    "traffic": 1
+  },
+  {
+    "keyword": "gratis buchhaltung",
+    "volume": 210,
+    "cpc": 1.67,
+    "competition": 0.83,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 3,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 13.36,
+    "compare_traffic": 8,
+    "position": 33,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware für kmu",
+    "volume": 210,
+    "cpc": 7.66,
+    "competition": 0.36,
+    "difficulty": 25,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 39,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 24,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einfache buchhaltung",
+    "volume": 210,
+    "cpc": 2.88,
+    "competition": 0.63,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 28,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 2.88,
+    "compare_traffic": 1,
+    "position": 23,
+    "url": "https://magicheidi.ch/de/milchbuechleinrechnung",
+    "price": 2.88,
+    "traffic": 1
+  },
+  {
+    "keyword": "einfach buchhaltung",
+    "volume": 210,
+    "cpc": 2.88,
+    "competition": 0.63,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 40,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 23,
+    "url": "https://magicheidi.ch/de/milchbuechleinrechnung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm gratis",
+    "volume": 210,
+    "cpc": 1.67,
+    "competition": 0.83,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads"
+    ],
+    "compare_position": 5,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 3.34,
+    "compare_traffic": 2,
+    "position": 36,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung schweiz",
+    "volume": 170,
+    "cpc": 5.96,
+    "competition": 0.65,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "L",
+      "C"
+    ],
+    "serp_features": [
+      "local_pack",
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 28,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 27,
+    "url": "https://magicheidi.ch/de/doppelte-buchhaltung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "saldosteuersatz",
+    "volume": 170,
+    "cpc": 0.15,
+    "competition": 0.02,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 79,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/configuration/net-tax-rate",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 17,
+    "url": "https://magicheidi.ch/de/net-vat-accounting-method",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr code rechnung",
+    "volume": 170,
+    "cpc": 1.69,
+    "competition": 0.31,
+    "difficulty": 49,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 20,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/ordermanagement/qr-invoice-girocode",
+    "compare_price": 1.69,
+    "compare_traffic": 1,
+    "position": 44,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr code auf rechnung",
+    "volume": 170,
+    "cpc": 1.69,
+    "competition": 0.31,
+    "difficulty": 49,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 36,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/ordermanagement/qr-invoice-girocode",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 49,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung software",
+    "volume": 140,
+    "cpc": 7.52,
+    "competition": 0.91,
+    "difficulty": 32,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 9,
+    "compare_url": "https://cashctrl.com/",
+    "compare_price": 7.52,
+    "compare_traffic": 1,
+    "position": 47,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "schweiz rechnung",
+    "volume": 140,
+    "cpc": 3.13,
+    "competition": 0.4,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 74,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/ordermanagement/qr-invoice-girocode",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 6,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 3.13,
+    "traffic": 1
+  },
+  {
+    "keyword": "software buchhaltung",
+    "volume": 140,
+    "cpc": 7.52,
+    "competition": 0.91,
+    "difficulty": 32,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 10,
+    "compare_url": "https://cashctrl.com/",
+    "compare_price": 7.52,
+    "compare_traffic": 1,
+    "position": 45,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhalter software",
+    "volume": 140,
+    "cpc": 7.52,
+    "competition": 0.91,
+    "difficulty": 53,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/",
+    "compare_price": 15.04,
+    "compare_traffic": 2,
+    "position": 48,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung schweiz",
+    "volume": 140,
+    "cpc": 3.13,
+    "competition": 0.4,
+    "difficulty": 15,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 32,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/ordermanagement/qr-invoice-girocode",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 6.26,
+    "traffic": 2
+  },
+  {
+    "keyword": "buchhaltungsprogramm schweiz",
+    "volume": 140,
+    "cpc": 5.38,
+    "competition": 0.88,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 10.76,
+    "compare_traffic": 2,
+    "position": 20,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "software für buchhaltung",
+    "volume": 140,
+    "cpc": 7.52,
+    "competition": 0.91,
+    "difficulty": 40,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 21,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 7.52,
+    "compare_traffic": 1,
+    "position": 36,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm gratis schweiz",
+    "volume": 140,
+    "cpc": 1.92,
+    "competition": 0.81,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 19.2,
+    "compare_traffic": 10,
+    "position": 13,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 1.92,
+    "traffic": 1
+  },
+  {
+    "keyword": "buchhaltungsprogramm schweiz gratis",
+    "volume": 140,
+    "cpc": 1.92,
+    "competition": 0.81,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 5.76,
+    "compare_traffic": 3,
+    "position": 18,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "gratis buchhaltungsprogramm schweiz",
+    "volume": 140,
+    "cpc": 1.92,
+    "competition": 0.81,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 5.76,
+    "compare_traffic": 3,
+    "position": 21,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr code einzahlungsschein erstellen",
+    "volume": 140,
+    "cpc": 1.43,
+    "competition": 0.41,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 29,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/ordermanagement/qr-invoice-girocode",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 27,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramme schweiz",
+    "volume": 140,
+    "cpc": 5.38,
+    "competition": 0.88,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 12,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 5.38,
+    "traffic": 1
+  },
+  {
+    "keyword": "rechnungsprogramm",
+    "volume": 110,
+    "cpc": 4.92,
+    "competition": 0.95,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 57,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 22,
+    "url": "https://magicheidi.ch/de/rechnungsprogramm",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm kmu",
+    "volume": 110,
+    "cpc": 16.38,
+    "competition": 0.41,
+    "difficulty": 39,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 10,
+    "compare_url": "https://cashctrl.com/",
+    "compare_price": 16.38,
+    "compare_traffic": 1,
+    "position": 54,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung einzelfirma",
+    "volume": 110,
+    "cpc": 3.84,
+    "competition": 0.55,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "L",
+      "C"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "gmb",
+      "related_searches"
+    ],
+    "compare_position": 45,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 47,
+    "url": "https://magicheidi.ch/de/milchbuechleinrechnung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "milchbüechli rechnung",
+    "volume": 110,
+    "cpc": 1.89,
+    "competition": 0.38,
+    "difficulty": 10,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 52,
+    "compare_url": "https://forum.cashctrl.com/d/604-einfach-nur-milchbuechli",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 18,
+    "url": "https://magicheidi.ch/de/milchbueechli-app",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einzelfirma buchhaltung",
+    "volume": 110,
+    "cpc": 3.84,
+    "competition": 0.55,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "L",
+      "C"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "gmb",
+      "related_searches"
+    ],
+    "compare_position": 50,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 47,
+    "url": "https://magicheidi.ch/de/milchbueechli-app",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "dreistufige erfolgsrechnung",
+    "volume": 110,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 5,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "related_searches"
+    ],
+    "compare_position": 17,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/reports/income-statement-ebit",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 45,
+    "url": "https://magicheidi.ch/de/erfolgsrechnung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "gmbh buchhaltung",
+    "volume": 90,
+    "cpc": 4.12,
+    "competition": 0.46,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/de/community/trustees",
+    "compare_price": 4.12,
+    "compare_traffic": 1,
+    "position": 70,
+    "url": "https://magicheidi.ch/gmbh-jahresabschluss-guide",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung für gmbh",
+    "volume": 90,
+    "cpc": 4.12,
+    "competition": 0.46,
+    "difficulty": 21,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/de/community/trustees",
+    "compare_price": 4.12,
+    "compare_traffic": 1,
+    "position": 65,
+    "url": "https://magicheidi.ch/gmbh-jahresabschluss-guide",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung einer gmbh",
+    "volume": 90,
+    "cpc": 4.12,
+    "competition": 0.46,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/de/community/trustees",
+    "compare_price": 4.12,
+    "compare_traffic": 1,
+    "position": 72,
+    "url": "https://magicheidi.ch/gmbh-jahresabschluss-guide",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung mit qr code erstellen",
+    "volume": 90,
+    "cpc": 1.96,
+    "competition": 0.73,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 35,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/ordermanagement/qr-invoice-girocode",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 3.92,
+    "traffic": 2
+  },
+  {
+    "keyword": "lohnabrechnung stundenlohn",
+    "volume": 70,
+    "cpc": 2.94,
+    "competition": 0.28,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 3,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/payroll-accounting/payroll-statements-hourly",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 17,
+    "url": "https://magicheidi.ch/de/stundenlohn-berechnen-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "online buchhaltung schweiz",
+    "volume": 70,
+    "cpc": 7.39,
+    "competition": 0.79,
+    "difficulty": 33,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/",
+    "compare_price": 7.39,
+    "compare_traffic": 1,
+    "position": 20,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "zweistufige erfolgsrechnung",
+    "volume": 70,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/reports/income-statement-ebit",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 55,
+    "url": "https://magicheidi.ch/de/erfolgsrechnung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einfache buchhaltung schweiz",
+    "volume": 70,
+    "cpc": 2.9,
+    "competition": 0.76,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "L",
+      "C"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "gmb",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 27,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 14,
+    "url": "https://magicheidi.ch/de/milchbuechleinrechnung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "monatslohn",
+    "volume": 70,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 17,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge"
+    ],
+    "compare_position": 70,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/payroll-accounting/payroll-statements-monthly",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 5,
+    "url": "https://magicheidi.ch/de/stundenlohn-berechnen-schweiz",
+    "price": 0,
+    "traffic": 1
+  },
+  {
+    "keyword": "buchhaltung online schweiz",
+    "volume": 70,
+    "cpc": 7.39,
+    "competition": 0.79,
+    "difficulty": 34,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/",
+    "compare_price": 14.78,
+    "compare_traffic": 2,
+    "position": 29,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware schweiz kostenlos",
+    "volume": 70,
+    "cpc": 1.98,
+    "competition": 0.97,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 7.92,
+    "compare_traffic": 4,
+    "position": 14,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "muster lohnabrechnung stundenlohn schweiz",
+    "volume": 70,
+    "cpc": 1.6,
+    "competition": 0.41,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/payroll-accounting/payroll-statements-hourly",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 26,
+    "url": "https://magicheidi.ch/de/stundenlohn-berechnen-schweiz",
+    "price": 1.6,
+    "traffic": 1
+  },
+  {
+    "keyword": "buchhaltungssoftware schweiz für private",
+    "volume": 70,
+    "cpc": 1.66,
+    "competition": 0.94,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 1.66,
+    "compare_traffic": 1,
+    "position": 20,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "logiciel comptabilité suisse gratuit",
+    "volume": 70,
+    "cpc": 2.39,
+    "competition": 0.84,
+    "difficulty": 10,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 79,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 2.39,
+    "traffic": 1
+  },
+  {
+    "keyword": "qr referenz",
+    "volume": 70,
+    "cpc": 0,
+    "competition": 0.18,
+    "difficulty": 18,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 42,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/ordermanagement/qr-invoice-girocode",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 56,
+    "url": "https://magicheidi.ch/de/tools/qr-invoice-generator",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "swiss invoice",
+    "volume": 70,
+    "cpc": 4.22,
+    "competition": 0.55,
+    "difficulty": 10,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 30,
+    "compare_url": "https://cashctrl.com/en/help/tutorials/ordermanagement/qr-invoice-girocode",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 3,
+    "url": "https://magicheidi.ch/rechnung-schreiben-schweiz",
+    "price": 8.44,
+    "traffic": 2
+  },
+  {
+    "keyword": "buchhaltungs app",
+    "volume": 50,
+    "cpc": 4.39,
+    "competition": 0.66,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 25,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 37,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung programm",
+    "volume": 50,
+    "cpc": 5.57,
+    "competition": 0.89,
+    "difficulty": 26,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads"
+    ],
+    "compare_position": 6,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 55,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung app",
+    "volume": 50,
+    "cpc": 4.39,
+    "competition": 0.66,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 16,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 39,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "gratis buchhaltungsprogramm",
+    "volume": 50,
+    "cpc": 1.64,
+    "competition": 0.79,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 2,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 3.28,
+    "compare_traffic": 2,
+    "position": 36,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungsprogramm schweiz",
+    "volume": 50,
+    "cpc": 4.61,
+    "competition": 0.9,
+    "difficulty": 10,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 24,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 9,
+    "url": "https://magicheidi.ch/de/rechnungsprogramm",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung privat",
+    "volume": 50,
+    "cpc": 1.61,
+    "competition": 0.96,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 15,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 46,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "app buchhaltung",
+    "volume": 50,
+    "cpc": 4.39,
+    "competition": 0.66,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 29,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 51,
+    "url": "https://magicheidi.ch/de/budgeting-apps",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware online",
+    "volume": 50,
+    "cpc": 7.87,
+    "competition": 0.23,
+    "difficulty": 64,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "tads",
+      "bads",
+      "sge"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/",
+    "compare_price": 23.61,
+    "compare_traffic": 3,
+    "position": 46,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einzahlungsschein qr code erstellen",
+    "volume": 50,
+    "cpc": 1.58,
+    "competition": 0.24,
+    "difficulty": 30,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 25,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/ordermanagement/qr-invoice-girocode",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 26,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "gratis buchhaltungsprogramm schweiz privathaushalt",
+    "volume": 50,
+    "cpc": 1.33,
+    "competition": 0.74,
+    "difficulty": 12,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 2,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 2.66,
+    "compare_traffic": 2,
+    "position": 40,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware schweiz einzelfirma",
+    "volume": 50,
+    "cpc": 4.44,
+    "competition": 0.93,
+    "difficulty": 5,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 30,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 16,
+    "url": "https://magicheidi.ch/de/milchbueechli-app",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr einzahlungsschein von hand ausfüllen",
+    "volume": 50,
+    "cpc": 0.66,
+    "competition": 0.1,
+    "difficulty": 23,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 56,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/ordermanagement/qr-invoice-girocode",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 38,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "lohnabrechnung stundenlohn vorlage",
+    "volume": 50,
+    "cpc": 1.94,
+    "competition": 0.4,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/payroll-accounting/payroll-statements-hourly",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 46,
+    "url": "https://magicheidi.ch/de/stundenlohn-berechnen-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungen mit qr code",
+    "volume": 50,
+    "cpc": 1.92,
+    "competition": 0.36,
+    "difficulty": 40,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "knowledge_graph",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 31,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/ordermanagement/qr-invoice-girocode",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 48,
+    "url": "https://magicheidi.ch/de/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware kleinunternehmer",
+    "volume": 40,
+    "cpc": 5.54,
+    "competition": 0.89,
+    "difficulty": 40,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 36,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 49,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware für kleinunternehmen",
+    "volume": 40,
+    "cpc": 5.54,
+    "competition": 0.89,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 62,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 49,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "gliederung erfolgsrechnung",
+    "volume": 40,
+    "cpc": 0.94,
+    "competition": 0.1,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 2,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/reports/income-statement-ebit",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 13,
+    "url": "https://magicheidi.ch/de/erfolgsrechnung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm mac",
+    "volume": 40,
+    "cpc": 4.34,
+    "competition": 0.68,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 40,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 34,
+    "url": "https://magicheidi.ch/de/mac",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "finanzbuchhaltungssoftware kleinunternehmen",
+    "volume": 40,
+    "cpc": 5.54,
+    "competition": 0.89,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 25,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "schlussbilanz 1 und 2",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.12,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/closing/final-balance",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 8,
+    "url": "https://magicheidi.ch/de/schlussbilanz-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "kleinunternehmen buchhaltungssoftware",
+    "volume": 40,
+    "cpc": 5.54,
+    "competition": 0.89,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 49,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einfache buchhaltungssoftware",
+    "volume": 40,
+    "cpc": 4.94,
+    "competition": 0.96,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 10,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 60,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einfaches buchhaltungsprogramm",
+    "volume": 40,
+    "cpc": 3.2,
+    "competition": 0.9,
+    "difficulty": 29,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 68,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "erfolgsrechnung gliederung",
+    "volume": 40,
+    "cpc": 0.94,
+    "competition": 0.1,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 2,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/reports/income-statement-ebit",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 19,
+    "url": "https://magicheidi.ch/de/erfolgsrechnung-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware cloud",
+    "volume": 40,
+    "cpc": 5.78,
+    "competition": 0.86,
+    "difficulty": 32,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/",
+    "compare_price": 5.78,
+    "compare_traffic": 1,
+    "position": 53,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltung mac",
+    "volume": 40,
+    "cpc": 4.34,
+    "competition": 0.68,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 50,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 29,
+    "url": "https://magicheidi.ch/de/mac",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware kleinunternehmen",
+    "volume": 40,
+    "cpc": 5.54,
+    "competition": 0.89,
+    "difficulty": 34,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 45,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "kleinunternehmer buchhaltungssoftware",
+    "volume": 40,
+    "cpc": 5.54,
+    "competition": 0.89,
+    "difficulty": 27,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 46,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware einfach",
+    "volume": 40,
+    "cpc": 4.94,
+    "competition": 0.96,
+    "difficulty": 43,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 55,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "excel buchhaltung vorlage gratis schweiz",
+    "volume": 40,
+    "cpc": 2.03,
+    "competition": 0.7,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 44,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 13,
+    "url": "https://magicheidi.ch/de/rechnungsvorlage",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr iban in iban umwandeln",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 35,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/ordermanagement/qr-invoice-girocode",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 28,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr-iban in iban umwandeln",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.02,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 38,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/ordermanagement/qr-invoice-girocode",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 33,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "software rechnungswesen",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.21,
+    "difficulty": 43,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 44,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 48,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungsprogramm kostenlos schweiz",
+    "volume": 30,
+    "cpc": 3.8,
+    "competition": 0.9,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 3.8,
+    "compare_traffic": 1,
+    "position": 10,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssystem",
+    "volume": 30,
+    "cpc": 7.6,
+    "competition": 0.72,
+    "difficulty": 45,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 44,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware mac",
+    "volume": 30,
+    "cpc": 6.38,
+    "competition": 0.76,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 44,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 38,
+    "url": "https://magicheidi.ch/de/mac",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnungssoftware schweiz",
+    "volume": 30,
+    "cpc": 6.11,
+    "competition": 0.61,
+    "difficulty": 11,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 33,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 8,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 6.11,
+    "traffic": 1
+  },
+  {
+    "keyword": "rechnungswesen software",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.21,
+    "difficulty": 45,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 29,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 46,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm für privat",
+    "volume": 30,
+    "cpc": 1.45,
+    "competition": 0.98,
+    "difficulty": 24,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 40,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm online",
+    "volume": 30,
+    "cpc": 3.73,
+    "competition": 0.86,
+    "difficulty": 67,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/",
+    "compare_price": 3.73,
+    "compare_traffic": 1,
+    "position": 62,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einfaches buchhaltungsprogramm schweiz",
+    "volume": 30,
+    "cpc": 3.82,
+    "competition": 0.91,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 4,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 3.82,
+    "compare_traffic": 1,
+    "position": 22,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "einfache buchhaltungssoftware schweiz",
+    "volume": 30,
+    "cpc": 3.84,
+    "competition": 0.9,
+    "difficulty": 21,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 14,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 22,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungssoftware für mac",
+    "volume": 30,
+    "cpc": 6.38,
+    "competition": 0.76,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 56,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 34,
+    "url": "https://magicheidi.ch/de/mac",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "lohnabrechnung stundenlohn beispiel",
+    "volume": 30,
+    "cpc": 1.17,
+    "competition": 0.16,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/de/help/tutorials/payroll-accounting/payroll-statements-hourly",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 19,
+    "url": "https://magicheidi.ch/de/stundenlohn-berechnen-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "buchhaltungsprogramm für private",
+    "volume": 30,
+    "cpc": 1.45,
+    "competition": 0.98,
+    "difficulty": 14,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches",
+      "mads"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://cashctrl.com/",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 53,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "programme comptabilité suisse gratuit",
+    "volume": 30,
+    "cpc": 1.95,
+    "competition": 0.79,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "tads",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 72,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "beste buchhaltungssoftware schweiz",
+    "volume": 30,
+    "cpc": 5.51,
+    "competition": 0.81,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "related_searches"
+    ],
+    "compare_position": 22,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 9,
+    "url": "https://magicheidi.ch/de/buchhaltungssoftware",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "logiciel de comptabilité suisse gratuit",
+    "volume": 30,
+    "cpc": 1.57,
+    "competition": 0.8,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 88,
+    "compare_url": "https://cashctrl.com/de/topics/free",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/rechnungsprogramm",
+    "price": 0,
+    "traffic": 0
+  }
+]

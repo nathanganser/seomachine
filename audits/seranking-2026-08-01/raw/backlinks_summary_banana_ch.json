@@ -1,0 +1,279 @@
+{
+  "summary": [
+    {
+      "target": "banana.ch",
+      "backlinks": 7015,
+      "refdomains": 1488,
+      "subnets": 628,
+      "ips": 828,
+      "nofollow_backlinks": 1611,
+      "dofollow_backlinks": 5404,
+      "edu_backlinks": 145,
+      "gov_backlinks": 53,
+      "inlink_rank": 12,
+      "domain_inlink_rank": 71,
+      "from_home_page_backlinks": 94,
+      "dofollow_from_home_page_backlinks": 75,
+      "text_backlinks": 5707,
+      "dofollow_refdomains": 1081,
+      "from_home_page_refdomains": 82,
+      "edu_refdomains": 48,
+      "gov_refdomains": 15,
+      "anchors": 1331,
+      "dofollow_anchors": 1118,
+      "pages_with_backlinks": 1120,
+      "top_anchors_by_backlinks": [
+        {
+          "anchor": "http://www.banana.ch/cms/nl",
+          "backlinks": 367
+        },
+        {
+          "anchor": "",
+          "backlinks": 288
+        },
+        {
+          "anchor": "Banana",
+          "backlinks": 269
+        },
+        {
+          "anchor": "banana.ch",
+          "backlinks": 227
+        },
+        {
+          "anchor": "Herstellerhomepage",
+          "backlinks": 204
+        },
+        {
+          "anchor": "Banana.ch",
+          "backlinks": 199
+        },
+        {
+          "anchor": "banana",
+          "backlinks": 146
+        },
+        {
+          "anchor": "Banana logo",
+          "backlinks": 145
+        },
+        {
+          "anchor": "Create A Vat Report For Saudi Arabia Banana Accounting Software",
+          "backlinks": 135
+        },
+        {
+          "anchor": "www.banana.ch",
+          "backlinks": 126
+        }
+      ],
+      "top_anchors_by_refdomains": [
+        {
+          "anchor": "Banana",
+          "refdomains": 585
+        },
+        {
+          "anchor": "530001. banana.ch",
+          "refdomains": 570
+        },
+        {
+          "anchor": "banana.ch",
+          "refdomains": 563
+        },
+        {
+          "anchor": "",
+          "refdomains": 485
+        },
+        {
+          "anchor": "banana",
+          "refdomains": 167
+        },
+        {
+          "anchor": "www.banana.ch",
+          "refdomains": 137
+        },
+        {
+          "anchor": "Banana Accounting",
+          "refdomains": 117
+        },
+        {
+          "anchor": "http://www.banana.ch",
+          "refdomains": 106
+        },
+        {
+          "anchor": "TELEGRAM @SEO_ANOMALY - SEO BACKLINKS, BLACK-LINKS, TRAFFIC BOOST, LINK INDEXING",
+          "refdomains": 100
+        },
+        {
+          "anchor": "Banana.ch SA",
+          "refdomains": 82
+        }
+      ],
+      "top_pages_by_backlinks": [
+        {
+          "url": "http://www.banana.ch/",
+          "backlinks": 721
+        },
+        {
+          "url": "https://www.banana.ch/",
+          "backlinks": 445
+        },
+        {
+          "url": "http://www.banana.ch/cms/nl",
+          "backlinks": 367
+        },
+        {
+          "url": "https://banana.ch/",
+          "backlinks": 286
+        },
+        {
+          "url": "https://www.banana.ch/zh-hans/node/11249",
+          "backlinks": 257
+        },
+        {
+          "url": "http://www.banana.ch/base/ita/welcome.shtml",
+          "backlinks": 211
+        },
+        {
+          "url": "https://www.banana.ch/files/resources/ban7/en/multi_currency_differences_opening_balance_1_en.png",
+          "backlinks": 167
+        },
+        {
+          "url": "https://www.banana.ch/area/de/node/11231",
+          "backlinks": 162
+        },
+        {
+          "url": "http://banana.ch/",
+          "backlinks": 144
+        },
+        {
+          "url": "https://www.banana.ch/en/",
+          "backlinks": 143
+        }
+      ],
+      "top_pages_by_refdomains": [
+        {
+          "url": "http://www.banana.ch/",
+          "refdomains": 1028
+        },
+        {
+          "url": "http://banana.ch/",
+          "refdomains": 490
+        },
+        {
+          "url": "http://www.banana.ch/base/fra/welcome.shtml",
+          "refdomains": 462
+        },
+        {
+          "url": "https://www.banana.ch/",
+          "refdomains": 347
+        },
+        {
+          "url": "https://banana.ch/",
+          "refdomains": 235
+        },
+        {
+          "url": "https://www.banana.ch/files/resources/ban9/en/multi_currency_accounting_en.png",
+          "refdomains": 133
+        },
+        {
+          "url": "https://www.banana.ch/de",
+          "refdomains": 115
+        },
+        {
+          "url": "https://www.banana.ch/files/resources/ban7/en/multi_currency_accounting_chart_accounts_2_en.png",
+          "refdomains": 109
+        },
+        {
+          "url": "https://www.banana.ch/fr/node/10964",
+          "refdomains": 100
+        },
+        {
+          "url": "https://www.banana.ch/files/resources/ban9/en/multi_currency_accounting1_en.png",
+          "refdomains": 91
+        }
+      ],
+      "top_tlds": [
+        {
+          "tld": "com",
+          "count": 414
+        },
+        {
+          "tld": "ch",
+          "count": 226
+        },
+        {
+          "tld": "app",
+          "count": 105
+        },
+        {
+          "tld": "org",
+          "count": 76
+        },
+        {
+          "tld": "net",
+          "count": 57
+        },
+        {
+          "tld": "nl",
+          "count": 46
+        },
+        {
+          "tld": "de",
+          "count": 36
+        },
+        {
+          "tld": "in",
+          "count": 34
+        },
+        {
+          "tld": "online",
+          "count": 28
+        },
+        {
+          "tld": "website",
+          "count": 27
+        }
+      ],
+      "top_countries": [
+        {
+          "country": "us",
+          "count": 577
+        },
+        {
+          "country": "de",
+          "count": 194
+        },
+        {
+          "country": "ch",
+          "count": 152
+        },
+        {
+          "country": "fr",
+          "count": 149
+        },
+        {
+          "country": "co",
+          "count": 95
+        },
+        {
+          "country": "se",
+          "count": 86
+        },
+        {
+          "country": "",
+          "count": 72
+        },
+        {
+          "country": "sg",
+          "count": 57
+        },
+        {
+          "country": "nl",
+          "count": 30
+        },
+        {
+          "country": "fi",
+          "count": 23
+        }
+      ]
+    }
+  ]
+}

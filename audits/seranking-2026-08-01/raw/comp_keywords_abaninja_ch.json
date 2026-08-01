@@ -1,0 +1,447 @@
+[
+  {
+    "block_type": null,
+    "block_position": 3,
+    "keyword": "abaninja",
+    "position": 3,
+    "prev_pos": null,
+    "volume": 4400,
+    "cpc": 2.43,
+    "competition": 0.16,
+    "url": "https://www.abaninja.ch/de/",
+    "difficulty": 84,
+    "total_sites": null,
+    "traffic": 34,
+    "traffic_percent": 6.4,
+    "price": 82.62,
+    "serp_features": [
+      "reviews",
+      "sitelinks",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "intents": [
+      "I",
+      "N"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 2,
+    "keyword": "abaninja",
+    "position": 2,
+    "prev_pos": null,
+    "volume": 4400,
+    "cpc": 2.43,
+    "competition": 0.16,
+    "url": "https://www.abaninja.ch/",
+    "difficulty": 84,
+    "total_sites": null,
+    "traffic": 114,
+    "traffic_percent": 21.47,
+    "price": 277.02,
+    "serp_features": [
+      "reviews",
+      "sitelinks",
+      "video",
+      "people_also_ask",
+      "images",
+      "bads",
+      "related_searches"
+    ],
+    "intents": [
+      "I",
+      "N"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 1,
+    "keyword": "abaninja login",
+    "position": 1,
+    "prev_pos": null,
+    "volume": 810,
+    "cpc": 3.88,
+    "competition": 0.01,
+    "url": "https://app.abaninja.ch/login",
+    "difficulty": 23,
+    "total_sites": null,
+    "traffic": 287,
+    "traffic_percent": 54.05,
+    "price": 1113.56,
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 8,
+    "keyword": "abaninja login",
+    "position": 8,
+    "prev_pos": null,
+    "volume": 810,
+    "cpc": 3.88,
+    "competition": 0.01,
+    "url": "https://www.abaninja.ch/",
+    "difficulty": 23,
+    "total_sites": null,
+    "traffic": 17,
+    "traffic_percent": 3.2,
+    "price": 65.96,
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 2,
+    "keyword": "swiss21 login",
+    "position": 2,
+    "prev_pos": 3,
+    "volume": 590,
+    "cpc": 3.61,
+    "competition": 0.02,
+    "url": "https://app.abaninja.ch/",
+    "difficulty": 24,
+    "total_sites": null,
+    "traffic": 16,
+    "traffic_percent": 3.01,
+    "price": 57.76,
+    "serp_features": [
+      "sitelinks",
+      "video",
+      "related_searches"
+    ],
+    "intents": [
+      "I",
+      "N"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 7,
+    "keyword": "swiss21 login",
+    "position": 7,
+    "prev_pos": null,
+    "volume": 590,
+    "cpc": 3.61,
+    "competition": 0.02,
+    "url": "https://www.abaninja.ch/",
+    "difficulty": 24,
+    "total_sites": null,
+    "traffic": 5,
+    "traffic_percent": 0.94,
+    "price": 18.05,
+    "serp_features": [
+      "sitelinks",
+      "video",
+      "related_searches"
+    ],
+    "intents": [
+      "I",
+      "N"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 14,
+    "keyword": "abasky",
+    "position": 14,
+    "prev_pos": 12,
+    "volume": 210,
+    "cpc": 5.08,
+    "competition": 0.03,
+    "url": "https://app.abaninja.ch/login",
+    "difficulty": 6,
+    "total_sites": null,
+    "traffic": 1,
+    "traffic_percent": 0.19,
+    "price": 5.08,
+    "serp_features": [
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 14,
+    "keyword": "anis login",
+    "position": 14,
+    "prev_pos": null,
+    "volume": 110,
+    "cpc": 0,
+    "competition": 0,
+    "url": "https://app.abaninja.ch/login",
+    "difficulty": 21,
+    "total_sites": null,
+    "traffic": 2,
+    "traffic_percent": 0.38,
+    "price": 0,
+    "serp_features": [
+      "sitelinks",
+      "related_searches"
+    ],
+    "intents": [
+      "I",
+      "N"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 10,
+    "keyword": "abacus ninja",
+    "position": 7,
+    "prev_pos": null,
+    "volume": 50,
+    "cpc": 1.76,
+    "competition": 0.71,
+    "url": "https://www.abaninja.ch/de/",
+    "difficulty": 33,
+    "total_sites": null,
+    "traffic": 1,
+    "traffic_percent": 0.19,
+    "price": 1.76,
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 4,
+    "keyword": "abacus ninja",
+    "position": 1,
+    "prev_pos": null,
+    "volume": 50,
+    "cpc": 1.76,
+    "competition": 0.71,
+    "url": "https://www.abaninja.ch/",
+    "difficulty": 33,
+    "total_sites": null,
+    "traffic": 3,
+    "traffic_percent": 0.56,
+    "price": 5.28,
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "tads",
+      "bads",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": "sge",
+    "block_position": 1,
+    "keyword": "abaninja buchhaltung",
+    "position": 1,
+    "prev_pos": null,
+    "volume": 50,
+    "cpc": 3.64,
+    "competition": 0.69,
+    "url": "https://www.abaninja.ch/de/",
+    "difficulty": 23,
+    "total_sites": null,
+    "traffic": 1,
+    "traffic_percent": 0.19,
+    "price": 3.64,
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 8,
+    "keyword": "abaninja buchhaltung",
+    "position": 8,
+    "prev_pos": null,
+    "volume": 50,
+    "cpc": 3.64,
+    "competition": 0.69,
+    "url": "https://www.abaninja.ch/de/",
+    "difficulty": 23,
+    "total_sites": null,
+    "traffic": 0,
+    "traffic_percent": 0,
+    "price": 0,
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": "sge",
+    "block_position": 1,
+    "keyword": "abaninja buchhaltung",
+    "position": 1,
+    "prev_pos": null,
+    "volume": 50,
+    "cpc": 3.64,
+    "competition": 0.69,
+    "url": "https://www.abaninja.ch/",
+    "difficulty": 23,
+    "total_sites": null,
+    "traffic": 1,
+    "traffic_percent": 0.19,
+    "price": 3.64,
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 4,
+    "keyword": "abaninja buchhaltung",
+    "position": 4,
+    "prev_pos": null,
+    "volume": 50,
+    "cpc": 3.64,
+    "competition": 0.69,
+    "url": "https://www.abaninja.ch/",
+    "difficulty": 23,
+    "total_sites": null,
+    "traffic": 2,
+    "traffic_percent": 0.38,
+    "price": 7.28,
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 11,
+    "keyword": "abaninja kosten",
+    "position": 9,
+    "prev_pos": null,
+    "volume": 50,
+    "cpc": 2.77,
+    "competition": 0.65,
+    "url": "https://www.abaninja.ch/de/",
+    "difficulty": 15,
+    "total_sites": null,
+    "traffic": 0,
+    "traffic_percent": 0,
+    "price": 0,
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 4,
+    "keyword": "abaninja kosten",
+    "position": 2,
+    "prev_pos": null,
+    "volume": 50,
+    "cpc": 2.77,
+    "competition": 0.65,
+    "url": "https://www.abaninja.ch/",
+    "difficulty": 15,
+    "total_sites": null,
+    "traffic": 1,
+    "traffic_percent": 0.19,
+    "price": 2.77,
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "images",
+      "bads",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 7,
+    "keyword": "abasky login",
+    "position": 7,
+    "prev_pos": 5,
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.02,
+    "url": "https://app.abaninja.ch/login",
+    "difficulty": 6,
+    "total_sites": null,
+    "traffic": 1,
+    "traffic_percent": 0.19,
+    "price": 0,
+    "serp_features": [
+      "people_also_ask",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  }
+]
