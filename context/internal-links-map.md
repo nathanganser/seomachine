@@ -22,7 +22,7 @@ This document catalogs key Magic Heidi pages that should be referenced in blog c
 |---|---|---|
 | `/mwst-freelancer` | en, de, fr, it | Not in es/pt — for ES/PT content, link to `/es|pt/buchhaltungssoftware` or `/es|pt/rechnungsprogramm` for VAT context |
 | `/beleg-scanner-schweiz` | en, de, fr, it | Not in es/pt — for ES/PT content, link to `/es|pt/ai-expenses-scanning` instead |
-| `/kostenvoranschlag-schweiz` | de only | German-only; from non-DE content use `/quotes` (exists in all 6 locales) |
+| `/kostenvoranschlag-schweiz` | all 6 + sr | Full translations shipped 2026-08-01 (en/fr/it/es/pt); link bare from any locale |
 | `/qr-rechnung-erstellen` | all 6 | Despite the German slug |
 | `/rechnungsvorlage` | all 6 | Despite the German slug |
 | `/rechnung-schreiben-schweiz` | all 6 | Despite the German slug |
@@ -191,6 +191,10 @@ All exist in all 6 locales unless noted.
 - This is a **real live page** in every locale (the legacy `/vat-method` redirects here). Use it as the VAT pillar for es/pt content, and as an English-anchor alternative when `/mwst-freelancer` doesn't fit the sentence.
 - **When to link**: Same triggers as `/mwst-freelancer`; pick whichever slug reads better in the anchor.
 
+### Swiss VAT pillar (`mwst-schweiz`) — NEW 2026-08-01
+- **DE + EN only**: `/mwst-schweiz`, `/en/mwst-schweiz`. The head-term pillar for "MWST Schweiz" / "Mehrwertsteuer Schweiz" (rates 2026, registration threshold, effektiv vs. Saldosteuersatz, ePortal filing, Fristen, Vorsteuerabzug).
+- **When to link**: General MWST mentions in de/en content that aren't freelancer-specific (`/mwst-freelancer`), registration-specific (`/mwst-registrierung`), or number-format-specific (`/mwst-nummer-schweiz`). Anchor: "MWST Schweiz" / "Mehrwertsteuer Schweiz".
+
 ### VAT number lookup & registration guide (`mwst-registrierung`)
 - **All 6 locales**: `/mwst-registrierung` (bare = DE post-migration), `/en/mwst-registrierung`, `/fr/mwst-registrierung`, `/it/mwst-registrierung`, `/es/mwst-registrierung`, `/pt/mwst-registrierung`. Also has DE-only canton subpages (`/mwst-registrierung/zurich`, `/genf`, `/bern`, `/tessin`, `/waadt`, `/aargau`, `/st-gallen`, `/luzern`).
 - **When to link**: Articles about the Swiss VAT number format (CHE-XXX.XXX.XXX MWST), verifying/looking up a VAT number via the UID register, or general VAT registration process/threshold content distinct from the freelancer-specific angle already covered by `/mwst-freelancer`.
@@ -220,7 +224,7 @@ All exist in all 6 locales unless noted.
 
 ### Quotes / estimates
 - **All 6 locales**: `/quotes`, `/de/quotes`, `/fr/quotes`, `/it/quotes`, `/es/quotes`, `/pt/quotes`
-- **DE keyword variant**: `/de/kostenvoranschlag-schweiz` (only exists in German — no fr/it/es/pt/en equivalent at this slug)
+- **Keyword variant**: `/kostenvoranschlag-schweiz` (translated into en/fr/it/es/pt on 2026-08-01; write the link bare from any locale)
 - **When to link**: Articles about quotes, estimates, Kostenvoranschlag, Offerte, Devis, preventivo, estimates that convert to invoices.
 - **Anchor (EN)**: "send quotes that convert to invoices", "quote-to-invoice"
 - **Anchor (DE)**: "Kostenvoranschlag erstellen", "Offerten schreiben"
@@ -370,7 +374,7 @@ Hub: `/integrations` (and locale variants). Individual integration pages, all li
 
 **Writing about quotes / estimates / Kostenvoranschlag / devis / preventivi**:
 - `/quotes` (all 6 locales) — primary
-- `/de/kostenvoranschlag-schweiz` — DE keyword variant only
+- `/kostenvoranschlag-schweiz` — all locales since 2026-08-01
 
 **Writing about becoming self-employed / starting a freelance business**:
 - `/einzelfirma-grunden-schweiz` (with locale prefix) — the pillar (German-slug canonical)
