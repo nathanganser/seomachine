@@ -97,6 +97,8 @@ Group the generated prompts into logical clusters. Each cluster represents a top
 
 ### Step 3: Sample Audit (Run 10-15 Key Prompts)
 
+**Automated first pass**: run `/ai-visibility` (SE Ranking AI-search index) to get per-engine brand/link presence and the actual prompts where magicheidi.ch is already cited — this replaces most of the manual prompt-running below. Use the manual process for prompts the index doesn't cover.
+
 For the highest-priority prompts (pick 10-15 across clusters), manually run them through ChatGPT and/or Perplexity and document:
 
 1. **Was your brand mentioned?** (Yes/No, and in what position)

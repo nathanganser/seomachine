@@ -1,0 +1,164 @@
+group,keywords,urls,n_urls,max_volume,best_position,positions
+register uid,uid register | uid-register,/uid-nummer-beantragen | /uid-nummer-schweiz,2,8000,9,9 | 24 | 16
+uid,uid | was ist uid,/uid-nummer-beantragen | /uid-nummer-schweiz,2,8000,14,14 | 28 | 15
+nummer uid,uid nummer | uid-nummer | was ist eine uid nummer | was ist uid nummer,/uid-nummer-beantragen | /uid-nummer-einzelfirma | /uid-nummer-schweiz,3,2400,1,1 | 11 | 12 | 13 | 36 | 13 | 1
+number vat,vat number,/en/mwst-registrierung/waadt | /uid-nummer-schweiz,2,760,22,29 | 22
+number suisse vat,vat number suisse,/mwst-registrierung | /uid-nummer-schweiz,2,590,1,1 | 9 | 27
+number schweiz vat,vat number schweiz,/mwst-registrierung | /uid-nummer-schweiz,2,590,1,1 | 11 | 32
+feste svizzera,feste svizzera,/it/feiertage | /it/feiertage/tessin,2,590,1,7 | 1 | 14
+number switzerland vat,vat number switzerland,/mwst-registrierung | /uid-nummer-schweiz,2,590,9,30 | 9
+festività svizzera,festività in svizzera,/it/feiertage | /it/feiertage/tessin | /it/feiertage/zurich,3,590,6,6 | 19 | 34
+code generator qr raiffeisen,qr code generator raiffeisen | raiffeisen qr code generator,/einzahlungsschein-erstellen | /qr-rechnung-erstellen,2,590,21,28 | 21
+schweiz uid,schweiz uid | uid schweiz,/uid-nummer-beantragen | /uid-nummer-schweiz,2,590,9,9 | 18 | 39
+einzahlungsschein erstellen gratis qr,qr einzahlungsschein erstellen gratis | qr-einzahlungsschein erstellen gratis,/einzahlungsschein-erstellen | /qr-rechnung-erstellen,2,590,9,9 | 9 | 21
+erstellen qr rechnung ubs,qr rechnung erstellen ubs | qr-rechnung erstellen ubs | ubs qr rechnung erstellen | ubs qr-rechnung erstellen,/banks/ubs | /qr-rechnung-erstellen,2,480,4,4 | 5 | 4 | 4 | 40 | 38
+rechnungsvorlagen schweiz,rechnungsvorlagen schweiz,/rechnung-schreiben-schweiz | /rechnungsvorlage,2,480,7,7 | 31
+berechnen schweiz stundenlohn,stundenlohn berechnen schweiz | stundenlohn schweiz berechnen,/hourly-rates | /stundenlohn-berechnen-schweiz,2,480,1,5 | 1 | 1 | 6 | 6 | 9 | 40
+nr uid,uid nr,/uid-nummer-beantragen | /uid-nummer-schweiz,2,480,1,1 | 14
+festivi giorni ticino,giorni festivi ticino,/it/feiertage | /it/feiertage/tessin,2,480,6,6 | 19
+6 feiertag januar schweiz,6. januar feiertag schweiz | feiertag 6 januar schweiz | feiertag 6. januar schweiz,/feiertage | /feiertage/zurich,2,480,17,17 | 17 | 39
+festività ticino,festività ticino,/it/feiertage | /it/feiertage/tessin,2,410,3,3 | 24
+einzahlungsschein qr,qr einzahlungsschein | qr-einzahlungsschein,/einzahlungsschein-erstellen | /qr-rechnung-erstellen,2,390,7,7 | 29
+handelsregisternummer schweiz,handelsregisternummer schweiz,/handelsregisternummer-schweiz | /uid-nummer-schweiz,2,390,8,8 | 17
+schweiz stundenlohn,stundenlohn schweiz,/hourly-rates | /stundenlohn-berechnen-schweiz,2,390,3,3 | 16
+einzahlungsschein erstellen ubs,ubs einzahlungsschein erstellen,/banks/ubs | /qr-rechnung-erstellen,2,320,4,4 | 5 | 34
+café working,café working,/coworking/luzern | /coworking/zurich,2,320,4,4 | 21
+cafes working,cafes working,/coworking/luzern | /coworking/zurich,2,320,7,7 | 24
+mwst nummer schweiz,mwst nummer schweiz | mwst-nummer schweiz,/mwst-nummer-schweiz | /uid-nummer-schweiz,2,320,1,1 | 8 | 15 | 8
+code erstellen qr ubs,ubs qr code erstellen | ubs qr-code erstellen,/banks/ubs | /qr-rechnung-erstellen,2,260,3,5 | 5 | 3 | 3 | 30 | 32
+inscription tva,inscription tva | tva inscription,/fr/mwst-freelancer | /fr/mwst-registrierung/genf | /fr/mwst-registrierung/waadt,3,260,5,5 | 6 | 12 | 15 | 7 | 33
+feiertag fronleichnam schweiz,feiertag schweiz fronleichnam | ist fronleichnam ein feiertag in der schweiz,/feiertage | /feiertage/zurich,2,260,1,1 | 35
+nummer schweiz vat,vat nummer schweiz,/mwst-nummer-schweiz | /uid-nummer-schweiz,2,260,1,1 | 10 | 40
+code generator qr ubs,ubs qr code generator,/banks/ubs | /qr-rechnung-erstellen,2,260,5,5 | 7 | 26
+mwst nummer schweiz suchen,mwst nummer schweiz suchen | mwst nummer suchen schweiz | mwst-nummer schweiz suchen,/mwst-registrierung | /uid-nummer-pruefen | /uid-nummer-schweiz,3,260,5,5 | 6 | 23 | 5 | 31 | 30 | 34
+dezember feiertage,feiertage dezember | feiertage im dezember,/feiertage | /feiertage/zurich,2,260,26,26 | 37
+nummer schweiz suchen uid,uid nummer suchen schweiz | uid-nummer schweiz suchen,/uid-nummer-pruefen | /uid-nummer-schweiz,2,260,6,6 | 27 | 6
+12 26 feiertag schweiz,26.12 feiertag schweiz | 26.12. feiertag schweiz,/feiertage | /feiertage/zurich,2,260,17,17 | 24
+qr rechnung ubs,qr rechnung ubs | qr-rechnung ubs | ubs qr rechnung | ubs qr-rechnung,/banks/ubs | /qr-rechnung-erstellen,2,210,5,5 | 9 | 9 | 6 | 37 | 37
+cambio euro franco suiço,cambio euro franco suiço | cambio franco suiço euro,/pt/euro-conversion | /pt/swiss-franc,2,210,6,6 | 6
+mwst nummer suchen,mwst nummer suchen | mwst-nummer suchen,/uid-nummer-pruefen | /uid-nummer-schweiz,2,210,4,6 | 4 | 40
+rechnung schweiz vorlage,rechnung schweiz vorlage | rechnung vorlage schweiz | vorlage rechnung schweiz,/rechnung-schreiben-schweiz | /rechnungsvorlage,2,210,1,6 | 1 | 1 | 6 | 9 | 30 | 29 | 1
+freelance suisse,freelance en suisse,/fr/hourly-rates | /fr/managing-multiple-businesses-as-a-swiss-freelancer | /fr/swiss-freelancer-with-b-permit,3,210,1,1 | 6 | 12 | 38
+mwst register schweiz,mwst register schweiz | mwst-register schweiz,/mwst-nummer-schweiz | /mwst-registrierung | /uid-nummer-schweiz,3,210,5,12 | 5 | 14 | 6 | 38
+feiertage winterthur,feiertage winterthur | winterthur feiertage,/feiertage/freiburg | /feiertage/zurich,2,210,13,27 | 13
+einzahlungsschein erstellen raiffeisen,einzahlungsschein erstellen raiffeisen | raiffeisen einzahlungsschein erstellen,/einzahlungsschein-erstellen | /qr-rechnung-erstellen,2,210,15,17 | 15
+2026 fériés jours,jours fériés 2026,/fr/feiertage/freiburg | /fr/feiertage/waadt,2,180,17,17 | 40
+café coworking,café coworking,/coworking/luzern | /coworking/zurich,2,170,3,3 | 24
+code generator qr schweiz,qr code generator schweiz | qr-code generator schweiz,/blog/comment-creer-une-facture-avec-code-qr-suisse-facilement-et-gratuitement | /qr-rechnung-erstellen,2,170,25,25 | 31
+erstellen rechnung schweiz,rechnung erstellen schweiz,/qr-rechnung-erstellen | /rechnung-schreiben-schweiz,2,170,6,6 | 26
+cafe coworking,coworking cafe,/coworking/luzern | /coworking/zurich,2,170,6,6 | 24
+erstellen rechnungen schweiz,rechnungen erstellen schweiz,/qr-rechnung-erstellen | /rechnung-schreiben-schweiz,2,170,1,1 | 8 | 6 | 32
+nummer prüfen uid,uid nummer prüfen | uid-nummer prüfen,/uid-nummer-pruefen | /uid-nummer-schweiz,2,170,8,11 | 8 | 13
+facturation suisse,facturation suisse,/fr/blog/comment-faire-une-facture-suisse | /fr/rechnungsprogramm,2,170,1,1 | 3 | 8 | 27
+13 berechnung monatslohn,berechnung 13 monatslohn | berechnung 13. monatslohn,/mastering-the-13th-month-salary | /stundenlohn-berechnen-schweiz,2,170,20,20 | 28
+registre suisse tva,registre tva suisse,/fr/mwst-registrierung | /fr/mwst-registrierung/genf | /fr/mwst-registrierung/waadt | /fr/numero-ide-suisse,4,170,8,27 | 8 | 17 | 35
+facture suisse,facture suisse,/fr/blog/comment-faire-une-facture-suisse | /fr/rechnung-schreiben-schweiz,2,170,9,9 | 31
+alternative bexio,bexio alternative,/alternative/bexio | /en/bexio-alternativen | /fr/alternative/bexio,3,140,4,4 | 25 | 34
+mwst uid,uid mwst,/mwst-nummer-schweiz | /uid-nummer-schweiz,2,140,1,1 | 10 | 30
+mehrwertsteuernummer schweiz,mehrwertsteuernummer schweiz,/mwst-nummer-schweiz | /uid-nummer-schweiz,2,140,1,1 | 29 | 10
+coffee me near shop wifi,coffee shop near me with wifi,/coworking/luzern | /coworking/zurich,2,140,6,6 | 32
+iban qr ubs,qr iban ubs | qr-iban ubs | ubs qr iban | ubs qr-iban,/banks/ubs | /qr-rechnung-erstellen,2,140,7,7 | 8 | 7 | 36 | 37 | 9 | 35
+buchhaltungsprogramme schweiz,buchhaltungsprogramme schweiz,/buchhaltungssoftware | /de,2,140,18,18 | 38
+feiertag heute,ist heute ein feiertag | wo ist heute feiertag,/feiertage | /feiertage/zurich,2,140,18,26 | 18
+nr schweiz uid,uid nr schweiz,/uid-nummer-beantragen | /uid-nummer-schweiz,2,140,11,11 | 36
+nummer schweiz uid,uid nummer schweiz | uid-nummer schweiz | was ist eine uid nummer schweiz,/uid-nummer-beantragen | /uid-nummer-pruefen | /uid-nummer-schweiz,3,120,1,8 | 1 | 10 | 35 | 10 | 39
+exemple facture suisse,exemple facture suisse,/fr/rechnung-schreiben-schweiz | /fr/rechnungsvorlage,2,110,6,6 | 17
+milchbüechli rechnung,milchbüechli rechnung,/milchbuechleinrechnung | /milchbueechli-app,2,110,1,1 | 13 | 39
+milchbüchleinrechnung,milchbüchleinrechnung,/milchbuechleinrechnung | /milchbueechli-app,2,110,1,1 | 8
+buchhaltung einzelfirma,buchhaltung einzelfirma | einzelfirma buchhaltung,/einzelfirma-grunden-schweiz | /jahresabschluss-einzelfirma-schweiz,2,110,24,30 | 24
+comptabilité logiciel suisse,logiciel comptabilité suisse | logiciel de comptabilité suisse,/fr/buchhaltungssoftware | /fr/rechnungsprogramm,2,110,9,38 | 9 | 10
+smallinvoice,smallinvoice,/alternative/smallinvoice | /fr/alternative/smallinvoice,2,100,3,3 | 22
+cambio euro franco previsioni,cambio euro franco previsioni | cambio franco euro previsioni,/it/euro-conversion | /it/swiss-franc,2,90,1,3 | 3 | 1 | 24
+facturation logiciel,logiciel de facturation | logiciel facturation,/fr/buchhaltungssoftware | /fr/rechnungsprogramm,2,90,2,7 | 17 | 3 | 2 | 29
+01 02 feiertag schweiz,02.01 feiertag schweiz | 02.01. feiertag schweiz,/feiertage | /feiertage/zurich,2,90,17,17 | 33
+einzahlungsscheine erstellen qr ubs,ubs qr einzahlungsscheine erstellen,/banks/ubs | /qr-rechnung-erstellen,2,90,5,5 | 30
+29 feiertag mai,29 mai feiertag,/feiertage | /feiertage/zurich,2,90,10,10 | 22
+feiertag himmelfahrt mariä schweiz,mariä himmelfahrt wo feiertag schweiz,/feiertage | /feiertage/zurich,2,90,1,1 | 36
+inscription suisse tva,inscription tva suisse,/fr/mwst-freelancer | /fr/mwst-registrierung/genf | /fr/mwst-registrierung/waadt,3,90,6,27 | 6 | 13
+mwst rechnung,mwst rechnung | rechnung mit mwst,/mwst-registrierung | /online-vat-statement,2,90,21,21 | 39
+1 11 feiertag,1.11 feiertag | feiertag 1.11,/feiertage | /feiertage/zurich,2,90,29,29 | 33
+mehrwertsteuernummer,mehrwertsteuernummer,/mwst-nummer-schweiz | /uid-nummer-schweiz,2,90,21,21 | 39
+brutto netto switzerland,brutto netto switzerland,/brutto-netto-rechner-schweiz | /tools/salary-calculator-switzerland,2,90,15,15 | 35
+erstellen qr rechnung schweiz,qr rechnung erstellen schweiz | qr-rechnung erstellen schweiz,/blog/creating-a-swiss-qr-code-invoice-tutorial-with-magic-heidi | /qr-rechnung-erstellen,2,70,15,16 | 15 | 38
+feiertage kalender,kalender feiertage,/feiertage | /feiertage/zurich,2,70,12,29 | 12
+mwst nr schweiz,mwst nr schweiz,/mwst-nummer-schweiz | /uid-nummer-schweiz,2,70,1,1 | 17 | 8
+code generator qr swiss,swiss qr code generator | swiss qr-code generator,/blog/creating-a-swiss-qr-code-invoice-tutorial-with-magic-heidi | /qr-rechnung-erstellen,2,70,11,11 | 39 | 23
+comptabilité gratuit logiciel suisse,logiciel comptabilité suisse gratuit,/fr/buchhaltungssoftware | /fr/rechnungsprogramm,2,70,1,1 | 36 | 12
+bill qr ubs,ubs qr bill,/banks/ubs | /qr-rechnung-erstellen,2,70,5,30 | 5
+invoice swiss,swiss invoice,/blog/generieren-sie-muhelos-schweizerische-rechnungen-mit-qr-code-auf-ihrem-mac-mit-magic-heidi | /rechnung-schreiben-schweiz,2,70,1,1 | 14
+auto entrepreneur suisse,auto entrepreneur suisse | auto-entrepreneur en suisse,/blog/comment-devenir-independant-et-se-lancer-a-son-compte-dans-le-canton-de-vaud | /fr/swiss-freelancer-with-b-permit,2,70,25,25 | 29
+einzelfirma gmbh,einzelfirma oder gmbh | gmbh einzelfirma | gmbh oder einzelfirma,/einzelfirma-oder-gmbh-schweiz | /gmbh-vs-selbstaendig-vs-ag,2,70,28,35 | 39 | 28
+buchhaltung einfache schweiz,einfache buchhaltung schweiz,/milchbuechleinrechnung | /milchbueechli-app,2,70,11,34 | 11
+finden id nummer schweiz,id nummer schweiz finden,/uid-nummer-beantragen | /uid-nummer-schweiz,2,70,11,30 | 11
+facture gratuit modèle suisse,modèle facture suisse gratuit,/fr/rechnung-schreiben-schweiz | /fr/rechnungsvorlage,2,50,3,3 | 18 | 8
+rechnungsprogramm schweiz,rechnungsprogramm schweiz,/buchhaltungssoftware | /rechnungsprogramm,2,50,1,1 | 9 | 28
+einzahlungsschein erstellen qr ubs,qr einzahlungsschein erstellen ubs,/banks/ubs | /qr-rechnung-erstellen,2,50,4,4 | 6 | 35
+buchhaltungssoftware einzelfirma schweiz,buchhaltungssoftware schweiz einzelfirma,/buchhaltungssoftware | /milchbueechli-app,2,50,14,14 | 31
+rechnungsvorlage schweiz word,rechnungsvorlage schweiz word | rechnungsvorlage word schweiz,/rechnung-schreiben-schweiz | /rechnungsvorlage,2,50,1,5 | 1 | 34 | 5
+facturation logiciel suisse,logiciel de facturation suisse,/fr/buchhaltungssoftware | /fr/rechnungsprogramm,2,50,1,5 | 1 | 34
+4 feiertag mai,4 mai feiertag,/feiertage/neuenburg | /feiertage/zurich,2,50,13,13 | 35
+ausdrucken einzahlungsschein,einzahlungsschein ausdrucken | einzahlungsschein zum ausdrucken,/einzahlungsschein-erstellen | /qr-rechnung-erstellen,2,50,13,27 | 13
+app buchhaltung,app buchhaltung | buchhaltung app,/buchhaltungssoftware | /budgeting-apps,2,50,17,26 | 17
+company liability limited switzerland,limited liability company switzerland,/sa-ou-sarl | /swiss-llc-deep-dive,2,50,22,37 | 22
+gmbh jährliche kosten schweiz,jährliche kosten gmbh schweiz,/blog/2023-cost-opening-sarl-switzerland-tips | /gmbh-vs-selbstaendig-vs-ag,2,50,11,32 | 11
+café lernen,café zum lernen,/coworking/basel | /coworking/luzern,2,50,12,12 | 34
+feiertag heute tessin,feiertag tessin heute,/feiertage | /feiertage/tessin,2,50,5,38 | 5
+feiertag karfreitag tessin,karfreitag tessin feiertag,/feiertage | /feiertage/tessin,2,40,1,4 | 20 | 2 | 1
+mwst registrierung,mwst registrierung,/mwst-registrierung | /mwst-registrierung/bern,2,40,12,28 | 12
+mehrwertsteuerregister schweiz,mehrwertsteuerregister schweiz,/mwst-registrierung | /uid-nummer-pruefen | /uid-nummer-schweiz,3,40,1,12 | 14 | 7 | 1
+horaire tarif,tarif horaire,/fr/hourly-rates | /fr/stundenlohn-berechnen-schweiz,2,40,1,24 | 7 | 1
+kostenlos rechnung schweiz vorlage,vorlage rechnung schweiz kostenlos,/rechnung-schreiben-schweiz | /rechnungsvorlage,2,40,1,1 | 36 | 7 | 1
+einzelfirma nummer schweiz uid,uid nummer schweiz einzelfirma | uid-nummer schweiz einzelfirma,/handelsregisternummer-schweiz | /uid-nummer-einzelfirma | /uid-nummer-schweiz,3,40,1,13 | 8 | 1 | 39 | 8 | 1
+einzahlungsschein erstellen schweiz,einzahlungsschein erstellen schweiz | einzahlungsschein schweiz erstellen,/einzahlungsschein-erstellen | /qr-rechnung-erstellen,2,40,10,28 | 11 | 10
+mwst ohne rechnung schweiz vorlage,rechnung ohne mwst schweiz vorlage,/rechnung-schreiben-schweiz | /rechnungsvorlage,2,40,1,8 | 1 | 28 | 40
+buchhaltung milchbüechli,milchbüechli buchhaltung,/milchbuechleinrechnung | /milchbueechli-app,2,40,7,33 | 7
+excel rechnungsvorlage schweiz,rechnungsvorlage excel schweiz | rechnungsvorlage schweiz excel,/rechnung-schreiben-schweiz | /rechnungsvorlage,2,30,5,5 | 34 | 37 | 6
+rechnungssoftware schweiz,rechnungssoftware schweiz,/buchhaltungssoftware | /rechnungsprogramm,2,30,1,1 | 27 | 10
+dienstleistung privatperson rechnung schweiz,rechnung für dienstleistung als privatperson schweiz,/how-much-can-you-bill-without-being-self-employed-in-switzerland | /rechnung-schreiben-schweiz,2,30,1,4 | 1 | 12 | 29
+facture générateur qr,générateur de facture qr,/fr/blog/comment-creer-une-facture-avec-code-qr-suisse-facilement-et-gratuitement | /fr/qr-rechnung-erstellen,2,30,5,5 | 39
+employment self,self employment | self-employment,/blog/nebenberuflich-selbstaendig-schweiz | /en/blog/nebenberuflich-selbstaendig-schweiz,2,30,26,26 | 27
+rechnungen software,rechnungen software | software für rechnungen | software rechnungen,/rechnung-schreiben-schweiz | /rechnungsprogramm,2,30,9,9 | 29 | 29
+mwst ohne rechnungsvorlage schweiz,rechnungsvorlage schweiz ohne mwst,/rechnung-schreiben-schweiz | /rechnungsvorlage,2,30,1,1 | 1 | 5 | 27
+rechnung stellen vorlage,rechnung stellen vorlage,/rechnung-schreiben-schweiz | /rechnungsvorlage,2,30,16,22 | 16
+muster rechnung schweiz,rechnung muster schweiz,/rechnung-schreiben-schweiz | /rechnungsvorlage,2,30,1,31 | 5 | 1 | 1
+nr schweiz vat,vat nr schweiz,/mwst-registrierung | /uid-nummer-schweiz,2,30,1,1 | 13 | 37
+entreprise n tva,n tva entreprise,/fr/mwst-registrierung | /fr/numero-ide-suisse,2,30,12,39 | 12
+mehrwertsteuer register,mehrwertsteuer register,/mwst-registrierung | /uid-nummer-schweiz,2,30,3,3 | 38
+erstellen gratis qr rechnung,qr rechnung erstellen gratis | qr-rechnung erstellen gratis,/blog/creating-a-swiss-qr-code-invoice-tutorial-with-magic-heidi | /qr-rechnung-erstellen,2,30,15,15 | 36 | 15 | 36
+code erstellen qr rechnung ubs,ubs qr code rechnung erstellen,/banks/ubs | /qr-rechnung-erstellen,2,30,4,28 | 4
+beispiel rechnung schweiz,beispiel rechnung schweiz,/rechnung-schreiben-schweiz | /rechnungsvorlage,2,30,1,1 | 6 | 25 | 1
+finde ich nummer schweiz uid,wo finde ich die uid nummer schweiz,/uid-nummer-pruefen | /uid-nummer-schweiz,2,30,1,8 | 1 | 34
+proforma rechnung schweiz vorlage,proforma rechnung vorlage schweiz | proforma-rechnung vorlage schweiz | vorlage proforma-rechnung schweiz,/proforma-rechnung-schweiz | /rechnungsvorlage,2,30,9,37 | 9 | 29
+bexio erstellen rechnung,bexio rechnung erstellen,/blog/bexio-tutorial-ausgaben-erstellen-und-verwalten-leicht-gemacht | /blog/tutorial-creating-qr-code-invoices-in-bexio-a-comprehensive-guide,2,30,13,13 | 35
+gratis rechnungsvorlage schweiz,rechnungsvorlage schweiz gratis,/rechnung-schreiben-schweiz | /rechnungsvorlage,2,30,1,6 | 1 | 1 | 10
+buchhaltung freelancer,buchhaltung freelancer | buchhaltung für freelancer,/collaborating-with-your-accountant | /payrolling-for-freelancers,2,30,10,16 | 10 | 34
+indépendant statut vaud,statut indépendant vaud,/fr/blog/comment-devenir-independant-et-se-lancer-a-son-compte-dans-le-canton-de-vaud | /fr/mwst-registrierung/waadt,2,30,9,28 | 9
+avs indépendant inscription vaud,inscription avs indépendant vaud,/blog/comment-devenir-independant-et-se-lancer-a-son-compte-dans-le-canton-de-vaud | /blog/comment-saffilier-a-lavs-en-tant-quindependant,2,30,9,21 | 9
+devenir indépendant vaud,devenir indépendant vaud,/fr/blog/comment-devenir-independant-et-se-lancer-a-son-compte-dans-le-canton-de-vaud | /fr/mwst-registrierung/waadt,2,30,9,32 | 9
+anmeldung mwst,anmeldung mwst | mwst anmeldung | mwst-anmeldung,/mwst-registrierung/bern | /mwst-registrierung/st-gallen,2,20,10,17 | 14 | 38 | 10
+privatperson rechnung schweiz stellen,rechnung stellen als privatperson schweiz,/how-much-can-you-bill-without-being-self-employed-in-switzerland | /rechnung-schreiben-schweiz,2,20,1,4 | 1 | 3 | 8 | 26
+exemple facture sans suisse tva,exemple facture suisse sans tva,/fr/rechnung-schreiben-schweiz | /fr/rechnungsvorlage,2,20,1,2 | 1 | 20
+app smallinvoice,smallinvoice app,/alternative/smallinvoice | /fr/alternative/smallinvoice,2,20,3,3 | 17
+rechnungserstellung software,rechnungserstellung software | software rechnungserstellung | software zur rechnungserstellung,/buchhaltungssoftware | /rechnungsprogramm,2,20,25,29 | 28 | 25
+rechnungsstellung software,rechnungsstellung software | software rechnungsstellung,/buchhaltungssoftware | /rechnungsprogramm,2,20,26,33 | 26
+einzahlungsschein vorlage,einzahlungsschein vorlage | vorlage einzahlungsschein,/einzahlungsschein-erstellen | /qr-rechnung-erstellen,2,20,10,10 | 18
+durchschnitt schweiz stundenlohn,stundenlohn schweiz durchschnitt,/hourly-rates | /stundenlohn-berechnen-schweiz,2,20,2,20 | 2
+musterrechnung schweiz,musterrechnung schweiz,/rechnung-schreiben-schweiz | /rechnungsvorlage,2,20,4,4 | 37 | 9
+2022 vaudtax,vaudtax 2022,/fr/vaud-tax | /vaud-tax,2,20,12,12 | 22
+mwst registernummer schweiz,mwst registernummer schweiz,/mwst-nummer-schweiz | /uid-nummer-schweiz,2,20,1,20 | 1 | 8
+medio netto stipendio svizzera,stipendio medio svizzera netto,/it/average-median-salary-switzerland-2026 | /it/tools/salary-calculator-switzerland,2,20,8,8 | 30
+landscaping services,landscaping services,/gaertner/lausanne | /gaertner/st-gallen,2,20,9,9 | 38
+jardinier prix,prix d un jardinier | prix jardinier,/fr/gaertner/lausanne | /fr/gardeners-geneva | /fr/wie-viel-kosten/gaertner,3,20,1,14 | 1 | 7 | 37 | 8
+code generieren qr ubs,ubs qr code generieren,/banks/ubs | /qr-rechnung-erstellen,2,20,4,32 | 4
+mehrwertsteuer ohne rechnung schweiz vorlage,vorlage rechnung schweiz ohne mehrwertsteuer,/rechnung-schreiben-schweiz | /rechnungsvorlage,2,20,1,1 | 23 | 9 | 1
+mwst nummer uid,uid mwst nummer,/mwst-nummer-schweiz | /uid-nummer-schweiz,2,20,1,30 | 9 | 1
+register schweiz uid,uid-register schweiz,/uid-nummer-beantragen | /uid-nummer-pruefen | /uid-nummer-schweiz,3,20,6,6 | 25 | 31
+generator iban qr,qr-iban generator,/qr-iban-example | /qr-rechnung-erstellen,2,20,8,30 | 8
+kostenlos rechnungsvorlage schweiz,rechnungsvorlage schweiz kostenlos,/rechnung-schreiben-schweiz | /rechnungsvorlage,2,20,1,7 | 1 | 1 | 10
+code einzahlungsschein erstellen gratis qr,qr code einzahlungsschein erstellen gratis | qr-code einzahlungsschein erstellen gratis,/einzahlungsschein-erstellen | /qr-rechnung-erstellen,2,20,1,25 | 1 | 11 | 11 | 1
+2024 festività ticino,festività ticino 2024,/it/feiertage | /it/feiertage/tessin,2,20,1,30 | 8 | 1
+entreprise tva,entreprise tva | tva entreprise,/fr/mwst-registrierung/genf | /fr/mwst-registrierung/waadt | /fr/vat-method,3,20,13,25 | 37 | 13
+pasqua svizzera vacanze,vacanze di pasqua svizzera | vacanze pasqua svizzera,/it/feiertage | /it/feiertage/tessin,2,20,1,16 | 33 | 14 | 1 | 29
+2024 festivi giorni ticino,giorni festivi ticino 2024,/it/feiertage | /it/feiertage/tessin,2,20,6,24 | 6
+comptabilité indépendant suisse,comptabilité indépendant suisse | comptabilité pour indépendant suisse,/blog/guide-comment-tenir-une-comptabilite-pour-independant-suisse | /fr/buchhaltungssoftware,2,20,1,16 | 7 | 1 | 19 | 6 | 1
+contabilità software svizzera,software contabilità svizzera,/it/buchhaltungssoftware | /it/swiss-accounting-software,2,20,8,14 | 8

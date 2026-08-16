@@ -25,7 +25,10 @@ Runs quick wins analysis only - fast turnaround for immediate opportunities.
 ## Process
 
 ### 1. Execute Quick Wins Research
-Run the research_quick_wins.py script:
+
+**Primary source**: if a fresh SE Ranking snapshot exists (`audits/seranking-*/quick_wins.csv`, ≤2 weeks old), read it directly — it has all positions 4-20 with volume, difficulty, and intent from the Swiss database at zero extra cost. If the latest snapshot is older, run `/seranking-audit` first.
+
+**GSC demand overlay**: then run the research_quick_wins.py script for impressions/CTR context:
 ```bash
 python research_quick_wins.py
 ```

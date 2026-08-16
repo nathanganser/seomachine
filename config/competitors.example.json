@@ -8,6 +8,15 @@
     "industrysite1.com",
     "industrysite2.com"
   ],
+  "seranking_competitors": [
+    "competitor1.com",
+    "competitor2.com"
+  ],
+  "money_keyword_families": [
+    "your product category",
+    "your brand",
+    "important keyword family"
+  ],
   "bofu_keywords": [
     "your product category",
     "best your product category",
@@ -59,11 +68,51 @@
     "reddit"
   ],
   "topic_patterns": {
-    "Product Features": ["feature", "tool", "platform", "service", "software"],
-    "Pricing": ["price", "pricing", "cost", "plan", "free", "trial"],
-    "Tutorials": ["how to", "guide", "tutorial", "step", "setup"],
-    "Comparisons": ["vs", "versus", "compare", "comparison", "alternative", "best"],
-    "Marketing": ["market", "marketing", "promote", "promotion", "grow", "audience"],
-    "Analytics": ["analytics", "stats", "statistics", "metrics", "data", "report"]
+    "Product Features": [
+      "feature",
+      "tool",
+      "platform",
+      "service",
+      "software"
+    ],
+    "Pricing": [
+      "price",
+      "pricing",
+      "cost",
+      "plan",
+      "free",
+      "trial"
+    ],
+    "Tutorials": [
+      "how to",
+      "guide",
+      "tutorial",
+      "step",
+      "setup"
+    ],
+    "Comparisons": [
+      "vs",
+      "versus",
+      "compare",
+      "comparison",
+      "alternative",
+      "best"
+    ],
+    "Marketing": [
+      "market",
+      "marketing",
+      "promote",
+      "promotion",
+      "grow",
+      "audience"
+    ],
+    "Analytics": [
+      "analytics",
+      "stats",
+      "statistics",
+      "metrics",
+      "data",
+      "report"
+    ]
   }
 }

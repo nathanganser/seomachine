@@ -1,0 +1,501 @@
+keyword,volume,their_pos,difficulty,cpc,intents,their_url
+mwst,4400,7,84,0.66,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer
+rezensionen,2400,8,96,0,I,https://www.klara.ch/blog/google-rezensionen-leitfaden-umgang-mit-online-bewertungen
+lohnabrechnung,1800,4,64,4.85,I,https://www.klara.ch/lohnbuchhaltung
+bewertung,1600,16,90,0.99,I,https://www.klara.ch/blog/google-rezensionen-leitfaden-umgang-mit-online-bewertungen
+mwst abrechnung,1500,16,85,2.1,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer
+google rezensionen,1500,18,86,2.62,I,https://www.klara.ch/blog/google-rezensionen-leitfaden-umgang-mit-online-bewertungen
+webshop,990,1,36,2.09,I,https://www.klara.ch/online-shop-erstellen
+elegance,910,18,8,1.4,"L,C",https://elegance-hair-more-gmbh.online.klara.ch/de/home
+stickerei,810,1,3,1.01,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+crm-software,720,10,36,3.23,I,https://www.klara.ch/crm-software
+elegance hair,590,5,14,0.72,"L,C",https://elegance-hair-more-gmbh.online.klara.ch/de/home
+klar,590,17,28,0.96,"L,C",https://www.klara.ch/
+murten coiffeur,590,18,5,0.6,"L,C",https://coiffure-elegance-celine-douggaz.online.klara.ch/de/booking/service
+post drucken,590,13,10,0.25,I,https://www.klara.ch/print-send
+drucken post,590,14,10,0.25,I,https://www.klara.ch/print-send
+jeunesse,590,3,8,0,"L,C",https://coiffeur-jeunesse-jwan-mueller.online.klara.ch/de/booking/service
+house of beauty,590,15,9,0.25,"L,C",https://house-of-beauty.online.klara.ch/de/home
+kassensystem,590,2,20,5.18,"L,T",https://www.klara.ch/pos-hardware
+hang nails,590,2,16,0,"L,N",https://hang-nails-beauty-gmbh.online.klara.ch/de/home
+coiffeur horw,590,15,3,0.5,"L,C",https://jenice-paulus-hin-hair.online.klara.ch/de/home
+elegance-hair,590,10,14,0.72,"L,N",https://elegance-hair-more-gmbh.online.klara.ch/de/home
+bewertungen,540,10,36,0.99,I,https://www.klara.ch/blog/google-rezensionen-leitfaden-umgang-mit-online-bewertungen
+bookkeeper,480,1,59,3.15,I,https://www.klara.ch/
+online mehrwertsteuer,480,12,20,2.45,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer
+kopfstand,480,19,15,0,"L,N",https://coiffure-kopfstand-gmbh-1.online.klara.ch/de/home
+mehrwertsteuer online,480,15,34,2.45,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer
+generali rechtsschutz,480,11,12,0.37,"L,C",https://www.klara.ch/lp/generali
+garage keller,480,17,7,0.06,"L,C",https://garage-keller-gmbh-dottikon.online.klara.ch/de/home
+fortuna generali,480,14,7,0.46,"L,C",https://www.klara.ch/lp/generali
+kindergeld,480,6,17,0,I,https://www.klara.ch/blog/kinderzulage-und-kindergeld
+startups.ch,480,19,38,4.11,"L,N",https://www.klara.ch/startups-und-klara
+solvabilité,480,17,27,2.33,I,https://www.klara.ch/fr-ch/lp/creditreform/verification-solvabilite
+tamara coiffure,480,14,6,0.08,"L,N",https://tamara-egger-s-haarbuudae.online.klara.ch/?reset-company-data=true&lang=de
+courrier a,480,17,29,0.01,I,https://www.klara.ch/fr-ch/print-send
+accounts software,480,1,54,5.79,I,https://www.klara.ch/en/accounting-software
+caisse enregistreuse,480,20,23,3.05,I,https://www.klara.ch/fr-ch/logiciel-caisse
+wechselstuben,440,14,19,0.64,"L,C",https://www.klara.ch/blog-act3-category-filter/waehrungswechsel_so_sparst_du_viel_geld?hs_amp=true
+mc shirt factory zürich,390,18,9,0.85,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+brautparadies thun,390,5,11,0.5,"L,C",https://brautparadies-thun-ag.online.klara.ch/de/home
+privatanteil geschäftsfahrzeug,390,13,8,0,I,https://www.klara.ch/blog/privatnutzung-von-geschäftsfahrzeugen-was-du-wissen-musst
+was ist die quellensteuer,390,14,45,0.04,I,https://www.klara.ch/blog/business/administrieren/klara-lohn/quellensteuer-erklaerung
+beauty angel,390,4,9,0,"L,N",https://beauty-angel-gmbh.online.klara.ch/en/booking/service
+coiffeur eschenbach,390,10,3,0.47,"L,C",https://haaratelier-beatrice-grueter.online.klara.ch/de/home
+bonitätsprüfung,390,6,25,1.08,I,https://www.klara.ch/lp/creditreform/bonitaetspruefung
+kundenservice klarna,390,12,26,0,"I,N",https://support.mylife.klara.ch/hc/de/requests/new
+victory hairstyle,390,2,7,0,"L,C",https://victory-hairstyle.online.klara.ch/de/home
+lohnbuchhaltung,320,4,13,8.3,"L,C",https://www.klara.ch/lohnbuchhaltung
+vorlagen für mitarbeitergespräche,320,7,8,1.03,I,https://www.klara.ch/blog/personalgespraech-leitfaden-vorlagen-fuer-arbeitgeber
+mitarbeitergespräch vorlage,320,19,8,1.03,I,https://www.klara.ch/blog/personalgespraech-leitfaden-vorlagen-fuer-arbeitgeber
+stundenlohn putzfrau schweiz,320,19,8,0.06,I,https://www.klara.ch/blog/klara-home/hausangestellte-einstellen-checkliste
+abrechnung mehrwertsteuer,320,7,9,2.05,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer
+logo print,320,2,16,1.48,"L,N",https://art-and-more-art-gmbh.online.klara.ch/de/home
+jahresabschlüsse,320,17,34,2.57,I,https://www.klara.ch/blog/checkliste-jahresabschluss
+kennzahlen,320,19,32,0.87,I,https://www.klara.ch/blog/die-5-wichtigsten-kennzahlen-für-den-erfolg-deines-kmu
+coiffure kerzers,320,10,5,0.57,"L,C",https://ryf-coiffure-boutique.online.klara.ch/de/booking/service
+mitarbeitergespräche vorlagen,320,7,8,1.03,I,https://www.klara.ch/blog/personalgespraech-leitfaden-vorlagen-fuer-arbeitgeber
+linea due,320,13,10,0,"L,C",https://coiffeur-linea-creativa.online.klara.ch/de/home
+buchhaltungsprogramm,320,15,18,5.13,I,https://www.klara.ch/buchhaltungsprogramm
+kassensystem schweiz,320,8,23,4.67,"L,T",https://www.klara.ch/pos-hardware
+putzfrau stundenlohn schweiz,320,17,8,0.06,I,https://www.klara.ch/blog/klara-home/hausangestellte-einstellen-checkliste
+vorlage mitarbeitergespräch,320,11,8,1.03,I,https://www.klara.ch/blog/personalgespraech-leitfaden-vorlagen-fuer-arbeitgeber
+kassensysteme schweiz,320,7,17,4.67,"L,T",https://www.klara.ch/pos-hardware
+ubs ebanking contact,320,15,21,0,I,https://support.mylife.klara.ch/hc/de/articles/4411730178962-UBS-Konto-verbinden
+mehrwertsteuer abrechnen,320,12,17,2.05,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer
+coiffeur jeunesse,320,6,5,0,"I,N",https://coiffeur-jeunesse-jwan-mueller.online.klara.ch/de/booking/service
+beautylounge reinach,320,18,10,0.86,"L,N",https://alina-keller.online.klara.ch/de/home
+baumhuus luzern,320,9,11,0,"L,C",https://baumhuus-gmbh.online.klara.ch/de/home
+darlehensvertrag,290,7,8,1.59,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/darlehensvertrag-erklaerung
+onlineshop schweiz erstellen,260,1,26,4.72,I,https://www.klara.ch/online-shop-erstellen
+mwst fristverlängerung,260,1,9,0,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-fristverlaengerung
+jahresrechnung,260,1,10,2.01,I,https://www.klara.ch/blog/jahresrechnung
+cap besticken,260,5,4,1.14,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+coiffeur berikon,260,15,4,0.56,"L,C",https://coiffure-hair-shop-gmbh-berikon.online.klara.ch/de/home
+wechselstube.ch,260,20,18,0.68,"L,N",https://www.klara.ch/blog/waehrungswechsel_so_sparst_du_viel_geld
+transferdruck,260,9,12,1.13,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+brautmode thun,260,18,10,0.48,"L,C",https://brautparadies-thun-ag.online.klara.ch/de/home
+onlineshop erstellen schweiz,260,1,26,4.72,I,https://www.klara.ch/online-shop-erstellen
+spesenreglement,260,14,12,1.7,I,https://www.klara.ch/blog/business/administrieren/klara-lohn/spesenreglement
+fristverlängerung mwst,260,6,9,0,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-fristverlaengerung
+coiffeur hitzkirch,260,8,6,0.46,"L,C",https://frisur-pur.online.klara.ch/de/booking/service
+coiffeur flums,260,4,6,0,"L,C",https://tamara-egger-s-haarbuudae.online.klara.ch/?reset-company-data=true&lang=de
+unfallschein,260,3,8,1.1,I,https://www.klara.ch/hubfs/2024-03_KLE_FAQ_Neuen Fall übermitteln.pdf
+gelan login,260,11,14,0,I,https://www.klara.ch/login
+stile,260,8,22,0,I,https://salone-stile.online.klara.ch/de/home
+glücksmomente,260,12,6,0,"L,C",https://uk-gluecksmomente-gmbh.online.klara.ch/de/home
+coiffure elegance,260,15,4,0,"L,C",https://coiffure-elegance-celine-douggaz.online.klara.ch/de/booking/service
+essenza,260,9,14,0.66,"L,C",https://essenza-gmbh.online.klara.ch/de/shop/products?categoryId=35
+victory hairstyle st. gallen,260,2,7,0,"I,N",https://victory-hairstyle.online.klara.ch/de/home
+wechselstube ch,260,15,8,0.68,"L,N",https://www.klara.ch/blog/waehrungswechsel_so_sparst_du_viel_geld
+maniva pneumatici,260,19,8,0,"L,C",https://fasola-pneumatici.online.klara.ch/it/home
+revdsg,260,1,17,0.91,I,https://www.klara.ch/blog/expertentipps-revidiertes-datenschutzgesetz-was-tun
+kerenzerbergbahn,260,14,13,0,"L,N",https://sportbahnen-kerenzerberg-gmbh.online.klara.ch/de/home
+online-shop erstellen schweiz,260,1,26,4.72,I,https://www.klara.ch/online-shop-erstellen
+k cosmetics visp,260,17,7,0,I,https://vjosa-cosmetics.online.klara.ch/de/booking/service?page=1
+onlineshop-erstellen schweiz,260,1,36,4.72,I,https://www.klara.ch/online-shop-erstellen
+fiches de salaire,260,11,7,4.11,I,https://www.klara.ch/fr-ch/logiciel-de-paie
+excel vorlagen,210,14,28,0.92,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+brief versenden,210,6,20,0.03,"I,N",https://www.klara.ch/print-send
+coiffeur erlinsbach,210,10,3,0,"L,C",https://salone-stile.online.klara.ch/de/home
+nadine keller,210,10,9,0,I,https://podologie-nadine-keller.online.klara.ch/de/home
+excel vorlage buchhaltung,210,4,7,1.55,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+cari internet,210,20,10,0,I,https://www.klara.ch/online-terminbuchung
+exkl. mwst,210,15,14,0,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer
+kassenbuch vorlage,210,15,7,2.12,I,https://www.klara.ch/download-center
+erstellung webshop,210,1,32,4.87,I,https://www.klara.ch/online-shop-erstellen
+spesenreglement kanton zürich,210,17,10,0,I,https://www.klara.ch/blog/business/administrieren/klara-lohn/spesenreglement
+offerten,210,14,42,2.03,I,https://www.klara.ch/blog/business/administrieren/offerten-richtig-einholen
+coiffeur länggasse,210,14,5,0.88,"L,C",https://coiffure-kopfstand-gmbh-1.online.klara.ch/de/home
+generali fortuna,210,20,8,0.37,"L,C",https://www.klara.ch/lp/generali
+sticken zürich,210,1,4,1.19,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+stickerei zürich,210,1,10,1.19,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+t shirt bedrucken zürich,210,1,12,1.17,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+stickereien zürich,210,1,9,1.19,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+coiffeur zweisimmen,210,6,7,0,"L,N",https://der-salon-hammer.online.klara.ch/de/booking/service?categoryId=3
+webshops erstellen,210,1,47,4.87,I,https://www.klara.ch/online-shop-erstellen
+webshop erstellen,210,1,36,4.87,I,https://www.klara.ch/online-shop-erstellen
+buchhaltung excel vorlage,210,3,8,1.55,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+buchhaltung vorlage excel,210,10,7,1.55,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+briefe versenden,210,5,18,0.03,"I,N",https://www.klara.ch/print-send
+coiffure länggasse,210,15,3,0.88,"L,C",https://coiffure-kopfstand-gmbh-1.online.klara.ch/de/home
+beauty angel zug,210,5,9,0.55,"L,N",https://beauty-angel-gmbh.online.klara.ch/en/booking/service
+t-shirt bedrucken zürich,210,1,12,1.17,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+mehrwertsteuer online abrechnen,210,13,8,1.41,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer
+kassensystem gastronomie schweiz,210,20,32,5.99,"L,T",https://www.klara.ch/blog/so-wählst-du-das-richtige-kassensystem-für-dein-restaurant
+mwst einreichen,210,1,14,0,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-fristverlaengerung
+excel buchhaltung vorlage,210,3,6,1.55,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+buchhaltung excel-vorlage,210,3,7,1.55,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+vorlage buchhaltung excel,210,14,5,1.55,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+terminal de paiement,210,10,12,4.71,I,https://www.klara.ch/fr-ch/blog/comparatif-terminaux-paiement-mobiles
+terminaux de paiement,210,11,38,4.71,I,https://www.klara.ch/fr-ch/blog/comparatif-terminaux-paiement-mobiles
+webshop-erstellung,210,1,39,4.87,I,https://www.klara.ch/online-shop-erstellen
+coiffeur länggasse bern,170,17,4,0.89,"L,C",https://coiffure-kopfstand-gmbh-1.online.klara.ch/de/home
+nagelstudio kriens,170,18,6,0.36,"L,C",https://beauty-nails-milijana-jeknic.online.klara.ch/de/home
+podologie buchenhof,170,14,6,0,"L,N",https://podologie-nadine-keller.online.klara.ch/de/home
+kmu versicherung,170,19,8,2.91,"L,C",https://www.klara.ch/blog/ultimativer-versicherungsratgeber-kmu
+saitensprung,170,19,8,0,"I,N",https://musikhaus-saitensprung-bitsiakas.online.klara.ch/de/shop/products?query=Northfield
+halle 44 baar,170,4,14,0,"L,C",https://halle-44-1.online.klara.ch/de/home
+google bewertungen,170,19,33,3.49,I,https://www.klara.ch/blog/google-rezensionen-leitfaden-umgang-mit-online-bewertungen
+unterlagen steuererklärung,170,20,14,0.03,I,https://www.klara.ch/blog/home/checkliste-steuererklaerung
+kaiser optik steinhausen,170,10,11,0.67,"L,C",https://kaiser-optik-gmbh.online.klara.ch/de/home
+checkliste steuererklärung,170,18,14,0.08,I,https://www.klara.ch/blog/home/checkliste-steuererklaerung
+unterlagen für steuererklärung,170,14,14,0.03,I,https://www.klara.ch/blog/home/checkliste-steuererklaerung
+steuererklärung unterlagen,170,13,15,0.03,I,https://www.klara.ch/blog/home/checkliste-steuererklaerung
+generali rechtsschutzversicherung,170,12,12,0.77,"L,C",https://www.klara.ch/lp/generali
+kmu buchhaltungssoftware,170,16,17,6.73,I,https://www.klara.ch/buchhaltung
+buchhaltungssoftware kmu,170,1,30,6.73,I,https://www.klara.ch/rechnungsprogramm
+coiffeur wettswil,170,17,4,0.6,"L,C",https://salon-luma-gmbh.online.klara.ch/de/home
+kmu versicherungen,170,15,8,2.91,"L,C",https://www.klara.ch/blog/ultimativer-versicherungsratgeber-kmu
+cut and style,170,12,9,0,"L,C",https://coiffure-cut-and-style.online.klara.ch/de/home
+hairsquare,170,8,7,0,"L,N",https://hair-square-gmbh-neu.online.klara.ch/de/home
+coiffeur elegance,170,13,5,0.21,"L,C",https://coiffure-elegance-celine-douggaz.online.klara.ch/de/booking/service
+swiss digital center,170,5,7,0,"L,C",https://techno-pole-sierre-sa.online.klara.ch/fr/home
+beauty lounge reinach,170,19,8,1.02,"L,C",https://alina-keller.online.klara.ch/de/home
+coiffeur veltheim,140,2,8,0,"I,N",https://samir-alic-coiffeur-veltheim.online.klara.ch/de/booking/service
+software kmu,140,1,38,10.25,I,https://www.klara.ch/
+podologie kriens,140,6,2,0.32,"L,C",https://podologie-rama.online.klara.ch/de/home
+kmu software,140,1,35,10.25,"L,C",https://www.klara.ch/
+beispiel arbeitszeugnis,140,17,19,0.53,I,https://www.klara.ch/blog/arbeitszeugnis-erstellen-tipps-beispiele-vorlage
+saitensprung schaffhausen,140,14,10,1.63,"L,N",https://musikhaus-saitensprung-bitsiakas.online.klara.ch/de/shop/products?query=Northfield
+arbeitszeugnis beispiele,140,13,12,0.53,I,https://www.klara.ch/blog/arbeitszeugnis-erstellen-tipps-beispiele-vorlage
+lohnausweis kinderzulagen,140,1,23,0,I,https://www.klara.ch/blog/kinderzulage-und-kindergeld
+coiffeur kopfstand,140,8,9,0,"I,N",https://coiffure-kopfstand-gmbh-1.online.klara.ch/de/home
+kündigung zur unzeit,140,1,6,0,I,https://www.klara.ch/blog/business/administrieren/klara-lohn/kuendigung-arbeitnehmer-checkliste
+rechtsschutz generali,140,14,12,0.42,"L,C",https://www.klara.ch/lp/generali
+lohnbuchhaltung schweiz,140,1,7,7.65,I,https://www.klara.ch/lohnbuchhaltung
+antea,140,10,25,2.06,"L,C",https://kosmetik-antea.online.klara.ch/de/home
+arbeitszeugnis beispiel,140,17,14,0.53,I,https://www.klara.ch/blog/arbeitszeugnis-erstellen-tipps-beispiele-vorlage
+kinderzulagen lohnausweis,140,1,22,0,I,https://www.klara.ch/blog/kinderzulage-und-kindergeld
+unfallversicherung hausangestellte,140,16,9,1.61,I,https://www.klara.ch/blog/home/versicherung-hausangestellte
+zahlterminal,140,13,17,4.14,I,https://www.klara.ch/vergleichsseite-klara-vs-sumup
+kinderzulagen auf lohnausweis,140,1,25,0,I,https://www.klara.ch/blog/kinderzulage-und-kindergeld
+kinderzulagen im lohnausweis,140,1,24,0,I,https://www.klara.ch/blog/kinderzulage-und-kindergeld
+was brauche ich zur steuererklärung,140,18,19,0.06,I,https://www.klara.ch/blog/home/checkliste-steuererklaerung
+bonitätsprüfung schweiz online,140,14,12,0.91,I,https://www.klara.ch/lp/creditreform/bonitaetspruefung
+tshirt druckerei,140,1,18,1.91,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+fatos,140,7,8,0.43,"L,C",https://coiffure-fatos-haxhija.online.klara.ch/en/home
+welche dokumente für steuererklärung schweiz,140,17,15,0.04,I,https://www.klara.ch/blog/home/checkliste-steuererklaerung
+online bonitätsprüfung schweiz,140,14,19,0.91,I,https://www.klara.ch/lp/creditreform/bonitaetspruefung
+klarna login schweiz,140,3,40,0,"I,N",https://www.klara.ch/login
+privatanteil geschäftsfahrzeug 2024,140,1,9,0,I,https://www.klara.ch/blog/privatnutzung-von-geschäftsfahrzeugen-was-du-wissen-musst
+bonitätsprüfung schweiz kostenlos,140,7,20,0.93,I,https://www.klara.ch/lp/creditreform/bonitaetspruefung
+unfallschein suva,140,3,8,0,I,https://www.klara.ch/hubfs/2024-03_KLE_FAQ_Neuen Fall übermitteln.pdf
+büchler traktorenwerkstatt,140,7,9,0.29,"L,N",https://traktorenwerkstatt-buechler-gmbh.online.klara.ch/de/shop/products?categoryId=7
+tamara coiffure & barbier,140,16,7,0,"I,N",https://tamara-egger-s-haarbuudae.online.klara.ch/?reset-company-data=true&lang=de
+site de vente en ligne suisse,140,14,30,0.3,I,https://www.klara.ch/fr-ch/site-de-vente-en-ligne
+boutiques en ligne suisse,140,19,21,1,I,https://www.klara.ch/fr-ch/site-de-vente-en-ligne
+von moos luzern,120,15,20,0.03,"L,N",https://von-moos-sport-hobby-ag.online.klara.ch/de/home
+zeiterfassung kleinbetriebe,110,1,8,6.25,I,https://www.klara.ch/zeiterfassung
+terminbuchung online,110,9,44,0,I,https://www.klara.ch/online-terminbuchung
+ryf coiffeur gmbh,110,10,15,0,"L,C",https://ryf-coiffure-boutique.online.klara.ch/de/booking/service
+was brauche ich alles für eine steuererklärung,110,19,19,0.05,I,https://www.klara.ch/blog/home/checkliste-steuererklaerung
+bonität prüfen,110,20,34,1.08,I,https://www.klara.ch/lp/creditreform/bonitaetspruefung
+privatanteil fahrzeug,110,20,8,0,I,https://www.klara.ch/blog/privatnutzung-von-geschäftsfahrzeugen-was-du-wissen-musst
+ryf coiffeur,110,5,8,0,"L,N",https://ryf-coiffure-boutique.online.klara.ch/de/booking/service
+bonitätsauskünfte,110,18,27,1,I,https://www.klara.ch/lp/creditreform/bonitaetspruefung
+kartenterminal,110,15,9,4.36,I,https://www.klara.ch/vergleichsseite-klara-vs-sumup
+was brauche ich alles für die steuererklärung,110,13,15,0.05,I,https://www.klara.ch/blog/home/checkliste-steuererklaerung
+online buchhalter,110,16,25,5.21,I,https://www.klara.ch/buchhaltung
+zeiterfassung kleinbetrieb,110,14,8,6.25,I,https://www.klara.ch/zeiterfassung
+asia shop zug,110,15,13,0,"L,T",https://asian-tindahan-e-becker.online.klara.ch/de/home
+zeiterfassung für kleinbetriebe,110,1,8,6.25,I,https://www.klara.ch/zeiterfassung
+zeltner,110,12,10,0,"L,C",https://zeltner-destillerie-ag.online.klara.ch/de/home
+neues datenschutzgesetz,110,9,25,0.51,I,https://www.klara.ch/blog/expertentipps-revidiertes-datenschutzgesetz-was-tun
+lagerbewirtschaftung,110,17,5,4.81,I,https://www.klara.ch/blog/lagerverwaltung-tipps
+zahlungsfristen schweiz,110,1,6,0,I,https://www.klara.ch/blog/business/administrieren/klara-crm/zahlungsfrist-rechnung-gesetz
+töpferkurse aargau,110,16,9,0.33,"L,C",https://die-keramikerinnen.online.klara.ch/de/home
+buchhalter online,110,14,32,5.21,I,https://www.klara.ch/buchhaltung
+nails kriens,110,14,5,0.24,"L,C",https://beauty-nails-milijana-jeknic.online.klara.ch/de/home
+zahlungsfrist schweiz,110,1,7,0,I,https://www.klara.ch/blog/business/administrieren/klara-crm/zahlungsfrist-rechnung-gesetz
+hair lounge murten,110,3,7,0,"I,N",https://hair-lounge-murten.online.klara.ch/de/home
+einfache buchhaltung vorlage,110,7,7,1.99,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+doppelte buchhaltung excel vorlage kostenlos,110,2,6,1.3,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+brief schicken,110,9,28,0,"I,N",https://www.klara.ch/print-send
+onlineshop selber erstellen,110,1,44,4.25,I,https://www.klara.ch/online-shop-erstellen
+kosmetik willisau,110,7,4,0.69,"L,C",https://claudia-koller-med-kosmetik-cosana.online.klara.ch/de/home
+haarmanufaktur,110,9,1,0,"L,C",https://haar-manufaktur-by-doris-gmbh.online.klara.ch/de/home
+bonitätsauskunft,110,9,34,1,I,https://www.klara.ch/lp/creditreform/bonitaetspruefung
+kleider bedrucken lassen,110,19,14,1.85,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+briefe schicken,110,8,41,0,I,https://www.klara.ch/print-send
+coiffeur biglen,110,8,3,0,"L,C",https://haar-im-glueck-inhaberin-sandra-freiburghaus.online.klara.ch/de/home
+web-shop,110,9,42,1.54,"L,T",https://www.klara.ch/online-shop-erstellen
+essence skin care,110,20,17,0,I,https://the-essence-cosmetics.online.klara.ch/en/home
+ryf coiffure gmbh,110,9,14,0,"L,C",https://ryf-coiffure-boutique.online.klara.ch/de/booking/service
+ryf coiffure,110,2,9,0,"L,N",https://ryf-coiffure-boutique.online.klara.ch/de/booking/service
+zeltner dornach,110,6,10,0,"L,N",https://zeltner-destillerie-ag.online.klara.ch/de/home
+k kosmetik visp,110,17,10,0,"L,C",https://vjosa-cosmetics.online.klara.ch/de/booking/service?page=1
+doppelte buchhaltung excel-vorlage kostenlos,110,2,5,1.3,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+baumhaus luzern,110,14,18,0,"L,N",https://baumhuus-gmbh.online.klara.ch/de/home
+bedrucken von stoffen,110,11,18,0.82,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+erbolario lugano,110,6,16,0,"L,C",https://erbolario.online.klara.ch/de/home
+mwst ratenzahlung,110,1,7,0,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-fristverlaengerung
+liebeskleid,110,6,10,0.39,"L,N",https://brautmode-liebeskleid-gmbh.online.klara.ch/de/home
+haircare berikon,110,12,6,0.77,"I,N",https://coiffure-hair-shop-gmbh-berikon.online.klara.ch/de/home
+tshirt bedrucken in der nähe,110,19,13,0.95,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+kmu digitalisieren,110,1,20,4.51,I,https://www.klara.ch/blog/6-vorteile-der-digitalisierung-für-kmu
+nagelstudio gossau,90,18,7,0.5,"L,C",https://nails4beauty-ch.online.klara.ch/de/home
+mc shirt zürich,90,19,8,0.93,"L,N",https://art-and-more-art-gmbh.online.klara.ch/de/home
+briefversand,90,8,27,0.93,"I,N",https://www.klara.ch/print-send
+online rechnung erstellen,90,15,22,3.32,I,https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage
+wechselstube online,90,18,21,1.36,"L,N",https://www.klara.ch/blog-act3-category-filter/waehrungswechsel_so_sparst_du_viel_geld?hs_amp=true
+t shirt druck schweiz,90,2,15,2.56,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+lohnabrechnungen erstellen,90,7,13,10.83,I,https://www.klara.ch/lohnbuchhaltung
+putzfrau versicherung,90,14,21,1.31,I,https://www.klara.ch/blog/home/versicherung-hausangestellte
+hausangestellte,90,1,20,1.07,I,https://www.klara.ch/blog/klara-home/hausangestellte-einstellen-checkliste
+vereinsbuchhaltung,90,8,7,1.98,"L,C",https://www.klara.ch/vereinsbuchhaltung
+abrechnung mwst,90,9,15,0,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer
+coiffure pierre geuensee,90,2,11,0,"I,N",https://coiffure-pierre-geuensee-gmbh.online.klara.ch/de/booking/service?categoryId=1
+pos kassensysteme,90,1,10,4.37,"L,T",https://www.klara.ch/pos-hardware
+online lohnabrechnung,90,1,14,9.52,I,https://www.klara.ch/
+putzfrau versichern,90,19,29,1.31,I,https://www.klara.ch/blog/home/versicherung-hausangestellte
+lohn putzfrau schweiz,90,13,7,0.02,I,https://www.klara.ch/blog/klara-home/hausangestellte-einstellen-checkliste
+cap besticken lassen,90,11,9,1.56,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+kleidung besticken lassen,90,1,14,1.13,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+zweithaar ebikon,90,11,9,1.64,"L,N",https://gs-xtrem-gmbh.online.klara.ch/de/home
+rechnung erstellen online,90,18,17,3.32,I,https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage
+gs hair & style,90,7,8,0,"L,N",https://gs-xtrem-gmbh.online.klara.ch/de/home
+rechnung online erstellen,90,13,21,3.32,I,https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage
+rechnungen erstellen online,90,19,27,3.32,I,https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage
+hausangestellter,90,10,17,1.07,I,https://www.klara.ch/blog/klara-home/hausangestellte-einstellen-checkliste
+putzfrau anmelden,90,20,20,0.49,I,https://www.klara.ch/blog/home/hausangestellte-anmelden-anleitung
+besticken,90,1,13,1.16,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+steuerunterlagen,90,16,25,0.05,I,https://www.klara.ch/blog/home/checkliste-steuererklaerung
+mwst abrechnung schweiz,90,1,9,1.74,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer
+podologie ostermundigen,90,10,6,0,"L,C",https://musterfuesse.online.klara.ch/de/home
+excel buchhaltung,90,4,6,1.93,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+rezensionen für,90,5,24,0,I,https://www.klara.ch/blog/google-rezensionen-leitfaden-umgang-mit-online-bewertungen
+rechtsschutz fortuna,90,19,7,0.18,"L,C",https://www.klara.ch/lp/generali
+brautparadies,90,3,11,0.62,"L,N",https://brautparadies-thun-ag.online.klara.ch/de/home
+webshop erstellen schweiz,90,1,26,5.21,I,https://www.klara.ch/online-shop-erstellen
+buchhaltung mit excel,90,4,6,1.93,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+stickerei schweiz,90,1,16,1.22,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+stickereien schweiz,90,1,15,1.22,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+pos kassensystem,90,1,17,4.37,"L,T",https://www.klara.ch/pos-hardware
+lohnabrechnung erstellen,90,12,7,10.83,I,https://www.klara.ch/lohnbuchhaltung
+rechtsschutzversicherung generali,90,17,11,1,"L,C",https://www.klara.ch/lp/generali
+putzfrau anmeldung,90,19,20,0.49,I,https://www.klara.ch/blog/home/hausangestellte-anmelden-anleitung
+coiffure ryf kerzers,90,2,8,0,"L,N",https://ryf-coiffure-boutique.online.klara.ch/de/booking/service
+von moos sport,90,7,18,0.05,"L,N",https://von-moos-sport-hobby-ag.online.klara.ch/de/home
+online verkauf schweiz,90,14,42,0.66,"L,C",https://www.klara.ch/online-shop-erstellen
+jahresabschluss buchhaltung,90,6,11,2.51,I,https://www.klara.ch/blog/checkliste-jahresabschluss
+rechtsschutzversicherung fortuna,90,19,7,0.18,I,https://www.klara.ch/lp/generali
+versicherung für putzfrau,90,1,12,1.31,I,https://www.klara.ch/blog/home/versicherung-hausangestellte
+technopole,90,8,31,0,I,https://techno-pole-sierre-sa.online.klara.ch/fr/home
+kostenlos rechnung erstellen,90,11,13,3.3,I,https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage
+rechnungen online erstellen,90,14,13,3.32,I,https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage
+new york nails gossau,90,20,10,0.49,"L,C",https://nails4beauty-ch.online.klara.ch/de/home
+buchhaltung auf excel,90,3,6,1.93,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+abrechnung excel vorlage,90,14,6,1.49,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+rechnung erstellen kostenlos,90,11,12,3.3,I,https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage
+excel-buchhaltung,90,4,7,1.93,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+mylife login,90,17,23,0,I,https://www.klara.ch/login
+klarna chat,90,16,27,0,"I,N",https://support.mylife.klara.ch/hc/de/requests/new
+rechnung kostenlos erstellen,90,11,13,3.3,I,https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage
+rechnungen erstellen kostenlos,90,14,13,3.3,I,https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage
+nalu windisch,90,7,13,0,"L,N",https://nalustore-gmbh.online.klara.ch/de/home
+coiffeur pierre geuensee,90,2,10,0,"I,N",https://coiffure-pierre-geuensee-gmbh.online.klara.ch/de/booking/service?categoryId=1
+online wechselstube,90,17,21,1.36,I,https://www.klara.ch/blog-act3-category-filter/waehrungswechsel_so_sparst_du_viel_geld?hs_amp=true
+fortuna versicherung,70,15,8,0.93,"L,C",https://www.klara.ch/lp/generali
+onlineshop eröffnen,70,1,25,3.94,I,https://www.klara.ch/online-shop-erstellen
+vorlage finanzplan excel,70,5,28,0.66,I,https://www.klara.ch/blog/finanzplanung-startups
+coiffure elegance murten,70,2,6,0,"L,N",https://coiffure-elegance-celine-douggaz.online.klara.ch/de/booking/service
+generali rechtsschutz kontakt,70,13,8,0.14,I,https://www.klara.ch/lp/generali
+custom design,70,9,21,0,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+putzfrau lohn schweiz,70,1,7,0.02,I,https://www.klara.ch/blog/klara-home/hausangestellte-einstellen-checkliste
+l'erbolario solothurn,70,2,10,0.24,I,https://erbolario.online.klara.ch/de/home
+buchhaltung vereine,70,1,7,2.26,I,https://www.klara.ch/vereinsbuchhaltung
+kassensystem für friseure,70,1,7,0,I,https://www.klara.ch/kassensystem-coiffeur
+bonitaetspruefung,70,10,29,1.52,I,https://www.klara.ch/lp/creditreform/bonitaetspruefung
+finanzplanung excel vorlage,70,4,19,0.66,I,https://www.klara.ch/blog/finanzplanung-startups
+finanzplan vorlage,70,18,34,1.15,I,https://www.klara.ch/blog/finanzplanung-startups
+stundenlohn reinigungskraft schweiz,70,17,8,0.02,I,https://www.klara.ch/blog/klara-home/hausangestellte-einstellen-checkliste
+beflocken,70,3,13,0,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+coiffeur kriegstetten,70,9,12,0,"L,C",https://troumfabrik.online.klara.ch/de/booking/service
+vorlage finanzplan,70,11,24,1.15,I,https://www.klara.ch/blog/finanzplanung-startups
+brief senden,70,10,27,0,"I,N",https://www.klara.ch/print-send
+kassenliste,70,1,35,0,I,https://www.klara.ch/download-center
+florium niederglatt,70,4,10,0,"L,N",https://florium-gmbh.online.klara.ch/de/home
+coiffeur elegance murten,70,2,7,0,"L,N",https://coiffure-elegance-celine-douggaz.online.klara.ch/de/booking/service
+podologie brunnen,70,16,6,0,"L,C",https://podologie-nadine-keller.online.klara.ch/de/home
+jeunesse bremgarten,70,4,7,0,"I,N",https://coiffeur-jeunesse-jwan-mueller.online.klara.ch/de/booking/service
+günstiger online shop schweiz,70,13,54,0.97,I,https://www.klara.ch/online-shop-erstellen
+zahlungsfristen,70,1,7,0,I,https://www.klara.ch/blog/business/administrieren/klara-crm/zahlungsfrist-rechnung-gesetz
+prestige langenthal,70,2,7,0,"L,N",https://besa-bajrami-prestige-hair-makeup.online.klara.ch/de/home
+firmenwagen,70,20,21,1.13,I,https://www.klara.ch/blog/privatnutzung-von-geschäftsfahrzeugen-was-du-wissen-musst
+kreditkartenabrechnung,70,16,15,0,I,https://support.klara.ch/hc/de/articles/4414013054098-Kann-ich-die-Kreditkartenabrechnung-als-Aufwand-verbuchen
+logiciel crm,70,7,60,3.15,I,https://www.klara.ch/fr-ch/crm-software
+checkliste steuererklärung schweiz,70,15,14,0.13,I,https://www.klara.ch/blog/home/checkliste-steuererklaerung
+neugut garage wallisellen,70,14,11,0.16,"L,N",https://neugut-garage-flury-ag-1.online.klara.ch/de/home
+putzfrau anmelden schweiz,70,18,28,1.16,I,https://www.klara.ch/blog/klara-home/hausangestellte-einstellen-checkliste
+mehrwertsteuerabrechnung,70,19,8,0,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer
+zahlungsterminal,70,14,17,4.48,I,https://www.klara.ch/vergleichsseite-klara-vs-sumup
+kassensysteme coiffeur,70,4,6,5.54,"L,T",https://www.klara.ch/kassensystem-coiffeur
+quellensteuer was ist das,70,16,32,0.02,I,https://www.klara.ch/blog/business/administrieren/klara-lohn/quellensteuer-erklaerung
+einfache buchhaltung excel vorlage,70,9,5,1.91,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+zeiterfassungssysteme für kleinbetriebe,70,1,8,8.46,I,https://www.klara.ch/zeiterfassung
+buchhaltung verein,70,12,8,2.26,I,https://www.klara.ch/vereinsbuchhaltung
+kasse kaufen schweiz,70,15,19,0,"L,T",https://www.klara.ch/pos-hardware
+finanzplanung vorlage,70,1,30,1.15,I,https://www.klara.ch/blog/finanzplanung-startups
+textildruck zürich,70,1,15,1.69,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+kassensystem coiffeur,70,2,6,5.54,"L,T",https://www.klara.ch/kassensystem-coiffeur
+rückzahlung darlehen,70,13,33,0,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/darlehensvertrag-erklaerung
+bonitätsauskunft schweiz,70,14,18,0.77,I,https://www.klara.ch/lp/creditreform/bonitaetspruefung
+podologie hinwil,70,7,6,0.34,"L,C",https://podologie-nadine-keller.online.klara.ch/de/home
+finanzplan vorlage excel,70,1,20,0.66,I,https://www.klara.ch/blog/finanzplanung-startups
+putzfrau privat anstellen,70,15,28,0.82,I,https://www.klara.ch/blog/klara-home/hausangestellte-einstellen-checkliste
+von moos sport und hobby,70,16,20,0.12,"L,N",https://von-moos-sport-hobby-ag.online.klara.ch/de/home
+kreditwürdigkeit prüfen,70,19,36,1.74,I,https://www.klara.ch/lp/creditreform/bonitaetspruefung
+t shirt drucken zürich,70,5,12,1.07,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+offerte einholen,70,7,25,5.74,I,https://www.klara.ch/blog/business/administrieren/offerten-richtig-einholen
+putzfrau anstellen privat,70,16,29,0.82,I,https://www.klara.ch/blog/klara-home/hausangestellte-einstellen-checkliste
+zahlungsfrist,70,2,8,0,I,https://www.klara.ch/blog/business/administrieren/klara-crm/zahlungsfrist-rechnung-gesetz
+von moos sport luzern,70,15,15,0.03,"L,N",https://von-moos-sport-hobby-ag.online.klara.ch/de/home
+podologie rüti,70,11,5,0.28,"L,C",https://podologie-nadine-keller.online.klara.ch/de/home
+buchhaltung kmu,70,1,11,5.99,"L,C",https://www.klara.ch/buchhaltung
+eröffnung online shop,70,1,24,3.94,I,https://www.klara.ch/online-shop-erstellen
+coiffeur geuensee,70,5,4,0,"L,C",https://coiffure-pierre-geuensee-gmbh.online.klara.ch/de/booking/service?categoryId=1
+mwst fristverlängerung online,70,4,9,0,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-fristverlaengerung
+rechtsschutz generali kontakt,70,7,8,0.14,"L,C",https://www.klara.ch/lp/generali
+fortuna rechtsschutz versicherungs gesellschaft ag,70,20,8,0,"L,C",https://www.klara.ch/lp/generali
+l erbolario solothurn,70,2,10,0.24,I,https://erbolario.online.klara.ch/de/home
+haarstation gossau,70,3,8,0,"L,N",https://haar-station-gmbh.online.klara.ch/de/booking/service?categoryId=5
+ab wann muss ich meine putzfrau anmelden schweiz,70,18,21,0.03,I,https://www.klara.ch/blog/klara-home/hausangestellte-einstellen-checkliste
+einfache buchhaltung excel-vorlage,70,8,5,1.91,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+vorlage buchhaltung excel kostenlos,70,11,7,1.16,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+finanzplan-vorlage excel,70,4,20,0.66,I,https://www.klara.ch/blog/finanzplanung-startups
+kiener coiffeur,70,5,7,0,"I,N",https://www.klara.ch/online-news-plus
+kiener stansstad,70,5,7,0,"I,N",https://www.klara.ch/online-news-plus
+online-shop erstellen kostenlos,70,15,32,3.37,I,https://www.klara.ch/online-shop-erstellen
+privatanteil geschäftsfahrzeug lohnabrechnung beispiel,70,1,7,0,I,https://www.klara.ch/blog/privatnutzung-von-geschäftsfahrzeugen-was-du-wissen-musst
+onlineshop kaufen schweiz,70,19,11,0,I,https://www.klara.ch/online-shop-erstellen
+stoffdruckerei,70,2,17,1.28,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+online-shop eröffnen,70,1,25,3.94,I,https://www.klara.ch/online-shop-erstellen
+kopfstand coiffeur,70,6,10,0,"L,C",https://coiffure-kopfstand-gmbh-1.online.klara.ch/de/home
+fresk rucksack,70,13,5,0.18,I,https://alpha-vertriebs-gmbh.online.klara.ch/de/shop/products/999
+finanzplanung vorlage excel,70,4,20,0.66,I,https://www.klara.ch/blog/finanzplanung-startups
+friseur kassensystem,70,16,7,0,I,https://www.klara.ch/kassensystem-coiffeur
+finanzplan vorlagen excel,70,8,23,0.66,I,https://www.klara.ch/blog/finanzplanung-startups
+coiffeur tamara,70,8,2,0,I,https://tamara-egger-s-haarbuudae.online.klara.ch/?reset-company-data=true&lang=de
+kassensystem friseur,70,15,7,0,I,https://www.klara.ch/kassensystem-coiffeur
+textildruck in der nähe,70,1,14,1.13,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+home of beauty,70,16,9,1.16,"L,C",https://house-of-beauty.online.klara.ch/de/home
+nails köniz,70,16,4,0.59,"L,C",https://hang-nails-beauty-gmbh.online.klara.ch/de/home
+epost.ch mail login,70,11,11,0,I,https://support.klara.ch/hc/fr/community/posts/19527384452636-Support-für-Email-Konten-epost-ch
+garage flury wallisellen,70,13,11,0.16,"L,N",https://neugut-garage-flury-ag-1.online.klara.ch/de/home
+der salon,70,6,6,0,"I,N",https://der-salon-hammer.online.klara.ch/de/booking/service?categoryId=3
+vorlage einfache buchhaltung excel,70,11,6,1.91,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+kaiser optik cham,70,12,11,0,"L,N",https://kaiser-optik-gmbh.online.klara.ch/de/home
+textildruckerei schweiz,70,1,19,1.48,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+caisse enregistreuse suisse,70,20,7,4.84,"L,C",https://www.klara.ch/fr-ch/pos-hardware
+restaurant kassensystem,70,10,16,7.06,"L,T",https://www.klara.ch/blog/so-vereinfacht-ein-modernes-kassensystem-deine-buchhaltung-im-gastro-alltag
+kassensystem restaurant,70,15,16,7.06,"L,T",https://www.klara.ch/blog/so-wählst-du-das-richtige-kassensystem-für-dein-restaurant
+anmeldung putzfrau schweiz,70,19,20,1.16,I,https://www.klara.ch/blog/home/hausangestellte-anmelden-anleitung
+kartenlesegerät schweiz,50,11,25,4.76,I,https://www.klara.ch/vergleichsseite-klara-vs-sumup
+terminbuchung,50,20,33,2.32,I,https://www.klara.ch/online-terminbuchung
+kartenzahlungsgerät,50,19,21,5.24,I,https://www.klara.ch/vergleichsseite-klara-vs-sumup
+arbeitszeugnis erstellen,50,20,22,1.46,I,https://www.klara.ch/blog/arbeitszeugnis-erstellen-tipps-beispiele-vorlage
+buchhaltungsprogramm für vereine,50,4,8,2.57,I,https://www.klara.ch/vereinsbuchhaltung
+einzelunternehmen buchhaltung,50,9,6,5.33,I,https://www.klara.ch/blog/einzelunternehmen-doppelte-buchhaltung
+fusspflege kriens,50,13,3,0.42,"L,C",https://podologie-rama.online.klara.ch/de/home
+bonitätsprüfung online,50,1,15,1.08,I,https://www.klara.ch/lp/creditreform/bonitaetspruefung
+blumenladen niederglatt,50,8,14,0.72,"L,N",https://florium-gmbh.online.klara.ch/de/home
+podologie wiedikon,50,10,1,0.46,"L,C",https://podologie-nadine-keller.online.klara.ch/de/home
+kartenterminal schweiz,50,4,21,5.37,I,https://www.klara.ch/vergleichsseite-klara-vs-sumup
+coiffeur eschenbach lu,50,9,4,0,"L,C",https://haaratelier-beatrice-grueter.online.klara.ch/de/home
+online termine buchen,50,1,74,3.36,I,https://www.klara.ch/online-terminbuchung
+programm crm,50,20,23,3.48,I,https://www.klara.ch/crm-software
+halle44,50,6,10,0,"L,N",https://halle-44-1.online.klara.ch/de/home
+formular mitarbeitergespräch,50,9,8,1.2,I,https://www.klara.ch/blog/personalgespraech-leitfaden-vorlagen-fuer-arbeitgeber
+termin online buchen,50,20,24,3.36,I,https://www.klara.ch/online-terminbuchung
+coiffeur kopfstand bern,50,7,10,0.09,"L,C",https://coiffure-kopfstand-gmbh-1.online.klara.ch/de/home
+online buchung,50,14,43,1.43,I,https://www.klara.ch/online-terminbuchung
+termine online buchen,50,10,62,3.36,I,https://www.klara.ch/online-terminbuchung
+putzfrau anstellen schweiz,50,1,29,1.12,I,https://www.klara.ch/blog/klara-home/hausangestellte-einstellen-checkliste
+kassenbuch vorlage schweiz,50,3,5,2.2,I,https://www.klara.ch/download-center
+kassier verein,50,1,7,0,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/vereinskassierer-buchhaltung-vereine
+textildruckerei,50,1,9,1.28,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+besticken von textilien,50,1,15,0.96,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+garage dottikon,50,11,7,1.31,"L,C",https://garage-keller-gmbh-dottikon.online.klara.ch/de/booking/service
+feiertagszuschlag schweiz,50,18,15,0,I,https://www.klara.ch/blog/feiertage-entschaedigung-teilzeitangestellte
+rechnungsversand,50,6,7,0,I,https://www.klara.ch/digitaler-rechnungsversand
+online terminbuchung,50,1,49,5.41,I,https://www.klara.ch/online-terminbuchung
+mwst dienstleistung,50,1,19,0,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-dienstleistungen-ausland
+crm schweiz,50,10,11,6.38,I,https://www.klara.ch/crm-software
+textil besticken,50,1,9,0.96,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+arbeitszeugnisse erstellen,50,15,21,1.46,I,https://www.klara.ch/blog/arbeitszeugnis-erstellen-tipps-beispiele-vorlage
+putzfrau anstellen,50,13,28,1.26,I,https://www.klara.ch/blog/klara-home/hausangestellte-einstellen-checkliste
+zahlterminal schweiz,50,1,22,5.28,I,https://www.klara.ch/vergleichsseite-klara-vs-sumup
+kmu software schweiz,50,1,56,10.24,"L,C",https://www.klara.ch/
+coiffeur oberhofen,50,7,7,0,"L,C",https://coiffure-timeout-sarah-casanova.online.klara.ch/de/home
+firmenauto,50,5,15,1.09,I,https://www.klara.ch/blog/privatnutzung-von-geschäftsfahrzeugen-was-du-wissen-musst
+mehrwertsteuer schweiz dienstleistungen,50,4,25,0.03,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-dienstleistungen-ausland
+hausangestellte versichern,50,14,12,1.91,I,https://www.klara.ch/blog/home/versicherung-hausangestellte
+buchhaltungsprogramm excel kostenlos,50,4,6,1.91,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+lohnprogramm,50,1,20,7.43,I,https://www.klara.ch/lohnbuchhaltung
+buchhaltungsprogramm vereine,50,5,8,2.57,I,https://www.klara.ch/vereinsbuchhaltung
+fusspflege ostermundigen,50,8,4,0.4,"L,C",https://musterfuesse.online.klara.ch/de/home
+lohnprogramm schweiz,50,1,7,9.45,I,https://www.klara.ch/lohnbuchhaltung
+online buchungssystem,50,1,56,7.47,I,https://www.klara.ch/online-terminbuchung
+mwst schweiz deutschland,50,16,9,0,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-dienstleistungen-ausland
+putzfrau lohn,50,1,8,0.01,I,https://www.klara.ch/blog/klara-home/hausangestellte-einstellen-checkliste
+eigenen onlineshop,50,10,41,5.32,I,https://www.klara.ch/online-shop-erstellen
+burnside,50,14,20,0,I,https://the-whisky-cask-company-ag.online.klara.ch/de/shop/products/83
+eigene online shop,50,11,35,5.32,I,https://www.klara.ch/online-shop-erstellen
+geschäftsauto,50,9,7,1.13,I,https://www.klara.ch/blog/privatnutzung-von-geschäftsfahrzeugen-was-du-wissen-musst
+excel kassenbuch,50,18,7,1.45,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+fortuna rechtsschutz email,50,15,7,0.21,I,https://www.klara.ch/lp/generali
+logo druck,50,11,52,1.53,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+mwst bei dienstleistungen,50,1,20,0,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-dienstleistungen-ausland
+brief online,50,20,18,0,I,https://www.klara.ch/print-send
+buchhaltung einzelunternehmen,50,11,7,5.33,I,https://www.klara.ch/blog/einzelunternehmen-doppelte-buchhaltung
+hang nails köniz,50,4,8,0,"L,N",https://hang-nails-beauty-gmbh.online.klara.ch/de/home
+online brief,50,20,28,0,I,https://www.klara.ch/print-send
+onlineshop eigener,50,16,47,5.32,I,https://www.klara.ch/online-shop-erstellen
+kappen besticken lassen,50,1,4,1.23,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+bonitätsprüfungen online,50,1,35,1.08,I,https://www.klara.ch/lp/creditreform/bonitaetspruefung
+twint code eingeben,50,16,23,0,I,https://support.klara.ch/hc/de/articles/21584320862236-Wie-blendet-man-den-QR-Code-ein-z-B-für-eine-TWINT-Zahlung
+textildrucke,50,14,24,1.28,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+eigene bonität prüfen kostenlos schweiz,50,11,19,1.17,I,https://www.klara.ch/lp/creditreform/bonitaetspruefung
+stickerei in der nähe,50,1,3,0.98,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+einnahmen-ausgaben excel vorlage kostenlos,50,6,13,1.19,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+vereinsbuchhaltung schweiz gratis,50,13,12,2.02,I,https://www.klara.ch/vereinsbuchhaltung
+einnahmen ausgaben excel vorlage,50,8,14,0.85,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+einnahmen-ausgaben excel-vorlage,50,6,14,0.97,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+mwst abrechnung fristen,50,4,8,0,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-fristverlaengerung
+mwst-abrechnung fristen,50,5,8,0,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mwst-fristverlaengerung
+pure pure sonnenhut,50,15,10,0.51,I,https://alpha-vertriebs-gmbh.online.klara.ch/de/shop/products/2005
+vorlage mitarbeitergespräch schweiz,50,1,7,1.02,I,https://www.klara.ch/blog/personalgespraech-leitfaden-vorlagen-fuer-arbeitgeber
+liquiditätsplanung vorlage excel schweiz,50,1,8,1.51,I,https://www.klara.ch/blog/business/administrieren/buchhaltung/liquiditaetsplanung-vorlage-geldfluss
+einfache buchhaltung vorlage gratis,50,6,6,2.04,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+siebdruck kurse,50,10,5,0,"L,C",https://art-and-more-art-gmbh.online.klara.ch/de/home
+online-terminbuchung,50,1,49,5.41,I,https://www.klara.ch/online-terminbuchung
+elegance coiffeur,50,18,5,0,"L,C",https://elegance-hair-more-gmbh.online.klara.ch/de/home
+online shop erstellen kostenlos,50,17,32,2.87,I,https://www.klara.ch/online-shop-erstellen
+online-buchungssystem,50,6,56,7.47,I,https://www.klara.ch/online-terminbuchung
+warendrittel,50,1,7,0,I,https://www.klara.ch/blog/jahresabschluss-bewertungsgrundsaetze
+house of beauty meisterschwanden,50,8,8,1.63,"L,C",https://house-of-beauty.online.klara.ch/de/home
+credit suisse saldierungsauftrag,50,14,10,0,I,https://support.klara.ch/hc/fr/articles/16399642251164-Transfer-de-Credit-Suisse-vers-UBS
+mwst abrechnen,50,13,14,2.1,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer
+e-post scanning service,50,18,12,1.79,"L,C",https://www.klara.ch/blog/briefgeheimnis-beim-scanning-service
+privatanteil geschäftsfahrzeug berechnen,50,9,8,0,I,https://www.klara.ch/blog/privatnutzung-von-geschäftsfahrzeugen-was-du-wissen-musst
+mwst kontoauszug bestellen,50,13,14,0,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/mehrwertsteuer
+rechnungsvorlage word kostenlos,50,13,7,1.15,I,https://www.klara.ch/blog/rechnung-schreiben-leicht-gemacht-gratis-vorlage
+coiffeur silvaplana,50,15,7,0,"L,N",https://coiffeur-linea-creativa.online.klara.ch/de/home
+elegance hair and more,50,5,6,1.2,"I,N",https://elegance-hair-more-gmbh.online.klara.ch/de/home
+excel einnahmen ausgaben vorlage,50,7,14,0.85,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+excel einnahmen-ausgaben vorlage,50,6,14,0.97,I,https://www.klara.ch/blog/buchhaltung-selber-machen-excel-vorlage
+lohnprogramme schweiz,50,1,7,9.45,I,https://www.klara.ch/lohnbuchhaltung
+arbeitszeiterfassung für kleinbetriebe,50,1,12,0,I,https://www.klara.ch/zeiterfassung
+elektra fulenbach,50,12,6,0,"L,C",https://elektra-fulenbach-efu.online.klara.ch/de/home
+fusspflege hinwil,50,12,5,0.44,"L,C",https://podologie-nadine-keller.online.klara.ch/de/home
+el cotone,50,1,8,0,"I,N",https://art-and-more-art-gmbh.online.klara.ch/de/pages/kontakt
+überlanges geschäftsjahr,50,1,8,0,I,https://www.klara.ch/blog/erstes-geschaeftsjahr-jahresabschluss-steuererklärung
+firmenfahrzeug private nutzung schweiz,50,1,8,0,I,https://www.klara.ch/blog/privatnutzung-von-geschäftsfahrzeugen-was-du-wissen-musst
+kassierer verein,50,17,7,0,I,https://www.klara.ch/blog/business/administrieren/klara-buchhaltung/vereinskassierer-buchhaltung-vereine
+sammelrechnung,50,13,9,0,I,https://support.klara.ch/hc/de/articles/360020965980-Sammelrechnung-aus-mehreren-Lieferscheinen-erstellen
+halle 44 baar öffnungszeiten,50,11,10,0,"L,C",https://halle-44-1.online.klara.ch/de/home
+arbeitszeugnis erstellung,50,18,14,1.46,I,https://www.klara.ch/blog/arbeitszeugnis-erstellen-tipps-beispiele-vorlage
+elegance hair and beauty,50,15,15,0,"I,N",https://elegance-hair-more-gmbh.online.klara.ch/de/booking/service
+online customer management system,50,4,59,0,I,https://www.klara.ch/en/crm-software
+buchungssystem online,50,1,53,7.47,I,https://www.klara.ch/online-terminbuchung

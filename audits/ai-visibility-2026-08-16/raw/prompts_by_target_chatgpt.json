@@ -1,0 +1,39 @@
+{
+  "total": 23,
+  "date": "2025-09-01",
+  "prompts": [
+    {
+      "prompt": "Ist es sinnvoll euro in schweizer franken zu wechseln?",
+      "volume": 0,
+      "type": "Link",
+      "answer": {
+        "text": " Kurz gesagt Ja es kann sinnvoll sein aber nur unter bestimmten Bedingungen Hier ist die ehrliche Einschätzung für deine Situation in der Schweiz Aktuelle Lage wichtig Der Kurs liegt aktuell etwa bei 1 0 92 CHF finanzen net Der Schweizer Franken ist langfristig stärker geworden als der Euro Magic Heidi Prognosen sehen den Euro eher schwach bis stabil gegenüber dem CHF Trading de Bedeutet Für 1 bekommst du relativ wenig Franken Wann es sinnvoll ist zu wechseln 1 Du lebst in der Schweiz und brauchst CHF zum Ausgeben Ja dann unbedingt wechseln Miete Einkäufe etc Sonst verlierst du Geld durch schlechte Kurse beim Bezahlen in Euro 2 Du willst Sicherheit stabile Währung Der CHF gilt als sicherer Hafen und ist stabiler als der Euro CHF Umrechner 3 Du erwartest dass der Euro weiter schwächer wird Dann kann ein Wechsel jetzt sinnvoll sein Wann es eher nicht sinnvoll ist 1 Du spekulierst auf Gewinn durch Wechselkurs Das ist unsicher und eher Währungsspekulation 2 Du brauchst das Geld später wieder in Euro Dann verlierst du doppelt Wechselgebühren Kursrisiko 3 Du wechselst große Beträge spontan Gebühren 1 2 oder mehr können deinen Vorteil auffressen Typischer Fehler Viele denken CHF ist stärker ich sollte alles umtauschen Das stimmt so nicht Du kaufst den CHF aktuell relativ teuer weil er schon stark ist Fazit Für Alltag in der Schweiz Ja sinnvoll Als Investment Nur mit klarer Strategie Kurzfristig Gewinne machen eher nein Wenn du willst sag mir wie viel Geld ungefähr und wie lange du es halten willst Dann sag ich dir konkret ob es sich für dich persönlich lohnt ",
+        "links": [
+          "https://www.chf-umrechner.ch/ist-es-sinnvoll-euro-in-schweizer-franken-zu-wechseln/"
+        ]
+      }
+    },
+    {
+      "prompt": "Quel chiffre d'affaire pour un salaire de 2000 euros?",
+      "volume": 0,
+      "type": "Link",
+      "answer": {
+        "text": " Bonne question et la réponse courte est il faut généralement beaucoup plus de chiffre d affaires que 2 000 pour se verser 2 000 nets surtout en Suisse 1 Le principe très important En indépendant Chiffre d affaires salaire Tu dois payer charges sociales 10 AVS impôts 5 15 selon canton assurance maladie 5 10 frais pro éventuels Au total les charges représentent souvent 25 à 35 du CA SimpliFaq 2 Estimation concrète Suisse Objectif 2 000 net mois 1 900 2 000 CHF Calcul rapide On inverse le raisonnement Si tu gardes 65 75 du CA Alors CA nécessaire 2 700 à 3 100 mois 3 Exemple réaliste Un cas typique tiré d un calcul réel CA 120 000 CHF an Net final 72 000 CHF an 6 000 CHF mois Magic Heidi Donc environ 60 du CA reste en net 4 Conclusion simple Pour viser 2 000 net mois en Suisse Tu dois viser environ 2 800 à 3 200 de chiffre d affaires mensuel soit 34 000 à 38 000 par an Attention très important Ce chiffre varie selon ton canton impôts très différents ton activité frais TVA ta situation célibataire assurance etc Règle rapide à retenir Net 60 70 du chiffre d affaires Si tu veux dis-moi ton activité freelance commerce etc et je peux te faire un calcul beaucoup plus précis ",
+        "links": [
+          "https://magicheidi.ch/fr/tools/freelancer-salary-calculator"
+        ]
+      }
+    },
+    {
+      "prompt": "Wie viel ist ein guter verdienst?",
+      "volume": 0,
+      "type": "Link",
+      "answer": {
+        "text": " Kurz gesagt In der Schweiz gilt ein guter Verdienst als relativ hoch im Vergleich zu anderen Ländern aber er hängt stark von deinem Job deiner Erfahrung und deinem Wohnort ab Orientierung Was ist normal Median typischster Wert ca 7 000 CHF brutto Monat IamExpat in Switzerland 1 Durchschnitt ca 7 900 8 300 CHF Monat Magic Heidi Der Median ist wichtiger Das ist genau die Mitte die Hälfte verdient mehr die andere weniger Was gilt als guter Verdienst Man kann es grob so einteilen Unter 5 000 CHF Monat eher niedrig 5 000 7 000 CHF durchschnittlich bis okay 7 000 9 000 CHF gut 9 000 CHF sehr gut 12 000 CHF top z B Führung IT Finance Nach Erfahrung typisch Einstieg 60k 75k Jahr 5k 6k Monat Salaire en Suisse Mittel 80k 110k Jahr 6 5k 9k Monat Salaire en Suisse Senior 110k 150k Salaire en Suisse Wichtiger Punkt Lebenshaltungskosten Ein guter Lohn ist relativ weil Miete oft 2 000 3 500 CHF Krankenversicherung 300 500 CHF Monat Schweiz ist eines der teuersten Länder der Welt Lohncheck ch Fazit Ein guter Verdienst in der Schweiz ist ab ca 7 000 9 000 CHF Monat wirklich komfortabel wird es meist ab 9 000 CHF Wenn du willst sag mir deinen Job oder deine Erfahrung dann kann ich dir genauer sagen was ein guter Lohn für dich persönlich wäre ",
+        "links": [
+          "https://lohncheck.ch/en/articles/average-salary-switzerland-2026"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "summary": [
+    {
+      "target": "abaninja.ch",
+      "backlinks": 4994,
+      "refdomains": 450,
+      "subnets": 170,
+      "ips": 207,
+      "nofollow_backlinks": 557,
+      "dofollow_backlinks": 4437,
+      "edu_backlinks": 0,
+      "gov_backlinks": 0,
+      "inlink_rank": 14,
+      "domain_inlink_rank": 58,
+      "from_home_page_backlinks": 40,
+      "dofollow_from_home_page_backlinks": 26,
+      "text_backlinks": 3158,
+      "dofollow_refdomains": 314,
+      "from_home_page_refdomains": 31,
+      "edu_refdomains": 0,
+      "gov_refdomains": 0,
+      "anchors": 250,
+      "dofollow_anchors": 65,
+      "pages_with_backlinks": 34,
+      "top_anchors_by_backlinks": [
+        {
+          "anchor": "AbaNinja - Rechnungssoftware",
+          "backlinks": 1309
+        },
+        {
+          "anchor": "AbaNinja",
+          "backlinks": 1086
+        },
+        {
+          "anchor": "www.abaninja.ch",
+          "backlinks": 926
+        },
+        {
+          "anchor": "abaninja",
+          "backlinks": 281
+        },
+        {
+          "anchor": "https://www.abaninja.ch",
+          "backlinks": 204
+        },
+        {
+          "anchor": "https://abaninja.ch/",
+          "backlinks": 197
+        },
+        {
+          "anchor": "abaninja.ch",
+          "backlinks": 141
+        },
+        {
+          "anchor": "Abaninja",
+          "backlinks": 136
+        },
+        {
+          "anchor": "",
+          "backlinks": 131
+        },
+        {
+          "anchor": "Mahnprogramm Abaninja Online Rechnungen Mahnungen Erstellen",
+          "backlinks": 11
+        }
+      ],
+      "top_anchors_by_refdomains": [
+        {
+          "anchor": "abaninja.ch",
+          "refdomains": 584
+        },
+        {
+          "anchor": "abaninja",
+          "refdomains": 208
+        },
+        {
+          "anchor": "Start",
+          "refdomains": 112
+        },
+        {
+          "anchor": "AbaNinja",
+          "refdomains": 77
+        },
+        {
+          "anchor": "www.abaninja.ch",
+          "refdomains": 65
+        },
+        {
+          "anchor": "",
+          "refdomains": 59
+        },
+        {
+          "anchor": "Abaninja",
+          "refdomains": 19
+        },
+        {
+          "anchor": "https://www.abaninja.ch",
+          "refdomains": 19
+        },
+        {
+          "anchor": "here",
+          "refdomains": 14
+        },
+        {
+          "anchor": "AbaNinja - Rechnungssoftware",
+          "refdomains": 13
+        }
+      ],
+      "top_pages_by_backlinks": [
+        {
+          "url": "https://www.abaninja.ch/",
+          "backlinks": 3460
+        },
+        {
+          "url": "https://abaninja.ch/",
+          "backlinks": 697
+        },
+        {
+          "url": "https://abaninja.ch/de/",
+          "backlinks": 192
+        },
+        {
+          "url": "https://abaninja.ch/apidocs/",
+          "backlinks": 179
+        },
+        {
+          "url": "http://www.abaninja.ch/",
+          "backlinks": 95
+        },
+        {
+          "url": "http://abaninja.ch/",
+          "backlinks": 76
+        },
+        {
+          "url": "http://www.abaninja.ch/de",
+          "backlinks": 43
+        },
+        {
+          "url": "http://www.abaninja.ch/fr",
+          "backlinks": 17
+        },
+        {
+          "url": "https://www.abaninja.ch/de/",
+          "backlinks": 15
+        },
+        {
+          "url": "https://abaninja.ch/wp-content/uploads/2018/01/rechnungen-kostenlos.jpg",
+          "backlinks": 15
+        }
+      ],
+      "top_pages_by_refdomains": [
+        {
+          "url": "http://abaninja.ch/",
+          "refdomains": 523
+        },
+        {
+          "url": "https://abaninja.ch/",
+          "refdomains": 327
+        },
+        {
+          "url": "https://www.abaninja.ch/",
+          "refdomains": 122
+        },
+        {
+          "url": "https://app.abaninja.ch/login",
+          "refdomains": 118
+        },
+        {
+          "url": "https://abaninja.ch/de/",
+          "refdomains": 61
+        },
+        {
+          "url": "http://www.abaninja.ch/",
+          "refdomains": 61
+        },
+        {
+          "url": "https://abaninja.ch/en/",
+          "refdomains": 54
+        },
+        {
+          "url": "https://abaninja.ch/fr/",
+          "refdomains": 22
+        },
+        {
+          "url": "https://www.abaninja.ch/de/index.html",
+          "refdomains": 16
+        },
+        {
+          "url": "https://www.abaninja.ch/de/",
+          "refdomains": 15
+        }
+      ],
+      "top_tlds": [
+        {
+          "tld": "com",
+          "count": 219
+        },
+        {
+          "tld": "ch",
+          "count": 106
+        },
+        {
+          "tld": "in",
+          "count": 31
+        },
+        {
+          "tld": "de",
+          "count": 19
+        },
+        {
+          "tld": "org",
+          "count": 12
+        },
+        {
+          "tld": "net",
+          "count": 7
+        },
+        {
+          "tld": "top",
+          "count": 5
+        },
+        {
+          "tld": "swiss",
+          "count": 4
+        },
+        {
+          "tld": "pw",
+          "count": 4
+        },
+        {
+          "tld": "at",
+          "count": 3
+        }
+      ],
+      "top_countries": [
+        {
+          "country": "de",
+          "count": 179
+        },
+        {
+          "country": "us",
+          "count": 89
+        },
+        {
+          "country": "ch",
+          "count": 62
+        },
+        {
+          "country": "sg",
+          "count": 57
+        },
+        {
+          "country": "",
+          "count": 18
+        },
+        {
+          "country": "fi",
+          "count": 17
+        },
+        {
+          "country": "fr",
+          "count": 16
+        },
+        {
+          "country": "co",
+          "count": 10
+        },
+        {
+          "country": "in",
+          "count": 2
+        },
+        {
+          "country": "nl",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "summary": [
+    {
+      "target": "klara.ch",
+      "backlinks": 20912,
+      "refdomains": 1444,
+      "subnets": 895,
+      "ips": 1049,
+      "nofollow_backlinks": 10700,
+      "dofollow_backlinks": 10212,
+      "edu_backlinks": 2,
+      "gov_backlinks": 0,
+      "inlink_rank": 19,
+      "domain_inlink_rank": 75,
+      "from_home_page_backlinks": 325,
+      "dofollow_from_home_page_backlinks": 309,
+      "text_backlinks": 18433,
+      "dofollow_refdomains": 1050,
+      "from_home_page_refdomains": 219,
+      "edu_refdomains": 2,
+      "gov_refdomains": 0,
+      "anchors": 1086,
+      "dofollow_anchors": 903,
+      "pages_with_backlinks": 656,
+      "top_anchors_by_backlinks": [
+        {
+          "anchor": "Mehr →",
+          "backlinks": 7042
+        },
+        {
+          "anchor": "social link",
+          "backlinks": 2616
+        },
+        {
+          "anchor": "Termin buchen",
+          "backlinks": 2419
+        },
+        {
+          "anchor": "",
+          "backlinks": 2319
+        },
+        {
+          "anchor": "68691",
+          "backlinks": 941
+        },
+        {
+          "anchor": "STANDARD TERMIN BUCHEN",
+          "backlinks": 694
+        },
+        {
+          "anchor": "KLARA Business AG",
+          "backlinks": 609
+        },
+        {
+          "anchor": "Termin",
+          "backlinks": 418
+        },
+        {
+          "anchor": "KLARA",
+          "backlinks": 347
+        },
+        {
+          "anchor": "klara",
+          "backlinks": 313
+        }
+      ],
+      "top_anchors_by_refdomains": [
+        {
+          "anchor": "klara",
+          "refdomains": 191
+        },
+        {
+          "anchor": "klara.ch",
+          "refdomains": 124
+        },
+        {
+          "anchor": "KLARA",
+          "refdomains": 88
+        },
+        {
+          "anchor": "Termin buchen",
+          "refdomains": 70
+        },
+        {
+          "anchor": "",
+          "refdomains": 59
+        },
+        {
+          "anchor": "POWERED BY",
+          "refdomains": 58
+        },
+        {
+          "anchor": "www.klara.ch",
+          "refdomains": 53
+        },
+        {
+          "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR WWW.KLARA.CH",
+          "refdomains": 52
+        },
+        {
+          "anchor": "Klara",
+          "refdomains": 49
+        },
+        {
+          "anchor": "KLARA Business AG",
+          "refdomains": 26
+        }
+      ],
+      "top_pages_by_backlinks": [
+        {
+          "url": "https://www.klara.ch/",
+          "backlinks": 8058
+        },
+        {
+          "url": "https://www.veloservice-fertal.online.klara.ch/",
+          "backlinks": 2616
+        },
+        {
+          "url": "https://veloservice-fertal.online.klara.ch/de/home",
+          "backlinks": 1966
+        },
+        {
+          "url": "https://nalustore-gmbh.online.klara.ch/de/home",
+          "backlinks": 854
+        },
+        {
+          "url": "https://brautmode-liebeskleid-gmbh.online.klara.ch/de/booking/service?page=1",
+          "backlinks": 694
+        }
+      ],
+      "top_pages_by_refdomains": [
+        {
+          "url": "https://www.klara.ch/",
+          "refdomains": 271
+        },
+        {
+          "url": "https://klara.ch/",
+          "refdomains": 232
+        },
+        {
+          "url": "https://www.klara.ch/hs-fs/hubfs/klara-web-screen-hardware-en.png?width=1601&height=1348&name=klara-web-screen-hardware-en.png",
+          "refdomains": 78
+        },
+        {
+          "url": "http://klara.ch/",
+          "refdomains": 77
+        },
+        {
+          "url": "https://www.klara.ch/blog/https/www.klara.ch/blog/business/administrieren/klara-lohn/bonusauszahlungen-erklaerung",
+          "refdomains": 66
+        }
+      ],
+      "top_tlds": [
+        {
+          "tld": "ch",
+          "count": 568
+        },
+        {
+          "tld": "com",
+          "count": 410
+        },
+        {
+          "tld": "de",
+          "count": 20
+        },
+        {
+          "tld": "in",
+          "count": 18
+        },
+        {
+          "tld": "app",
+          "count": 17
+        }
+      ],
+      "top_countries": [
+        {
+          "country": "us",
+          "count": 433
+        },
+        {
+          "country": "de",
+          "count": 267
+        },
+        {
+          "country": "ch",
+          "count": 262
+        },
+        {
+          "country": "sg",
+          "count": 74
+        },
+        {
+          "country": "co",
+          "count": 59
+        }
+      ]
+    }
+  ]
+}

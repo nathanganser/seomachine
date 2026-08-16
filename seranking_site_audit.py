@@ -1,39 +1,52 @@
 #!/usr/bin/env python3
-"""Create (or poll) an SE Ranking standard site audit for magicheidi.ch.
+"""Create (or poll) an SE Ranking standard site audit.
 
 Usage:
-  python3 seranking_site_audit.py create          # kick off crawl, prints audit_id
+  python3 seranking_site_audit.py create                    # kick off crawl, prints audit_id
   python3 seranking_site_audit.py status <id>
-  python3 seranking_site_audit.py fetch <id>      # save report + top issue pages
+  python3 seranking_site_audit.py fetch <id>                # save report + top issue pages
+Options:
+  --date YYYY-MM-DD   output snapshot dir (default: today) → audits/seranking-<date>/raw
+  --out DIR           explicit output dir (overrides --date)
+  --domain DOMAIN     default magicheidi.ch
+  --max-pages N       crawl cap for create (default 1500; billed 2 credits/page)
 """
 
-import sys
+import argparse
+import datetime as dt
 import json
+import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "data_sources" / "modules"))
 from seranking import SERankingClient, save_json
 
-DOMAIN = "magicheidi.ch"
-OUT_DIR = Path(__file__).parent / "audits" / "seranking-2026-08-01" / "raw"
-
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("cmd", choices=["create", "status", "fetch"])
+    ap.add_argument("audit_id", nargs="?", help="audit id (for status/fetch)")
+    ap.add_argument("--date", default=dt.date.today().isoformat())
+    ap.add_argument("--out", default=None)
+    ap.add_argument("--domain", default="magicheidi.ch")
+    ap.add_argument("--max-pages", type=int, default=1500)
+    args = ap.parse_args()
+
+    out_dir = Path(args.out) if args.out else (
+        Path(__file__).parent / "audits" / f"seranking-{args.date}" / "raw")
     client = SERankingClient()
-    cmd = sys.argv[1] if len(sys.argv) > 1 else "create"
 
-    if cmd == "create":
-        res = client.audit_create_standard(DOMAIN, settings={"max_pages": 1500})
+    if args.cmd == "create":
+        res = client.audit_create_standard(args.domain, settings={"max_pages": args.max_pages})
         print(json.dumps(res, indent=2))
-        save_json(res, OUT_DIR / "audit_created.json")
+        save_json(res, out_dir / "audit_created.json")
 
-    elif cmd == "status":
-        print(json.dumps(client.audit_status(sys.argv[2]), indent=2))
+    elif args.cmd == "status":
+        print(json.dumps(client.audit_status(args.audit_id), indent=2))
 
-    elif cmd == "fetch":
-        audit_id = sys.argv[2]
-        report = client.audit_report(audit_id)
-        save_json(report, OUT_DIR / "audit_report.json")
+    elif args.cmd == "fetch":
+        report = client.audit_report(args.audit_id)
+        save_json(report, out_dir / "audit_report.json")
 
         # Pull affected pages for every non-passed issue so fixes can be targeted.
         issue_pages = {}
@@ -47,11 +60,11 @@ def main():
                         issue_pages[code] = {
                             "name": issue.get("name"), "status": issue["status"],
                             "count": count,
-                            "pages": client.audit_issue_pages(audit_id, code),
+                            "pages": client.audit_issue_pages(args.audit_id, code),
                         }
                     except RuntimeError as e:
                         issue_pages[code] = {"name": issue.get("name"), "error": str(e)}
-        save_json(issue_pages, OUT_DIR / "audit_issue_pages.json")
+        save_json(issue_pages, out_dir / "audit_issue_pages.json")
         print(f"Fetched report + pages for {len(issue_pages)} issues")
 
 

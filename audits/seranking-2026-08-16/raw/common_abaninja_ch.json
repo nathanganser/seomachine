@@ -1,0 +1,733 @@
+[
+  {
+    "keyword": "abaninja",
+    "volume": 4400,
+    "cpc": 2.83,
+    "competition": 0.18,
+    "difficulty": 79,
+    "total_sites": 0,
+    "intents": [
+      "I",
+      "N"
+    ],
+    "serp_features": [
+      "reviews",
+      "sitelinks",
+      "video",
+      "people_also_ask",
+      "images",
+      "related_searches"
+    ],
+    "compare_position": 2,
+    "compare_url": "https://www.abaninja.ch/de/",
+    "compare_price": 466.95,
+    "compare_traffic": 165,
+    "position": 6,
+    "url": "https://magicheidi.ch/de/alternative/abaninja",
+    "price": 2.83,
+    "traffic": 1
+  },
+  {
+    "keyword": "rechnung erstellen",
+    "volume": 590,
+    "cpc": 3.68,
+    "competition": 0.64,
+    "difficulty": 21,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "images",
+      "related_searches"
+    ],
+    "compare_position": 49,
+    "compare_url": "https://help.abaninja.ch/de/customers/customers-invoices/create-an-invoice.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 17,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 18.4,
+    "traffic": 5
+  },
+  {
+    "keyword": "qr einzahlungsschein erstellen gratis",
+    "volume": 590,
+    "cpc": 1.4,
+    "competition": 0.3,
+    "difficulty": 34,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 61,
+    "compare_url": "https://help.abaninja.ch/de/customers/customers-invoices/qr-bill-qr-payment-slip.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 9,
+    "url": "https://magicheidi.ch/qr-rechnung-erstellen",
+    "price": 2.8,
+    "traffic": 2
+  },
+  {
+    "keyword": "qr-einzahlungsschein erstellen gratis",
+    "volume": 590,
+    "cpc": 1.4,
+    "competition": 0.3,
+    "difficulty": 34,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 60,
+    "compare_url": "https://help.abaninja.ch/de/customers/customers-invoices/qr-bill-qr-payment-slip.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 9,
+    "url": "https://magicheidi.ch/qr-rechnung-erstellen",
+    "price": 2.8,
+    "traffic": 2
+  },
+  {
+    "keyword": "akontorechnung",
+    "volume": 480,
+    "cpc": 1.38,
+    "competition": 0.03,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 15,
+    "compare_url": "https://help.abaninja.ch/de/customers/customers-invoices/advance-invoice.html",
+    "compare_price": 2.76,
+    "compare_traffic": 2,
+    "position": 11,
+    "url": "https://magicheidi.ch/de/akontorechnung-schweiz",
+    "price": 2.76,
+    "traffic": 2
+  },
+  {
+    "keyword": "qr facture",
+    "volume": 390,
+    "cpc": 1.27,
+    "competition": 0.19,
+    "difficulty": 40,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 37,
+    "compare_url": "https://help.abaninja.ch/fr/customers/customers-invoices/qr-bill-qr-payment-slip.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 11,
+    "url": "https://magicheidi.ch/fr/qr-rechnung-erstellen",
+    "price": 1.27,
+    "traffic": 1
+  },
+  {
+    "keyword": "qr-facture",
+    "volume": 390,
+    "cpc": 1.27,
+    "competition": 0.19,
+    "difficulty": 34,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 38,
+    "compare_url": "https://help.abaninja.ch/fr/customers/customers-invoices/qr-bill-qr-payment-slip.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 13,
+    "url": "https://magicheidi.ch/fr/qr-rechnung-erstellen",
+    "price": 2.54,
+    "traffic": 2
+  },
+  {
+    "keyword": "kontenplan schweiz",
+    "volume": 210,
+    "cpc": 1.83,
+    "competition": 0.17,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "knowledge_graph",
+      "related_searches"
+    ],
+    "compare_position": 54,
+    "compare_url": "https://help.abaninja.ch/de/settings/accounting/content-plan/adjust-content-plan.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 49,
+    "url": "https://magicheidi.ch/de/plan-comptable-suisse-independants",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung erstellen schweiz",
+    "volume": 170,
+    "cpc": 3.32,
+    "competition": 0.76,
+    "difficulty": 30,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "compare_position": 62,
+    "compare_url": "https://help.abaninja.ch/de/customers/customers-invoices/create-an-invoice.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 6,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 9.96,
+    "traffic": 3
+  },
+  {
+    "keyword": "rechnungen erstellen schweiz",
+    "volume": 170,
+    "cpc": 3.32,
+    "competition": 0.76,
+    "difficulty": 28,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 65,
+    "compare_url": "https://help.abaninja.ch/de/customers/customers-invoices/create-an-invoice.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 6.64,
+    "traffic": 2
+  },
+  {
+    "keyword": "facture qr",
+    "volume": 140,
+    "cpc": 1.27,
+    "competition": 0.25,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "related_searches"
+    ],
+    "compare_position": 27,
+    "compare_url": "https://help.abaninja.ch/fr/customers/customers-invoices/qr-bill-qr-payment-slip.html",
+    "compare_price": 1.27,
+    "compare_traffic": 1,
+    "position": 84,
+    "url": "https://magicheidi.ch/fr/blog/comment-creer-une-facture-avec-code-qr-suisse-facilement-et-gratuitement",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "concordance tva",
+    "volume": 90,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 31,
+    "compare_url": "https://help.abaninja.ch/fr/accounting/accounting-vat-value-added-tax/vat-annual-vote.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 29,
+    "url": "https://magicheidi.ch/fr/swiss-vat-reconciliation-guide",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "facture qr code suisse gratuit",
+    "volume": 90,
+    "cpc": 1.27,
+    "competition": 0.56,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 39,
+    "compare_url": "https://help.abaninja.ch/fr/customers/customers-invoices/qr-bill-qr-payment-slip.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/fr/qr-rechnung-erstellen",
+    "price": 1.27,
+    "traffic": 1
+  },
+  {
+    "keyword": "umsatzabstimmung mwst",
+    "volume": 70,
+    "cpc": 1.51,
+    "competition": 0.14,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 37,
+    "compare_url": "https://help.abaninja.ch/de/accounting/accounting-vat-value-added-tax/vat-annual-vote.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 63,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst umsatzabstimmung",
+    "volume": 70,
+    "cpc": 1.51,
+    "competition": 0.14,
+    "difficulty": 7,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 37,
+    "compare_url": "https://help.abaninja.ch/de/accounting/accounting-vat-value-added-tax/vat-annual-vote.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 62,
+    "url": "https://magicheidi.ch/de/mwst-registrierung",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "bulletin de versement qr code",
+    "volume": 70,
+    "cpc": 1.58,
+    "competition": 0.59,
+    "difficulty": 9,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 50,
+    "compare_url": "https://help.abaninja.ch/fr/customers/customers-invoices/qr-bill-qr-payment-slip.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 14,
+    "url": "https://magicheidi.ch/fr/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "rechnung schreiben schweiz",
+    "volume": 50,
+    "cpc": 4.01,
+    "competition": 0.8,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 85,
+    "compare_url": "https://help.abaninja.ch/de/customers/customers-invoices/create-an-invoice.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 4.01,
+    "traffic": 1
+  },
+  {
+    "keyword": "rechnungen schreiben schweiz",
+    "volume": 50,
+    "cpc": 4.01,
+    "competition": 0.8,
+    "difficulty": 6,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 81,
+    "compare_url": "https://help.abaninja.ch/de/customers/customers-invoices/create-an-invoice.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/rechnung-schreiben-schweiz",
+    "price": 4.01,
+    "traffic": 1
+  },
+  {
+    "keyword": "décompte tva formulaire",
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.05,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 75,
+    "compare_url": "https://help.abaninja.ch/fr/settings/accounting/vat/vat-methods/balanceflat.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 34,
+    "url": "https://magicheidi.ch/fr/mwst-registrierung/waadt",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "abaninja buchhaltung",
+    "volume": 50,
+    "cpc": 5.01,
+    "competition": 0.63,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.abaninja.ch/de/",
+    "compare_price": 5.01,
+    "compare_traffic": 1,
+    "position": 32,
+    "url": "https://magicheidi.ch/de/alternative/abaninja",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "abaninja kosten",
+    "volume": 50,
+    "cpc": 3.63,
+    "competition": 0.56,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 1,
+    "compare_url": "https://www.abaninja.ch/de/",
+    "compare_price": 3.63,
+    "compare_traffic": 1,
+    "position": 7,
+    "url": "https://magicheidi.ch/de/alternative/abaninja",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst code",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 39,
+    "compare_url": "https://help.abaninja.ch/de/accounting/accounting-vat-value-added-tax/vat-invoice/how-are-the-fields-in-the-vat-statement-effectively-calculated.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 45,
+    "url": "https://magicheidi.ch/mwst-nummer-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "mwst code schweiz",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.06,
+    "difficulty": 16,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 41,
+    "compare_url": "https://help.abaninja.ch/de/accounting/accounting-vat-value-added-tax/vat-invoice/how-are-the-fields-in-the-vat-statement-effectively-calculated.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 29,
+    "url": "https://magicheidi.ch/mwst-nummer-schweiz",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "qr iban in iban umwandeln",
+    "volume": 40,
+    "cpc": 0,
+    "competition": 0.03,
+    "difficulty": 13,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 62,
+    "compare_url": "https://help.abaninja.ch/de/customers/customers-invoices/qr-bill-qr-payment-slip.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 32,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "unterschied iban und qr iban",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.01,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 67,
+    "compare_url": "https://help.abaninja.ch/de/customers/customers-invoices/qr-bill-qr-payment-slip.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "unterschied iban und qr-iban",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0,
+    "difficulty": 8,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 63,
+    "compare_url": "https://help.abaninja.ch/de/customers/customers-invoices/qr-bill-qr-payment-slip.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 1,
+    "url": "https://magicheidi.ch/de/qr-iban-example",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "bulletin de versement vierge",
+    "volume": 30,
+    "cpc": 0,
+    "competition": 0.82,
+    "difficulty": 10,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "compare_position": 40,
+    "compare_url": "https://help.abaninja.ch/fr/customers/customers-invoices/qr-bill-qr-payment-slip.html",
+    "compare_price": 0,
+    "compare_traffic": 0,
+    "position": 23,
+    "url": "https://magicheidi.ch/fr/qr-rechnung-erstellen",
+    "price": 0,
+    "traffic": 0
+  },
+  {
+    "keyword": "générateur de facture qr",
+    "volume": 30,
+    "cpc": 1.27,
+    "competition": 0.51,
+    "difficulty": 20,
+    "total_sites": 0,
+    "intents": [
+      "I"
+    ],
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "compare_position": 25,
+    "compare_url": "https://help.abaninja.ch/fr/customers/customers-invoices/qr-bill-qr-payment-slip.html",
+    "compare_price": 1.27,
+    "compare_traffic": 1,
+    "position": 5,
+    "url": "https://magicheidi.ch/fr/qr-rechnung-erstellen",
+    "price": 1.27,
+    "traffic": 1
+  }
+]

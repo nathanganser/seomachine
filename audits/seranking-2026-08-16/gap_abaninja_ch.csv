@@ -1,0 +1,22 @@
+keyword,volume,their_pos,difficulty,cpc,intents,their_url
+bankverbindungen,320,16,13,0,I,https://help.abaninja.ch/de/finance/finances-banking/creating-a-bank-connection.html
+stripe twint,260,18,10,4.19,I,https://help.abaninja.ch/de/settings/customer-portal/payment-service-provider-psp/credit-card-twint-stripe.html
+migros bank connect,260,18,18,0,I,https://help.abaninja.ch/de/finance/finances-banking/temporary-bank-connection/migros-bank-temporary-connection.html
+abasky,210,12,6,0,I,https://app.abaninja.ch/login
+migrosbank support,170,19,12,0,I,https://help.abaninja.ch/de/finance/finances-banking/temporary-bank-connection/migros-bank-temporary-connection.html
+post ebanking,170,11,10,3.08,I,https://help.abaninja.ch/de/finance/finances-banking/permanent-bank-connection/postfinance.html
+abaclik login,170,12,13,1.49,I,https://help.abaninja.ch/de/settings/company/subscriptions-and-add-ons/abaclik-ai.html
+abaclock,140,12,8,2.69,"I,N",https://help.abaninja.ch/de/settings/company/subscriptions-and-add-ons/abaclock-time-clock.html
+migros bank adressänderung,140,19,11,0,I,https://help.abaninja.ch/de/finance/finances-banking/temporary-bank-connection/migros-bank-temporary-connection.html
+mwst jahresabstimmung,110,6,7,0,I,https://help.abaninja.ch/de/accounting/accounting-vat-value-added-tax/vat-annual-vote.html
+anis login,110,10,29,0,"I,N",https://app.abaninja.ch/login
+zahlungseingänge,90,16,17,3.63,I,https://help.abaninja.ch/de/finance/payments/manually-record-payments.html
+jahresabstimmung mwst,90,1,7,0,I,https://help.abaninja.ch/de/accounting/accounting-vat-value-added-tax/vat-annual-vote.html
+zahlungseingang,90,11,8,3.63,I,https://help.abaninja.ch/de/finance/payments/create-a-payment-receipt.html
+zahlungsauftrag,90,18,17,0,I,https://help.abaninja.ch/de/finance/payments/create-a-payment-order.html
+gleitzeitsaldo,50,13,7,0,I,https://help.abaninja.ch/de/time-tracking/employees/employee-single-view/evaluation-of-flextime.html
+migros bank schliessfach,50,19,23,0,I,https://help.abaninja.ch/de/finance/finances-banking/temporary-bank-connection/migros-bank-temporary-connection.html
+pendente zahlung,50,16,10,0,I,https://help.abaninja.ch/de/finance/payments/pending-payments.html
+pendente zahlungen,50,11,9,0,I,https://help.abaninja.ch/de/finance/payments/pending-payments.html
+migros bank konto saldieren,50,17,8,0,I,https://help.abaninja.ch/de/finance/finances-banking/temporary-bank-connection/migros-bank-temporary-connection.html
+bankverbindung angeben,50,16,13,0,I,https://help.abaninja.ch/de/finance/finances-banking/creating-a-bank-connection.html

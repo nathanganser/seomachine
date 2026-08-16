@@ -1,0 +1,86 @@
+{
+  "date": "2026-08-16",
+  "domain": "magicheidi.ch",
+  "source": "ch",
+  "competitors": [
+    "bexio.com",
+    "klara.ch",
+    "banana.ch",
+    "cashctrl.com",
+    "abaninja.ch"
+  ],
+  "units_left_before": 3017325,
+  "pulls": {
+    "keywords_ch": {
+      "rows": 12631,
+      "complete": true
+    },
+    "comp_keywords_bexio_com": {
+      "rows": 2000,
+      "complete": false
+    },
+    "comp_keywords_klara_ch": {
+      "rows": 761,
+      "complete": true
+    },
+    "comp_keywords_banana_ch": {
+      "rows": 682,
+      "complete": true
+    },
+    "comp_keywords_cashctrl_com": {
+      "rows": 93,
+      "complete": true
+    },
+    "comp_keywords_abaninja_ch": {
+      "rows": 40,
+      "complete": true
+    }
+  },
+  "units_left_after": 3015425,
+  "credit_report": {
+    "total_calls": 40,
+    "total_est_credits": 3721,
+    "by_path": {
+      "/account/subscription": {
+        "calls": 4,
+        "est_credits": 0
+      },
+      "/domain/overview/db": {
+        "calls": 1,
+        "est_credits": 100
+      },
+      "/domain/overview/history": {
+        "calls": 1,
+        "est_credits": 100
+      },
+      "/domain/keywords": {
+        "calls": 19,
+        "est_credits": 1900
+      },
+      "/domain/pages": {
+        "calls": 1,
+        "est_credits": 100
+      },
+      "/domain/competitors": {
+        "calls": 1,
+        "est_credits": 100
+      },
+      "/domain/keywords/comparison": {
+        "calls": 5,
+        "est_credits": 500
+      },
+      "/backlinks/summary": {
+        "calls": 6,
+        "est_credits": 600
+      },
+      "/backlinks/authority": {
+        "calls": 1,
+        "est_credits": 100
+      },
+      "/backlinks/refdomains": {
+        "calls": 1,
+        "est_credits": 221
+      }
+    }
+  }
+}

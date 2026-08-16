@@ -1,62 +1,97 @@
 #!/usr/bin/env python3
-"""Pull the full SE Ranking dataset for the magicheidi.ch audit.
+"""Pull a full SE Ranking snapshot into a dated audits/ dir.
 
-Pulls (Switzerland database, source=ch):
+Pulls (Switzerland database, source=ch by default):
   - domain overview + 12-month history
-  - all organic keyword rankings (paginated)
+  - all organic keyword rankings (paginated until exhausted — no row cap)
   - ranking pages
   - organic competitors
-  - keyword gap vs main competitors (keywords they rank top-20 for, we don't)
+  - keyword overlap + competitor top-20 keywords per competitor
   - backlinks summary + authority + top referring domains (us + competitors)
+  - meta.json (competitors used, units before/after, credit estimates,
+    per-pull completeness flags for truncation-aware comparisons)
 
-Everything lands in audits/seranking-2026-08-01/raw/ as JSON.
+Usage:
+  python3 seranking_pull_data.py                       # today's snapshot
+  python3 seranking_pull_data.py --date 2026-09-01
+  python3 seranking_pull_data.py --domain magicheidi.ch --source ch \
+      --competitors bexio.com,klara.ch --skip-existing
 """
 
+import argparse
+import datetime as dt
+import json
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "data_sources" / "modules"))
 from seranking import SERankingClient, save_json
 
-DOMAIN = "magicheidi.ch"
-COMPETITORS = ["bexio.com", "klara.ch", "banana.ch", "cashctrl.com", "abaninja.ch"]
-OUT = Path(__file__).parent / "audits" / "seranking-2026-08-01" / "raw"
+REPO = Path(__file__).parent
+CONFIG = REPO / "config" / "competitors.json"
+
+
+def load_competitors(override):
+    if override:
+        return [c.strip() for c in override.split(",") if c.strip()]
+    cfg = json.load(open(CONFIG))
+    return cfg.get("seranking_competitors") or cfg.get("direct_competitors", [])
 
 
 def units(client, label):
-    left = client.subscription()["subscription_info"]["units_left"]
-    print(f"[units] {left:,} left after {label}")
-    return left
+    try:
+        left = client.units_left()
+        print(f"[units] {left:,} left after {label}")
+        return left
+    except Exception as e:
+        print(f"[units] unavailable after {label}: {e}")
+        return None
 
 
 def main():
-    client = SERankingClient(source="ch")
-    units(client, "start")
+    ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    ap.add_argument("--date", default=dt.date.today().isoformat(),
+                    help="snapshot date YYYY-MM-DD (default: today)")
+    ap.add_argument("--out", default=None,
+                    help="output raw dir (default: audits/seranking-<date>/raw)")
+    ap.add_argument("--domain", default="magicheidi.ch")
+    ap.add_argument("--source", default="ch")
+    ap.add_argument("--competitors", default=None,
+                    help="comma-separated override (default: config/competitors.json)")
+    ap.add_argument("--skip-existing", action="store_true",
+                    help="skip pulls whose raw file already exists")
+    args = ap.parse_args()
+
+    out = Path(args.out) if args.out else REPO / "audits" / f"seranking-{args.date}" / "raw"
+    competitors = load_competitors(args.competitors)
+    client = SERankingClient(source=args.source)
+    units_before = units(client, "start")
+    meta = {"date": args.date, "domain": args.domain, "source": args.source,
+            "competitors": competitors, "units_left_before": units_before,
+            "pulls": {}}
+
+    def fresh(path):
+        return not (args.skip_existing and path.exists())
 
     print("== domain overview ==")
-    if not (OUT / "overview_ch.json").exists():
-        save_json(client.domain_overview(DOMAIN), OUT / "overview_ch.json")
-        save_json(client.domain_history(DOMAIN), OUT / "overview_history_ch.json")
+    if fresh(out / "overview_ch.json"):
+        save_json(client.domain_overview(args.domain), out / "overview_ch.json")
+        save_json(client.domain_history(args.domain), out / "overview_history_ch.json")
 
-    print("== organic keywords (paginated) ==")
-    if not (OUT / "keywords_ch.json").exists() or len(sys.argv) > 1 and sys.argv[1] == "refresh-keywords":
-        all_rows = []
-        page = 1
-        while True:
-            res = client.domain_keywords(DOMAIN, limit=1000, page=page)
-            rows = res if isinstance(res, list) else res.get("keywords", res.get("data", []))
-            all_rows.extend(rows)
-            print(f"  page {page}: {len(rows)} rows (total {len(all_rows)})")
-            if len(rows) < 1000 or page >= 10:
-                break
-            page += 1
-        save_json(all_rows, OUT / "keywords_ch.json")
+    print("== organic keywords (paginated, uncapped) ==")
+    if fresh(out / "keywords_ch.json"):
+        rows, complete = client.domain_keywords_all(args.domain)
+        print(f"  {len(rows)} rows (complete={complete})")
+        save_json(rows, out / "keywords_ch.json")
+        meta["pulls"]["keywords_ch"] = {"rows": len(rows), "complete": complete}
 
     print("== ranking pages ==")
-    save_json(client.domain_pages(DOMAIN, limit=1000), OUT / "pages_ch.json")
+    if fresh(out / "pages_ch.json"):
+        save_json(client.domain_pages(args.domain, limit=1000), out / "pages_ch.json")
 
     print("== competitors ==")
-    save_json(client.domain_competitors(DOMAIN, limit=20), OUT / "competitors_ch.json")
+    if fresh(out / "competitors_ch.json"):
+        save_json(client.domain_competitors(args.domain, limit=20), out / "competitors_ch.json")
     units(client, "domain analysis")
 
     print("== keyword gap vs competitors ==")
@@ -64,48 +99,50 @@ def main():
     # top 100) — useful for "we're behind" analysis. For the true gap we pull
     # each competitor's top-20 keywords and diff against our set in the
     # analysis step.
-    for comp in COMPETITORS:
+    for comp in competitors:
         slug = comp.replace(".", "_")
-        common_path = OUT / f"common_{slug}.json"
-        if not common_path.exists():
+        common_path = out / f"common_{slug}.json"
+        if fresh(common_path):
             try:
-                res = client.keyword_gap(DOMAIN, comp, limit=1000,
+                res = client.keyword_gap(args.domain, comp, limit=1000,
                                          order_field="volume", order_type="desc",
                                          **{"filter[volume][from]": 30})
                 save_json(res, common_path)
             except RuntimeError as e:
                 print(f"  !! common {comp} failed: {e}")
-        comp_kw_path = OUT / f"comp_keywords_{slug}.json"
-        if not comp_kw_path.exists():
-            rows = []
+        comp_kw_path = out / f"comp_keywords_{slug}.json"
+        if fresh(comp_kw_path):
             try:
-                for page in (1, 2):
-                    res = client.domain_keywords(
-                        comp, limit=1000, page=page,
-                        order_field="volume", order_type="desc",
-                        **{"filter[position][to]": 20, "filter[volume][from]": 50})
-                    batch = res if isinstance(res, list) else res.get("keywords", [])
-                    rows.extend(batch)
-                    if len(batch) < 1000:
-                        break
+                rows, complete = client.domain_keywords_all(
+                    comp, max_pages=2,
+                    order_field="volume", order_type="desc",
+                    **{"filter[position][to]": 20, "filter[volume][from]": 50})
                 save_json(rows, comp_kw_path)
+                meta["pulls"][f"comp_keywords_{slug}"] = {"rows": len(rows), "complete": complete}
             except RuntimeError as e:
                 print(f"  !! comp keywords {comp} failed: {e}")
     units(client, "keyword gap")
 
     print("== backlinks ==")
-    save_json(client.backlinks_summary(DOMAIN), OUT / "backlinks_summary.json")
-    save_json(client.backlinks_authority(DOMAIN), OUT / "backlinks_authority.json")
-    try:
-        save_json(client.backlinks_refdomains(DOMAIN, limit=300), OUT / "backlinks_refdomains.json")
-    except RuntimeError as e:
-        print(f"  !! refdomains failed: {e}")
-    for comp in COMPETITORS:
+    if fresh(out / "backlinks_summary.json"):
+        save_json(client.backlinks_summary(args.domain), out / "backlinks_summary.json")
+        save_json(client.backlinks_authority(args.domain), out / "backlinks_authority.json")
+    if fresh(out / "backlinks_refdomains.json"):
         try:
-            save_json(client.backlinks_summary(comp), OUT / f"backlinks_summary_{comp.replace('.', '_')}.json")
+            save_json(client.backlinks_refdomains(args.domain, limit=300),
+                      out / "backlinks_refdomains.json")
         except RuntimeError as e:
-            print(f"  !! backlinks {comp} failed: {e}")
-    units(client, "backlinks")
+            print(f"  !! refdomains failed: {e}")
+    for comp in competitors:
+        path = out / f"backlinks_summary_{comp.replace('.', '_')}.json"
+        if fresh(path):
+            try:
+                save_json(client.backlinks_summary(comp), path)
+            except RuntimeError as e:
+                print(f"  !! backlinks {comp} failed: {e}")
+    meta["units_left_after"] = units(client, "backlinks")
+    meta["credit_report"] = client.credit_report()
+    save_json(meta, out / "meta.json")
 
     print("DONE")
 

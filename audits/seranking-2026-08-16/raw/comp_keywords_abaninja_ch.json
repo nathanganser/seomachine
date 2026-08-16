@@ -1,0 +1,1028 @@
+[
+  {
+    "block_type": null,
+    "block_position": 2,
+    "keyword": "abaninja",
+    "position": 2,
+    "prev_pos": 3,
+    "volume": 4400,
+    "cpc": 2.83,
+    "competition": 0.18,
+    "url": "https://www.abaninja.ch/de/",
+    "difficulty": 79,
+    "total_sites": null,
+    "traffic": 165,
+    "traffic_percent": 24.92,
+    "price": 466.95,
+    "serp_features": [
+      "reviews",
+      "sitelinks",
+      "video",
+      "people_also_ask",
+      "images",
+      "related_searches"
+    ],
+    "intents": [
+      "I",
+      "N"
+    ]
+  },
+  {
+    "block_type": "people_also_ask",
+    "block_position": 3,
+    "keyword": "abaninja",
+    "position": 3,
+    "prev_pos": null,
+    "volume": 4400,
+    "cpc": 2.83,
+    "competition": 0.18,
+    "url": "https://help.abaninja.ch/de/finance/payments/manually-import-feedbacks.html",
+    "difficulty": 79,
+    "total_sites": null,
+    "traffic": 4,
+    "traffic_percent": 0.6,
+    "price": 11.32,
+    "serp_features": [
+      "reviews",
+      "sitelinks",
+      "video",
+      "people_also_ask",
+      "images",
+      "related_searches"
+    ],
+    "intents": [
+      "I",
+      "N"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 19,
+    "keyword": "abaninja",
+    "position": 19,
+    "prev_pos": null,
+    "volume": 4400,
+    "cpc": 2.83,
+    "competition": 0.18,
+    "url": "https://help.abaninja.ch/de/video-library.html",
+    "difficulty": 79,
+    "total_sites": null,
+    "traffic": 3,
+    "traffic_percent": 0.45,
+    "price": 8.49,
+    "serp_features": [
+      "reviews",
+      "sitelinks",
+      "video",
+      "people_also_ask",
+      "images",
+      "related_searches"
+    ],
+    "intents": [
+      "I",
+      "N"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 1,
+    "keyword": "abaninja login",
+    "position": 1,
+    "prev_pos": null,
+    "volume": 920,
+    "cpc": 2.44,
+    "competition": 0.01,
+    "url": "https://app.abaninja.ch/",
+    "difficulty": 15,
+    "total_sites": null,
+    "traffic": 344,
+    "traffic_percent": 51.96,
+    "price": 839.36,
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 5,
+    "keyword": "abaninja login",
+    "position": 5,
+    "prev_pos": 21,
+    "volume": 920,
+    "cpc": 2.44,
+    "competition": 0.01,
+    "url": "https://www.abaninja.ch/de/",
+    "difficulty": 15,
+    "total_sites": null,
+    "traffic": 26,
+    "traffic_percent": 3.93,
+    "price": 63.44,
+    "serp_features": [
+      "reviews",
+      "video",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 9,
+    "keyword": "swiss21 login",
+    "position": 9,
+    "prev_pos": null,
+    "volume": 590,
+    "cpc": 2.76,
+    "competition": 0.02,
+    "url": "https://help.abaninja.ch/de/settings/company/user-management/adding-users.html",
+    "difficulty": 17,
+    "total_sites": null,
+    "traffic": 3,
+    "traffic_percent": 0.45,
+    "price": 8.28,
+    "serp_features": [
+      "sitelinks",
+      "video",
+      "related_searches"
+    ],
+    "intents": [
+      "I",
+      "N"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 16,
+    "keyword": "swiss21 login",
+    "position": 16,
+    "prev_pos": null,
+    "volume": 590,
+    "cpc": 2.76,
+    "competition": 0.02,
+    "url": "https://www.abaninja.ch/en/",
+    "difficulty": 17,
+    "total_sites": null,
+    "traffic": 6,
+    "traffic_percent": 0.91,
+    "price": 16.56,
+    "serp_features": [
+      "sitelinks",
+      "video",
+      "related_searches"
+    ],
+    "intents": [
+      "I",
+      "N"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 2,
+    "keyword": "swiss21 login",
+    "position": 2,
+    "prev_pos": 2,
+    "volume": 590,
+    "cpc": 2.76,
+    "competition": 0.02,
+    "url": "https://app.abaninja.ch/",
+    "difficulty": 17,
+    "total_sites": null,
+    "traffic": 22,
+    "traffic_percent": 3.32,
+    "price": 60.72,
+    "serp_features": [
+      "sitelinks",
+      "video",
+      "related_searches"
+    ],
+    "intents": [
+      "I",
+      "N"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 15,
+    "keyword": "akontorechnung",
+    "position": 15,
+    "prev_pos": null,
+    "volume": 480,
+    "cpc": 1.38,
+    "competition": 0.03,
+    "url": "https://help.abaninja.ch/de/customers/customers-invoices/advance-invoice.html",
+    "difficulty": 7,
+    "total_sites": null,
+    "traffic": 2,
+    "traffic_percent": 0.3,
+    "price": 2.76,
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 16,
+    "keyword": "bankverbindungen",
+    "position": 16,
+    "prev_pos": null,
+    "volume": 320,
+    "cpc": 0,
+    "competition": 0.02,
+    "url": "https://help.abaninja.ch/de/finance/finances-banking/creating-a-bank-connection.html",
+    "difficulty": 13,
+    "total_sites": null,
+    "traffic": 2,
+    "traffic_percent": 0.3,
+    "price": 0,
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "images",
+      "knowledge_graph",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 18,
+    "keyword": "stripe twint",
+    "position": 18,
+    "prev_pos": null,
+    "volume": 260,
+    "cpc": 4.19,
+    "competition": 0.22,
+    "url": "https://help.abaninja.ch/de/settings/customer-portal/payment-service-provider-psp/credit-card-twint-stripe.html",
+    "difficulty": 10,
+    "total_sites": null,
+    "traffic": 1,
+    "traffic_percent": 0.15,
+    "price": 4.19,
+    "serp_features": [
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 18,
+    "keyword": "migros bank connect",
+    "position": 18,
+    "prev_pos": null,
+    "volume": 260,
+    "cpc": 0,
+    "competition": 0.02,
+    "url": "https://help.abaninja.ch/de/finance/finances-banking/temporary-bank-connection/migros-bank-temporary-connection.html",
+    "difficulty": 18,
+    "total_sites": null,
+    "traffic": 1,
+    "traffic_percent": 0.15,
+    "price": 0,
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 12,
+    "keyword": "abasky",
+    "position": 12,
+    "prev_pos": 14,
+    "volume": 210,
+    "cpc": 0,
+    "competition": 0.01,
+    "url": "https://app.abaninja.ch/login",
+    "difficulty": 6,
+    "total_sites": null,
+    "traffic": 1,
+    "traffic_percent": 0.15,
+    "price": 0,
+    "serp_features": [
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 19,
+    "keyword": "migrosbank support",
+    "position": 19,
+    "prev_pos": null,
+    "volume": 170,
+    "cpc": 0,
+    "competition": 0,
+    "url": "https://help.abaninja.ch/de/finance/finances-banking/temporary-bank-connection/migros-bank-temporary-connection.html",
+    "difficulty": 12,
+    "total_sites": null,
+    "traffic": 2,
+    "traffic_percent": 0.3,
+    "price": 0,
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 12,
+    "keyword": "post ebanking",
+    "position": 11,
+    "prev_pos": null,
+    "volume": 170,
+    "cpc": 3.08,
+    "competition": 0.26,
+    "url": "https://help.abaninja.ch/de/finance/finances-banking/permanent-bank-connection/postfinance.html",
+    "difficulty": 10,
+    "total_sites": null,
+    "traffic": 1,
+    "traffic_percent": 0.15,
+    "price": 3.08,
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 12,
+    "keyword": "abaclik login",
+    "position": 12,
+    "prev_pos": null,
+    "volume": 170,
+    "cpc": 1.49,
+    "competition": 0.08,
+    "url": "https://help.abaninja.ch/de/settings/company/subscriptions-and-add-ons/abaclik-ai.html",
+    "difficulty": 13,
+    "total_sites": null,
+    "traffic": 1,
+    "traffic_percent": 0.15,
+    "price": 1.49,
+    "serp_features": [
+      "video",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 12,
+    "keyword": "abaclock",
+    "position": 12,
+    "prev_pos": null,
+    "volume": 140,
+    "cpc": 2.69,
+    "competition": 0.35,
+    "url": "https://help.abaninja.ch/de/settings/company/subscriptions-and-add-ons/abaclock-time-clock.html",
+    "difficulty": 8,
+    "total_sites": null,
+    "traffic": 0,
+    "traffic_percent": 0,
+    "price": 0,
+    "serp_features": [
+      "sitelinks",
+      "video",
+      "people_also_ask",
+      "images",
+      "related_searches"
+    ],
+    "intents": [
+      "I",
+      "N"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 19,
+    "keyword": "migros bank adressänderung",
+    "position": 19,
+    "prev_pos": null,
+    "volume": 140,
+    "cpc": 0,
+    "competition": 0,
+    "url": "https://help.abaninja.ch/de/finance/finances-banking/temporary-bank-connection/migros-bank-temporary-connection.html",
+    "difficulty": 11,
+    "total_sites": null,
+    "traffic": 2,
+    "traffic_percent": 0.3,
+    "price": 0,
+    "serp_features": [
+      "people_also_ask",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 7,
+    "keyword": "mwst jahresabstimmung",
+    "position": 6,
+    "prev_pos": null,
+    "volume": 110,
+    "cpc": 0,
+    "competition": 0.02,
+    "url": "https://help.abaninja.ch/de/accounting/accounting-vat-value-added-tax/vat-annual-vote.html",
+    "difficulty": 7,
+    "total_sites": null,
+    "traffic": 0,
+    "traffic_percent": 0,
+    "price": 0,
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 11,
+    "keyword": "anis login",
+    "position": 10,
+    "prev_pos": 14,
+    "volume": 110,
+    "cpc": 0,
+    "competition": 0,
+    "url": "https://app.abaninja.ch/login",
+    "difficulty": 29,
+    "total_sites": null,
+    "traffic": 1,
+    "traffic_percent": 0.15,
+    "price": 0,
+    "serp_features": [
+      "reviews",
+      "sitelinks",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I",
+      "N"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 16,
+    "keyword": "zahlungseingänge",
+    "position": 16,
+    "prev_pos": null,
+    "volume": 90,
+    "cpc": 3.63,
+    "competition": 0.06,
+    "url": "https://help.abaninja.ch/de/finance/payments/manually-record-payments.html",
+    "difficulty": 17,
+    "total_sites": null,
+    "traffic": 0,
+    "traffic_percent": 0,
+    "price": 0,
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": "sge",
+    "block_position": 1,
+    "keyword": "jahresabstimmung mwst",
+    "position": 1,
+    "prev_pos": null,
+    "volume": 90,
+    "cpc": 0,
+    "competition": 0.02,
+    "url": "https://help.abaninja.ch/de/accounting/accounting-vat-value-added-tax/vat-annual-vote.html",
+    "difficulty": 7,
+    "total_sites": null,
+    "traffic": 1,
+    "traffic_percent": 0.15,
+    "price": 0,
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 6,
+    "keyword": "jahresabstimmung mwst",
+    "position": 6,
+    "prev_pos": null,
+    "volume": 90,
+    "cpc": 0,
+    "competition": 0.02,
+    "url": "https://help.abaninja.ch/de/accounting/accounting-vat-value-added-tax/vat-annual-vote.html",
+    "difficulty": 7,
+    "total_sites": null,
+    "traffic": 1,
+    "traffic_percent": 0.15,
+    "price": 0,
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 11,
+    "keyword": "zahlungseingang",
+    "position": 11,
+    "prev_pos": null,
+    "volume": 90,
+    "cpc": 3.63,
+    "competition": 0.06,
+    "url": "https://help.abaninja.ch/de/finance/payments/create-a-payment-receipt.html",
+    "difficulty": 8,
+    "total_sites": null,
+    "traffic": 0,
+    "traffic_percent": 0,
+    "price": 0,
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 18,
+    "keyword": "zahlungsauftrag",
+    "position": 18,
+    "prev_pos": null,
+    "volume": 90,
+    "cpc": 0,
+    "competition": 0.04,
+    "url": "https://help.abaninja.ch/de/finance/payments/create-a-payment-order.html",
+    "difficulty": 17,
+    "total_sites": null,
+    "traffic": 0,
+    "traffic_percent": 0,
+    "price": 0,
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": "sge",
+    "block_position": 1,
+    "keyword": "abacus ninja",
+    "position": 1,
+    "prev_pos": null,
+    "volume": 50,
+    "cpc": 1.09,
+    "competition": 0.6,
+    "url": "https://www.abaninja.ch/de/",
+    "difficulty": 29,
+    "total_sites": null,
+    "traffic": 1,
+    "traffic_percent": 0.15,
+    "price": 1.09,
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 2,
+    "keyword": "abacus ninja",
+    "position": 2,
+    "prev_pos": 7,
+    "volume": 50,
+    "cpc": 1.09,
+    "competition": 0.6,
+    "url": "https://www.abaninja.ch/de/",
+    "difficulty": 29,
+    "total_sites": null,
+    "traffic": 3,
+    "traffic_percent": 0.45,
+    "price": 3.27,
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 13,
+    "keyword": "gleitzeitsaldo",
+    "position": 13,
+    "prev_pos": null,
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.03,
+    "url": "https://help.abaninja.ch/de/time-tracking/employees/employee-single-view/evaluation-of-flextime.html",
+    "difficulty": 7,
+    "total_sites": null,
+    "traffic": 0,
+    "traffic_percent": 0,
+    "price": 0,
+    "serp_features": [
+      "reviews",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 19,
+    "keyword": "migros bank schliessfach",
+    "position": 19,
+    "prev_pos": null,
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.01,
+    "url": "https://help.abaninja.ch/de/finance/finances-banking/temporary-bank-connection/migros-bank-temporary-connection.html",
+    "difficulty": 23,
+    "total_sites": null,
+    "traffic": 0,
+    "traffic_percent": 0,
+    "price": 0,
+    "serp_features": [
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 16,
+    "keyword": "pendente zahlung",
+    "position": 16,
+    "prev_pos": null,
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.05,
+    "url": "https://help.abaninja.ch/de/finance/payments/pending-payments.html",
+    "difficulty": 10,
+    "total_sites": null,
+    "traffic": 0,
+    "traffic_percent": 0,
+    "price": 0,
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 12,
+    "keyword": "pendente zahlungen",
+    "position": 11,
+    "prev_pos": null,
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.05,
+    "url": "https://help.abaninja.ch/de/finance/payments/pending-payments.html",
+    "difficulty": 9,
+    "total_sites": null,
+    "traffic": 0,
+    "traffic_percent": 0,
+    "price": 0,
+    "serp_features": [
+      "video",
+      "people_also_ask",
+      "images",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 6,
+    "keyword": "abaninja buchhaltung",
+    "position": 5,
+    "prev_pos": null,
+    "volume": 50,
+    "cpc": 5.01,
+    "competition": 0.63,
+    "url": "https://help.abaninja.ch/de/video-library.html",
+    "difficulty": 16,
+    "total_sites": null,
+    "traffic": 0,
+    "traffic_percent": 0,
+    "price": 0,
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": "sge",
+    "block_position": 1,
+    "keyword": "abaninja buchhaltung",
+    "position": 1,
+    "prev_pos": 1,
+    "volume": 50,
+    "cpc": 5.01,
+    "competition": 0.63,
+    "url": "https://www.abaninja.ch/de/",
+    "difficulty": 16,
+    "total_sites": null,
+    "traffic": 1,
+    "traffic_percent": 0.15,
+    "price": 5.01,
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 4,
+    "keyword": "abaninja buchhaltung",
+    "position": 3,
+    "prev_pos": 8,
+    "volume": 50,
+    "cpc": 5.01,
+    "competition": 0.63,
+    "url": "https://www.abaninja.ch/de/",
+    "difficulty": 16,
+    "total_sites": null,
+    "traffic": 1,
+    "traffic_percent": 0.15,
+    "price": 5.01,
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 20,
+    "keyword": "abaninja buchhaltung",
+    "position": 19,
+    "prev_pos": null,
+    "volume": 50,
+    "cpc": 5.01,
+    "competition": 0.63,
+    "url": "https://help.abaninja.ch/de/accounting/account-statement/manual-booking-capture.html",
+    "difficulty": 16,
+    "total_sites": null,
+    "traffic": 0,
+    "traffic_percent": 0,
+    "price": 0,
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": "sge",
+    "block_position": 1,
+    "keyword": "abaninja kosten",
+    "position": 1,
+    "prev_pos": null,
+    "volume": 50,
+    "cpc": 3.63,
+    "competition": 0.56,
+    "url": "https://www.abaninja.ch/de/",
+    "difficulty": 16,
+    "total_sites": null,
+    "traffic": 1,
+    "traffic_percent": 0.15,
+    "price": 3.63,
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 3,
+    "keyword": "abaninja kosten",
+    "position": 3,
+    "prev_pos": 9,
+    "volume": 50,
+    "cpc": 3.63,
+    "competition": 0.56,
+    "url": "https://www.abaninja.ch/de/",
+    "difficulty": 16,
+    "total_sites": null,
+    "traffic": 2,
+    "traffic_percent": 0.3,
+    "price": 7.26,
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 17,
+    "keyword": "abaninja kosten",
+    "position": 17,
+    "prev_pos": null,
+    "volume": 50,
+    "cpc": 3.63,
+    "competition": 0.56,
+    "url": "https://help.abaninja.ch/de/general/deepninja/difference-to-21abaninja.html",
+    "difficulty": 16,
+    "total_sites": null,
+    "traffic": 0,
+    "traffic_percent": 0,
+    "price": 0,
+    "serp_features": [
+      "reviews",
+      "video",
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 17,
+    "keyword": "migros bank konto saldieren",
+    "position": 17,
+    "prev_pos": null,
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.02,
+    "url": "https://help.abaninja.ch/de/finance/finances-banking/temporary-bank-connection/migros-bank-temporary-connection.html",
+    "difficulty": 8,
+    "total_sites": null,
+    "traffic": 0,
+    "traffic_percent": 0,
+    "price": 0,
+    "serp_features": [
+      "people_also_ask",
+      "sge",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  },
+  {
+    "block_type": null,
+    "block_position": 17,
+    "keyword": "bankverbindung angeben",
+    "position": 16,
+    "prev_pos": null,
+    "volume": 50,
+    "cpc": 0,
+    "competition": 0.01,
+    "url": "https://help.abaninja.ch/de/finance/finances-banking/creating-a-bank-connection.html",
+    "difficulty": 13,
+    "total_sites": null,
+    "traffic": 0,
+    "traffic_percent": 0,
+    "price": 0,
+    "serp_features": [
+      "featured_snippets",
+      "people_also_ask",
+      "images",
+      "related_searches"
+    ],
+    "intents": [
+      "I"
+    ]
+  }
+]

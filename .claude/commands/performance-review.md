@@ -19,6 +19,7 @@ Use this command to analyze content performance data and generate a prioritized 
 - **Google Analytics 4**: Traffic, engagement, conversions, and trends
 - **Google Search Console**: Rankings, impressions, clicks, CTR by page and keyword
 - **DataForSEO**: Competitive rankings, SERP features, keyword metrics
+- **SE Ranking snapshot** (if fresh, `audits/seranking-*/`): full top-100 position set, quick wins, cannibalization — prefer this over per-keyword SERP calls for position data
 
 ### Opportunity Identification
 The Performance Agent automatically identifies:

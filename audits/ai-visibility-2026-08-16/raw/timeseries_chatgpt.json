@@ -1,0 +1,35 @@
+{
+  "summary": {
+    "average_position": {
+      "current": 0,
+      "change_absolute": null,
+      "change_percent": null,
+      "previous": null
+    },
+    "ai_opportunity_traffic": {
+      "current": 0,
+      "change_absolute": 0,
+      "change_percent": 100,
+      "previous": null
+    },
+    "link_presence": {
+      "current": 23,
+      "change_absolute": 23,
+      "change_percent": 100,
+      "previous": null
+    },
+    "brand_presence": {
+      "current": 17,
+      "change_absolute": 17,
+      "change_percent": 100,
+      "previous": null
+    }
+  },
+  "time_series": {
+    "organic_traffic": [],
+    "ai_traffic": [],
+    "link_presence": [],
+    "average_position": [],
+    "overall_traffic": []
+  }
+}

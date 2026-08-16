@@ -1,0 +1,798 @@
+keyword,position,volume,traffic,difficulty,intents,url
+vacances scolaires vaud,5,8000,37,73,"I,N",/fr/feiertage/waadt
+registro di commercio,12,18100,71,99,"L,C",/it/commerce-register-switzerland-2026
+uid register,9,8000,23,79,"I,N",/uid-nummer-beantragen
+registro commercio,10,8100,190,88,I,/it/commerce-register-switzerland-2026
+vacances scolaires vaud 2025,15,12100,181,75,"I,N",/fr/feiertage/waadt
+impots vaud,10,8000,40,70,"L,C",/fr/vaud-tax
+abaninja,6,4400,1,79,"I,N",/de/alternative/abaninja
+brutto netto rechner schweiz,5,3600,110,58,I,/de/brutto-netto-rechner-schweiz
+feiertage 2026,8,5700,27,66,I,/de/feiertage/zurich
+vaudtax,9,5700,11,85,"I,N",/fr/vaud-tax
+feiertage,5,2900,13,82,I,/de/feiertage/zurich
+uid,14,8000,8,81,"I,N",/de/uid-nummer-schweiz
+vaud taxe,9,4400,10,74,"I,N",/fr/vaud-tax
+impot vaud,14,6600,89,74,"L,C",/fr/vaud-tax
+jours fériés vaud,7,3200,20,77,"I,N",/fr/feiertage/waadt
+franc suisse,16,6600,27,95,I,/fr/swiss-franc
+feiertage zürich,8,3200,9,77,I,/de/feiertage/zurich
+ascension 2026,8,3100,14,83,I,/fr/feiertage/waadt
+vacance scolaire vaud,7,2400,44,73,I,/fr/feiertage/waadt
+brutto netto rechner,16,5400,24,73,I,/de/brutto-netto-rechner-schweiz
+vacances vaud,8,2400,6,74,"I,N",/fr/feiertage/waadt
+brutto netto,17,4400,18,71,I,/de/brutto-netto-rechner-schweiz
+quittung,10,2400,5,73,I,/de/quittung-vorlage-schweiz
+revolut business,13,2900,16,93,I,/de/integrations/revolut-business
+uid nummer,11,2400,5,77,I,/de/uid-nummer-schweiz
+vipassana,5,1000,7,73,I,/de/vipassana-switzerland
+gold price today,16,2400,9,68,I,/en/gold-price
+férié vaud,5,660,4,19,"I,N",/fr/feiertage/waadt
+ubs qr-rechnung erstellen,4,480,23,9,I,/de/banks/ubs
+ubs qr code,5,590,9,9,I,/de/banks/ubs
+jour férié neuchatel,5,590,7,7,I,/fr/feiertage/neuenburg
+jours férié neuchatel,5,590,4,12,I,/fr/feiertage/neuenburg
+qr rechnung erstellen,18,1900,54,81,I,/de/qr-rechnung-erstellen
+mwst rechner,18,1900,22,71,I,/de/tools/vat-calculator-switzerland
+ubs qr code,6,590,10,9,I,/de/banks/ubs
+fronleichnam feiertag zürich,6,590,5,24,I,/de/feiertage/zurich
+jour fériés canton de vaud,6,590,4,23,"I,N",/fr/feiertage/waadt
+festività in svizzera,6,590,3,21,I,/it/feiertage
+calcolo stipendio netto svizzera,4,390,14,11,I,/it/tools/salary-calculator-switzerland
+budgeting app,4,390,14,48,I,/de/budgeting-apps
+feiertag tessin,4,390,13,5,I,/de/feiertage/tessin
+ubs qr rechnung erstellen,5,480,16,9,I,/de/banks/ubs
+stadt zürich feiertage,5,480,12,23,I,/feiertage/zurich
+feiertage stadt zürich,5,480,8,23,I,/de/feiertage/zurich
+stundenlohn schweiz berechnen,5,480,6,7,I,/de/stundenlohn-berechnen-schweiz
+cafe basel,17,1500,4,65,"L,C",/de/coworking/basel
+feste svizzera,7,590,5,19,I,/it/feiertage
+vacances scolaire vaud,7,590,4,18,"I,N",/fr/feiertage/waadt
+cambio franco,19,1600,1,91,I,/pt/swiss-franc
+ubs einzahlungsschein erstellen,4,320,12,8,I,/de/banks/ubs
+vipassana suisse,4,320,9,15,"L,C",/de/vipassana-switzerland
+café working,4,320,5,8,"L,C",/de/coworking/zurich
+giorni festivi ticino,6,480,4,18,I,/it/feiertage/tessin
+stundenlohn schweiz berechnen,6,480,3,7,I,/de/stundenlohn-berechnen-schweiz
+rechnungen,11,880,3,25,I,/de/rechnung-schreiben-schweiz
+stundenlohn berechnen schweiz,6,480,3,8,I,/de/stundenlohn-berechnen-schweiz
+qr code ubs,6,480,2,9,I,/de/banks/ubs
+invoice,19,1500,4,79,I,/rechnung-schreiben-schweiz
+jours fériés canton de vaud,5,390,8,28,I,/fr/feiertage/waadt
+feiertage tessin,5,390,5,16,I,/de/feiertage/tessin
+vacances canton de vaud,5,390,2,18,"I,N",/fr/feiertage/waadt
+einzahlungsschein,14,990,6,25,I,/einzahlungsschein-erstellen
+rechnungsvorlagen schweiz,7,480,10,6,I,/de/rechnungsvorlage
+vacances scolaires vaudoises,7,480,9,24,I,/fr/feiertage/waadt
+side hustles,7,480,1,43,I,/de/side-hustle-schweiz
+feiertag zürich,8,540,3,15,I,/feiertage/zurich
+vacances neuchatel,9,590,6,9,I,/fr/feiertage/waadt
+vat number switzerland,9,590,3,20,I,/mwst-registrierung
+2. januar feiertag zürich,9,590,3,23,I,/de/feiertage/zurich
+2.januar feiertag zürich,9,590,3,23,I,/de/feiertage/zurich
+2 januar feiertag zürich,9,590,3,23,I,/de/feiertage/zurich
+vat number suisse,9,590,3,11,I,/mwst-registrierung
+uid schweiz,9,590,2,16,"I,N",/de/uid-nummer-schweiz
+qr einzahlungsschein erstellen gratis,9,590,2,34,I,/qr-rechnung-erstellen
+qr-einzahlungsschein erstellen gratis,9,590,2,34,I,/qr-rechnung-erstellen
+coworking genève,6,390,5,12,"L,C",/fr/coworking/genf
+feiertage im tessin,6,390,4,15,I,/de/feiertage/tessin
+lausanne cafés,6,390,4,14,"L,C",/de/coworking/lausanne
+ubs einzahlungsschein erstellen,5,320,5,8,I,/de/banks/ubs
+basel cafe,4,250,3,12,"L,C",/de/coworking/basel
+kreditoren,16,1000,2,70,I,/kreditorenbuchhaltung-schweiz
+vacances scolaires canton de vaud,8,480,5,27,"I,N",/fr/feiertage/waadt
+feiertage zürich 2025,12,720,4,15,I,/feiertage/zurich
+stundenlohn berechnung schweiz,8,480,1,8,I,/de/stundenlohn-berechnen-schweiz
+swiss vat number,10,590,2,19,"L,C",/uid-nummer-schweiz
+vacance canton de vaud,7,390,8,28,"I,N",/fr/feiertage/waadt
+qr-einzahlungsschein,7,390,7,34,I,/einzahlungsschein-erstellen
+fronleichnam zürich,7,390,3,24,I,/de/feiertage/zurich
+fiduciaire fribourg,7,390,3,12,"L,C",/fr/digitale-treuhand/freiburg
+jours fériés neuchâtel,7,390,3,12,I,/fr/feiertage/neuenburg
+conversione euro franchi svizzeri,11,590,7,18,I,/it/euro-conversion
+vat number schweiz,11,590,2,15,"L,C",/de/uid-nummer-schweiz
+tax vaud,9,480,7,11,I,/fr/vaud-tax
+vacances scolaire canton de vaud,9,480,5,27,I,/fr/feiertage/waadt
+rechnung schreiben,6,320,4,16,I,/de/rechnung-schreiben-schweiz
+calcul salaire net suisse,6,320,4,24,I,/fr/tools/salary-calculator-switzerland
+uid number,9,480,3,30,I,/uid-nummer-schweiz
+stundenlohn berechnen schweiz,9,480,2,8,I,/de/stundenlohn-berechnen-schweiz
+vacances paques vaud,6,320,2,18,"I,N",/fr/feiertage/waadt
+best cafe geneva,9,480,2,7,"L,C",/coworking/genf
+canton de vaud impots,9,480,1,20,"L,C",/fr/vaud-tax
+vorlage quittung,4,210,9,8,I,/de/quittung-vorlage-schweiz
+uid suchen,4,210,2,24,"I,N",/de/uid-nummer-schweiz
+mwst-nummer suchen,4,210,2,45,"I,N",/de/uid-nummer-schweiz
+ubs qr-code erstellen,5,260,6,9,I,/de/banks/ubs
+ubs qr code erstellen,5,260,5,9,I,/de/banks/ubs
+inscription tva,5,260,5,12,I,/fr/mwst-registrierung/genf
+ubs qr code generator,5,260,2,13,I,/de/banks/ubs
+mwst nummer schweiz suchen,5,260,1,25,"I,N",/de/uid-nummer-schweiz
+mwst-nummer schweiz suchen,5,260,1,16,"I,N",/de/uid-nummer-schweiz
+bruttolohn,14,720,2,26,I,/de/brutto-netto-rechner-schweiz
+schweizer buchhaltungssoftware,12,590,3,20,I,/buchhaltungssoftware
+umzug winterthur,8,390,4,8,"L,C",/de/umzug/zuerich-winterthur
+handelsregisternummer schweiz,8,390,3,44,I,/de/handelsregisternummer-schweiz
+coworking geneva,8,390,3,17,"L,C",/de/coworking/genf
+canton de vaud impot,10,480,3,20,I,/fr/vaud-tax
+euro franco suiço,7,320,5,8,I,/pt/euro-conversion
+cafe lugano,7,320,3,11,"L,C",/de/coworking/lugano
+cafes working,7,320,3,8,"L,C",/de/coworking/zurich
+registro commercio canton ticino,7,320,1,19,"L,C",/it/commerce-register-switzerland-2026
+cambio valuta euro franco,11,480,6,18,I,/it/euro-conversion
+cambio valuta euro/franco,11,480,6,18,I,/it/euro-conversion
+akontorechnung,11,480,2,7,I,/de/akontorechnung-schweiz
+mwst nummer,11,480,2,35,I,/de/uid-nummer-schweiz
+arbeitszeiten schweiz,11,480,1,8,I,/de/working-hours-in-switzerland
+nettolohn,14,610,2,31,I,/de/brutto-netto-rechner-schweiz
+lohnrechner schweiz brutto netto,9,390,10,30,I,/de/brutto-netto-rechner-schweiz
+lohnrechner brutto netto schweiz,9,390,9,27,I,/de/brutto-netto-rechner-schweiz
+lohnrechner brutto-netto schweiz,9,390,9,27,I,/de/brutto-netto-rechner-schweiz
+winterthur umzug,9,390,4,8,"L,C",/de/umzug/zuerich-winterthur
+inscription tva,6,260,3,12,I,/fr/mwst-registrierung/genf
+zürich feiertage,9,390,2,15,I,/de/feiertage/zurich
+qr iban,9,390,2,17,I,/de/qr-iban-example
+qr-iban,9,390,2,17,I,/de/qr-iban-example
+mwst nummer suchen schweiz,6,260,1,25,"I,N",/de/uid-nummer-schweiz
+vipassana meditation,9,390,1,34,"I,N",/de/vipassana-switzerland
+uid nummer suchen schweiz,6,260,1,26,"I,N",/de/uid-nummer-schweiz
+sarl suisse,6,260,1,5,I,/fr/swiss-llc-deep-dive
+uid-nummer schweiz suchen,6,260,1,25,"I,N",/de/uid-nummer-schweiz
+férié fribourg,4,170,5,7,I,/fr/feiertage/freiburg
+brut en net,14,590,14,45,I,/fr/tools/salary-calculator-switzerland
+feste svizzera,14,590,3,19,I,/it/feiertage/tessin
+uid nummer suchen,5,210,2,26,I,/de/uid-nummer-schweiz
+registro commercio svizzera,5,210,2,13,"L,C",/it/commerce-register-switzerland-2026
+mwst register schweiz,5,210,1,15,"I,N",/mwst-nummer-schweiz
+pentecôte 2026,12,500,3,27,I,/fr/feiertage/neuenburg
+pfingsten 2026 schweiz,18,740,9,25,I,/feiertage/zurich
+mwst-nummer,12,480,2,35,I,/de/uid-nummer-schweiz
+best coffee shop geneva,12,480,2,8,"L,T",/coworking/genf
+dhamma sumeru,8,320,1,12,"L,N",/de/vipassana-switzerland
+mwst nummer schweiz,8,320,1,16,I,/de/uid-nummer-schweiz
+mwst-nummer schweiz,8,320,1,16,I,/de/uid-nummer-schweiz
+ide suisse,8,320,1,21,I,/fr/numero-ide-suisse
+impot canton de vaud,12,480,1,26,"L,N",/fr/vaud-tax
+vacances scolaire 2025 vaud,15,590,8,31,"I,N",/fr/feiertage/waadt
+budget planner,15,590,7,51,I,/de/budgeting-apps
+netto rechner schweiz,10,390,9,22,I,/de/brutto-netto-rechner-schweiz
+etat de vaud impots,10,390,3,21,"L,C",/fr/vaud-tax
+ubs qr code generator,7,260,2,13,I,/de/banks/ubs
+stundenlohn in monatslohn umrechnen schweiz,7,260,1,7,I,/de/stundenlohn-berechnen-schweiz
+best coffee in geneva,13,480,2,8,"L,C",/coworking/genf
+best coffee geneva,13,480,2,8,"L,C",/coworking/genf
+mwst id,16,590,2,44,I,/de/uid-nummer-schweiz
+gesetzliche feiertage zürich,9,320,2,15,I,/de/feiertage/zurich
+berchtoldstag zürich,9,320,1,23,I,/feiertage/zurich
+rechnung schreiben,9,320,1,16,I,/de/rechnung-schreiben-schweiz
+qr facture,11,390,1,40,I,/fr/qr-rechnung-erstellen
+qr rechnung erstellen ubs,4,140,7,9,I,/de/banks/ubs
+qr-rechnung erstellen ubs,4,140,7,9,I,/de/banks/ubs
+bexio alternative,4,140,5,4,I,/de/alternative/bexio
+cambio euro franco suiço,6,210,4,8,I,/pt/euro-conversion
+mwst nummer suchen,6,210,3,22,I,/de/uid-nummer-schweiz
+uid-nummer suchen,6,210,3,36,I,/de/uid-nummer-schweiz
+rechnung schweiz vorlage,6,210,3,5,I,/de/rechnungsvorlage
+einzahlungsschein ubs,4,140,2,9,I,/de/banks/ubs
+n tva suisse,6,210,2,10,I,/fr/mwst-registrierung
+arbeitsrapport,6,210,1,10,"L,C",/de/arbeitsrapport-schweiz
+vorlage rechnung schweiz,6,210,1,5,I,/de/rechnung-schreiben-schweiz
+uid suche,6,210,1,33,"I,N",/de/uid-nummer-schweiz
+mwst-register schweiz,6,210,1,16,"I,N",/mwst-nummer-schweiz
+freelance en suisse,6,210,1,24,I,/fr/hourly-rates
+vacances février vaud,6,210,1,18,"I,N",/fr/feiertage/waadt
+rechnung erstellen,17,590,5,21,I,/de/rechnung-schreiben-schweiz
+uid nr,14,480,2,17,"I,N",/de/uid-nummer-schweiz
+vacances de paques vaud,5,170,4,18,I,/fr/feiertage/waadt
+registro commercio ticino,10,330,1,12,"L,C",/it/commerce-register-switzerland-2026
+buchhaltungssoftware schweiz,18,590,2,14,I,/buchhaltungssoftware
+doppelte buchhaltung,18,590,1,16,I,/de/doppelte-buchhaltung-schweiz
+schweiz uid,18,590,1,25,I,/de/uid-nummer-schweiz
+cafe locarno,8,260,1,9,"L,C",/de/coworking/locarno
+umrechnung stundenlohn in monatslohn schweiz,8,260,1,8,I,/de/stundenlohn-berechnen-schweiz
+kanton zürich feiertage,8,260,1,15,I,/de/feiertage/zurich
+sàrl en suisse,8,260,1,6,I,/fr/swiss-llc-deep-dive
+nettolohn berechnen schweiz,10,320,8,21,I,/de/brutto-netto-rechner-schweiz
+euro franco suisso,10,320,3,53,I,/pt/swiss-franc
+coworking basel,10,320,2,11,"L,C",/de/coworking/basel
+stundenlohn in monatslohn umrechnen,10,320,2,15,I,/de/stundenlohn-berechnen-schweiz
+26. dezember feiertag,15,480,2,25,I,/de/feiertage/zurich
+registro di commercio canton ticino,10,320,1,13,"L,C",/it/commerce-register-switzerland-2026
+side hustle,15,480,1,49,I,/de/side-hustle-schweiz
+festività in svizzera,19,590,1,21,I,/it/feiertage/tessin
+lohn berechnen schweiz,13,390,10,46,I,/de/brutto-netto-rechner-schweiz
+gold prices,18,540,3,59,I,/en/gold-price
+25 mai feiertag,16,480,2,35,I,/de/feiertage
+26 dezember feiertag,16,480,2,26,I,/de/feiertage/zurich
+uid-suche,7,210,2,33,I,/de/uid-nummer-schweiz
+budgetplaner schweiz,13,390,2,25,"L,T",/de/budgeting-apps
+qr-facture,13,390,2,34,I,/fr/qr-rechnung-erstellen
+giugno,13,390,1,10,I,/it/feiertage
+vacances scolaires vaudoise,5,150,1,37,I,/fr/feiertage/waadt
+feiertage kantone schweiz,13,390,1,23,I,/de/feiertage
+vaud vacances,7,210,1,18,"I,N",/fr/feiertage/waadt
+gehaltsrechner schweiz,20,590,18,47,I,/de/brutto-netto-rechner-schweiz
+1. mai feiertag zürich,11,320,4,21,I,/feiertage/zurich
+ferienentschädigung stundenlohn,11,320,2,7,I,/de/stundenlohn-berechnen-schweiz
+1 mai feiertag zürich,11,320,2,21,I,/feiertage/zurich
+rechnung erstellen schweiz,6,170,3,30,I,/de/rechnung-schreiben-schweiz
+lugano cafe,6,170,2,13,"L,C",/de/coworking/lugano
+coworking cafe,6,170,2,29,"L,C",/de/coworking/zurich
+payrolling switzerland,6,170,2,19,"L,C",/de/payrolling-for-freelancers
+gesetzliche feiertage,6,170,1,31,I,/feiertage/zurich
+rechnungen erstellen schweiz,6,170,1,28,I,/de/rechnung-schreiben-schweiz
+4. juni feiertag,17,480,2,17,I,/de/feiertage/zurich
+feiertag 6 januar schweiz,17,480,2,24,I,/de/feiertage/zurich
+feiertag 6. januar schweiz,17,480,2,24,I,/de/feiertage/zurich
+schweiz abzüge lohn,17,480,1,23,I,/de/brutto-netto-rechner-schweiz
+qr-rechnung ubs,5,140,5,10,I,/de/banks/ubs
+ubs einzahlungsschein,5,140,1,10,I,/de/banks/ubs
+uid suisse,5,140,1,32,"I,N",/uid-nummer-schweiz
+budget app,14,390,6,26,I,/de/budgeting-apps
+feiertage juni,14,390,2,38,I,/feiertage/zurich
+logiciel factures,4,110,1,57,I,/fr/rechnungsprogramm
+auffahrt 2026 schweiz,16,440,1,25,I,/feiertage/zurich
+4 juni feiertag,18,480,3,26,I,/de/feiertage/zurich
+lunedì di pentecoste,12,320,2,17,I,/it/feiertage
+umsatzsteuer-identifikationsnummer schweiz,12,320,2,16,I,/de/uid-nummer-schweiz
+was ist uid nummer,12,320,1,27,I,/de/uid-nummer-schweiz
+ferien kanton freiburg,12,320,1,6,I,/de/feiertage/freiburg
+lohnrechner schweiz netto,10,260,6,30,I,/de/brutto-netto-rechner-schweiz
+vat nummer schweiz,10,260,1,16,"L,C",/de/uid-nummer-schweiz
+che nummer,10,260,1,15,I,/de/uid-nummer-schweiz
+estratto registro commercio ticino,10,260,1,19,I,/it/commerce-register-switzerland-2026
+feiertage kanton zürich,7,180,2,15,I,/de/feiertage/zurich
+giorni festivi ticino,19,480,2,18,I,/it/feiertage
+stundenlohn ferienentschädigung,13,320,1,8,I,/de/stundenlohn-berechnen-schweiz
+was ist eine uid nummer,13,320,1,25,I,/de/uid-nummer-schweiz
+estv abschreibungssätze,16,390,1,9,I,/de/annual-depreciation-for-self-employed-workers
+stundenlohn schweiz,16,390,1,8,I,/de/stundenlohn-berechnen-schweiz
+aktuelle mwst,7,170,2,28,I,/vat-rates
+vaud taxe en ligne,7,170,1,12,"I,N",/fr/vaud-tax
+iban beispiele,7,170,1,8,I,/de/qr-iban-example
+schweiz brutto netto rechner,5,120,4,22,I,/de/brutto-netto-rechner-schweiz
+jeune federal vaud,11,260,1,25,I,/fr/feiertage/waadt
+congé vaud,11,260,1,23,"I,N",/fr/feiertage/waadt
+ubs qr rechnung,9,210,5,10,I,/de/banks/ubs
+qr rechnung ubs,6,140,3,9,I,/de/banks/ubs
+vacances canton vaud,6,140,2,18,I,/fr/feiertage/waadt
+knabenschiessen feiertag,9,210,1,24,I,/de/feiertage/zurich
+coffee shop near me with wifi,6,140,1,8,"L,T",/coworking/zurich
+rechnung schweiz vorlage,9,210,1,5,I,/de/rechnung-schreiben-schweiz
+jours fériés canton vaud,6,140,1,27,I,/fr/feiertage/waadt
+qr code rechnung erstellen,17,390,8,29,I,/qr-rechnung-erstellen
+handelsregisternummer schweiz,17,390,2,44,I,/de/uid-nummer-schweiz
+nettolohnberechnung schweiz,14,320,3,41,"L,C",/de/brutto-netto-rechner-schweiz
+lohncomputer schweiz,14,320,3,29,"I,N",/de/brutto-netto-rechner-schweiz
+umsatzsteuer identifikationsnummer schweiz,14,320,1,16,I,/de/uid-nummer-schweiz
+retraite silencieuse suisse,4,90,3,13,I,/fr/vipassana-switzerland
+swiss apero,4,90,1,6,"L,C",/blog/an-expats-guide-to-the-swiss-apero
+tessin feiertage,4,90,1,15,I,/de/feiertage/tessin
+vipassana mont soleil,5,110,1,12,"L,C",/de/vipassana-switzerland
+20 april feiertag,5,110,1,29,I,/feiertage/zurich
+brutto-netto lohn,12,260,4,25,I,/de/brutto-netto-rechner-schweiz
+coworking lausanne,18,390,3,23,"L,C",/de/coworking/lausanne
+coworking luzern,12,260,2,8,"L,C",/de/coworking/luzern
+fiduciaire yverdon,12,260,2,17,"L,C",/fr/digitale-treuhand/yverdon
+festa nazionale svizzera,18,390,2,26,I,/it/feiertage
+inscription tva,12,260,2,12,I,/fr/mwst-registrierung/waadt
+lohn brutto netto,12,260,1,32,I,/de/brutto-netto-rechner-schweiz
+mwst nummer schweiz,15,320,1,16,I,/mwst-nummer-schweiz
+brutto netto rechner zürich,8,170,2,29,I,/de/brutto-netto-rechner-schweiz
+uid nummer prüfen,8,170,1,25,I,/de/uid-nummer-schweiz
+rechnungen erstellen schweiz,8,170,1,28,I,/de/rechnung-schreiben-schweiz
+lundi du jeune vaud,8,170,1,36,I,/fr/feiertage/waadt
+facturation suisse,8,170,1,9,I,/fr/rechnungsprogramm
+registre tva suisse,8,170,1,16,I,/fr/numero-ide-suisse
+stundensatz,10,210,1,10,I,/de/hourly-rates
+24 dezember feiertag,10,210,1,20,I,/feiertage/zurich
+registro di commercio svizzera,10,210,1,9,"L,C",/it/commerce-register-switzerland-2026
+suisse salaire net,10,210,1,24,I,/fr/tools/salary-calculator-switzerland
+erfolgsrechnung und bilanz,19,390,2,7,I,/de/erfolgsrechnung-schweiz
+schweiz brutto-netto rechner,6,120,3,22,I,/de/brutto-netto-rechner-schweiz
+vorlage quittung word,7,140,2,8,I,/de/quittung-vorlage-schweiz
+netto lohn rechner schweiz,13,260,2,28,I,/de/brutto-netto-rechner-schweiz
+feiertage fribourg,7,140,1,7,I,/de/feiertage/freiburg
+offizielle feiertage zürich,7,140,1,23,I,/de/feiertage/zurich
+einzahlungsschein ubs,7,140,1,9,I,/de/banks/ubs
+feiertage in zürich,7,140,1,15,I,/de/feiertage/zurich
+netto einkommen,16,320,1,34,I,/de/brutto-netto-rechner-schweiz
+aktueller mwst satz schweiz,13,260,1,24,I,/vat-rates
+stundenlohn berechnen monatslohn,7,140,1,12,I,/de/stundenlohn-berechnen-schweiz
+13 monatslohn,16,320,1,6,I,/mastering-the-13th-month-salary
+monatslohn aus stundenlohn berechnen,7,140,1,8,I,/de/stundenlohn-berechnen-schweiz
+qr iban ubs,7,140,1,9,I,/de/banks/ubs
+stundenlöhne schweiz,20,390,2,8,I,/de/stundenlohn-berechnen-schweiz
+vacances vaud 2025,15,290,4,32,"I,N",/fr/feiertage/waadt
+arbeitszeiten,14,270,1,17,I,/de/working-hours-in-switzerland
+assurance maladie suisse moins cher,11,210,1,32,I,/fr/cheapest-lamal
+14 avril vaud,11,210,1,24,I,/fr/feiertage/waadt
+paternity leave switzerland,11,210,1,9,I,/paternity-leave-switzerland
+convertitore euro chf,9,170,4,18,I,/it/euro-conversion
+ubs qr-rechnung,9,170,4,10,I,/de/banks/ubs
+ostern feiertag,9,170,1,24,I,/feiertage/zurich
+beispiel iban,9,170,1,13,I,/de/qr-iban-example
+retraite spirituelle suisse,9,170,1,7,I,/fr/vipassana-switzerland
+jours fériés lausanne,9,170,1,30,I,/fr/feiertage/waadt
+facture suisse,9,170,1,18,I,/fr/rechnung-schreiben-schweiz
+13 monatslohn schweiz,17,320,1,7,I,/de/mastering-the-13th-month-salary
+vacances scolaire vaudoise,8,150,2,28,"I,N",/fr/feiertage/waadt
+brutto netto lohn rechner,14,260,7,34,I,/de/brutto-netto-rechner-schweiz
+vorlage quittung zum ausdrucken,6,110,3,8,I,/de/quittung-vorlage-schweiz
+brutto netto rechner schweiz quellensteuer,6,110,2,22,I,/de/brutto-netto-rechner-schweiz
+luzern cafes,6,110,1,13,"L,C",/de/coworking/luzern
+feiertage kanton fribourg,6,110,1,7,I,/de/feiertage/freiburg
+arbeitsrapport vorlage,6,110,1,10,I,/de/optimize-work-with-timesheet-template
+exemple facture suisse,6,110,1,6,I,/fr/rechnung-schreiben-schweiz
+pfingstmontag zürich,6,110,1,16,I,/feiertage/zurich
+fronleichnam zürich feiertag,6,110,1,15,I,/de/feiertage/zurich
+gesetzliche feiertage stadt zürich,6,110,1,22,I,/de/feiertage/zurich
+mont soleil vipassana,6,110,0,12,"L,N",/de/vipassana-switzerland
+wann ist auffahrt,20,360,2,16,I,/feiertage/zurich
+ubs qr einzahlungsscheine erstellen,5,90,1,9,I,/de/banks/ubs
+was sind kreditoren,18,320,1,7,I,/kreditorenbuchhaltung-schweiz
+karfreitag tessin,4,70,2,15,I,/de/feiertage/tessin
+mwst register schweiz,12,210,1,15,"I,N",/de/uid-nummer-schweiz
+freelancer schweiz stundensatz,4,70,1,6,I,/de/hourly-rates
+qr-iban ubs,8,140,1,9,I,/de/banks/ubs
+internet cafe in der nähe,4,70,1,11,"L,C",/de/coworking/zurich
+freelance en suisse,12,210,1,24,I,/fr/managing-multiple-businesses-as-a-swiss-freelancer
+feiertage april,15,260,2,30,I,/de/feiertage/zurich
+9 juni feiertag,15,260,1,39,I,/feiertage/zurich
+meditation retreat schweiz,10,170,2,29,I,/de/vipassana-switzerland
+umzug thun,10,170,1,11,"L,C",/de/umzug/bern-thun
+karfreitag feiertag schweiz,19,320,1,25,I,/de/feiertage
+netto rechner,16,260,3,35,I,/de/brutto-netto-rechner-schweiz
+registro imprese,16,260,1,31,"I,N",/it/commerce-register-switzerland-2026
+beispiel erfolgsrechnung,16,260,1,6,I,/erfolgsrechnung-schweiz
+co-working space basel,13,210,2,6,"L,C",/de/coworking/basel
+mwst anmeldung schweiz,13,210,1,9,I,/de/mwst-registrierung/st-gallen
+donnerstag feiertag,13,210,1,30,I,/feiertage/zurich
+zürich 1 mai feiertag,13,210,1,31,I,/feiertage/zurich
+13. monatslohn schweiz,20,320,1,7,I,/mastering-the-13th-month-salary
+feiertage kanton freiburg,7,110,2,7,I,/de/feiertage/freiburg
+maria himmelfahrt zürich,7,110,1,15,I,/de/feiertage/zurich
+ist fronleichnam ein feiertag in zürich,7,110,1,24,I,/de/feiertage/zurich
+date vacances scolaire vaud,7,110,1,18,"I,N",/fr/feiertage/waadt
+hauser gartenbau,7,110,0,13,"L,N",/de/wie-viel-kosten/gaertner
+concordia natura anerkannte therapeuten,7,110,0,13,I,/de/best-complementary-insurance-for-osteopathy
+mont-soleil vipassana,7,110,0,12,"L,N",/de/vipassana-switzerland
+rechnung schweiz,9,140,1,7,I,/de/rechnung-schreiben-schweiz
+quittung vorlage word,9,140,1,8,I,/de/quittung-vorlage-schweiz
+vaud impots,9,140,0,16,"L,N",/fr/vaud-tax
+uid-nummer prüfen,11,170,2,26,I,/de/uid-nummer-schweiz
+kilometergeld schweiz,11,170,1,16,I,/de/kilometergeld-schweiz
+mwst schweiz berechnen,11,170,1,9,I,/de/tools/vat-calculator-switzerland
+was ist der nettolohn,11,170,1,7,I,/de/brutto-netto-rechner-schweiz
+nettolohn rechner,17,260,11,40,I,/de/brutto-netto-rechner-schweiz
+erfolgsrechnung beispiel,17,260,2,7,I,/erfolgsrechnung-schweiz
+netto brutto lohn,17,260,2,25,I,/de/brutto-netto-rechner-schweiz
+kreditoren debitoren,17,260,1,8,I,/kreditorenbuchhaltung-schweiz
+lugano network,17,260,1,15,"I,N",/de/coworking/lugano
+26.12 feiertag schweiz,17,260,1,29,I,/de/feiertage
+maximale arbeitszeit schweiz pro tag,17,260,1,13,I,/de/working-hours-in-switzerland
+hacker giardini,17,260,0,7,"L,N",/de/gaertner/locarno
+lohn schweiz brutto netto,6,90,2,24,I,/de/brutto-netto-rechner-schweiz
+netto brutto rechner schweiz,8,120,2,22,I,/de/brutto-netto-rechner-schweiz
+inscription registre du commerce,14,210,2,18,I,/fr/commerce-register-switzerland-2026
+zürich 1. mai feiertag,14,210,1,31,I,/feiertage/zurich
+gmbh gründen kosten schweiz,14,210,1,8,I,/de/blog/2023-cost-opening-sarl-switzerland-tips
+lohn brutto netto schweiz,6,90,1,23,I,/de/brutto-netto-rechner-schweiz
+1. mai zürich feiertag,14,210,1,31,I,/feiertage/zurich
+1 november feiertag zürich,6,90,1,25,I,/feiertage/zurich
+handelsregisternummer,14,210,1,43,I,/handelsregisternummer-schweiz
+anmeldung mwst schweiz,14,210,1,8,I,/de/mwst-registrierung/st-gallen
+vipassana retreat schweiz,6,90,1,29,"L,C",/de/vipassana-switzerland
+payrolling schweiz,6,90,1,14,I,/de/payrolling-for-freelancers
+1 mai zürich feiertag,14,210,1,31,I,/de/feiertage/zurich
+1. november feiertag zürich,6,90,1,16,I,/feiertage/zurich
+mwst-register schweiz,14,210,1,16,"I,N",/de/uid-nummer-schweiz
+gemütliche cafés luzern,6,90,1,12,"L,C",/de/coworking/luzern
+créer sarl suisse,6,90,1,6,I,/fr/swiss-llc-deep-dive
+facture qr code suisse gratuit,6,90,1,20,I,/fr/qr-rechnung-erstellen
+inscription tva suisse,6,90,1,11,I,/fr/mwst-registrierung/genf
+gesetzliche pausen schweiz,18,260,1,8,I,/de/working-hours-in-switzerland
+maximale arbeitszeit pro tag schweiz,18,260,0,8,I,/de/working-hours-in-switzerland
+saldosteuersatz,12,170,1,7,I,/de/net-vat-accounting-method
+2 oktober feiertag,12,170,1,24,I,/feiertage/zurich
+2. oktober feiertag,12,170,1,24,I,/feiertage/zurich
+calculette impôts vaud,15,210,5,16,I,/fr/vaud-tax
+schweiz rechnung,10,140,1,11,I,/de/rechnung-schreiben-schweiz
+uid mwst,10,140,1,21,I,/de/uid-nummer-schweiz
+budget app schweiz,10,140,1,17,I,/de/budgeting-apps
+arbeitszeit gesetz schweiz,15,210,1,8,I,/de/working-hours-in-switzerland
+feiertage 2025 zürich,10,140,1,15,I,/de/feiertage/zurich
+ubs qr bill,5,70,1,17,I,/de/banks/ubs
+einzahlungsschein erstellen raiffeisen,15,210,1,17,I,/einzahlungsschein-erstellen
+budget suisse,15,210,1,31,I,/fr/budgeting-apps
+mehrwertsteuernummer schweiz,10,140,0,24,I,/de/uid-nummer-schweiz
+monatslohn,5,70,0,8,I,/de/stundenlohn-berechnen-schweiz
+registro di commercio biasca,10,140,0,8,"L,C",/it/commerce-register-switzerland-2026
+bexio go,8,110,2,10,I,/blog/der-ultimative-leitfaden-zur-bexio-go-app-installation-und-funktionen-iphone-and-android
+was ist morgen für ein feiertag,8,110,1,24,I,/feiertage/zurich
+date vacances scolaires vaud,8,110,1,18,"I,N",/fr/feiertage/waadt
+feiertage schweiz zürich,8,110,0,15,I,/de/feiertage/zurich
+milchbüchleinrechnung,8,110,0,5,I,/de/milchbuechleinrechnung
+small invoice,8,110,0,49,"L,N",/de/alternative/smallinvoice
+soma gartenbau,8,110,0,9,"L,C",/de/wie-viel-kosten/gaertner
+berechnung stundenlohn aus monatslohn schweiz,8,110,0,7,I,/de/stundenlohn-berechnen-schweiz
+qr-rechnung generator,19,260,6,34,I,/qr-rechnung-erstellen
+bexio buchhaltung,19,260,0,18,"L,N",/blog/bexio-tutorial-ausgaben-erstellen-und-verwalten-leicht-gemacht
+vacances scolaires vaud 2024,16,210,1,29,I,/fr/feiertage/waadt
+paternity leave,16,210,1,19,I,/paternity-leave-switzerland
+mwst anmelden schweiz,16,210,1,15,I,/de/mwst-registrierung/st-gallen
+uid nummer prüfen,13,170,1,25,I,/uid-nummer-pruefen
+assurance maladie suisse prix,13,170,1,26,I,/fr/cheapest-lamal
+wann kommt der 13 monatslohn,13,170,1,7,I,/de/mastering-the-13th-month-salary
+qr rechnung generator,20,260,7,33,I,/de/qr-rechnung-erstellen
+logiciel de facturation,7,90,2,34,I,/fr/rechnungsprogramm
+zürich 1 november feiertag,7,90,1,16,I,/de/feiertage/zurich
+mwst nr suchen,7,90,1,41,I,/de/uid-nummer-schweiz
+gärtner stundenlohn schweiz,7,90,1,7,I,/de/wie-viel-kosten/gaertner
+ubs qr-iban,7,90,1,9,I,/de/banks/ubs
+création sàrl,7,90,1,6,I,/fr/swiss-llc-deep-dive
+créer une sarl en suisse,7,90,1,5,I,/fr/swiss-llc-deep-dive
+betriebsferientage stadt zürich,11,140,2,24,I,/feiertage/zurich
+berechnung stundenlohn aus monatslohn,11,140,1,8,I,/de/stundenlohn-berechnen-schweiz
+vaudtax télécharger,11,140,1,22,"I,N",/fr/vaud-tax
+stundenlohn berechnen aus monatslohn,11,140,1,12,I,/de/stundenlohn-berechnen-schweiz
+uid nr schweiz,11,140,0,16,"I,N",/de/uid-nummer-schweiz
+iban beispiel schweiz,4,50,2,12,I,/de/qr-iban-example
+stundensatz gärtner schweiz,4,50,2,6,I,/de/wie-viel-kosten/gaertner
+vorlage quittung pdf,4,50,2,9,I,/de/quittung-vorlage-schweiz
+uid search,4,50,1,34,"I,N",/de/uid-nummer-schweiz
+gartenbau köniz,4,50,1,15,"L,C",/de/wie-viel-kosten/gaertner
+internet cafe luzern,4,50,1,11,"L,C",/de/coworking/luzern
+qr einzahlungsschein erstellen ubs,4,50,1,9,I,/de/banks/ubs
+programme facturation,4,50,0,26,I,/fr/rechnungsprogramm
+8. dezember feiertag zürich,4,50,0,25,I,/de/feiertage/zurich
+qr rechnung erstellen raiffeisen,17,210,5,17,I,/de/qr-rechnung-erstellen
+temps de pause travail suisse,17,210,1,11,I,/fr/working-hours-in-switzerland
+sechseläuten feiertag,9,110,1,25,I,/de/feiertage/zurich
+vipassana retreat,9,110,1,23,I,/de/vipassana-switzerland
+coworking space geneva,9,110,1,16,"L,C",/coworking/genf
+gemütliches café basel,9,110,1,18,"L,C",/de/coworking/basel
+logiciel comptabilité suisse,9,110,0,17,I,/fr/buchhaltungssoftware
+vacances scolaires vaudoises 2025,9,110,0,27,"I,N",/fr/feiertage/waadt
+arbeitsgesetz schweiz pausen,14,170,1,8,I,/de/working-hours-in-switzerland
+assujettissement tva,14,170,1,11,I,/fr/mwst-freelancer
+uid nummer schweiz,10,120,0,16,I,/de/uid-nummer-schweiz
+uid-nummer schweiz,10,120,0,16,I,/de/uid-nummer-schweiz
+einzelfirma schweiz,12,140,1,14,I,/einzelfirma-grunden-schweiz
+coworking space luzern,12,140,1,5,"L,C",/de/coworking/luzern
+coffee shop basel,18,210,1,13,"L,T",/de/coworking/basel
+mwst switzerland,6,70,1,25,I,/mwst-registrierung
+che nummer suchen,6,70,1,31,I,/de/uid-nummer-schweiz
+modèle facture suisse,6,70,1,6,I,/fr/rechnungsvorlage
+jeune federal fribourg,6,70,1,16,I,/fr/feiertage/freiburg
+assujettissement tva suisse,6,70,1,11,I,/fr/mwst-freelancer
+quittance de paiement,6,70,1,6,I,/fr/quittung-vorlage-schweiz
+umrechnung monatslohn in stundenlohn schweiz excel,6,70,1,7,I,/de/stundenlohn-berechnen-schweiz
+jour férié vaud,7,80,1,18,"I,N",/fr/feiertage/waadt
+gesetzliche arbeitszeit schweiz,15,170,1,8,I,/de/working-hours-in-switzerland
+umrechnung monatslohn in stundenlohn schweiz,8,90,0,8,I,/de/stundenlohn-berechnen-schweiz
+uid verzeichnis,8,90,0,17,"I,N",/de/uid-nummer-schweiz
+creer une sarl suisse,8,90,0,6,I,/fr/swiss-llc-deep-dive
+kosten gmbh gründung schweiz,19,210,1,9,I,/de/blog/2023-cost-opening-sarl-switzerland-tips
+handelsregister-nummer,19,210,1,64,I,/handelsregisternummer-schweiz
+kaffee in basel,10,110,1,15,"L,C",/de/coworking/basel
+nettoeinkommen schweiz,10,110,0,21,I,/de/brutto-netto-rechner-schweiz
+registro di commercio lugano,13,140,2,13,I,/it/commerce-register-switzerland-2026
+kreditoren und debitoren,13,140,1,8,I,/kreditorenbuchhaltung-schweiz
+assurance maladie moins cher,13,140,1,33,I,/fr/cheapest-lamal
+1 januar feiertag,13,140,0,34,I,/de/feiertage/zurich
+buchhaltungsprogramm gratis schweiz,13,140,0,11,I,/buchhaltungssoftware
+ust id nummer schweiz,16,170,1,17,I,/de/uid-nummer-schweiz
+vacances scolaires vaud 2028,16,170,1,20,I,/fr/feiertage/waadt
+mwst nr,16,170,0,44,I,/de/uid-nummer-schweiz
+jours fériés 2026,17,180,1,22,I,/fr/feiertage/freiburg
+buchhaltungsprogramm gratis,20,210,2,12,I,/buchhaltungssoftware
+13. monatslohn rechner,20,210,1,16,I,/de/stundenlohn-berechnen-schweiz
+gründung gmbh schweiz kosten,20,210,1,9,I,/de/blog/2023-cost-opening-sarl-switzerland-tips
+kosten gmbh-gründung schweiz,20,210,1,9,I,/de/blog/2023-cost-opening-sarl-switzerland-tips
+kosten gründung gmbh schweiz,20,210,1,8,I,/de/blog/2023-cost-opening-sarl-switzerland-tips
+ust idnr schweiz,20,210,0,26,I,/de/uid-nummer-schweiz
+feiertage zh,7,70,2,14,I,/feiertage/zurich
+vacances scolaire vaud 2025,15,150,2,27,"I,N",/fr/feiertage/waadt
+arbeitsrecht schweiz arbeitszeit,11,110,1,8,I,/de/working-hours-in-switzerland
+beispiel iban schweiz,5,50,1,8,I,/de/qr-iban-example
+silent retreat,11,110,1,22,"L,C",/vipassana-switzerland
+gesetzliche feiertage kanton zürich,7,70,1,15,I,/de/feiertage/zurich
+feiertage kantone,11,110,1,25,I,/de/feiertage
+fronleichnam tessin,5,50,1,6,I,/de/feiertage/tessin
+création site web suisse,7,70,1,39,"L,C",/fr/dropshipping
+jardinier paysagiste,17,170,1,19,"L,C",/fr/gaertner/lausanne
+qr generator ch,14,140,1,41,"L,C",/qr-rechnung-erstellen
+13 monatslohn berechnen,17,170,1,7,I,/de/mastering-the-13th-month-salary
+raiffeisen einzahlungsschein erstellen,17,170,1,17,I,/de/qr-rechnung-erstellen
+ust-id nummer schweiz,17,170,1,17,I,/de/uid-nummer-schweiz
+rechnungsvorlage word schweiz,5,50,1,5,I,/de/rechnungsvorlage
+logiciel de facturation suisse,5,50,1,17,I,/fr/rechnungsprogramm
+création sarl suisse,7,70,1,6,I,/fr/swiss-llc-deep-dive
+vaudtax 2025 logiciel,17,170,1,13,I,/fr/vaud-tax
+registre tva suisse,17,170,1,16,I,/fr/mwst-registrierung
+kaffee in luzern,11,110,0,13,"L,C",/de/coworking/luzern
+ostern im tessin,5,50,0,9,I,/de/feiertage/tessin
+ostern tessin,5,50,0,9,I,/de/feiertage/tessin
+vacances vaudoises,7,70,0,33,"I,N",/fr/feiertage/waadt
+impots vaud en ligne,7,70,0,21,"I,N",/fr/vaud-tax
+qr generator.ch,14,140,0,35,"L,C",/qr-rechnung-erstellen
+ubs qr iban,9,90,0,9,I,/de/banks/ubs
+déménagement lausanne pas cher,11,110,0,15,"L,C",/fr/umzug/lausanne-freiburg
+feiertag tessin heute,5,50,0,23,I,/de/feiertage/tessin
+télécharger vaud taxe 2025,11,110,0,12,"I,N",/fr/vaud-tax
+was ist uid,15,140,1,26,I,/de/uid-nummer-schweiz
+scheinselbstständigkeit schweiz,15,140,1,6,I,/de/duplication
+1. januar feiertag,15,140,1,34,I,/de/feiertage/zurich
+assurance maladie la moins chere,12,110,0,26,I,/fr/cheapest-lamal
+schweiz nettolohn,10,90,1,22,I,/de/brutto-netto-rechner-schweiz
+nettolohn schweiz,10,90,1,22,I,/de/brutto-netto-rechner-schweiz
+brutto netto lohn schweiz,10,90,1,21,I,/de/brutto-netto-rechner-schweiz
+29 mai feiertag,10,90,1,24,I,/feiertage/zurich
+abzüge lohn schweiz rechner,10,90,0,30,I,/de/brutto-netto-rechner-schweiz
+uid number switzerland,10,90,0,30,I,/uid-nummer-schweiz
+buchhaltungsprogramm schweiz,16,140,1,20,I,/de/buchhaltungssoftware
+schweizer rechnung,16,140,1,12,I,/de/rechnung-schreiben-schweiz
+mehrwertsteuer anmelden,16,140,1,15,I,/de/mwst-registrierung/st-gallen
+mwst nr schweiz,8,70,0,16,I,/de/uid-nummer-schweiz
+uid-register,16,140,0,17,"I,N",/uid-nummer-schweiz
+jardinier paysagiste geneve,8,70,0,7,"L,C",/fr/gardeners-geneva
+vacances paques canton de vaud,8,70,0,27,I,/fr/feiertage/waadt
+impots 2025 vaud,8,70,0,12,I,/fr/vaud-tax
+berechnung 13. monatslohn,20,170,1,7,I,/de/mastering-the-13th-month-salary
+devenir indépendant suisse,20,170,1,17,I,/blog/comment-devenir-independant-et-se-lancer-a-son-compte-dans-le-canton-de-vaud
+mwst berechnen schweiz,20,170,0,9,I,/de/tools/vat-calculator-switzerland
+fahrzeugkosten pro km schweiz,20,170,0,23,I,/de/kilometergeld-schweiz
+mahnung schweiz,13,110,1,15,I,/de/mahnung-vorlage-schweiz
+milchbüechli rechnung,13,110,1,9,I,/de/milchbueechli-app
+cyber cafe,13,110,1,27,"L,C",/de/coworking/zurich
+banana buchhaltung kaufen einmalig,13,110,1,16,I,/alternative/banana
+ruhezeiten schweiz arbeit,13,110,0,12,I,/de/working-hours-in-switzerland
+schweige retreat schweiz,13,110,0,13,"L,C",/de/vipassana-switzerland
+maria empfängnis zürich,6,50,1,28,I,/feiertage/zurich
+etat de fribourg calendrier,6,50,1,11,I,/fr/feiertage/freiburg
+qr einzahlungsschein erstellen ubs,6,50,1,9,I,/de/banks/ubs
+8 dezember feiertag zürich,6,50,0,25,I,/de/feiertage/zurich
+gartenbau müller,6,50,0,10,"L,C",/de/wie-viel-kosten/gaertner
+iban schweiz beispiel,6,50,0,8,I,/de/qr-iban-example
+berchtoldstag feiertag zürich,6,50,0,23,I,/feiertage/zurich
+mehrwertsteuer register schweiz,6,50,0,24,"I,N",/de/uid-nummer-schweiz
+gründonnerstag feiertag zürich,6,50,0,23,I,/de/feiertage/zurich
+swiss iban example,6,50,0,29,I,/qr-iban-example
+coffee shop near me to study,17,140,0,8,"L,T",/coworking/zurich
+brutto nettolohn schweiz,11,90,1,21,I,/de/brutto-netto-rechner-schweiz
+cafe genf,11,90,0,14,"L,C",/de/coworking/genf
+partita iva svizzera,11,90,0,6,I,/it/mwst-registrierung
+gesetzliche pausen arbeitszeit schweiz,14,110,1,8,I,/de/working-hours-in-switzerland
+vorlagen mahnungen,14,110,0,18,I,/de/mahnung-vorlage-schweiz
+registro di commercio ticino ricerca,9,70,1,12,I,/it/commerce-register-switzerland-2026
+coworking space zürich gratis,9,70,1,8,I,/de/coworking/zurich
+vacance vaud,9,70,1,18,"I,N",/fr/feiertage/waadt
+buchhaltungsprogramme schweiz,18,140,1,16,I,/de/buchhaltungssoftware
+selbständig werden rav,18,140,0,14,I,/de/unemployment-benefits-for-freelancers-in-switzerland
+quittungen schreiben,9,70,0,11,I,/de/quittung-vorlage-schweiz
+rechnung stellen,9,70,0,7,I,/de/rechnung-schreiben-schweiz
+feiertage fribourg 2025,9,70,0,7,I,/de/feiertage/freiburg
+vaudtax 2023,12,90,1,14,I,/fr/vaud-tax
+calculer mes impôts vaud,12,90,1,16,I,/fr/vaud-tax
+schweigeretreat schweiz,12,90,0,25,I,/de/vipassana-switzerland
+umsatzsteuer id schweiz,12,90,0,16,I,/de/uid-nummer-schweiz
+pentecote férié,12,90,0,14,I,/fr/feiertage/neuenburg
+feiertag oktober,12,90,0,38,I,/feiertage/zurich
+15 mai feiertag,19,140,1,35,I,/de/feiertage/zurich
+quittung pdf,7,50,1,9,I,/de/quittung-vorlage-schweiz
+erfolgsrechnung beispiel schweiz,7,50,1,6,I,/erfolgsrechnung-schweiz
+jardinier lausanne,7,50,1,9,"L,C",/fr/gaertner/lausanne
+schweizer feiertage,14,100,0,36,I,/de/feiertage
+rechnung vorlage schweiz,7,50,0,5,I,/de/rechnungsvorlage
+fronleichnam kanton zürich,7,50,0,24,I,/de/feiertage/zurich
+abaninja kosten,7,50,0,16,I,/de/alternative/abaninja
+vacances scolaires vaud suisse,7,50,0,18,I,/fr/feiertage/waadt
+qr-rechnung erstellen,17,120,3,31,I,/de/qr-rechnung-erstellen
+vat calculator,20,140,4,30,I,/tools/vat-calculator-switzerland
+stundenlohn in monatslohn,10,70,0,12,I,/de/stundenlohn-berechnen-schweiz
+quittungen erstellen,10,70,0,9,I,/de/quittung-vorlage-schweiz
+privatperson,10,70,0,17,I,/de/rechnung-schreiben-schweiz
+uid prüfen,10,70,0,45,I,/de/uid-nummer-schweiz
+aktueller mwst satz,10,70,0,24,I,/vat-rates
+brutto netto rechner schweiz stundenlohn,10,70,0,28,I,/de/brutto-netto-rechner-schweiz
+calendrier fribourg,13,90,1,12,I,/fr/feiertage/freiburg
+buchhaltungsprogramm kmu,13,90,0,25,I,/buchhaltungssoftware
+arbeitszeit pausen schweiz,13,90,0,8,I,/de/working-hours-in-switzerland
+specialty coffee lausanne,13,90,0,13,"L,C",/coworking/lausanne
+inscription tva suisse,13,90,0,11,I,/fr/mwst-registrierung/waadt
+pausenzeiten schweiz,16,110,0,7,I,/de/working-hours-in-switzerland
+abschreibungssätze estv,16,110,0,9,I,/de/annual-depreciation-for-self-employed-workers
+declaration impots vaud,9,60,0,14,"I,N",/fr/vaud-tax
+arbeitsgesetz schweiz arbeitszeiten,17,110,1,13,I,/de/working-hours-in-switzerland
+excel rechnungsvorlage,17,110,1,12,I,/de/rechnungsvorlage
+rechnungsvorlage excel,17,110,1,12,I,/de/rechnungsvorlage
+ust id schweiz,17,110,0,26,I,/de/uid-nummer-schweiz
+exemple facture suisse,17,110,0,6,I,/fr/rechnungsvorlage
+pausenregelung schweiz arbeitsgesetz,17,110,0,7,I,/de/working-hours-in-switzerland
+postfinance fr,14,90,1,19,I,/fr/banks/postfinance
+was sind kreditoren und debitoren,14,90,1,8,I,/kreditorenbuchhaltung-schweiz
+feiertage märz,14,90,0,38,I,/feiertage/zurich
+sarl ou sa,14,90,0,7,I,/fr/gmbh-vs-selbstaendig-vs-ag
+swiss qr-code generator,11,70,1,33,I,/qr-rechnung-erstellen
+13. monatslohn stundenlohn,11,70,0,8,I,/de/stundenlohn-berechnen-schweiz
+einfache buchhaltung schweiz,11,70,0,13,"L,C",/de/milchbueechli-app
+id nummer schweiz finden,11,70,0,16,I,/de/uid-nummer-schweiz
+13 monatslohn stundenlohn,11,70,0,8,I,/de/stundenlohn-berechnen-schweiz
+impots suisse vaud,11,70,0,25,"L,N",/fr/vaud-tax
+vacances vaudoise,11,70,0,27,"I,N",/fr/feiertage/waadt
+vacance scolaire suisse vaud,8,50,1,27,"I,N",/fr/feiertage/waadt
+vacances scolaire suisse vaud,8,50,1,27,"I,N",/fr/feiertage/waadt
+feiertage kanton zh,8,50,0,15,I,/de/feiertage/zurich
+was ist eine uid nummer schweiz,8,50,0,17,I,/de/uid-nummer-schweiz
+mahnung vorlage schweiz,8,50,0,7,I,/de/mahnung-vorlage-schweiz
+auffahrt feiertag zürich,8,50,0,15,I,/de/feiertage/zurich
+vorlage rechnung privatperson,8,50,0,8,I,/de/rechnung-schreiben-schweiz
+modèle facture suisse gratuit,8,50,0,7,I,/fr/rechnung-schreiben-schweiz
+mahnung schweiz vorlage,8,50,0,7,I,/de/mahnung-vorlage-schweiz
+comment faire une facture,8,50,0,22,I,/fr/rechnung-schreiben-schweiz
+vacances scolaires suisse vaud,8,50,0,27,I,/fr/feiertage/waadt
+vacanze svizzere,8,50,0,20,I,/it/feiertage
+estimation impots vaud,18,110,3,17,I,/fr/vaud-tax
+feiertage ostern,18,110,1,33,I,/feiertage/zurich
+feiertage kalender schweiz,15,90,1,16,I,/de/feiertage
+lerncafe zürich,15,90,1,8,I,/de/coworking/zurich
+kilometerentschädigung schweiz,15,90,0,16,I,/de/kilometergeld-schweiz
+brutto netto switzerland,15,90,0,30,"I,N",/tools/salary-calculator-switzerland
+rechnung excel-vorlage,15,90,0,12,I,/de/rechnungsvorlage
+pause travail suisse,15,90,0,11,I,/fr/working-hours-in-switzerland
+e finance login francais,12,70,2,19,I,/fr/banks/postfinance
+bezahlte pausen schweiz,12,70,1,7,I,/de/working-hours-in-switzerland
+feiertage juli,12,70,1,33,I,/de/feiertage
+karfreitag zürich,12,70,1,17,I,/feiertage/zurich
+kalender feiertage,12,70,1,21,I,/de/feiertage
+stundenlohn berechnen formel,12,70,0,9,I,/de/stundenlohn-berechnen-schweiz
+rechnung invoice,12,70,0,22,I,/rechnung-schreiben-schweiz
+lohnabzüge berechnen,12,70,0,28,I,/de/brutto-netto-rechner-schweiz
+lohnabzüge schweiz rechner,12,70,0,30,I,/de/brutto-netto-rechner-schweiz
+zürich karfreitag,12,70,0,16,I,/feiertage/zurich
+lohnabzug berechnen,12,70,0,30,I,/de/brutto-netto-rechner-schweiz
+13 monatslohn im stundenlohn,12,70,0,8,I,/de/stundenlohn-berechnen-schweiz
+nettolohn in bruttolohn umrechnen,12,70,0,21,I,/de/brutto-netto-rechner-schweiz
+logiciel comptabilité suisse gratuit,12,70,0,13,I,/fr/buchhaltungssoftware
+estimation impot vaud,19,110,1,17,I,/fr/vaud-tax
+maximale arbeitszeit pro woche schweiz,19,110,0,9,I,/de/working-hours-in-switzerland
+lohn calculator,16,90,1,42,I,/de/brutto-netto-rechner-schweiz
+einzahlungsschein mit qr code erstellen,16,90,1,34,I,/qr-rechnung-erstellen
+schweiz lohn rechner,16,90,1,46,"L,C",/de/brutto-netto-rechner-schweiz
+wieviel pause bei 9 stunden arbeit schweiz,16,90,0,8,I,/de/working-hours-in-switzerland
+qr-code erstellen gratis schweiz,16,90,0,60,I,/blog/comment-creer-une-facture-avec-code-qr-suisse-facilement-et-gratuitement
+vacances vaud scolaire,9,50,1,18,"I,N",/fr/feiertage/waadt
+rechnungsprogramm schweiz,9,50,0,10,I,/de/rechnungsprogramm
+freiburg im breisgau feiertage,9,50,0,11,I,/de/feiertage/freiburg
+monatslohn in stundenlohn berechnen,9,50,0,12,I,/de/stundenlohn-berechnen-schweiz
+registro commercio ti,9,50,0,12,"L,C",/it/commerce-register-switzerland-2026
+quittung vorlage pdf,9,50,0,17,I,/de/quittung-vorlage-schweiz
+programme facturation,9,50,0,26,I,/fr/rechnungsprogramm
+logiciel comptable suisse,9,50,0,16,I,/fr/buchhaltungssoftware
+post qr-rechnung erstellen,20,110,2,33,I,/de/qr-rechnung-erstellen
+feiertage august,20,110,1,34,I,/de/feiertage/zurich
+portage salarial suisse,20,110,1,14,I,/fr/payrolling-for-freelancers
+lundi de pentecote férié en suisse,20,110,0,13,I,/fr/feiertage/neuenburg
+unterschied bilanz und erfolgsrechnung,13,70,0,6,I,/de/erfolgsrechnung-schweiz
+quittung erstellen,13,70,0,17,I,/de/quittung-vorlage-schweiz
+kilometerpauschale schweiz,13,70,0,17,I,/de/kilometergeld-schweiz
+stundenlohnberechnung,13,70,0,9,I,/de/stundenlohn-berechnen-schweiz
+stundenlohn 13. monatslohn,13,70,0,8,I,/de/stundenlohn-berechnen-schweiz
+muster lohnabrechnung stundenlohn schweiz,13,70,0,7,I,/de/stundenlohn-berechnen-schweiz
+02.01 feiertag schweiz,17,90,1,24,I,/de/feiertage/zurich
+logiciel facturation,17,90,1,51,I,/fr/rechnungsprogramm
+feiertage oktober,17,90,0,34,I,/feiertage/zurich
+qr code erstellen gratis schweiz,17,90,0,60,I,/blog/comment-creer-une-facture-avec-code-qr-suisse-facilement-et-gratuitement
+qr-rechnung erstellen kostenlos,17,90,0,34,I,/de/qr-rechnung-erstellen
+lohn rechner,19,100,0,46,"L,C",/de/brutto-netto-rechner-schweiz
+lohnabrechnung stundenlohn,14,70,0,7,I,/de/stundenlohn-berechnen-schweiz
+bexio ubs,18,90,0,13,I,/de/blog/connecting-your-bank-account-to-bexio-a-comprehensive-tutorial
+stundensätze schweiz handwerker,10,50,0,5,I,/de/hourly-rates
+muster quittung,10,50,0,8,I,/de/quittung-vorlage-schweiz
+registro di commercio zurigo,10,50,0,22,I,/it/commerce-register-switzerland-2026
+demenagement geneve prix,10,50,0,13,I,/fr/umzug/genf-zuerich
+milchbüchlein,10,50,0,11,I,/de/milchbuechleinrechnung
+stundenlohn 13 monatslohn,14,70,0,8,I,/de/stundenlohn-berechnen-schweiz
+stundenlohnrechner schweiz,14,70,0,27,I,/de/stundenlohn-berechnen-schweiz
+rechnung excel vorlage,18,90,0,8,I,/de/rechnungsvorlage
+swiss invoice,14,70,0,10,I,/blog/generieren-sie-muhelos-schweizerische-rechnungen-mit-qr-code-auf-ihrem-mac-mit-magic-heidi
+demenageur geneve prix,10,50,0,7,"L,C",/fr/umzug/genf-zuerich
+bulletin de versement qr code,14,70,0,9,I,/fr/qr-rechnung-erstellen
+pentecote ferie suisse,18,90,0,32,I,/fr/feiertage/neuenburg
+2 januar feiertag welche kantone,14,70,0,31,I,/de/feiertage
+gmbh schweiz steuern,19,90,0,13,I,/de/gmbh-vs-selbstaendig-vs-ag
+vorlage rechnung excel,19,90,0,8,I,/de/rechnungsvorlage
+mehrwertsteuer schweiz berechnen,19,90,0,9,I,/de/tools/vat-calculator-switzerland
+2 februar feiertag,15,70,0,34,I,/feiertage/zurich
+1 oktober feiertag,15,70,0,37,I,/feiertage/zurich
+km entschädigung schweiz,15,70,0,16,I,/de/kilometergeld-schweiz
+qr-rechnung erstellen schweiz,15,70,0,30,I,/de/qr-rechnung-erstellen
+bexio postfinance,11,50,1,13,I,/blog/connecting-your-bank-account-to-bexio-a-comprehensive-tutorial
+stundensatz handwerker schweiz,11,50,0,4,I,/de/hourly-rates
+ust nummer schweiz,11,50,0,17,I,/de/uid-nummer-schweiz
+doppelte buchhaltung schweiz,11,50,0,5,I,/de/doppelte-buchhaltung-schweiz
+payrolling services,11,50,0,25,"L,C",/de/payrolling-for-freelancers
+jährliche kosten gmbh schweiz,11,50,0,8,I,/de/blog/2023-cost-opening-sarl-switzerland-tips
+brutto-netto rechner schweiz grenzgänger,11,50,0,9,I,/de/brutto-netto-rechner-schweiz
+logiciel compta suisse,11,50,0,17,I,/fr/buchhaltungssoftware
+difference entre sarl et sa,11,50,0,7,I,/fr/gmbh-vs-selbstaendig-vs-ag
+quittungsvorlage,20,90,1,10,I,/de/quittung-vorlage-schweiz
+mehrwertsteuer berechnen schweiz,20,90,1,9,I,/de/tools/vat-calculator-switzerland
+qr rechnung erstellen schweiz,16,70,2,30,I,/de/qr-rechnung-erstellen
+stundensatz berechnen,16,70,0,15,I,/de/stundenlohn-berechnen-schweiz
+berechnung tageslohn,16,70,0,24,I,/de/stundenlohn-berechnen-schweiz
+bezahlte pause schweiz,16,70,0,8,I,/de/working-hours-in-switzerland
+2. januar feiertag welche kantone,16,70,0,28,I,/de/feiertage
+company registration number,12,50,0,11,"L,C",/uid-nummer-schweiz
+stundensätze handwerker schweiz,12,50,0,4,I,/de/hourly-rates
+buchführungspflicht schweiz,12,50,0,7,I,/de/doppelte-buchhaltung-schweiz
+lohncomputer,12,50,0,30,"I,N",/de/brutto-netto-rechner-schweiz
+helsana osteopathie,12,50,0,9,I,/de/best-complementary-insurance-for-osteopathy
+abschreibungen fahrzeuge,12,50,0,7,I,/de/annual-depreciation-for-self-employed-workers
+vacances scolaire vaud 2023,12,50,0,28,I,/fr/feiertage/waadt
+die schönsten cafés in basel,12,50,0,14,"L,C",/de/coworking/basel
+budget app kostenlos schweiz,12,50,0,17,I,/de/budgeting-apps
+café zum lernen,12,50,0,8,"L,C",/de/coworking/basel
+beatenberg vipassana,17,70,0,14,"L,N",/de/vipassana-switzerland
+mwst nr schweiz,17,70,0,16,I,/mwst-nummer-schweiz
+internet cafe basel,17,70,0,17,"L,C",/de/coworking/basel
+1 juni feiertag,17,70,0,34,I,/feiertage/zurich
+fahrtkosten pro km schweiz,17,70,0,16,I,/de/kilometergeld-schweiz
+buchhaltungssoftware schweiz für private,17,70,0,14,I,/buchhaltungssoftware
+brutto-netto,15,60,0,32,I,/de/brutto-netto-rechner-schweiz
+nationaler lohnrechner,18,70,1,47,"I,N",/de/brutto-netto-rechner-schweiz
+mwst konforme rechnung schweiz,18,70,0,10,I,/de/mwst-registrierung
+maximale arbeitszeit schweiz,18,70,0,9,I,/de/working-hours-in-switzerland
+sumup gebühren schweiz,18,70,0,18,"I,N",/integrations/sumup
+4 mai feiertag,13,50,0,20,I,/feiertage/zurich
+einzahlungsschein zum ausdrucken,13,50,0,21,I,/einzahlungsschein-erstellen
+bruttolohn berechnen,13,50,0,42,I,/de/brutto-netto-rechner-schweiz
+winterthur feiertage,13,50,0,25,I,/de/feiertage/freiburg
+qr einzahlungsschein erstellen raiffeisen,13,50,0,17,I,/de/qr-rechnung-erstellen
+handwerker stundensatz schweiz,13,50,0,4,I,/de/hourly-rates
+fiscalité vaud,13,50,0,28,"L,N",/fr/vaud-tax
+espace coworking lausanne,19,70,0,28,"L,C",/fr/coworking/lausanne
+ferien stundenlohn,19,70,0,8,I,/de/stundenlohn-berechnen-schweiz
+buchhaltungssoftware schweiz einzelfirma,14,50,1,5,I,/buchhaltungssoftware
+monatslohn berechnen,14,50,0,32,I,/de/stundenlohn-berechnen-schweiz
+vacances scolaires vaud 2023,14,50,0,28,I,/fr/feiertage/waadt
+3.10 feiertag,20,70,0,49,I,/de/feiertage/zurich
+was ist doppelte buchhaltung,20,70,0,23,I,/de/doppelte-buchhaltung-schweiz
+raiffeisen qr-code erstellen,20,70,0,17,I,/einzahlungsschein-erstellen
+mwst-rechner,18,60,2,21,I,/de/tools/vat-calculator-switzerland
+vat id schweiz,15,50,0,16,I,/de/uid-nummer-schweiz
+1. januar feiertag schweiz,15,50,0,32,I,/de/feiertage
+différence entre sa et sarl,15,50,0,7,I,/fr/gmbh-vs-selbstaendig-vs-ag
+gratis buchhaltungsprogramm,16,50,0,12,I,/buchhaltungssoftware
+meditation schweiz,16,50,0,36,"L,C",/de/vipassana-switzerland
+cambio franco euro sole 24 ore,16,50,0,14,I,/it/euro-conversion
+bruttolohn abzüge schweiz,16,50,0,19,I,/de/brutto-netto-rechner-schweiz
+pause obligatoire suisse,16,50,0,11,I,/fr/working-hours-in-switzerland
+umsatzsteuernummer schweiz,17,50,0,26,I,/de/uid-nummer-schweiz
+feiertage schweiz mai,17,50,0,27,I,/de/feiertage
+app buchhaltung,17,50,0,17,I,/de/budgeting-apps
+jours fériés vaud 2024,17,50,0,28,I,/fr/feiertage/waadt
+brutto rechner,18,50,0,38,I,/de/brutto-netto-rechner-schweiz
+netto schweiz,18,50,0,31,"L,C",/de/brutto-netto-rechner-schweiz
+gesetzliche mittagspause schweiz,18,50,0,20,I,/de/working-hours-in-switzerland
+pausen gesetz schweiz,18,50,0,8,I,/de/working-hours-in-switzerland
+stundenlohn gartenarbeit privat,18,50,0,7,I,/de/wie-viel-kosten/gaertner
+modèle facture suisse gratuit,18,50,0,7,I,/fr/rechnung-schreiben-schweiz
+entreprise de déménagement fribourg,18,50,0,9,"L,C",/fr/umzug/lausanne-freiburg
+pause obligatoire travail suisse,18,50,0,11,I,/fr/working-hours-in-switzerland
+mehrwertsteuer schweiz anmelden,18,50,0,14,I,/de/mwst-registrierung/st-gallen
+nebenberuflich selbständig schweiz,19,50,0,17,I,/de/blog/nebenberuflich-selbstaendig-schweiz
+höchstarbeitszeit pro tag schweiz,19,50,0,8,I,/de/working-hours-in-switzerland
+lohnabrechnung vorlage stundenlohn,19,50,0,7,I,/de/stundenlohn-berechnen-schweiz
+gärtner st gallen,19,50,0,12,"L,C",/de/gaertner/st-gallen
+wöchentliche arbeitszeit schweiz,19,50,0,10,I,/de/working-hours-in-switzerland
+katholische feiertage schweiz,19,50,0,29,I,/de/feiertage
+travel expenses,19,50,0,24,I,/travel-expenses
+rechnungsvorlage pdf,19,50,0,13,I,/de/rechnungsvorlage
+nebenberuflich selbstständig schweiz,19,50,0,20,I,/de/blog/nebenberuflich-selbstaendig-schweiz
+specialty coffee lugano,19,50,0,11,"L,C",/de/coworking/lugano
+rechnung erstellen vorlage,20,50,1,8,I,/de/rechnung-schreiben-schweiz
+lohnabrechnung stundenlohn vorlage,20,50,0,7,I,/de/stundenlohn-berechnen-schweiz
+qr rechnung generator raiffeisen,20,50,0,32,I,/de/qr-rechnung-erstellen
+gärtner st. gallen,20,50,0,26,"L,C",/de/gaertner/st-gallen

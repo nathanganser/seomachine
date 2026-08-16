@@ -29,14 +29,29 @@ Data sources provide real-time performance metrics for:
   - Queries ranking 11-20 (quick win opportunities)
   - Search appearance features
 
-### DataForSEO
-- **Purpose**: Competitive SEO data and keyword research
+### SE Ranking (primary SEO data source)
+- **Purpose**: Rankings, keyword research, competitor gaps, backlinks, site audits, AI-search visibility
+- **Module**: `modules/seranking.py` (`SERankingClient`, Swiss database `source="ch"` default)
+- **Auth**: `SERANKING_API_KEY` in `config/.env` (Data API, `Authorization: Token <key>`)
+- **Key Methods**:
+  - `domain_keywords_all()` / `domain_pages_all()` — full organic position set, uncapped pagination
+  - `keyword_gap()` — keyword overlap vs a competitor
+  - `keywords_export/similar/related/questions/longtail()` — keyword research with volume, difficulty, intent, 12-mo trend
+  - `backlinks_summary/refdomains_all/authority()` — link profile
+  - `audit_create_standard/status/report/issue_pages()` — technical crawl
+  - `ai_timeseries/discover_brand/prompts_by_target/prompts_by_brand/ai_leaderboard()` — AI-search presence
+- **Credits** (estimates, tracked per client instance via `credit_report()`):
+  - domain/backlinks summary endpoints: ~100/call (up to 1000 rows)
+  - keywords export: 100/request (≤5000 kw); similar/related/questions: 10/row; longtail: 1/row
+  - refdomains: 1/row; site audit: 2/page
+  - AI time-series: 800/engine; prompts: 200/prompt; leaderboard: 7,500 flat (gated behind `confirm_cost=True`)
+- **Used by**: `/seranking-audit`, `/backlinks`, `/keyword-research`, `/ai-visibility`, `/site-health`, `research_competitor_gaps.py`, `seo_bofu_rankings.py`
+
+### DataForSEO (live SERP only)
+- **Purpose**: Live SERP top-10/50 scraping (`/research-serp`, content briefs). Keyword metrics and positions now come from SE Ranking.
 - **Key Metrics**:
-  - Keyword rankings (daily updates)
-  - Competitor analysis
-  - SERP features and positions
-  - Search volume and difficulty
-  - Related keywords and questions
+  - SERP features and positions (real-time)
+  - Top-10 result scraping for content benchmarking
 
 ## Directory Structure
 

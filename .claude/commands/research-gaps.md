@@ -25,10 +25,10 @@ python3 research_competitor_gaps.py
 ```
 
 This will:
-1. Fetch your current ranking keywords from GSC
-2. Analyze each competitor's top 20 ranking keywords
-3. Identify gaps (they rank, you don't)
-4. Enrich with search volume, difficulty, SERP features
+1. Load our full top-100 keyword universe from the latest `audits/seranking-*/` snapshot (or a live SE Ranking pull if the snapshot is >14 days old)
+2. Cross-check against GSC impressions (optional, `--no-gsc` to skip)
+3. Analyze each competitor's top 20 ranking keywords via SE Ranking
+4. Identify gaps (they rank, you don't) — volume, difficulty, intents, and SERP features come with the rows, no per-keyword SERP calls
 5. Score and prioritize opportunities
 6. Generate report: `research/competitor-gaps-YYYY-MM-DD.md`
 
@@ -51,8 +51,8 @@ After running `/research-gaps`:
 
 ## Time & Cost
 
-**Time:** 3-5 minutes
-**API Cost:** ~$1-3 (DataForSEO) - analyzes ~300-500 competitor keywords
+**Time:** 2-3 minutes
+**API Cost:** ~1,500 SE Ranking credits (competitor keyword pulls; our side is free when a fresh snapshot exists)
 
 ## When to Run
 
