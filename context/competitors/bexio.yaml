@@ -9,7 +9,8 @@ positioning:
   target_audience: "Swiss SMEs, teams, businesses with employees, fiduciaries"
   market_position: "Market leader, 100,000+ companies, DR ~65-75"
 
-pricing:  # verified against live bexio.com/de-CH/pakete-preise on 2026-07-19 (March 2026 lineup)
+pricing:  # re-verified against live bexio.com/de-CH/pakete-preise on 2026-08-12 (March 2026 lineup unchanged)
+  # NOTE 2026-08-12: bexio running a promo — 30% off first year, new customers only, plans Advanced+, "gültig für Neukunden bis 14.08.2026". List prices below unchanged; comparisons should use list prices with a note that bexio periodically offers first-year new-customer discounts.
   free_tier: false
   free_tier_limits: "30-day trial only, no permanent free plan"
   plans:
@@ -65,6 +66,17 @@ not_ideal_for:
 common_complaints:  # from review mining; keep factual, no editorializing
   - Price increases and per-module costs add up for small users
   - Overkill feature set for one-person businesses
+  - Aggressive phone sales / difficult cancellation mentioned repeatedly on Trustpilot
+  - Support responsiveness criticized in recent reviews
+
+review_ratings:  # retrieved 2026-08-12 — cite platform + count + date on pages (UWG)
+  bexio:
+    trustpilot: {score: 2.8, of: 5, count: 321, source: "trustpilot.com/review/bexio.com"}
+    capterra_ch: {score: 2.2, of: 5, count: 21, source: "capterra.ch/software/153203/bexio", subscores: "Bedienung 2.7, Support 1.9, Preis-Leistung 2.0"}
+    app_store_ch: {score: 4.5, of: 5, count: 3509, app: "bexio Go", source: "iTunes Search API, CH store"}
+  magic_heidi:
+    app_store_ch: {score: 4.8, of: 5, count: 88, app: "Magic Heidi: Rechnung & QR", source: "iTunes Search API, CH store"}
+    # NOTE: hero claims of "4.9★" on pages are stale — App Store CH shows 4.78 → use 4.8★
 
 migration_to_magic_heidi:
   difficulty: easy
@@ -72,23 +84,29 @@ migration_to_magic_heidi:
   what_doesnt: "Accounting history stays in bexio (export PDFs/reports for records)"
   time_estimate: "Under an hour for a typical freelancer"
 
-seo:  # Swiss volumes, DataForSEO 2026-07-02
+seo:  # Swiss volumes, DataForSEO 2026-07-02 (+ additions 2026-08-12)
   keywords:
     - {kw: "bexio preise", vol: 720, lang: de}
+    - {kw: "bexio api", vol: 590, lang: de}   # added 2026-08-12 — /alternative/bexio ranks #6 (SE Ranking 2026-08-01)
     - {kw: "bexio kosten", vol: 170, lang: de}
     - {kw: "bexio alternative", vol: 140, lang: de}
     - {kw: "bexio alternativen", vol: 140, lang: de}
     - {kw: "alternative bexio", vol: 140, lang: fr}
     - {kw: "bexio erfahrungen", vol: 40, lang: de}
+    - {kw: "bexio probleme", vol: 40, lang: de}
     - {kw: "bexio avis", vol: 30, lang: fr}
     - {kw: "klara vs bexio", vol: 20, lang: de}
 
 existing_pages:
-  - /alternative/bexio (all 6 locales, ranks ~#5 for "bexio alternative")
+  - /alternative/bexio (8 locales incl. sq/sr; #8-9 for "bexio alternative", #6 "bexio api", #14 "bexio erfahrungen" — DataForSEO/SE Ranking 2026-08)
+  - /bexio-preise (7 locales, published 2026-07-19; not yet ranking for "bexio preise" as of 2026-08-12)
 
-last_verified: 2026-07-19
+last_verified: 2026-08-12
 sources:
   - context/competitor-analysis.md
-  - https://www.bexio.com/de-CH/pakete-preise (fetched 2026-07-19)
+  - https://www.bexio.com/de-CH/pakete-preise (fetched 2026-08-12 — prices unchanged vs 2026-07-19; 30% first-year new-customer promo until 14.08.2026)
   - https://cdn.www.bexio.com/assets/content_craft/documents/bexio/compare-packages-de.pdf (Stand 2026-01-27)
   - https://www.bexio.com/de-CH/events/banking-2 (Basic/Advanced banking distinction, fetched 2026-07-19)
+  - https://www.trustpilot.com/review/bexio.com (rating via search snippet, 2026-08-12)
+  - https://www.capterra.ch/software/153203/bexio (fetched 2026-08-12)
+  - iTunes Search API CH store (bexio Go + Magic Heidi ratings, 2026-08-12)

@@ -646,12 +646,14 @@ Each topic cluster should have:
 
 ### Pillar Keyword
 
-* **Keyword**: Bexio Alternative Schweiz
-* **Search Volume**: [Est. 400–1,000 monthly searches]
-* **Difficulty**: Medium
+* **Keyword**: bexio Alternative
+* **Search Volume**: 140/mo ("bexio alternative") + 140 ("bexio alternativen") + 30 ("bexio alternative schweiz") — DataForSEO 2026-08-12
+* **Difficulty**: Medium (KD 14 per SE Ranking)
 * **Intent**: Commercial
-* **Current Ranking**: ~#5
-* **Pillar Content URL**: /bexio-alternative
+* **Current Ranking**: #8–9 (2026-08-12; was #5 on 2026-08-01)
+* **Pillar Content URL**: /alternative/bexio
+* **Related page-owned keywords**: bexio api 590/mo (#6!), bexio erfahrungen 40 (#14), bexio kosten 170; "bexio preise" 720/mo is owned by /bexio-preise (not ranking yet as of 2026-08-12)
+* **Full data**: research/brief-bexio-alternative-rewrite-2026-08-12.md + context/competitors/bexio.yaml
 
 ### Cluster Keywords (Subtopics)
 
@@ -1070,13 +1072,13 @@ Keywords with high volume, achievable difficulty, strong business value:
    * Why Priority: French-speaking Swiss market is underserved, and Magic Heidi has strong multilingual fit
    * Action: Improve /fr/logiciel-facturation-suisse
 
-5. **Keyword**: Bexio Alternative Schweiz
+5. **Keyword**: bexio Alternative (+ bexio api / preise / kosten / erfahrungen universe)
 
-   * Volume: [Est. 400–1,000 searches]
-   * Difficulty: Medium
+   * Volume: 140/mo (alternative) + 590 (api) + 720 (preise) + 170 (kosten)
+   * Difficulty: Medium (KD 14)
    * Intent: Commercial
-   * Why Priority: Already ranking around #5 with room to climb
-   * Action: Strengthen /bexio-alternative with specific comparison data
+   * Why Priority: Page at #8–9; api at #6; erfahrungen at #14 — striking distance
+   * Action: Soft rewrite + internal links shipped 2026-08-12 (see research/brief-bexio-alternative-rewrite-2026-08-12.md); re-check ~2026-08-26; top-3 needs off-page (listicle inclusion: milkee, Capterra, pfeffersack)
 
 ### Medium Priority (Next Quarter)
 
@@ -1182,12 +1184,12 @@ Keywords for future content planning:
 
 Keywords where Magic Heidi ranks in positions 1-10:
 
-1. **Keyword**: Bexio Alternative Schweiz
+1. **Keyword**: bexio Alternative
 
-   * Position: ~#5
-   * Volume: [Est. 400–1,000 searches]
-   * URL: /bexio-alternative
-   * Trend: → Stable
+   * Position: #8–9 (2026-08-12); bexio api #6 (590/mo) on same page
+   * Volume: 140/mo
+   * URL: /alternative/bexio
+   * Trend: ↓ slipped from #5 (2026-08-01); soft rewrite shipped 2026-08-12
 
 2. **Keyword**: software fatturazione Svizzera
 
@@ -1289,7 +1291,7 @@ Track multiple pages targeting same/similar keywords:
 
 **Keyword**: Bexio Alternative Schweiz / Bexio vs Magic Heidi
 
-* Page 1: /bexio-alternative - Position ~#5
+* Page 1: /alternative/bexio - Position #8–9 (2026-08-12)
 * Page 2: Any future Bexio comparison articles - Position [verify]
 * **Issue**: Future comparison articles could compete with the main alternative page.
 * **Solution**: Keep /bexio-alternative as the canonical commercial comparison page. Use supporting articles only for narrow long-tail questions and link back to the pillar.
