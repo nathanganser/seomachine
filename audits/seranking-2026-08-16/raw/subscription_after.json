@@ -1,0 +1,9 @@
+{
+  "subscription_info": {
+    "status": "expired",
+    "start_date": "2026-07-16 10:54:30",
+    "expiraton_date": "2026-08-16 10:54:30",
+    "units_limit": 3025000,
+    "units_left": 3022000
+  }
+}

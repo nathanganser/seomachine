@@ -1,0 +1,37 @@
+{
+  "organic": {
+    "base_domain": "magicheidi.ch",
+    "price_sum": 3202.9,
+    "traffic_sum": 4537,
+    "keywords_new_count": 4539,
+    "keywords_down_count": 1486,
+    "keywords_up_count": 1325,
+    "keywords_equal_count": 5281,
+    "keywords_lost_count": 3569,
+    "keywords_count": 9537,
+    "top1_5": 1542,
+    "top6_10": 1342,
+    "top11_20": 1961,
+    "top21_50": 4583,
+    "top51_100": 3199,
+    "year": 2026,
+    "month": 8
+  },
+  "adv": {
+    "base_domain": "magicheidi.ch",
+    "price_sum": 0,
+    "traffic_sum": 0,
+    "keywords_new_count": 0,
+    "keywords_down_count": 0,
+    "keywords_up_count": 0,
+    "keywords_equal_count": 0,
+    "keywords_lost_count": 7,
+    "keywords_count": 0,
+    "top1_2": 0,
+    "top3_5": 0,
+    "top6_8": 0,
+    "top9_11": 0,
+    "year": 2026,
+    "month": 8
+  }
+}
