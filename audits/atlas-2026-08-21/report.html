@@ -792,6 +792,18 @@
         <li><strong>Renew SE Ranking or replace it.</strong> The Data API no longer works on prepaid credits; the whole account returns <code>License expired</code>. Every <code>/seranking-*</code> command and the 1 Sep re-measure are blocked until then.</li>
       </ol>
     </div>
+
+    <div class="opt" style="border-left:3px solid var(--warn)">
+      <div class="opt-head"><h3>What to expect after the prune</h3></div>
+      <p>Search Console will look alarming for a few weeks, and that is the plan working rather than failing. Expect all of the following:</p>
+      <ul class="tight">
+        <li><strong>A large spike in "Not found (404)" and excluded URLs.</strong> Roughly 190,000 URLs start returning 410. Google will take weeks to recrawl them all, and Coverage will show the backlog the whole time.</li>
+        <li><strong>Indexed-page count falls hard</strong> — that is the objective. The number to watch instead is impressions per indexed page.</li>
+        <li><strong>Total impressions drop</strong> by roughly the 6,894 the DE/IT/EN folders were contributing. Those produced 42 clicks, all navigational.</li>
+        <li><strong>Business-page impressions decay slowly</strong> after the noindex, since Google has to recrawl each one to see the tag.</li>
+      </ul>
+      <p style="margin-bottom:0">Resubmit <code>sitemap.xml</code> in Search Console immediately after deploying — it is the fastest way to signal the new, much smaller URL set. Then hold until <strong>15 Sep</strong> before judging anything; four weeks is the minimum for recrawl to settle.</p>
+    </div>
   </section>
 
   <footer>
