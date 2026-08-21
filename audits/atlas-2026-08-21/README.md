@@ -162,11 +162,16 @@ The strategic question comes first: **should Atlas exist at all?** It currently 
 
 Keep only what has a plausible path to ranking, and make Atlas roughly 3% of its current size.
 
-1. **Delete the `/de/`, `/it/`, and `/en/` folders entirely** (187,665 URLs). They describe Romandie businesses in languages that region doesn't search in. Return 410, keep `/fr/` only. Drop the hreflang cluster with them.
-2. **Delete all 4,534 language-facet URLs** (`/francophone/`, `/germanophone/`) — they are exact duplicates of their parents.
-3. **Noindex every business detail page** (`/fr/entreprise/*`, ~46,626). Keep them live and linked so category pages have somewhere to point, but stop asking Google to index 90-word pages that only win brand queries at 0% CTR.
-4. **Collapse the two category patterns into one.** Pick `city/trade/`, 301 the `prestation` variants into it, and resolve the EN/FR slug pairs to the French slug (`peinture` not `painting`).
-5. **Delete the 70 city-as-service URLs** and fix the taxonomy bug that generated them. Strip non-ASCII from all slugs.
+*(Steps 2, 4 and 5 restated from the corrections above.)*
+
+1. **Serve only `/fr/`** — retire 187,665 URLs. 410 for `/de/`, `/it/`, `/en/`; `/` redirects to `/fr/`; suppress hreflang while one locale is active. Implement as a reversible `ACTIVE_LANGS` flag, **not** a deletion — German-speaking cantons are on the product roadmap (atlas `CLAUDE.md` "Parked / next"), so re-enabling must be a one-line change.
+2. **410 the majority-language facet only** (~1,639 `francophone` URLs in FR), where the facet's result set equals its parent's. Leave `anglophone`/`germanophone`/`italophone` alone (genuine filters, already noindexed by the count rule) and leave all 1,728 tag facets alone (they carry real traffic).
+3. **Noindex every business detail page** (~46,626). Keep them live and internally linked with `noindex,follow`. Drop the business sitemaps.
+4. **Slug hygiene first** — cheaper than step 5 and worth more. Slugify the tag segment in `i18n.url_for_page()` (the single URL choke point), normalise before the place-name denylist so accented city names are caught, and add XML escaping to `render_urlset()`.
+5. **Merge the EN/FR tag twins** via a small alias map plus 301s (`painting`→`peinture`, `cleaning`→`nettoyage`, the eight-way hairdressing cluster→`coiffure`). Do **not** hand-curate all 979 slugs; gate indexability on an allowlist of genuine French service tags and noindex the rest.
+6. **Add canton-level tag pages to the sitemap** (`/{lang}/{canton}/prestation/{tag}/`). They render and are internally linked but appear in *zero* sitemaps. They're the strongest category pages on the site — canton scope means more listings and less thinness — and 36 drew impressions while sitemap-orphaned, including `/fr/canton-de-neuchatel/prestation/isolation/` at **168 impressions, the highest of any category page.** This is the one place to *add* URLs.
+
+The deeper fix behind 4 and 5 is upstream: the v1 enrichment prompt asked for "a few free-form tags" with no language/casing/charset constraint, and the only write-time check is a type test plus a truncation to 10. The DB holds 17,377 distinct tags. Without a validation step the vocabulary will re-pollute.
 
 This leaves roughly **7,000 French category pages** — a size Google will actually crawl and evaluate, on a subdomain that can plausibly earn links.
 
@@ -180,9 +185,9 @@ Every target SERP has a local pack fed by the same Google Maps data Atlas republ
 
 ### Regardless of path
 
-6. **Link Atlas from magicheidi.ch** — footer, `llms.txt`, and the main sitemap index — or it will never receive authority. Do this *after* the pruning, not before, so you are not passing equity into thin pages.
-7. **Re-measure on 2026-09-15**, four weeks after any pruning ships, and compare against this baseline. The metric that matters is impressions per indexed page and category-page average position, not raw impressions.
-8. **Update `CLAUDE.md`**: the SE Ranking Data API no longer works on prepaid credits — the whole account returns `License expired`. Every `/seranking-*` command and the 2026-09-01 re-measure are blocked until the subscription is renewed. Ahrefs is also plan-limited to GSC endpoints only.
+7. **Link Atlas from magicheidi.ch — DONE 2026-08-21.** A followed footer link (`https://atlas.magicheidi.ch/fr/`, no `nofollow`) now ships across all eight locales; verified live on production in de/en/fr/it/es/pt/sq/sr. mh-landing commit `21bf2a40`. Still worth adding to `llms.txt` and the main sitemap index. Ordering caveat: this passes equity into the current thin-page set until the prune lands, so the two should ship close together.
+8. **Re-measure on 2026-09-15**, four weeks after any pruning ships, and compare against this baseline. The metric that matters is impressions per indexed page and category-page average position, not raw impressions.
+9. **Update `CLAUDE.md`**: the SE Ranking Data API no longer works on prepaid credits — the whole account returns `License expired`. Every `/seranking-*` command and the 2026-09-01 re-measure are blocked until the subscription is renewed. Ahrefs is also plan-limited to GSC endpoints only.
 
 ---
 
