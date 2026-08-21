@@ -173,7 +173,11 @@ Keep only what has a plausible path to ranking, and make Atlas roughly 3% of its
 
 The deeper fix behind 4 and 5 is upstream: the v1 enrichment prompt asked for "a few free-form tags" with no language/casing/charset constraint, and the only write-time check is a type test plus a truncation to 10. The DB holds 17,377 distinct tags. Without a validation step the vocabulary will re-pollute.
 
-This leaves roughly **7,000 French category pages** — a size Google will actually crawl and evaluate, on a subdomain that can plausibly earn links.
+**Implemented 2026-08-21** on branch `seo/option-a-prune` in `magic-heidi-atlas` (commit `55ce47d`, **not pushed** — Render auto-deploys from `main`, so merging is what retires ~190k live URLs; that trigger is the human's).
+
+Actual outcome: indexable surface goes from **250,220 URLs to 15,305** (a 94% cut). That is larger than the ~7,000 originally projected, because step 6 deliberately *adds* 3,117 canton-scoped tag pages. Sitemap now has 0 non-ASCII, 0 spaces, 0 duplicates, 0 hreflang. Verified locally: `python i18n.py` passes, 22/22 acceptance checks pass.
+
+Threshold note: canton tag pages use `MIN_CANTON_TAG_INDEXABLE = 10`, not the city-level 5. At 5 they alone were 6,585 URLs with a junk tail (`wifi`, `zero-waste`, three spellings of womenswear); at 10 they are 3,117. The cutoff is pinned by `/fr/canton-de-neuchatel/prestation/isolation/`, which has only **12 businesses** yet is the highest-impression category page on the site — a threshold of 15 or 25 would have killed it.
 
 ### Option B — Fix the market mismatch first
 
