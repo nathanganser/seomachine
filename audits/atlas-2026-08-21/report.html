@@ -1,0 +1,887 @@
+<title>Atlas SEO Audit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+  :root {
+    /* neutrals biased cool/slate — map paper and ink */
+    --paper:      #EEF1F4;
+    --surface:    #F7F9FA;
+    --surface-2:  #E3E8EC;
+    --rule:       #CBD4DA;
+    --rule-soft:  #DDE4E9;
+    --ink:        #101820;
+    --ink-2:      #3B4956;
+    --ink-3:      #6B7A87;
+
+    /* accent: alpine lake blue — institutional, measured */
+    --accent:     #1F5C7A;
+    --accent-2:   #2E7EA3;
+    --accent-wash:#DCE8EE;
+
+    /* semantic severity — separate from accent */
+    --crit:       #A93B18;
+    --crit-wash:  #F6DFD7;
+    --warn:       #8A6112;
+    --warn-wash:  #F3E7CD;
+    --good:       #2F6444;
+    --good-wash:  #DCE9E0;
+
+    --shadow: 0 1px 2px rgba(16,24,32,.05), 0 8px 24px -12px rgba(16,24,32,.16);
+
+    --f-display: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+    --f-body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+    --f-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+    --col: 68ch;
+    --wide: 1180px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:      #0C1116;
+      --surface:    #121A21;
+      --surface-2:  #1A242D;
+      --rule:       #2C3A45;
+      --rule-soft:  #212D36;
+      --ink:        #E4EAEF;
+      --ink-2:      #AFBDC8;
+      --ink-3:      #7C8B97;
+
+      --accent:     #6FB3D2;
+      --accent-2:   #8FCBE5;
+      --accent-wash:#16303D;
+
+      --crit:       #E8895F;
+      --crit-wash:  #33170D;
+      --warn:       #D9AE55;
+      --warn-wash:  #2E2410;
+      --good:       #7FBE97;
+      --good-wash:  #142A1D;
+
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.7);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --paper:      #0C1116;
+    --surface:    #121A21;
+    --surface-2:  #1A242D;
+    --rule:       #2C3A45;
+    --rule-soft:  #212D36;
+    --ink:        #E4EAEF;
+    --ink-2:      #AFBDC8;
+    --ink-3:      #7C8B97;
+
+    --accent:     #6FB3D2;
+    --accent-2:   #8FCBE5;
+    --accent-wash:#16303D;
+
+    --crit:       #E8895F;
+    --crit-wash:  #33170D;
+    --warn:       #D9AE55;
+    --warn-wash:  #2E2410;
+    --good:       #7FBE97;
+    --good-wash:  #142A1D;
+
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.7);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--f-body);
+    font-size: 17px;
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: var(--wide);
+    margin: 0 auto;
+    padding: 0 28px 96px;
+  }
+
+  /* ---------- masthead ---------- */
+  .mast {
+    border-bottom: 2px solid var(--ink);
+    padding: 56px 0 22px;
+    margin-bottom: 40px;
+  }
+  .eyebrow {
+    font-family: var(--f-mono);
+    font-size: 11.5px;
+    font-weight: 500;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 18px;
+  }
+  h1 {
+    font-family: var(--f-display);
+    font-weight: 700;
+    font-size: clamp(2.4rem, 6vw, 4rem);
+    line-height: 1.02;
+    letter-spacing: -.028em;
+    margin: 0 0 20px;
+    text-wrap: balance;
+  }
+  h1 .dom {
+    display: block;
+    font-family: var(--f-mono);
+    font-weight: 500;
+    font-size: clamp(.85rem, 2vw, 1.05rem);
+    letter-spacing: 0;
+    color: var(--ink-3);
+    margin-top: 14px;
+  }
+  .mast-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 30px;
+    font-family: var(--f-mono);
+    font-size: 12.5px;
+    color: var(--ink-3);
+    padding-top: 6px;
+  }
+  .mast-meta b { color: var(--ink-2); font-weight: 500; }
+
+  /* ---------- prose column ---------- */
+  .col { max-width: var(--col); }
+
+  h2 {
+    font-family: var(--f-display);
+    font-weight: 600;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    line-height: 1.14;
+    letter-spacing: -.018em;
+    margin: 0 0 8px;
+    text-wrap: balance;
+  }
+  h3 {
+    font-family: var(--f-display);
+    font-weight: 600;
+    font-size: 1.18rem;
+    line-height: 1.25;
+    letter-spacing: -.01em;
+    margin: 0 0 10px;
+    text-wrap: balance;
+  }
+  p { margin: 0 0 1.05em; }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:focus-visible, summary:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  strong { font-weight: 600; }
+  code, .mono { font-family: var(--f-mono); font-size: .86em; }
+  code {
+    background: var(--surface-2);
+    padding: .1em .38em;
+    border-radius: 3px;
+    color: var(--ink-2);
+  }
+
+  section { margin-top: 64px; }
+
+  .sec-head {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    border-top: 1px solid var(--rule);
+    padding-top: 18px;
+    margin-bottom: 26px;
+  }
+  .sec-head .n {
+    font-family: var(--f-mono);
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--accent);
+    letter-spacing: .08em;
+    flex: none;
+    padding-top: .35em;
+  }
+  .sec-head .sub {
+    font-family: var(--f-body);
+    font-size: .98rem;
+    color: var(--ink-3);
+    margin: 6px 0 0;
+    max-width: 60ch;
+  }
+
+  /* ---------- verdict ---------- */
+  .verdict {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--crit);
+    border-radius: 3px;
+    padding: 30px 34px;
+    box-shadow: var(--shadow);
+    margin-bottom: 34px;
+  }
+  .verdict .lede {
+    font-size: clamp(1.2rem, 2.4vw, 1.5rem);
+    line-height: 1.36;
+    font-weight: 600;
+    margin: 0 0 16px;
+    letter-spacing: -.012em;
+    text-wrap: balance;
+  }
+  .verdict p:last-child { margin-bottom: 0; }
+
+  /* ---------- stat row ---------- */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(158px, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 0 0 12px;
+  }
+  .stat { background: var(--surface); padding: 20px 20px 18px; }
+  .stat .k {
+    font-family: var(--f-mono);
+    font-size: 10.5px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin: 0 0 10px;
+    line-height: 1.4;
+  }
+  .stat .v {
+    font-family: var(--f-display);
+    font-weight: 700;
+    font-size: 1.95rem;
+    line-height: 1;
+    letter-spacing: -.03em;
+    font-variant-numeric: tabular-nums;
+    margin: 0;
+  }
+  .stat .v.bad { color: var(--crit); }
+  .stat .n {
+    font-family: var(--f-mono);
+    font-size: 11px;
+    color: var(--ink-3);
+    margin: 8px 0 0;
+    line-height: 1.4;
+  }
+
+  /* ---------- chart ---------- */
+  .chart-card {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 26px 26px 20px;
+    box-shadow: var(--shadow);
+  }
+  .chart-head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .chart-head h3 { margin: 0; }
+  .legend {
+    display: flex;
+    gap: 18px;
+    font-family: var(--f-mono);
+    font-size: 11px;
+    color: var(--ink-3);
+    letter-spacing: .04em;
+  }
+  .legend i {
+    display: inline-block;
+    width: 10px; height: 10px;
+    border-radius: 2px;
+    margin-right: 6px;
+    vertical-align: -1px;
+  }
+  .chart-scroll { overflow-x: auto; }
+  .chart-scroll svg { display: block; min-width: 540px; width: 100%; height: auto; }
+  .chart-note {
+    font-family: var(--f-mono);
+    font-size: 11.5px;
+    color: var(--ink-3);
+    margin: 14px 0 0;
+    line-height: 1.55;
+  }
+
+  /* ---------- tables ---------- */
+  .t-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    background: var(--surface);
+  }
+  table { border-collapse: collapse; width: 100%; min-width: 520px; }
+  caption {
+    text-align: left;
+    font-family: var(--f-mono);
+    font-size: 11px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    padding: 14px 18px 0;
+  }
+  th, td {
+    text-align: left;
+    padding: 11px 18px;
+    border-bottom: 1px solid var(--rule-soft);
+    font-size: 15px;
+  }
+  thead th {
+    font-family: var(--f-mono);
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    border-bottom: 1px solid var(--rule);
+    white-space: nowrap;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr.total td { font-weight: 600; background: var(--surface-2); }
+  td.num, th.num { text-align: right; font-family: var(--f-mono); font-variant-numeric: tabular-nums; font-size: 14px; }
+  td.url { font-family: var(--f-mono); font-size: 12.5px; color: var(--ink-2); }
+  .bad { color: var(--crit); font-weight: 600; }
+  .ok  { color: var(--good); font-weight: 600; }
+
+  /* ---------- findings ---------- */
+  .finding {
+    display: grid;
+    grid-template-columns: 132px minmax(0, 1fr);
+    gap: 0 30px;
+    border-top: 1px solid var(--rule);
+    padding: 28px 0;
+  }
+  .finding:last-of-type { border-bottom: 1px solid var(--rule); }
+  .rail { display: flex; flex-direction: column; gap: 10px; }
+  .chip {
+    display: inline-block;
+    font-family: var(--f-mono);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: .11em;
+    text-transform: uppercase;
+    padding: 5px 9px;
+    border-radius: 3px;
+    width: fit-content;
+    line-height: 1;
+  }
+  .chip.crit { background: var(--crit-wash); color: var(--crit); }
+  .chip.high { background: var(--warn-wash); color: var(--warn); }
+  .chip.med  { background: var(--accent-wash); color: var(--accent); }
+  .rail .scale {
+    font-family: var(--f-mono);
+    font-size: 11px;
+    color: var(--ink-3);
+    line-height: 1.5;
+  }
+  .finding-body > :last-child { margin-bottom: 0; }
+  .finding-body .t-wrap, .finding-body .callout { margin: 18px 0; }
+
+  .callout {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--accent);
+    border-radius: 3px;
+    padding: 16px 20px;
+    font-family: var(--f-mono);
+    font-size: 13px;
+    line-height: 1.75;
+    color: var(--ink-2);
+    overflow-x: auto;
+  }
+  .callout.crit { border-left-color: var(--crit); }
+  .callout b { color: var(--ink); font-weight: 600; }
+
+  ul.tight { margin: 0 0 1.05em; padding-left: 1.15em; }
+  ul.tight li { margin-bottom: .5em; }
+
+  /* ---------- options ---------- */
+  .opt {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 26px 30px;
+    margin-bottom: 18px;
+    box-shadow: var(--shadow);
+  }
+  .opt.rec { border-color: var(--accent); border-width: 2px; }
+  .opt-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+  .opt-head h3 { margin: 0; }
+  ol.steps { margin: 0; padding-left: 1.3em; }
+  ol.steps li { margin-bottom: .65em; }
+  ol.steps li:last-child { margin-bottom: 0; }
+
+  /* ---------- footer ---------- */
+  footer {
+    margin-top: 72px;
+    border-top: 2px solid var(--ink);
+    padding-top: 22px;
+    font-family: var(--f-mono);
+    font-size: 12px;
+    line-height: 1.7;
+    color: var(--ink-3);
+  }
+  footer b { color: var(--ink-2); font-weight: 500; }
+
+  @media (max-width: 720px) {
+    body { font-size: 16px; }
+    .wrap { padding: 0 18px 72px; }
+    .finding { grid-template-columns: 1fr; gap: 14px; }
+    .rail { flex-direction: row; align-items: center; flex-wrap: wrap; gap: 12px; }
+    .verdict { padding: 22px 22px; }
+    .opt { padding: 22px 20px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="mast">
+    <p class="eyebrow">SEO Audit · Magic Heidi</p>
+    <h1>Atlas: 250,220 pages, 94 clicks
+      <span class="dom">atlas.magicheidi.ch</span>
+    </h1>
+    <div class="mast-meta">
+      <span>Audited <b>21 Aug 2026</b></span>
+      <span>Window <b>22 Jul – 18 Aug 2026</b></span>
+      <span>Sources <b>GSC · DataForSEO · direct crawl</b></span>
+    </div>
+  </header>
+
+  <div class="col">
+    <div class="verdict">
+      <p class="lede">Atlas is a well-built machine pointed at a market that doesn't exist, in languages nobody searches in, competing against Google using Google's own data.</p>
+      <p>The engineering is genuinely good — server-rendered HTML, correct canonicals, complete hreflang, valid <code>LocalBusiness</code> and <code>ItemList</code> structured data, 80–150&nbsp;ms TTFB, clean robots.txt. <strong>None of that is the problem.</strong></p>
+      <p>The problem is that 250,220 URLs were published against Romandie-only data, translated into three languages with no corresponding demand, and aimed at queries where Google answers with its own local pack. Twenty-eight days after launch, that has returned 94 clicks.</p>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <p class="k">URLs published</p>
+      <p class="v">250,220</p>
+      <p class="n">4 languages × 62,555</p>
+    </div>
+    <div class="stat">
+      <p class="k">Ever shown in search</p>
+      <p class="v bad">1.51%</p>
+      <p class="n">3,785 of 250,220</p>
+    </div>
+    <div class="stat">
+      <p class="k">Clicks · 28 days</p>
+      <p class="v bad">94</p>
+      <p class="n">12,761 impressions</p>
+    </div>
+    <div class="stat">
+      <p class="k">Click-through rate</p>
+      <p class="v bad">0.74%</p>
+      <p class="n">all navigational</p>
+    </div>
+    <div class="stat">
+      <p class="k">Impressions vs. peak</p>
+      <p class="v bad">−93%</p>
+      <p class="n">1,956/day → ~130/day</p>
+    </div>
+  </div>
+
+  <!-- ============ 1 ============ -->
+  <section>
+    <div class="sec-head">
+      <span class="n">01</span>
+      <div>
+        <h2>The traffic curve</h2>
+        <p class="sub">Google crawled the sitemap, sampled the pages in live results, measured how searchers responded, and withdrew them.</p>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-head">
+        <h3>Daily impressions and clicks since launch</h3>
+        <div class="legend">
+          <span><i style="background:var(--accent)"></i>Impressions</span>
+          <span><i style="background:var(--crit)"></i>Clicks</span>
+        </div>
+      </div>
+      <div class="chart-scroll"><svg id="chart" viewBox="0 0 900 300" role="img"
+        aria-label="Daily impressions peak at 1,956 on 24 July, decline through early August, and flatten near 100 to 140 per day from 3 August onward. Clicks peak at 31 and fall to zero on most days after 7 August."></svg></div>
+      <p class="chart-note">Peak 1,956 impressions on 24 Jul (day 3). Floor reached 3 Aug and held for two weeks. This is the standard programmatic-SEO withdrawal curve.</p>
+    </div>
+  </section>
+
+  <!-- ============ 2 ============ -->
+  <section>
+    <div class="sec-head">
+      <span class="n">02</span>
+      <div>
+        <h2>Index coverage: 1.51%</h2>
+        <p class="sub">98.5% of the site has never been shown to a single searcher.</p>
+      </div>
+    </div>
+
+    <div class="t-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Page type</th>
+            <th class="num">Published</th>
+            <th class="num">≥1 impression</th>
+            <th class="num">Coverage</th>
+            <th class="num">Avg position</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Business detail</td><td class="num">186,504</td><td class="num">2,276</td><td class="num bad">1.22%</td><td class="num">16.0</td></tr>
+          <tr><td>Category / list</td><td class="num">63,716</td><td class="num">1,509</td><td class="num bad">2.37%</td><td class="num bad">59.0</td></tr>
+          <tr class="total"><td>Total</td><td class="num">250,220</td><td class="num">3,785</td><td class="num">1.51%</td><td class="num">—</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="col" style="margin-top:22px">
+      <p>Publishing a quarter-million URLs on a subdomain with no backlinks and no internal links from the main site means Google will never allocate the crawl budget to evaluate most of them — and the thin pages it did evaluate lowered its willingness to crawl the rest.</p>
+    </div>
+  </section>
+
+  <!-- ============ 3 ============ -->
+  <section>
+    <div class="sec-head">
+      <span class="n">03</span>
+      <div>
+        <h2>Six root causes</h2>
+        <p class="sub">Ordered by severity. The first two are strategic and cannot be fixed by optimization.</p>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="rail">
+        <span class="chip crit">Critical</span>
+        <span class="scale">187,665 URLs<br>75% of site</span>
+      </div>
+      <div class="finding-body">
+        <h3>The data is Romandie-only, but the site ships four languages</h3>
+        <p>Atlas covers French-speaking Switzerland exclusively. Checking the German sitemap for major German- and Italian-speaking cities returns nothing at all:</p>
+        <div class="callout crit">
+          Zürich <b>0</b> · Bern <b>0</b> · Basel <b>0</b> · Luzern <b>0</b> · St.&nbsp;Gallen <b>0</b> · Winterthur <b>0</b> · Zug <b>0</b> · Aarau <b>0</b> · Chur <b>0</b> · Schaffhausen <b>0</b> · Lugano <b>0</b><br>
+          <span style="color:var(--ink-3)">Actual top cities: Genf 1,551 · Lausanne 1,002 · Aigle 321 · Freiburg 283 · Neuenburg 267</span>
+        </div>
+        <p>Magic Heidi's market is 70% German / 20% French / 5% Italian / 5% English. Atlas has <strong>no inventory at all in the 70% market.</strong></p>
+        <p>Worse, the DE, IT and EN folders are real translations <em>of Romandie businesses</em>. <code>/de/genf/…</code> is a German page about a Geneva business. Nobody in Zürich searches for a Geneva locksmith in German; nobody in Geneva searches in German at all.</p>
+        <div class="t-wrap">
+          <table>
+            <caption>The "primary" language performs worst</caption>
+            <thead><tr><th>Folder</th><th class="num">Pages with impressions</th><th class="num">Impressions</th></tr></thead>
+            <tbody>
+              <tr><td class="url">/en/</td><td class="num">1,733</td><td class="num">4,937</td></tr>
+              <tr><td class="url">/fr/</td><td class="num">1,342</td><td class="num">5,867</td></tr>
+              <tr><td class="url">/de/ <span style="color:var(--ink-3)">← 70% market</span></td><td class="num bad">416</td><td class="num bad">1,099</td></tr>
+              <tr><td class="url">/it/</td><td class="num">294</td><td class="num">858</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Country split reinforces it: 5,230 impressions from Switzerland, 1,032 from <strong>France</strong>, and 54 from Germany. The French folder pulls cross-border traffic that will never convert to a Swiss accounting product.</p>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="rail">
+        <span class="chip crit">Critical</span>
+        <span class="scale">every target<br>SERP</span>
+      </div>
+      <div class="finding-body">
+        <h3>Atlas competes against Google's local pack, with Google's own data</h3>
+        <p>Live SERP checks across the category queries Atlas is built to win:</p>
+        <div class="t-wrap">
+          <table>
+            <thead><tr><th>Query (CH/fr)</th><th>Atlas position</th><th>Winning organic</th><th>Features</th></tr></thead>
+            <tbody>
+              <tr><td>entreprise de nettoyage nyon</td><td class="bad">not in top 30</td><td class="url">local.ch, impec.ch</td><td class="url">local_pack, PAA</td></tr>
+              <tr><td>menuisier lausanne</td><td class="bad">not in top 30</td><td class="url">indeed, tel.search.ch</td><td class="url">local_pack, PAA</td></tr>
+              <tr><td>architecte d'intérieur lausanne</td><td class="bad">not in top 30</td><td class="url">scavone-design.com</td><td class="url">local_pack, PAA</td></tr>
+              <tr><td>ébéniste lausanne</td><td class="bad">not in top 30</td><td class="url">fredericfarine.ch, local.ch</td><td class="url">local_pack</td></tr>
+              <tr><td>gestion de fortune lausanne</td><td class="bad">not in top 30</td><td class="url">lgh-associes.ch, pictet.com</td><td class="url">local_pack, PAA</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p><strong>Every one of these SERPs carries a local pack</strong>, and in four of five the first organic result sits at position 4 or lower because the pack takes the top. Atlas's content is built from Google Maps listings and Google reviews — it mirrors what Google already shows above the organic results for free. There is no reason for Google to rank it, and the incumbents have a decade of authority Atlas cannot match from a zero-link subdomain.</p>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="rail">
+        <span class="chip high">High</span>
+        <span class="scale">186,504 URLs<br>~90 words each</span>
+      </div>
+      <div class="finding-body">
+        <h3>The pages that rank can't convert; the pages that could convert don't rank</h3>
+        <div class="t-wrap">
+          <table>
+            <thead><tr><th>Page type</th><th class="num">Pages</th><th class="num">Impressions</th><th class="num">Clicks</th><th class="num">Avg position</th></tr></thead>
+            <tbody>
+              <tr><td>Business detail</td><td class="num">2,276</td><td class="num">7,147</td><td class="num">72</td><td class="num ok">16.0</td></tr>
+              <tr><td>Category / list</td><td class="num">1,509</td><td class="num">5,614</td><td class="num">22</td><td class="num bad">59.0</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Business pages rank <em>well</em> — but only for navigational brand queries, where the searcher wants the business itself. Every query that produced a click was one of these, at exactly one click each:</p>
+        <div class="callout">
+          alpincar · boutique aux 4 vents · freedomcoffee · iswim · jean marc thiebaut · la bonne etoile vallorbe · la table du royal crissier · laurent crampon · le stop bramois
+        </div>
+        <p>These searchers want a phone number, get it from the local pack, and never click. Note <code>/fr/entreprise/tabac-28-gallo-…</code> at <strong>position 2.1 with 67 impressions and 0 clicks</strong> — position 2 with zero clicks is Google telling you the page adds nothing to the result set.</p>
+        <p>Measured body copy on business pages is 84–126 words: a name, category, town, star rating, phone, and two AI-written sentences. So 75% of the URL footprint is ~90-word pages whose only ranking capability converts at 0%, while consuming the crawl budget the category pages need.</p>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="rail">
+        <span class="chip high">High</span>
+        <span class="scale">6,556 indexable<br>duplicates</span>
+        <span class="scale" style="color:var(--accent)">corrected<br>after review</span>
+      </div>
+      <div class="finding-body">
+        <h3>The majority-language facet duplicates its own parent</h3>
+        <p><em>A first pass of this audit put this at 18,136 duplicates. That was wrong, and the corrected figure is smaller and more specific.</em> The 4,534 depth-3 non-<code>prestation</code> URLs per locale are actually <strong>2,806 language facets plus 1,728 tag facets</strong>, and most of the language facets are already handled correctly. Fetched live:</p>
+        <div class="t-wrap">
+          <table>
+            <thead><tr><th>URL</th><th class="num">Listings</th><th>Robots</th></tr></thead>
+            <tbody>
+              <tr><td class="url">/fr/lausanne/menuisier/</td><td class="num">24</td><td>indexable</td></tr>
+              <tr><td class="url">/fr/lausanne/menuisier/francophone/</td><td class="num bad">24 — same as parent</td><td class="bad">indexable ← the bug</td></tr>
+              <tr><td class="url">/fr/lausanne/menuisier/anglophone/</td><td class="num">2</td><td class="ok">already noindex,follow</td></tr>
+              <tr><td class="url">/fr/lausanne/menuisier/germanophone/</td><td class="num">2</td><td class="ok">already noindex,follow</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>An existing <code>MIN_TAG_INDEXABLE = 5</code> rule already noindexes small facets, so the minority-language pages are fine — and they're a real product feature, since "English-speaking carpenters in Lausanne" is a genuine filter. The defect is narrower: <strong>the majority-language facet returns the same set as its parent yet stays indexable</strong>, because the rule is purely count-based. That's 1,639 <code>francophone</code> URLs in the French folder.</p>
+        <p>The 1,728 tag facets must be left alone either way — they carry real traffic (<code>decorateur-interieur</code> 161 impressions, <code>cleaning-service</code> 105, <code>peintre</code> 52).</p>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="rail">
+        <span class="chip med">Medium</span>
+        <span class="scale">979 slugs<br>17,377 in DB</span>
+        <span class="scale" style="color:var(--accent)">corrected<br>after review</span>
+      </div>
+      <div class="finding-body">
+        <h3>The tag vocabulary is unvalidated LLM output</h3>
+        <p><em>A first pass called this "two competing URL patterns." That framing was wrong.</em> <code>city/trade/</code> is category-scoped and <code>city/prestation/tag/</code> is tag-scoped — a legitimate distinction, and the categories are a clean curated list of 74. The real defect is that <strong>the tag vocabulary is free-form model output that was never validated</strong>: the enrichment prompt asked for "a few free-form tags" without specifying language, casing, or character set, and the only write-time check is a type test and a truncation to 10. The database holds <strong>17,377 distinct tags</strong>.</p>
+        <p>So English and French slugs for the same trade both persist, both go live, and both get indexed:</p>
+        <div class="callout crit">
+/fr/lausanne/prestation/painting/  → <b>"Les 50 meilleures entreprises de peinture à Lausanne"</b>
+/fr/lausanne/prestation/peinture/  → <b>"Les 10 entreprises de peinture à Lausanne"</b>
+        </div>
+        <p>The pairs run deep across the French folder: <code>painting</code> 69 URLs vs <code>peinture</code> 43 · <code>cleaning</code> 62 vs <code>nettoyage</code> 36 · <code>carpentry</code> 19 vs <code>menuiserie</code> 29 · <code>catering</code> 24 vs <code>traiteur</code> 3 · <code>accounting</code> 35 vs <code>comptabilite</code> 4. Hairdressing alone is split across eight slugs (<code>hair-salon</code>, <code>hairdresser</code>, <code>haircuts</code>, <code>haircut</code>, <code>coiffure</code>, <code>barber</code>, and two spellings of <code>salon de coiffure</code>). GSC shows the cost — <code>/fr/…/prestation/property-management/</code> sits at position 85.3, <code>/fr/lausanne/prestation/heating/</code> at 77.3.</p>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="rail">
+        <span class="chip med">Medium</span>
+        <span class="scale">2,395 tags with<br>spaces in the slug</span>
+      </div>
+      <div class="finding-body">
+        <h3>Slugs were never sanitised</h3>
+        <p>Tags are written straight into the URL with no slugify and no percent-encoding — the URL builder interpolates the raw database value. Auditing the tag vocabulary turns up <strong>2,395 tags containing spaces</strong> (<code>graphic design</code>, <code>sole proprietorship</code>, <code>real estate</code>), <strong>619 containing non-ASCII</strong> (<code>rénovation</code>, <code>comptabilité</code>, <code>auto-école</code>), 26 with uppercase, three containing <code>/</code> (<code>24/7 service</code> — which breaks the route's segment count outright), three containing <code>&amp;</code> (emitted unescaped into sitemap XML), and one empty string.</p>
+        <p>Place names leak in as services too — <code>genève</code> (46 URLs), <code>neuchâtel</code> (47), <code>suisse</code> (23), <code>wallis</code> (19), <code>delémont</code> (10) — producing the self-referential <code>/fr/neuchatel/prestation/neuchâtel/</code>. A denylist exists but compares ASCII slugs exactly, so the accented spellings slip straight past it. Review-sentiment adjectives also became landing pages: <code>friendly-service</code> (28), <code>family-run</code> (12), <code>affordable</code>, <code>luxury</code>.</p>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="rail">
+        <span class="chip med">Medium</span>
+        <span class="scale">no inbound<br>links at all</span>
+        <span class="scale" style="color:var(--good)">fixed<br>21 Aug</span>
+      </div>
+      <div class="finding-body">
+        <h3>Atlas was an orphan subdomain</h3>
+        <p><code>atlas.magicheidi.ch</code> was <strong>not linked from magicheidi.ch anywhere</strong> — no mention on the homepage or <code>/de/</code>, absent from <code>llms.txt</code>, absent from the main sitemap index. As a subdomain it inherits no authority from the main domain, and it was receiving none through links either. A quarter-million pages hung off nothing.</p>
+        <p><strong>Fixed 21 Aug 2026:</strong> a followed link to the directory now ships in the magicheidi.ch footer across all eight locales.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4 ============ -->
+  <section>
+    <div class="sec-head">
+      <span class="n">04</span>
+      <div>
+        <h2>Did Atlas hurt the main site?</h2>
+        <p class="sub">Probably not — but the divergence is worth re-reading in September.</p>
+      </div>
+    </div>
+
+    <div class="t-wrap">
+      <table>
+        <caption>Site-wide daily averages, excluding Atlas itself</caption>
+        <thead><tr><th>Period</th><th class="num">Clicks / day</th><th class="num">Impressions / day</th></tr></thead>
+        <tbody>
+          <tr><td>Pre-launch · 15 Jun – 21 Jul</td><td class="num">225.7</td><td class="num">28,742</td></tr>
+          <tr><td>Post-launch · 22 Jul – 18 Aug</td><td class="num">201.5</td><td class="num">32,630</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="col" style="margin-top:22px">
+      <p>Main-site clicks fell 10.7% while impressions rose 13.5%. <strong>I don't think Atlas caused this.</strong> The prior 60-day review already attributed the click decline to summer seasonality, impressions moved the opposite way, and Atlas sits on a separate subdomain. Read it as no evidence of harm and no evidence of benefit — but re-check in September when seasonality lifts, since a sustained divergence would change the conclusion.</p>
+    </div>
+  </section>
+
+  <!-- ============ 5 ============ -->
+  <section>
+    <div class="sec-head">
+      <span class="n">05</span>
+      <div>
+        <h2>What to do</h2>
+        <p class="sub">The strategic question comes first: should Atlas exist in this shape at all? It currently returns 94 clicks per 28 days, none commercial, against a build of 250,220 pages. That can't be fixed by optimization — the market, the language mix, and the SERP opposition are all wrong at once.</p>
+      </div>
+    </div>
+
+    <div class="opt rec">
+      <div class="opt-head">
+        <h3>Option A — Cut to the defensible core</h3>
+        <span class="chip med">Recommended</span>
+      </div>
+      <p>Keep only what has a plausible path to ranking. Takes Atlas to roughly 3% of its current size. <em>Steps 2, 4 and 5 are restated below from the corrected findings — an earlier draft of this plan overstated 2 and mis-framed 4.</em></p>
+      <ol class="steps">
+        <li><strong>Serve only <code>/fr/</code></strong> (retiring 187,665 URLs). Return 410 for <code>/de/</code>, <code>/it/</code> and <code>/en/</code>, redirect <code>/</code> to <code>/fr/</code>, and suppress the hreflang cluster while one locale is active. Implement it as a reversible <code>ACTIVE_LANGS</code> flag, not a deletion — German-speaking cantons are on the product roadmap, and re-enabling should be a one-line change.</li>
+        <li><strong>410 the majority-language facet only</strong> (~1,639 <code>francophone</code> URLs), where the result set equals the parent's. Leave <code>anglophone</code> / <code>germanophone</code> / <code>italophone</code> alone — they're genuine filters and already noindexed — and leave all 1,728 tag facets alone, since they carry real traffic.</li>
+        <li><strong>Noindex every business detail page</strong> (~46,626). Keep them live and linked with <code>noindex,follow</code> so category pages still have somewhere to point, but stop asking Google to index 90-word pages that only win brand queries at 0% CTR. Drop the business sitemaps.</li>
+        <li><strong>Fix slug hygiene first</strong> — it's cheaper than step 5 and worth more. Slugify the tag segment in the URL builder (spaces, accents, uppercase, <code>/</code> and <code>&amp;</code> can never reach a URL), normalise before the place-name denylist so accented city names are caught, and add XML escaping to the sitemap writer.</li>
+        <li><strong>Merge the EN/FR tag twins</strong> with a small alias map plus 301s — <code>painting</code>→<code>peinture</code>, <code>cleaning</code>→<code>nettoyage</code>, the hairdressing cluster→<code>coiffure</code>. Don't hand-curate all 979 slugs; gate indexability on an allowlist of genuine French service tags and noindex the rest.</li>
+      </ol>
+      <p style="margin-top:16px;margin-bottom:0">This leaves roughly <strong>7,000 French category pages</strong> — a size Google will actually crawl and evaluate, on a subdomain that can now earn links. The deeper fix behind steps 4 and 5 is upstream: the enrichment prompt asks for free-form tags and nothing validates them on write, so the vocabulary will re-pollute unless that changes.</p>
+    </div>
+
+    <div class="opt">
+      <div class="opt-head"><h3>Option B — Fix the market mismatch first</h3></div>
+      <p style="margin-bottom:0">If Atlas is strategically important, the data problem outranks the SEO problem: <strong>acquire German-speaking Switzerland inventory</strong> — Zürich, Bern, Basel, Luzern, St. Gallen, Winterthur, Zug — before touching anything else. That's where 70% of the market is. Run Option A's steps 2–5 regardless, but rebuild <code>/de/</code> against real German-region businesses rather than deleting it. This is the larger investment, and I wouldn't start it until the local-pack problem has an answer.</p>
+    </div>
+
+    <div class="opt">
+      <div class="opt-head"><h3>Option C — Accept the SERP isn't winnable and repurpose</h3></div>
+      <p style="margin-bottom:0">Every target SERP has a local pack fed by the same Google Maps data Atlas republishes, so directory pages that mirror it have no differentiated value. If Atlas stays, it needs something Google Maps doesn't have — Magic Heidi's own angle: which businesses are sole proprietorships, which are VAT-registered, legal form, UID data, industry benchmarks. That turns Atlas from another directory into a data asset that also feeds the accounting-software funnel, where the revenue intent actually lives.</p>
+    </div>
+
+    <div class="opt" style="border-left:3px solid var(--accent)">
+      <div class="opt-head"><h3>Regardless of path</h3></div>
+      <ol class="steps" start="6">
+        <li><strong class="ok">Link Atlas from magicheidi.ch — done 21 Aug 2026.</strong> A followed footer link to the directory now ships across all eight locales. Worth also adding it to <code>llms.txt</code> and the main sitemap index. Note the ordering caveat: this passes equity into the current thin-page set until the pruning above lands, so the two should ship close together.</li>
+        <li><strong>Re-measure on 15 Sep 2026</strong>, four weeks after any pruning ships. The metrics that matter are impressions per indexed page and category-page average position — not raw impressions.</li>
+        <li><strong>Renew SE Ranking or replace it.</strong> The Data API no longer works on prepaid credits; the whole account returns <code>License expired</code>. Every <code>/seranking-*</code> command and the 1 Sep re-measure are blocked until then.</li>
+      </ol>
+    </div>
+  </section>
+
+  <footer>
+    <p><b>Sources.</b> Google Search Console (<span class="mono">sc-domain:magicheidi.ch</span>, page-filtered to the atlas subdomain — a domain property, so it covers all subdomains) · DataForSEO live SERP, Switzerland/French · direct crawl of all eight sitemaps and rendered page HTML.</p>
+    <p><b>Unavailable.</b> SE Ranking returned <span class="mono">403 License expired</span> on both the MCP server and the repo's prepaid Data API key — the Data API is dead too, not just the Project API, which contradicts the note currently in CLAUDE.md. Ahrefs Site Explorer and the free domain-rating endpoint both returned <span class="mono">Insufficient plan</span>. <b>This audit therefore contains no third-party backlink or authority data;</b> GSC and live SERP scraping carried it.</p>
+    <p style="margin-bottom:0"><b>Raw data.</b> <span class="mono">audits/atlas-2026-08-21/gsc_raw.json</span> — daily history (180d, Atlas and site-wide), plus pages, queries, query×page, country and device for the 28-day window.</p>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var impressions = [13,686,1956,461,832,1133,1153,1092,1103,1114,836,325,110,93,111,81,111,83,114,178,131,98,114,380,78,118,116,141];
+  var clicks      = [1,16,31,2,2,3,6,5,4,5,4,3,3,1,3,1,0,0,1,0,0,1,0,0,0,2,0,0];
+  var labels = ['22 Jul','24 Jul','29 Jul','3 Aug','8 Aug','13 Aug','18 Aug'];
+  var labelIdx = [0,2,7,12,17,22,27];
+
+  var W = 900, H = 300, L = 54, R = 46, T = 18, B = 40;
+  var iw = W - L - R, ih = H - T - B;
+  var n = impressions.length;
+  var maxI = 2000, maxC = 32;
+
+  function x(i) { return L + (i / (n - 1)) * iw; }
+  function yI(v) { return T + ih - (v / maxI) * ih; }
+  function yC(v) { return T + ih - (v / maxC) * ih; }
+
+  var p = [];
+  function el(tag, attrs, text) {
+    var s = '<' + tag;
+    for (var k in attrs) s += ' ' + k + '="' + attrs[k] + '"';
+    s += '>';
+    if (text !== undefined) s += text;
+    s += '</' + tag + '>';
+    p.push(s);
+  }
+
+  // horizontal gridlines + left axis (impressions)
+  for (var g = 0; g <= 4; g++) {
+    var v = (maxI / 4) * g, yy = yI(v);
+    el('line', { x1: L, y1: yy, x2: L + iw, y2: yy, stroke: 'var(--rule-soft)', 'stroke-width': 1 });
+    el('text', {
+      x: L - 10, y: yy + 4, 'text-anchor': 'end', fill: 'var(--ink-3)',
+      'font-family': 'var(--f-mono)', 'font-size': 10.5
+    }, v.toLocaleString('en-US'));
+  }
+
+  // right axis (clicks)
+  [0, 16, 32].forEach(function (v) {
+    el('text', {
+      x: L + iw + 10, y: yC(v) + 4, 'text-anchor': 'start', fill: 'var(--crit)',
+      'font-family': 'var(--f-mono)', 'font-size': 10.5
+    }, v);
+  });
+
+  // impressions area
+  var area = 'M ' + x(0) + ' ' + yI(impressions[0]);
+  for (var i = 1; i < n; i++) area += ' L ' + x(i) + ' ' + yI(impressions[i]);
+  var line = area;
+  area += ' L ' + x(n - 1) + ' ' + (T + ih) + ' L ' + x(0) + ' ' + (T + ih) + ' Z';
+  el('path', { d: area, fill: 'var(--accent)', 'fill-opacity': .14 });
+  el('path', { d: line, fill: 'none', stroke: 'var(--accent)', 'stroke-width': 2, 'stroke-linejoin': 'round' });
+
+  // clicks line
+  var cl = 'M ' + x(0) + ' ' + yC(clicks[0]);
+  for (var j = 1; j < n; j++) cl += ' L ' + x(j) + ' ' + yC(clicks[j]);
+  el('path', { d: cl, fill: 'none', stroke: 'var(--crit)', 'stroke-width': 1.6, 'stroke-dasharray': '3 3', 'stroke-linejoin': 'round' });
+
+  // peak marker
+  el('circle', { cx: x(2), cy: yI(1956), r: 4, fill: 'var(--accent)' });
+  el('text', {
+    x: x(2) + 10, y: yI(1956) + 4, fill: 'var(--accent)',
+    'font-family': 'var(--f-mono)', 'font-size': 11, 'font-weight': 600
+  }, '1,956 peak');
+
+  // floor annotation
+  el('line', { x1: x(12), y1: yI(120), x2: L + iw, y2: yI(120), stroke: 'var(--ink-3)', 'stroke-width': 1, 'stroke-dasharray': '2 4' });
+  el('text', {
+    x: x(15), y: yI(120) - 9, fill: 'var(--ink-3)',
+    'font-family': 'var(--f-mono)', 'font-size': 10.5
+  }, 'floor ~130/day held 2 weeks');
+
+  // baseline
+  el('line', { x1: L, y1: T + ih, x2: L + iw, y2: T + ih, stroke: 'var(--rule)', 'stroke-width': 1 });
+
+  // x labels
+  labelIdx.forEach(function (idx, k) {
+    el('text', {
+      x: x(idx), y: H - 14, 'text-anchor': 'middle', fill: 'var(--ink-3)',
+      'font-family': 'var(--f-mono)', 'font-size': 10.5
+    }, labels[k]);
+  });
+
+  document.getElementById('chart').innerHTML = p.join('');
+})();
+</script>
