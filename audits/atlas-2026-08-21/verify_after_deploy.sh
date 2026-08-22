@@ -46,7 +46,9 @@ echo "=== 3. Business pages live but noindexed ==========================="
 check "business page 200"                      "$(code /fr/entreprise/tabac-28-gallo-che460285251)" 200
 b=$(robots /fr/entreprise/tabac-28-gallo-che460285251)
 check "business noindex,follow" "${b:-none}" 'name="robots" content="noindex,follow"'
-check "biz sitemap gone"                       "$(code /sitemap-biz-fr.xml)" 404
+# 410 (not 404) on purpose: Search Console then reports the previously submitted
+# business sitemap as permanently gone rather than merely unreadable.
+check "biz sitemap retired"                    "$(code /sitemap-biz-fr.xml)" 410
 
 echo
 echo "=== 4/5. Tag hygiene: aliases 301, place-name tags retired ========="
@@ -84,7 +86,11 @@ alias_hits=$(printf '%s' "$pages" | grep -cE '/(painting|cleaning|accounting|car
 canton_tags=$(printf '%s' "$pages" | grep -cE '/canton-[a-z-]+/prestation/')
 
 printf '  %-54s %s\n' "URLs in sitemap-pages-fr.xml (was 15,929)" "$total"
-check "no francophone facets"                  "$franco"     0
+# NOT expected to be 0. Only facets returning the ENTIRE parent listing are
+# retired; where francophone is a genuine subset the page is differentiated and
+# stays (e.g. /fr/visp/restaurant/francophone/ is 6 of 9 — Visp is German-speaking
+# Valais). The duplicate case is asserted directly in section 2 above.
+printf '  %-54s %s\n' "francophone facets kept (genuine subsets)" "$franco"
 check "no non-ASCII in URLs"                   "$nonascii"   0
 check "no spaces in URLs"                      "$spaces"     0
 check "no aliased EN tag slugs"                "$alias_hits" 0
