@@ -1,0 +1,872 @@
+{
+"de|logiciel facturation lamal": [
+null,
+null,
+null
+],
+"de|buchhaltungssoftware kmu": [
+170,
+"LOW",
+19.94
+],
+"de|kmu software": [
+140,
+"LOW",
+15.09
+],
+"de|rechnungsvorlage word": [
+260,
+"MEDIUM",
+5.81
+],
+"de|rechnungsvorlage excel": [
+110,
+"HIGH",
+4.5
+],
+"de|offerte vorlage": [
+590,
+"MEDIUM",
+9.25
+],
+"de|offerte schreiben": [
+70,
+"MEDIUM",
+14.1
+],
+"de|budgetplaner vorlage": [
+1300,
+"MEDIUM",
+1.77
+],
+"de|lohnrechner": [
+6600,
+"LOW",
+1.13
+],
+"de|lohnrechner schweiz": [
+9900,
+"LOW",
+1.6
+],
+"de|e-rechnung schweiz": [
+50,
+"HIGH",
+4.61
+],
+"de|spesenabrechnung vorlage": [
+70,
+"LOW",
+7.99
+],
+"de|stundenzettel vorlage": [
+110,
+"MEDIUM",
+3.9
+],
+"de|arbeitsvertrag vorlage": [
+320,
+"LOW",
+2.89
+],
+"de|mahnung vorlage": [
+110,
+"LOW",
+6.24
+],
+"de|quittung vorlage": [
+880,
+"HIGH",
+0.85
+],
+"de|lieferschein vorlage": [
+210,
+"HIGH",
+1.33
+],
+"de|kassenbuch vorlage": [
+210,
+"HIGH",
+3.7
+],
+"de|gutschrift vorlage": [
+20,
+"LOW",
+null
+],
+"de|zeiterfassung excel vorlage": [
+140,
+"MEDIUM",
+3.97
+],
+"de|tarif 590": [
+720,
+"LOW",
+7
+],
+"de|tarif 590 software": [
+20,
+"HIGH",
+5.79
+],
+"de|abrechnung tarif 590": [
+null,
+null,
+null
+],
+"de|krankenkasse abrechnung therapeuten software": [
+null,
+null,
+null
+],
+"de|rechnungssoftware therapeuten": [
+null,
+null,
+null
+],
+"de|medidata": [
+2900,
+"LOW",
+0.19
+],
+"de|buchhaltung einzelfirma": [
+110,
+"HIGH",
+18.48
+],
+"de|buchhaltung selbständig": [
+30,
+"HIGH",
+31.05
+],
+"de|einzelfirma buchhaltung software": [
+null,
+null,
+null
+],
+"de|gratis buchhaltungssoftware": [
+20,
+"HIGH",
+6.57
+],
+"de|buchhaltungssoftware kostenlos": [
+40,
+"HIGH",
+10.46
+],
+"de|kostenlose buchhaltungssoftware schweiz": [
+20,
+"HIGH",
+8.45
+],
+"de|rechnungsprogramm kostenlos": [
+30,
+"HIGH",
+10.73
+],
+"de|gratis rechnungsprogramm": [
+10,
+"HIGH",
+11.97
+],
+"de|kleinunternehmer buchhaltung": [
+40,
+"MEDIUM",
+21.35
+],
+"de|buchhaltung kleinunternehmen schweiz": [
+null,
+null,
+null
+],
+"de|treuhänder kosten": [
+20,
+"MEDIUM",
+5.84
+],
+"de|steuererklärung selbständig": [
+40,
+"HIGH",
+11.03
+],
+"de|säule 3a selbständig": [
+50,
+"HIGH",
+3.47
+],
+"de|ahv selbständig": [
+110,
+"LOW",
+null
+],
+"de|ahv beiträge selbständige": [
+null,
+null,
+null
+],
+"de|sozialversicherungen selbständige": [
+10,
+null,
+null
+],
+"de|einzelfirma steuern": [
+30,
+"MEDIUM",
+3.98
+],
+"de|gmbh gründen kosten": [
+140,
+"HIGH",
+10.25
+],
+"de|firma gründen schweiz": [
+590,
+"HIGH",
+20.05
+],
+"de|selbständig machen schweiz": [
+110,
+"HIGH",
+7.27
+],
+"de|nebenerwerb schweiz": [
+170,
+"MEDIUM",
+1.6
+],
+"de|stundensatz berechnen": [
+50,
+"LOW",
+null
+],
+"de|stundensatz selbständig": [
+null,
+null,
+null
+],
+"de|honorar berechnen": [
+10,
+"LOW",
+null
+],
+"de|mwst abrechnung": [
+1900,
+"LOW",
+7.76
+],
+"de|mwst abrechnen": [
+1900,
+"LOW",
+7.76
+],
+"de|saldosteuersatz": [
+140,
+"LOW",
+0.46
+],
+"de|vorsteuerabzug": [
+110,
+"LOW",
+null
+],
+"de|mwst pflicht": [
+50,
+"LOW",
+0.08
+],
+"de|mwst anmeldung": [
+1000,
+"LOW",
+16.25
+],
+"de|betreibung einleiten": [
+720,
+"LOW",
+3.8
+],
+"de|mahnung schreiben": [
+90,
+"LOW",
+2
+],
+"de|zahlungserinnerung vorlage": [
+110,
+"LOW",
+1.62
+],
+"de|rechnung stornieren": [
+30,
+"LOW",
+null
+],
+"de|rechnungsnummer": [
+110,
+"LOW",
+null
+],
+"de|rechnung ohne mwst": [
+10,
+"LOW",
+null
+],
+"de|kleinunternehmerregelung schweiz": [
+10,
+"MEDIUM",
+null
+],
+"de|uid nummer": [
+2400,
+"LOW",
+6.89
+],
+"de|handelsregister eintrag": [
+590,
+"MEDIUM",
+10.19
+],
+"de|zefix": [
+201000,
+"LOW",
+5.06
+],
+"de|bexio": [
+60500,
+"MEDIUM",
+0.75
+],
+"de|bexio login": [
+33100,
+"LOW",
+9.54
+],
+"de|bexio preise": [
+720,
+"HIGH",
+4.18
+],
+"de|bexio alternative": [
+140,
+"HIGH",
+24.2
+],
+"de|klara buchhaltung": [
+260,
+"MEDIUM",
+4.17
+],
+"de|banana buchhaltung": [
+2900,
+"MEDIUM",
+4.42
+],
+"de|cashctrl": [
+1600,
+"LOW",
+13.19
+],
+"de|milkee": [
+590,
+"MEDIUM",
+1.26
+],
+"de|abaninja": [
+4400,
+"LOW",
+13.43
+],
+"de|swiss21": [
+2400,
+"LOW",
+29.26
+],
+"de|infinity buchhaltung": [
+110,
+"MEDIUM",
+7.92
+],
+"de|atlanto": [
+480,
+"MEDIUM",
+1
+],
+"de|erplight": [
+20,
+"MEDIUM",
+null
+],
+"de|qr rechnung": [
+1000,
+"LOW",
+6.34
+],
+"de|qr rechnung erstellen": [
+2900,
+"MEDIUM",
+6.02
+],
+"de|qr code rechnung": [
+140,
+"LOW",
+3.59
+],
+"de|einzahlungsschein": [
+1000,
+"HIGH",
+1.91
+],
+"de|rechnung erstellen": [
+720,
+"MEDIUM",
+19.53
+],
+"de|rechnung schreiben": [
+320,
+"HIGH",
+15.67
+],
+"de|rechnungsvorlage": [
+720,
+"HIGH",
+5.66
+],
+"de|rechnungsvorlage schweiz": [
+480,
+"HIGH",
+5.91
+],
+"de|rechnung vorlage": [
+720,
+"HIGH",
+4.83
+],
+"de|buchhaltungssoftware": [
+260,
+"HIGH",
+26.64
+],
+"de|buchhaltungsprogramm": [
+320,
+"HIGH",
+16.84
+],
+"de|buchhaltungssoftware schweiz": [
+590,
+"HIGH",
+21.2
+],
+"de|buchhaltungsprogramm schweiz": [
+140,
+"HIGH",
+17.1
+],
+"de|buchhaltung software": [
+110,
+"MEDIUM",
+24.39
+],
+"de|rechnungsprogramm": [
+90,
+"HIGH",
+25.52
+],
+"de|rechnungssoftware": [
+20,
+"HIGH",
+34.68
+],
+"de|rechnungsprogramm schweiz": [
+50,
+"HIGH",
+20.03
+],
+"de|fakturierungssoftware": [
+10,
+"HIGH",
+31.77
+],
+"de|offertenvorlage": [
+590,
+"MEDIUM",
+9.25
+],
+"de|auftragsbestätigung vorlage": [
+90,
+"LOW",
+7.18
+],
+"de|werkvertrag vorlage": [
+30,
+"LOW",
+4.31
+],
+"de|arbeitsrapport vorlage": [
+110,
+"HIGH",
+1.98
+],
+"de|stundenrapport vorlage": [
+140,
+"HIGH",
+3.77
+],
+"de|beleg scanner app": [
+10,
+"MEDIUM",
+null
+],
+"de|belege scannen app": [
+10,
+"HIGH",
+9.94
+],
+"de|spesen app": [
+70,
+"MEDIUM",
+38.43
+],
+"de|kilometergeld": [
+20,
+"LOW",
+null
+],
+"de|pauschalspesen": [
+140,
+"LOW",
+null
+],
+"fr|logiciel facturation lamal": [
+null,
+null,
+null
+],
+"fr|logiciel facturation suisse": [
+30,
+"HIGH",
+17.59
+],
+"fr|logiciel comptabilité suisse": [
+110,
+"MEDIUM",
+15.87
+],
+"fr|logiciel facturation": [
+70,
+"MEDIUM",
+20.15
+],
+"fr|modèle facture suisse": [
+70,
+"HIGH",
+2.62
+],
+"fr|modèle facture": [
+170,
+"HIGH",
+2.7
+],
+"fr|facture qr suisse": [
+20,
+"HIGH",
+8.9
+],
+"fr|créer facture qr": [
+20,
+"HIGH",
+5.3
+],
+"fr|logiciel comptable indépendant": [
+10,
+null,
+null
+],
+"fr|comptabilité indépendant suisse": [
+20,
+"HIGH",
+4.18
+],
+"fr|devis modèle": [
+30,
+"MEDIUM",
+6.15
+],
+"fr|modèle devis suisse": [
+null,
+null,
+null
+],
+"fr|vacances scolaires vaud": [
+8100,
+"LOW",
+null
+],
+"fr|vacances scolaires vaud 2026": [
+49500,
+"LOW",
+0.02
+],
+"fr|vacances scolaires genève": [
+5400,
+"LOW",
+0.39
+],
+"fr|vacances scolaires fribourg": [
+2900,
+"LOW",
+null
+],
+"fr|vacances scolaires valais": [
+1600,
+"LOW",
+null
+],
+"fr|vacances scolaires neuchâtel": [
+1900,
+"LOW",
+null
+],
+"fr|jours fériés vaud": [
+4400,
+"LOW",
+null
+],
+"fr|logiciel facturation gratuit": [
+20,
+"HIGH",
+20.12
+],
+"fr|facturation indépendant": [
+10,
+null,
+null
+],
+"fr|tarif 590 logiciel": [
+10,
+null,
+null
+],
+"fr|logiciel facturation thérapeute": [
+10,
+null,
+null
+],
+"fr|facturation lamal thérapeute": [
+null,
+null,
+null
+],
+"fr|medidata facturation": [
+20,
+"LOW",
+0.06
+],
+"fr|calcul tva suisse": [
+720,
+"LOW",
+null
+],
+"fr|numéro tva suisse": [
+170,
+"LOW",
+12.35
+],
+"fr|ide suisse": [
+320,
+"LOW",
+0.44
+],
+"fr|registre ide": [
+1000,
+"LOW",
+null
+],
+"fr|créer entreprise individuelle suisse": [
+10,
+"HIGH",
+4.96
+],
+"fr|raison individuelle": [
+260,
+"MEDIUM",
+6.96
+],
+"fr|bexio prix": [
+90,
+"MEDIUM",
+2.2
+],
+"fr|bexio alternative": [
+140,
+"HIGH",
+24.2
+],
+"fr|winbiz": [
+2900,
+"LOW",
+14.26
+],
+"fr|crésus": [
+1600,
+"LOW",
+13.46
+],
+"fr|fiduciaire prix": [
+20,
+"MEDIUM",
+null
+],
+"fr|comptabilité en ligne suisse": [
+null,
+null,
+null
+],
+"fr|rappel de paiement modèle": [
+10,
+"LOW",
+null
+],
+"fr|lettre de rappel facture": [
+10,
+null,
+null
+],
+"fr|poursuite suisse": [
+110,
+"MEDIUM",
+2.79
+],
+"fr|délai de paiement facture suisse": [
+10,
+"LOW",
+null
+],
+"fr|salaire brut net suisse": [
+1300,
+"LOW",
+2.52
+],
+"fr|calcul salaire net suisse": [
+320,
+"LOW",
+2.22
+],
+"fr|taux horaire indépendant": [
+0,
+null,
+null
+],
+"fr|calcul taux horaire": [
+20,
+"LOW",
+null
+],
+"it|software fatturazione svizzera": [
+10,
+null,
+null
+],
+"it|programma fatturazione": [
+10,
+"HIGH",
+2.56
+],
+"it|fattura qr svizzera": [
+10,
+"MEDIUM",
+0.05
+],
+"it|modello fattura svizzera": [
+20,
+"MEDIUM",
+7.43
+],
+"it|contabilità svizzera software": [
+null,
+null,
+null
+],
+"it|registro di commercio ticino": [
+6600,
+"LOW",
+6.09
+],
+"it|zefix": [
+201000,
+"LOW",
+5.06
+],
+"it|iva svizzera": [
+590,
+"LOW",
+null
+],
+"it|partita iva svizzera": [
+90,
+"LOW",
+0.65
+],
+"it|numero iva svizzera": [
+30,
+"LOW",
+null
+],
+"it|calcolo iva svizzera": [
+210,
+"LOW",
+null
+],
+"it|ditta individuale svizzera": [
+110,
+"HIGH",
+6.07
+],
+"it|contabilità ditta individuale": [
+10,
+null,
+null
+],
+"it|fatturazione lamal": [
+null,
+null,
+null
+],
+"it|tariffa 590": [
+10,
+"LOW",
+null
+],
+"it|bexio prezzi": [
+null,
+null,
+null
+],
+"it|software contabilità ticino": [
+10,
+"HIGH",
+null
+],
+"it|fattura elettronica svizzera": [
+10,
+"LOW",
+null
+],
+"it|vacanze scolastiche ticino": [
+1600,
+"LOW",
+null
+],
+"it|giorni festivi ticino": [
+480,
+"LOW",
+null
+],
+"it|calcolo stipendio netto svizzera": [
+390,
+"LOW",
+12.87
+],
+"it|cambio euro franco": [
+60500,
+"LOW",
+1.37
+]
+}
