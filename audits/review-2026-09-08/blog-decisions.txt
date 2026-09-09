@@ -1,0 +1,87 @@
+abschreibungen-schweiz|MERGE|/annual-depreciation-for-self-employed-workers|same topic as landing page; 0 impr, created 09-07
+aktiven-und-passiven|DELETE|/doppelte-buchhaltung-schweiz|Bilanz basics covered by landing page; 11 impr
+architekt-rechnung-schweiz|KEEP|-|industry series; 6 clicks/428 impr; FR 4 clicks
+asia-laden-zurich|DELETE|/blog|off-topic
+aufbewahrungsfristen-schweiz|MERGE|/accounting-document|same topic (Belege aufbewahren Fristen); 0 impr
+auto-absetzen-selbstaendig-schweiz|MERGE|/steuerabzuge-schweiz|sub-topic of Steuerabzüge; 0 impr; FAQ ported
+berufshaftpflichtversicherung-schweiz|KEEP|-|733 impr, 3 clicks; EN 235, FR 180
+betreibung-schweiz|DELETE|/mahnwesen-schweiz|0 DE impr (EN 163); covered by Mahnwesen
+betreibungsregisterauszug-schweiz|DELETE|/mahnwesen-schweiz|consumer topic, 0 impr, created 09-03
+betriebswirtschaftliche-auswertung|DELETE|/erfolgsrechnung-schweiz|German (DE) concept, 1 impr, DE only
+bewirtungskosten-abzugsfahig|MERGE|/steuerabzuge-schweiz|sub-topic; 14 impr; FAQ ported
+bezugsteuer-schweiz|DELETE|/mwst-schweiz|15 impr, low demand, no clicks
+buchhaltung-fuer-anfaenger|MERGE|/buchhaltung-einzelfirma-schweiz|generic beginner guide; 29 impr pos 57
+buchhaltung-fur-selbstandige-schweiz|MERGE|/buchhaltung-einzelfirma-schweiz|known cannibal; 0 impr
+buchhaltungssoftware-belege-scannen|MERGE|/beleg-scanner-schweiz|same topic as Beleg-Scanner pages; 53 impr
+dachdecker-rechnung-schweiz|KEEP|-|industry series; 8 impr
+deckungsbeitrag-berechnen|DELETE|/erfolgsrechnung-schweiz|BWL topic, 0 impr, created 09-04
+e-rechnung-schweiz|KEEP|-|distinct topic (eBill/E-Rechnung), young (09-01), real CH demand
+effektive-methode-mwst|MERGE|/net-vat-accounting-method|known cannibal; 4 impr
+elektriker-rechnung-schweiz|KEEP|-|industry series; 10 impr
+eventplaner-rechnung-schweiz|KEEP|-|industry series; 7 impr
+ferienentschaedigung-schweiz|KEEP|-|1412 impr, 12 clicks (best Outrank post); FR 1 click
+florist-rechnung-schweiz|KEEP|-|industry series; 1 click
+freelancer-werden-schweiz|MERGE|/einzelfirma-grunden-schweiz|same intent as landing page; 0 impr
+friseur-rechnung-schweiz|KEEP|-|industry series; 26 impr
+gewerbe-anmelden-schweiz|MERGE|/einzelfirma-grunden-schweiz|same intent; 97 impr, 0 clicks; FAQ ported
+grenzgaenger-selbstaendig-schweiz|DELETE|/swiss-freelancer-with-b-permit|niche, 0 impr
+gutschrift-erstellen-vorlage|DELETE|/stornorechnung-schweiz|tool listicle; 26 impr
+heilpraktiker-rechnung-schweiz|KEEP|-|industry series; 7 impr
+homeoffice-absetzen-schweiz|MERGE|/steuerabzuge-schweiz|landing page already has Homeoffice FAQ; 0 impr, created 09-08
+immobilienmakler-rechnung-schweiz|KEEP|-|industry series; 20 impr; FR 4 clicks
+invoicing-translator-interpreter-switzerland|KEEP|-|industry series; 14 impr; EN 72
+jahresabschluss-checkliste|MERGE|/jahresabschluss-schweiz|landing page has its own checklist; 6 impr
+kontenrahmen-kmu-schweiz|MERGE|/kontenplan-schweiz|same topic; 0 DE impr (EN 55)
+kosmetik-studio-rechnung-schweiz|KEEP|-|industry series; 13 impr
+krankentaggeldversicherung-schweiz|KEEP|-|472 impr; FR 345 impr 1 click
+krypto-steuern-schweiz|DELETE|/blog|off-topic consumer, 0 impr
+logopaede-rechnung-schweiz|KEEP|-|industry series; 0 impr (IT 14)
+mahngebuehren-schweiz|KEEP|-|712 impr, 3 clicks, pos 12.5
+mahnung-englisch-schweiz|DELETE|/mahnung-vorlage-schweiz|0 impr, created 09-08; covered by Mahnung Vorlage
+mwst-abmelden-schweiz|DELETE|/mwst-registrierung|0 impr, created 09-06, low demand
+mwst-abrechnungsmethode|MERGE|/net-vat-accounting-method|known cannibal; 4 impr; DE only
+mwst-pflicht-schweiz|MERGE|/mwst-schweiz|cannibal; 0 impr, created 09-07
+mwst-saldosteuersatz-formular|MERGE|/net-vat-accounting-method|known cannibal; 0 impr
+mwst-schweiz-berechnen-saetze-formeln-und-praxisbeispiele|MERGE|/tools/vat-calculator-switzerland|known cannibal; 60 impr; calculator FAQ already covers formulas
+nagelstudio-rechnung-schweiz|KEEP|-|industry series; 0 impr
+papierlose-buchhaltung|DELETE|/beleg-scanner-schweiz|overlaps Beleg-Scanner pages; 26 impr 1 click
+pauschalbesteuerung-schweiz|DELETE|/tax-residency|off-topic (wealthy foreigners); 146 impr 1 click
+personal-trainer-rechnung-schweiz|KEEP|-|industry series; 9 impr
+physiotherapeut-rechnung-schweiz|KEEP|-|industry series; 6 clicks/219 impr; FR 2 clicks
+provisorische-steuerrechnung-schweiz|DELETE|/tax-return-2024|15 impr, low demand
+quellensteuer-kanton-aargau|DELETE|/withholding-tax-in-switzerland|cannibal + off-topic; 0 impr
+quittung-scannen|MERGE|/beleg-scanner-schweiz|same topic; 18 impr 1 click
+ratenzahlung-schweiz|DELETE|/blog/zahlungsfristen-schweiz|0 impr; closest keeper post
+rechnung-ohne-mwst-schweiz|MERGE|/rechnung-schreiben-schweiz|landing page covers "ohne MWST" (17 mentions); 64 impr pos 52
+rechnungen-schreiben-vorlage|MERGE|/rechnungsvorlage|known cannibal (tool listicle); 22 impr
+rechnungsabgrenzung|MERGE|/transitorische-aktiven-schweiz|same topic; 92 impr 1 click; FAQ ported
+rechnungsnummer-schweiz|MERGE|/rechnungsnummer-schweiz|same slug; 22 impr
+rechnungsstellung-schweiz|MERGE|/rechnung-schreiben-schweiz|cannibal; 1 impr (FR 33)
+rechnungsversand-per-email|DELETE|/rechnung-schreiben-schweiz|4 impr, low demand
+rechnungsvorlage-einzelunternehmen|MERGE|/rechnungsvorlage|known cannibal; 12 impr (EN 217)
+rechnungswesen-schweiz|MERGE|/rechnungswesen-schweiz|same slug; 0 impr
+reingewinn-berechnen-schweiz|MERGE|/erfolgsrechnung-schweiz|98 impr pos 8.6, 0 clicks; FAQ ported
+saldosteuersatz-schweiz|MERGE|/net-vat-accounting-method|known cannibal; 0 impr (EN 71)
+sanitaer-rechnung-schweiz|KEEP|-|industry series; 2 impr
+scheinselbststaendigkeit-schweiz|DELETE|/ahv-compensation-fund|0 impr; AHV criteria covered
+schnell-geld-verdienen-schweiz|DELETE|/online-geld-verdienen-schweiz|off-topic; landing page exists
+schreiner-rechnung-schweiz|KEEP|-|industry series; 21 impr
+selbstaendige-erwerbstaetigkeit-schweiz|MERGE|/ahv-compensation-fund|AHV-Anerkennung topic; 26 impr pos 56
+skonto-schweiz|MERGE|/skonto-schweiz|same slug; 0 impr
+soll-und-haben|MERGE|/doppelte-buchhaltung-schweiz|covered by Buchungssatz/doppelte Buchhaltung pages; 121 impr 2 clicks
+spesenreglement-schweiz|MERGE|/spesenreglement-schweiz|same slug; 114 impr 1 click (EN 163/3)
+steuererklarung-selbstaendig-unterlagen-schweiz|MERGE|/tax-return-2024|same topic; 0 impr, DE only
+t-shirts-zurich|DELETE|/blog|off-topic
+tattoo-artist-invoicing-switzerland|KEEP|-|industry series; 11 impr (EN 23)
+tierarzt-rechnung-schweiz|KEEP|-|industry series; 56 impr
+treuhaender-aufgaben-schweiz|KEEP|-|304 impr 1 click
+ueberstunden-auszahlung-schweiz|MERGE|/working-hours-in-switzerland|employee topic covered by landing page; 168 impr 1 click
+unterstellungserklarung-saldosteuersatz|MERGE|/net-vat-accounting-method|known cannibal; 0 impr; FAQ ported (Formular 1198, 60-Tage-Frist)
+verrechnungssteuer-schweiz|KEEP|-|BORDERLINE: 193 impr pos 10, 1 click; distinct, relevant
+verzugszins-schweiz|DELETE|/blog/mahngebuehren-schweiz|0 impr; keeper covers Verzugszins
+vorsteuerabzug-schweiz|MERGE|/mwst-freelancer|landing page covers Vorsteuer; 48 impr
+wann-verjahrt-eine-rechnung-schweiz|KEEP|-|BORDERLINE: 153 impr pos 11.8, 1 click (IT 2 clicks); distinct
+werkvertrag-schweiz|DELETE|/contracts-and-legal-documents|0 impr
+zahlungsfristen-schweiz|KEEP|-|375 impr; FR 341 impr 3 clicks
+zahnarzt-rechnung-schweiz|KEEP|-|industry series; 5 clicks/281 impr; EN 3 clicks, FR 142 impr
+zeiterfassung-kostenlos-excel-vorlage|MERGE|/optimize-work-with-timesheet-template|cannibal (Zeiterfassung Vorlage pages); EN 131 impr 4 clicks → EN landing exists
