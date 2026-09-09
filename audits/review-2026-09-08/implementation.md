@@ -64,14 +64,28 @@ Plus the packages' own merges (QR ×5, MWST ×3, Offerte ×2) and the live test 
 
 A reusable checker is at `seomachine/templates/validate_mdc.py`.
 
-## Known pre-existing issues (NOT introduced here, not fixed)
-1. **Cantonal MWST satellites** (aargau, bern, luzern, st-gallen, tessin, waadt, zurich) have titles up to 65 and descriptions up to 186 characters. Also `/en/uid-nummer-schweiz` (desc 164) and the DE/EN/FR/IT/ES copies of `blog/qr-code-rechnung-bezahlen` (titles 61–71).
-2. **Six blog files carry an unclosed `::blog` wrapper** (e-rechnung-schweiz in five locales, mahngebuehren-schweiz). Identical in HEAD, and these pages render in production, so it is the site's tolerated blog shape rather than a break. 4 of 40 sampled HEAD blog posts share it.
-3. **Two duplicate redirect sources** in `config/redirects.ts`: `/vat-method` and `/invoicing-software-switzerland` each appear twice with different targets. The later entry silently wins.
-4. **`content/fr/rechnung-schreiben-schweiz.md` has 17 locale-prefixed inline links** (`/fr/...`) and `content/fr/quittung-vorlage-schweiz.md` one, against the site's bare-link convention.
-5. **`/fr/brutto-netto-rechner-schweiz`** is a 1:1 duplicate of `/fr/tools/salary-calculator-switzerland` (1 impression vs 1,208). Recommended: 301 it into the tools page rather than retitle. Deliberately not retitled, to avoid creating a cannibal.
-6. **`/it/commerce-register-switzerland-2026`** mixes tu-form (new section) with Lei-form (rest of page); a whole-page conversion is a separate job.
-7. `/online-vat-statement` and `/budgeting-apps` remain in Sie-form; converting them wholesale was out of scope.
+## Follow-up pass, 2026-09-09 (after the merge to main)
+
+Shipped to production in three further commits:
+
+- **Two Outrank posts that the webhook published after the triage snapshot** (`wechsel-saldosteuersatz-zu-effektiv-formular`, `ahv-rente-berechnen-schweiz`) removed in all six locales with redirects. The blog is now fully triaged: of 111 Outrank-era German posts, 31 remain live and all 31 are deliberate keeps. The webhook has since been switched off, so the set is now closed.
+- **45 legacy redirects that were 301s into 404s** repointed at live pages, each target verified. Highlights: five cantonal holiday paths to `/feiertage/*`, five VAT-registration paths to `/mwst-registrierung/*`, eight `/cheapest-lamal/{city}-{age}` paths to `/cheapest-lamal`, three bexio review paths to `/alternative/bexio`, and a malformed source `/it/it//banana-alternative`. `/en/freelancer` pointed at `/freelancer`, itself only a redirect, and now goes straight to the destination. Final state: 303 redirects, every target resolves, no chains, no duplicate sources.
+- **Two duplicate redirect sources removed** (`/vat-method`, `/invoicing-software-switzerland`), where the bare path silently resolved somewhere different from every locale-prefixed one. `/vat-method` had also been pointing at a page that never existed.
+- **`/fr/brutto-netto-rechner-schweiz` retired** into `/fr/tools/salary-calculator-switzerland`: a duplicate drawing 1 impression against 1,208 on the tools page.
+- **421 inline links across 76 files** rewritten bare, per the site's auto-localization convention. Checked against production first: both forms render correctly today, so this is consistency, not a bug fix.
+- **Offerte templates merged** with a parallel workstream's version — their presentation (logo header, footer strip, three-sheet workbook) plus our 48 working formulas, with the example sheet now computing the same figures the page quotes. An unsourced anecdote that read as a real customer case was reframed as a typical scenario.
+
+## Known pre-existing issues (NOT introduced here)
+
+**Fixed on 2026-09-09** (see the follow-up pass above): the two duplicate redirect sources, 45 redirects pointing at pages that no longer existed, the locale-prefixed inline links (421 across 76 files, not the 18 first spotted), and the `/fr/brutto-netto-rechner-schweiz` duplicate.
+
+**Still open:**
+
+1. **Over-length titles and descriptions: 225 files site-wide** — not the 43 first reported, which counted only files this work had touched. Worst offenders: a 109-character title on `content/de/press/crowdfunding-100k.md` and a 217-character description on `content/de/tutorials/automatiser-factures-recurrentes-magic-heidi.md`. A scoped list of 111 files is at `audits/review-2026-09-08/meta-length-targets.txt`. An agent was started on this and deliberately stopped: it overlapped the locale-parity agent on 42 files, and since both write whole files one would have silently erased the other. **Re-run once locale parity is finished.** Note for that run: on blog posts the `::blog` component's own `title`/`description` feed `useSeoMeta`, so both copies must change together.
+2. **Six blog files carry an unclosed `::blog` wrapper** (e-rechnung-schweiz in five locales, mahngebuehren-schweiz). Identical in HEAD and these pages render in production, so it is the site's tolerated blog shape rather than a break; 4 of 40 sampled HEAD blog posts share it.
+3. **`/it/commerce-register-switzerland-2026`** mixes tu-form (the new section) with Lei-form (the rest of the page); a whole-page conversion is a separate job.
+4. **`/online-vat-statement` and `/budgeting-apps` remain in Sie-form**; converting them wholesale was out of scope.
+5. **Nothing was rendered locally.** Structure, links and downloads were validated statically; the Vercel build is the first real check. Worth a visual pass over the new pages after deploy.
 
 ## Still open from the plan
 - **Off-page work is untouched and remains the binding constraint.** The Milkee listicle link and the July outreach dossier are the two levers on the BOFU head terms; no on-page edit will move `buchhaltungssoftware schweiz` (#17) or `buchhaltungsprogramm schweiz` (#18).
